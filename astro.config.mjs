@@ -10,4 +10,11 @@ export default defineConfig({
   site: process.env.SITE_URL || "http://localhost:4321",
   base: process.env.BASE_PATH || "/",
   integrations: [sitemap()],
+  build: {
+    // Inline CSS into each page. The site redeploys daily, and each deploy
+    // renames the hashed stylesheet; a browser still holding a cached page
+    // (GitHub Pages caches HTML for 10 min) would otherwise request the old,
+    // deleted file and render unstyled.
+    inlineStylesheets: "always",
+  },
 });
