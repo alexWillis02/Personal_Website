@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Roundup from "../components/Roundup.astro";
 import SpecSheet from "../components/SpecSheet.astro";
+import EditionPager from "../components/EditionPager.astro";
 import { SITE } from "../consts";
 import { getProjects, getRoundups, getThoughts } from "../lib/content";
 import { formatDate, url } from "../lib/utils";
@@ -58,7 +59,10 @@ const projects = (await getProjects()).slice(0, 4);
     <div class="cover">
       {
         latest ? (
-          <Roundup roundup={latest} level={2} />
+          <>
+            <Roundup roundup={latest} level={2} />
+            <EditionPager older={older[0]} total={roundups.length} />
+          </>
         ) : (
           <p class="empty">
             No briefing yet. The daily routine will publish one here.
@@ -71,19 +75,29 @@ const projects = (await getProjects()).slice(0, 4);
       <SpecSheet />
 
       {
-        previous.length > 0 && (
+        roundups.length > 0 && (
           <section class="card">
-            <h2 class="section-title">Previous briefings</h2>
-            <ul class="list">
-              {previous.map((r) => (
-                <li>
-                  <a href={url(`/roundup/${r.id}/`)}>
-                    {formatDate(r.data.date, "short")}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <a class="more" href={url("/roundup/")}>All briefings →</a>
+            <h2 class="section-title">Briefing archive</h2>
+            {previous.length > 0 ? (
+              <ul class="list">
+                {previous.map((r) => (
+                  <li>
+                    <a href={url(`/briefings/${r.id}/`)}>
+                      {formatDate(r.data.date, "short")}
+                    </a>
+                    <span>{r.data.top[0]?.headline}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p class="note">
+                Past editions are kept in the archive, searchable by headline.
+              </p>
+            )}
+            <a class="more" href={url("/briefings/")}>
+              Browse all {roundups.length}{" "}
+              {roundups.length === 1 ? "edition" : "editions"} →
+            </a>
           </section>
         )
       }
@@ -315,6 +329,12 @@ const projects = (await getProjects()).slice(0, 4);
   .list time,
   .list span {
     font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .note {
+    margin: 0 0 1rem;
+    font-size: 0.875rem;
     color: var(--muted);
   }
 

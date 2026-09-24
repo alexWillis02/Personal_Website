@@ -9,7 +9,10 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: process.env.SITE_URL || "http://localhost:4321",
   base: process.env.BASE_PATH || "/",
-  integrations: [sitemap()],
+  integrations: [
+    // Leave the /roundup/ redirect pages out of the sitemap.
+    sitemap({ filter: (page) => !page.includes("/roundup/") }),
+  ],
   build: {
     // Inline CSS into each page. The site redeploys daily, and each deploy
     // renames the hashed stylesheet; a browser still holding a cached page

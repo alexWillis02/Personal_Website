@@ -8,8 +8,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 function isActive(href: string) {
   const target = (base + href).replace(/\/$/, "") || "/";
   if (href === "/") {
-    // "briefing" is the home page and owns the /roundup/ archive too.
-    return current === target || current.startsWith(`${base}/roundup`);
+    // "briefing" is the home page and owns the /briefings/ archive too.
+    return current === target || current.startsWith(`${base}/briefings`);
   }
   return current === target || current.startsWith(`${target}/`);
 }

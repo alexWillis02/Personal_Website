@@ -1,0 +1,23 @@
+---
+// Minimal redirect page for moved URLs (static hosting has no server
+// redirects). `to` must already include the base path, e.g. via url().
+interface Props {
+  to: string;
+}
+
+const { to } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Moved</title>
+    <meta http-equiv="refresh" content={`0;url=${to}`} />
+    <link rel="canonical" href={new URL(to, Astro.site)} />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body>
+    <p>This page moved to <a href={to}>{to}</a>.</p>
+  </body>
+</html>

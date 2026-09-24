@@ -14,7 +14,7 @@ export async function GET(context: APIContext) {
     items: roundups.map((r) => ({
       title: r.data.title,
       pubDate: r.data.date,
-      link: url(`/roundup/${r.id}/`),
+      link: url(`/briefings/${r.id}/`),
       description: teaser(r),
     })),
   });

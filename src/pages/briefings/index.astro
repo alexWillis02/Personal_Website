@@ -1,0 +1,339 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getRoundups } from "../../lib/content";
+import { formatDate, url } from "../../lib/utils";
+
+const roundups = await getRoundups();
+
+// Group editions by month, newest first.
+const months = new Map<string, typeof roundups>();
+for (const r of roundups) {
+  const key = r.data.date.toLocaleDateString("en-US", {
+    timeZone: "UTC",
+    month: "long",
+    year: "numeric",
+  });
+  months.set(key, [...(months.get(key) ?? []), r]);
+}
+
+const first = roundups.at(-1);
+const day = (d: Date, opts: Intl.DateTimeFormatOptions) =>
+  d.toLocaleDateString("en-US", { timeZone: "UTC", ...opts });
+---
+
+<Base
+  title="Briefing archive"
+  description="Every edition of the daily briefing on AI, space, drones and defense tech, and automotive engineering."
+>
+  <div class="container narrow">
+    <header class="page-head">
+      <p class="eyebrow">Sec-01 // Briefing archive</p>
+      <h1>Briefing archive</h1>
+      <p>
+        Every edition of the daily briefing on AI, space, drones and defense
+        tech, and automotive engineering, researched and written each morning
+        by an automated Claude routine.
+      </p>
+      <p class="stats">
+        <span>{roundups.length} {roundups.length === 1 ? "edition" : "editions"}</span>
+        {first && <span>since {formatDate(first.data.date)}</span>}
+        <a href={url("rss.xml")}>RSS feed</a>
+      </p>
+    </header>
+
+    {
+      roundups.length > 0 && (
+        <search class="search">
+          <label for="q" class="visually-hidden">
+            Search past briefings
+          </label>
+          <input
+            id="q"
+            type="search"
+            placeholder="Search headlines, e.g. Starship, battery, F1…"
+            autocomplete="off"
+            data-index={url("/briefings/search.json")}
+          />
+          <p class="status" role="status" aria-live="polite"></p>
+        </search>
+      )
+    }
+
+    {roundups.length === 0 && <p class="empty">No briefings yet.</p>}
+
+    {
+      [...months].map(([month, entries]) => (
+        <section class="month" data-month>
+          <h2 class="section-title">{month}</h2>
+          <ol class="editions">
+            {entries.map((r) => (
+              <li class="edition" data-id={r.id}>
+                <a class="date" href={url(`/briefings/${r.id}/`)}>
+                  <span class="dow">{day(r.data.date, { weekday: "short" })}</span>
+                  <span class="dom">{day(r.data.date, { day: "numeric" })}</span>
+                  <span class="visually-hidden">{formatDate(r.data.date)}</span>
+                </a>
+                <div class="body">
+                  <a class="title" href={url(`/briefings/${r.id}/`)}>
+                    {r.data.title}
+                  </a>
+                  <ul class="headlines">
+                    {(r.data.top.length
+                      ? r.data.top.map((t) => t.headline)
+                      : r.data.sections.map((s) => s.items[0]?.headline).filter(Boolean)
+                    ).map((h) => (
+                      <li>{h}</li>
+                    ))}
+                  </ul>
+                  <ul class="matches" hidden />
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<script>
+  type Entry = { id: string; headlines: string[] };
+
+  const input = document.querySelector<HTMLInputElement>("#q");
+  const status = document.querySelector<HTMLElement>(".search .status");
+  let index: Map<string, string[]> | undefined;
+  let loading: Promise<void> | undefined;
+
+  function loadIndex() {
+    loading ??= fetch(input!.dataset.index!)
+      .then((res) => res.json() as Promise<Entry[]>)
+      .then((entries) => {
+        index = new Map(entries.map((e) => [e.id, e.headlines]));
+      })
+      .catch(() => {
+        status!.textContent = "Search is unavailable right now.";
+      });
+    return loading;
+  }
+
+  async function run() {
+    const terms = input!.value.toLowerCase().split(/\s+/).filter(Boolean);
+    const rows = document.querySelectorAll<HTMLElement>(".edition");
+
+    if (terms.length === 0) {
+      rows.forEach((row) => {
+        row.hidden = false;
+        row.querySelector<HTMLElement>(".headlines")!.hidden = false;
+        row.querySelector<HTMLElement>(".matches")!.hidden = true;
+      });
+      document.querySelectorAll<HTMLElement>("[data-month]").forEach((m) => (m.hidden = false));
+      status!.textContent = "";
+      return;
+    }
+
+    await loadIndex();
+    if (!index) return;
+
+    let editions = 0;
+    let stories = 0;
+    rows.forEach((row) => {
+      const hits = (index!.get(row.dataset.id!) ?? []).filter((h) =>
+        terms.every((t) => h.toLowerCase().includes(t)),
+      );
+      row.hidden = hits.length === 0;
+      row.querySelector<HTMLElement>(".headlines")!.hidden = true;
+      const list = row.querySelector<HTMLElement>(".matches")!;
+      list.hidden = false;
+      list.replaceChildren(
+        ...hits.map((h) => {
+          const li = document.createElement("li");
+          li.textContent = h;
+          return li;
+        }),
+      );
+      if (hits.length) {
+        editions++;
+        stories += hits.length;
+      }
+    });
+
+    document.querySelectorAll<HTMLElement>("[data-month]").forEach((month) => {
+      month.hidden = !month.querySelector(".edition:not([hidden])");
+    });
+
+    status!.textContent = stories
+      ? `${stories} ${stories === 1 ? "story" : "stories"} in ${editions} ${editions === 1 ? "edition" : "editions"}`
+      : "No matching stories.";
+  }
+
+  let timer: number | undefined;
+  input?.addEventListener("focus", loadIndex, { once: true });
+  input?.addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(run, 120);
+    // Keep the search in the URL so it can be shared or bookmarked.
+    const params = new URLSearchParams(location.search);
+    if (input.value) params.set("q", input.value);
+    else params.delete("q");
+    const query = params.toString();
+    history.replaceState(null, "", query ? `?${query}` : location.pathname);
+  });
+
+  // Support links like /briefings/?q=starship
+  const initial = new URLSearchParams(location.search).get("q");
+  if (input && initial) {
+    input.value = initial;
+    run();
+  }
+</script>
+
+<style>
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    margin-top: 1rem !important;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .stats a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  /* ---------- Search ---------- */
+
+  .search {
+    display: block;
+    margin-bottom: 2.5rem;
+  }
+
+  .search input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font: inherit;
+    font-size: 1rem;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+  }
+
+  .search input::placeholder {
+    color: var(--faint);
+  }
+
+  .search input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+
+  .status {
+    min-height: 1.2em;
+    margin: 0.5rem 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+
+  /* ---------- Editions ---------- */
+
+  .month + .month {
+    margin-top: 2.5rem;
+  }
+
+  .editions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .edition {
+    display: grid;
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .date {
+    display: grid;
+    align-content: start;
+    justify-items: center;
+    padding: 0.45rem 0;
+    text-decoration: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--accent);
+  }
+
+  .dow {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .dom {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--text);
+  }
+
+  .date:hover {
+    border-color: var(--accent);
+  }
+
+  .title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .title:hover {
+    color: var(--accent);
+  }
+
+  .headlines,
+  .matches {
+    display: grid;
+    gap: 0.3rem;
+    margin: 0.5rem 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  /* .matches items are created by the search script, so they need
+     :global() to receive this component's scoped styles. */
+  .headlines li,
+  .matches :global(li) {
+    position: relative;
+    padding-left: 1rem;
+  }
+
+  .headlines li::before,
+  .matches :global(li)::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 0.8em;
+    top: 0.1em;
+  }
+
+  .matches :global(li) {
+    color: var(--text);
+  }
+</style>

@@ -1,0 +1,106 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate, url } from "../lib/utils";
+
+interface Props {
+  older?: CollectionEntry<"roundups">;
+  newer?: CollectionEntry<"roundups">;
+  total: number;
+}
+
+const { older, newer, total } = Astro.props;
+---
+
+<nav class="pager" aria-label="Other briefings">
+  {
+    older ? (
+      <a class="cell prev" href={url(`/briefings/${older.id}/`)}>
+        <span class="label">◂ Previous</span>
+        <span class="value">{formatDate(older.data.date, "short")}</span>
+      </a>
+    ) : (
+      <span class="cell prev empty">
+        <span class="label">◂ Previous</span>
+        <span class="value">First edition</span>
+      </span>
+    )
+  }
+
+  <a class="cell archive" href={url("/briefings/")}>
+    <span class="label">Archive</span>
+    <span class="value">
+      {total} {total === 1 ? "edition" : "editions"} →
+    </span>
+  </a>
+
+  {
+    newer ? (
+      <a class="cell next" href={url(`/briefings/${newer.id}/`)}>
+        <span class="label">Next ▸</span>
+        <span class="value">{formatDate(newer.data.date, "short")}</span>
+      </a>
+    ) : (
+      <span class="cell next empty">
+        <span class="label">Next ▸</span>
+        <span class="value">Latest edition</span>
+      </span>
+    )
+  }
+</nav>
+
+<style>
+  .pager {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 3rem;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .cell {
+    display: grid;
+    gap: 0.2rem;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+  }
+
+  .cell + .cell {
+    border-left: 1px solid var(--border);
+  }
+
+  .archive {
+    text-align: center;
+  }
+
+  .next {
+    text-align: right;
+  }
+
+  .label {
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  .value {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  a.cell:hover {
+    background: var(--accent-soft);
+  }
+
+  a.cell:hover .value,
+  .archive .value {
+    color: var(--accent);
+  }
+
+  .empty .value {
+    color: var(--faint);
+    font-weight: 500;
+  }
+</style>

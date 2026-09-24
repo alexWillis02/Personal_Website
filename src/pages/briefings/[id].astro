@@ -1,0 +1,52 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "../../layouts/Base.astro";
+import Roundup from "../../components/Roundup.astro";
+import EditionPager from "../../components/EditionPager.astro";
+import { getRoundups, teaser } from "../../lib/content";
+import { url } from "../../lib/utils";
+
+export const getStaticPaths = (async () => {
+  const roundups = await getRoundups(); // newest first
+  return roundups.map((roundup, i) => ({
+    params: { id: roundup.id },
+    props: {
+      roundup,
+      newer: roundups[i - 1],
+      older: roundups[i + 1],
+      total: roundups.length,
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+const { roundup, newer, older, total } = Astro.props;
+---
+
+<Base title={roundup.data.title} description={teaser(roundup)}>
+  <div class="container narrow page">
+    <a class="back" href={url("/briefings/")}>← Briefing archive</a>
+    <Roundup roundup={roundup} />
+    <EditionPager older={older} newer={newer} total={total} />
+  </div>
+</Base>
+
+<style>
+  .page {
+    padding-block: 2rem clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .back:hover {
+    color: var(--accent);
+  }
+</style>

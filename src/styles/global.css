@@ -99,6 +99,11 @@ main {
   flex: 1;
 }
 
+/* Keep the hidden attribute working on elements styled with display. */
+[hidden] {
+  display: none !important;
+}
+
 img {
   max-width: 100%;
   height: auto;
