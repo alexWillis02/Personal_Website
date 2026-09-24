@@ -1,0 +1,25 @@
+---
+import type { GetStaticPaths } from "astro";
+import { render } from "astro:content";
+import Post from "../../layouts/Post.astro";
+import { getThoughts } from "../../lib/content";
+
+export const getStaticPaths = (async () => {
+  const thoughts = await getThoughts();
+  return thoughts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}) satisfies GetStaticPaths;
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<Post
+  title={post.data.title}
+  description={post.data.description}
+  date={post.data.date}
+  tags={post.data.tags}
+  eyebrow="~/thoughts"
+  back={{ href: "/thoughts/", label: "all thoughts" }}
+>
+  <Content />
+</Post>

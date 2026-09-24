@@ -1,0 +1,240 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { formatDate } from "../lib/utils";
+
+interface Props {
+  roundup: CollectionEntry<"roundups">;
+}
+
+const { roundup } = Astro.props;
+const { date, title, coverage, top, sections, engineersCorner, footnote } =
+  roundup.data;
+const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+---
+
+<article class="roundup">
+  <header class="head">
+    <p class="eyebrow">$ cat briefing/{roundup.id}.md</p>
+    <h1 class="title">{title}</h1>
+    <p class="meta">
+      <time datetime={date.toISOString()}>{formatDate(date)}</time>
+      {
+        sections.map((s) => (
+          <a href={`#${slug(s.name)}`}>{s.name.toLowerCase()}</a>
+        ))
+      }
+    </p>
+    {coverage && <p class="coverage">{coverage}</p>}
+  </header>
+
+  {
+    top.length > 0 && (
+      <section class="top" aria-labelledby="top-3">
+        <h2 class="section-title" id="top-3">
+          Top {top.length}
+        </h2>
+        <ol>
+          {top.map((item) => (
+            <li>
+              <h3>{item.headline}</h3>
+              <p>{item.summary}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )
+  }
+
+  {
+    sections.map((section) => (
+      <section class="block" aria-labelledby={slug(section.name)}>
+        <h2 class="section-title" id={slug(section.name)}>
+          {section.name}
+        </h2>
+        <ul class="items">
+          {section.items.map((item) => (
+            <li class="item">
+              <h3>{item.headline}</h3>
+              <p>{item.summary}</p>
+              {item.sources.length > 0 && (
+                <p class="sources">
+                  {item.sources.map((src) => (
+                    <a href={src.url} rel="noopener">
+                      {src.label} ↗
+                    </a>
+                  ))}
+                </p>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  {
+    engineersCorner && (
+      <aside class="corner" aria-labelledby="engineers-corner">
+        <p class="section-title" id="engineers-corner">
+          Engineer's corner
+        </p>
+        <h3>{engineersCorner.headline}</h3>
+        <p>{engineersCorner.body}</p>
+      </aside>
+    )
+  }
+
+  {footnote && <p class="footnote">{footnote}</p>}
+</article>
+
+<style>
+  .head {
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .title {
+    margin: 0;
+    font-size: clamp(1.9rem, 5vw, 2.75rem);
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+    margin: 0.75rem 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .meta a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .meta a::before {
+    content: "#";
+    color: var(--accent);
+  }
+
+  .meta a:hover {
+    color: var(--text);
+  }
+
+  .coverage {
+    margin: 1rem 0 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  /* Top stories: numbered, set apart in a panel. */
+  .top {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+  }
+
+  .top ol {
+    display: grid;
+    gap: 1.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: top;
+  }
+
+  .top li {
+    position: relative;
+    padding-left: 2.25rem;
+    counter-increment: top;
+  }
+
+  .top li::before {
+    content: counter(top, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent);
+  }
+
+  .top p {
+    margin: 0.35rem 0 0;
+    color: var(--muted);
+  }
+
+  .block {
+    scroll-margin-top: 5rem;
+  }
+
+  .block + .block {
+    margin-top: 2.75rem;
+  }
+
+  .items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .item {
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .item p {
+    margin: 0.4rem 0 0;
+  }
+
+  .item > p:not(.sources) {
+    color: var(--muted);
+  }
+
+  .sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+  }
+
+  .sources a {
+    color: var(--accent-2);
+    text-decoration: none;
+  }
+
+  .sources a:hover {
+    text-decoration: underline;
+  }
+
+  .corner {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: var(--surface-2);
+    border: 1px dashed var(--border);
+    border-radius: var(--radius);
+  }
+
+  .corner p:last-child {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+  }
+
+  .footnote {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: var(--faint);
+  }
+</style>

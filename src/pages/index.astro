@@ -1,0 +1,188 @@
+---
+import Base from "../layouts/Base.astro";
+import Roundup from "../components/Roundup.astro";
+import { SITE } from "../consts";
+import { getProjects, getRoundups, getThoughts } from "../lib/content";
+import { formatDate, url } from "../lib/utils";
+
+const roundups = await getRoundups();
+const [latest, ...older] = roundups;
+const previous = older.slice(0, 7);
+const thoughts = (await getThoughts()).slice(0, 3);
+const projects = (await getProjects()).slice(0, 3);
+---
+
+<Base>
+  <div class="container home">
+    <div class="cover">
+      {
+        latest ? (
+          <Roundup roundup={latest} />
+        ) : (
+          <>
+            <h1 class="visually-hidden">Daily Tech Roundup</h1>
+            <p class="empty">
+              No briefing yet. The daily routine will publish one here.
+            </p>
+          </>
+        )
+      }
+    </div>
+
+    <aside class="rail" aria-label="More from this site">
+      <section class="card intro">
+        <p class="eyebrow">$ whoami</p>
+        <p class="name">{SITE.name}</p>
+        <p class="tagline">{SITE.tagline}</p>
+        <p class="actions">
+          <a class="button" href={url("/resume/")}>resume</a>
+          <a class="button ghost" href={url("/projects/")}>projects</a>
+        </p>
+      </section>
+
+      {
+        previous.length > 0 && (
+          <section class="card">
+            <h2 class="section-title">Previous editions</h2>
+            <ul class="list">
+              {previous.map((r) => (
+                <li>
+                  <a href={url(`/roundup/${r.id}/`)}>
+                    {formatDate(r.data.date, "short")}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <a class="more" href={url("/roundup/")}>all briefings →</a>
+          </section>
+        )
+      }
+
+      {
+        thoughts.length > 0 && (
+          <section class="card">
+            <h2 class="section-title">Latest thoughts</h2>
+            <ul class="list">
+              {thoughts.map((t) => (
+                <li>
+                  <a href={url(`/thoughts/${t.id}/`)}>{t.data.title}</a>
+                  <time datetime={t.data.date.toISOString()}>
+                    {formatDate(t.data.date, "short")}
+                  </time>
+                </li>
+              ))}
+            </ul>
+            <a class="more" href={url("/thoughts/")}>all thoughts →</a>
+          </section>
+        )
+      }
+
+      {
+        projects.length > 0 && (
+          <section class="card">
+            <h2 class="section-title">Projects</h2>
+            <ul class="list">
+              {projects.map((p) => (
+                <li>
+                  <a href={url(`/projects/${p.id}/`)}>{p.data.title}</a>
+                  <span>{p.data.description}</span>
+                </li>
+              ))}
+            </ul>
+            <a class="more" href={url("/projects/")}>all projects →</a>
+          </section>
+        )
+      }
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .home {
+    display: grid;
+    gap: 3rem;
+    padding-block: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  @media (min-width: 60rem) {
+    .home {
+      grid-template-columns: minmax(0, 1fr) 20rem;
+      align-items: start;
+    }
+
+    .rail {
+      position: sticky;
+      top: 5rem;
+    }
+  }
+
+  .rail {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  .name {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .tagline {
+    margin: 0.25rem 0 1rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+  }
+
+  .list {
+    display: grid;
+    gap: 0.6rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.925rem;
+  }
+
+  .list li {
+    display: grid;
+  }
+
+  .list a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .list a:hover {
+    color: var(--accent);
+  }
+
+  .list time,
+  .list span {
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .more {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .more:hover {
+    text-decoration: underline;
+  }
+</style>

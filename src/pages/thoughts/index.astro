@@ -1,0 +1,85 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getThoughts } from "../../lib/content";
+import { formatDate, url } from "../../lib/utils";
+
+const thoughts = await getThoughts();
+---
+
+<Base title="Thoughts" description="Notes, essays, and half-formed ideas.">
+  <div class="container narrow">
+    <header class="page-head">
+      <p class="eyebrow">~/thoughts</p>
+      <h1>Thoughts</h1>
+      <p>Notes, essays, and half-formed ideas.</p>
+    </header>
+
+    {thoughts.length === 0 && <p class="empty">Nothing here yet.</p>}
+
+    <ul class="posts">
+      {
+        thoughts.map((post) => (
+          <li>
+            <time datetime={post.data.date.toISOString()}>
+              {formatDate(post.data.date, "short")}
+            </time>
+            <div>
+              <h2>
+                <a href={url(`/thoughts/${post.id}/`)}>{post.data.title}</a>
+                {post.data.draft && <span class="tag">draft</span>}
+              </h2>
+              <p>{post.data.description}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .posts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: grid;
+    gap: 0.25rem 1.5rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (min-width: 40rem) {
+    li {
+      grid-template-columns: 7rem 1fr;
+    }
+  }
+
+  time {
+    padding-top: 0.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.15rem;
+  }
+
+  h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  h2 a:hover {
+    color: var(--accent);
+  }
+
+  p {
+    margin: 0.3rem 0 0;
+    color: var(--muted);
+  }
+</style>

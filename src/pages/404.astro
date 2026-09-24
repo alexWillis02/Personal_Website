@@ -1,0 +1,15 @@
+---
+import Base from "../layouts/Base.astro";
+import { url } from "../lib/utils";
+---
+
+<Base title="Not found">
+  <div class="container narrow">
+    <header class="page-head">
+      <p class="eyebrow">$ cd {Astro.url.pathname}</p>
+      <h1>404: no such file or directory</h1>
+      <p>That page doesn't exist, or it moved.</p>
+    </header>
+    <a class="button" href={url()}>cd ~</a>
+  </div>
+</Base>

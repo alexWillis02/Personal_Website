@@ -1,0 +1,72 @@
+---
+import type { GetStaticPaths } from "astro";
+import Base from "../../layouts/Base.astro";
+import Roundup from "../../components/Roundup.astro";
+import { getRoundups, teaser } from "../../lib/content";
+import { formatDate, url } from "../../lib/utils";
+
+export const getStaticPaths = (async () => {
+  const roundups = await getRoundups(); // newest first
+  return roundups.map((roundup, i) => ({
+    params: { id: roundup.id },
+    props: { roundup, newer: roundups[i - 1], older: roundups[i + 1] },
+  }));
+}) satisfies GetStaticPaths;
+
+const { roundup, newer, older } = Astro.props;
+---
+
+<Base
+  title={roundup.data.title}
+  description={teaser(roundup)}
+>
+  <div class="container narrow page">
+    <Roundup roundup={roundup} />
+
+    <nav class="pager" aria-label="Other editions">
+      {
+        older ? (
+          <a href={url(`/roundup/${older.id}/`)}>
+            ← {formatDate(older.data.date, "short")}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      <a href={url("/roundup/")}>archive</a>
+      {
+        newer ? (
+          <a href={url(`/roundup/${newer.id}/`)}>
+            {formatDate(newer.data.date, "short")} →
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .page {
+    padding-block: clamp(2rem, 5vw, 3.5rem);
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+  }
+
+  .pager a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .pager a:hover {
+    text-decoration: underline;
+  }
+</style>

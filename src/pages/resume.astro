@@ -1,0 +1,184 @@
+---
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../layouts/Base.astro";
+import { SITE } from "../consts";
+import { education, jobs, skills, summary } from "../data/resume";
+import { url } from "../lib/utils";
+
+// Only show the download button once a PDF has been added.
+const hasPdf = fs.existsSync(path.join(process.cwd(), "public", "resume.pdf"));
+---
+
+<Base title="Resume" description={`Experience, skills, and education of ${SITE.name}.`}>
+  <div class="container narrow">
+    <header class="page-head">
+      <p class="eyebrow">~/resume</p>
+      <h1>Resume</h1>
+      <p>{summary}</p>
+      {
+        hasPdf && (
+          <p class="actions">
+            <a class="button" href={url("resume.pdf")}>
+              download PDF
+            </a>
+          </p>
+        )
+      }
+    </header>
+
+    <section aria-labelledby="experience">
+      <h2 class="section-title" id="experience">Experience</h2>
+      <ol class="timeline">
+        {
+          jobs.map((job) => (
+            <li>
+              <p class="when">
+                {job.start} — {job.end ?? "Present"}
+              </p>
+              <div>
+                <h3>
+                  {job.role} <span>@ {job.company}</span>
+                </h3>
+                {job.location && <p class="where">{job.location}</p>}
+                <ul>
+                  {job.highlights.map((h) => (
+                    <li>{h}</li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 class="section-title" id="skills">Skills</h2>
+      <dl class="skills">
+        {
+          Object.entries(skills).map(([group, items]) => (
+            <div>
+              <dt>{group}</dt>
+              <dd>
+                <ul class="tags">
+                  {items.map((s) => (
+                    <li class="tag">{s}</li>
+                  ))}
+                </ul>
+              </dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+
+    <section aria-labelledby="education">
+      <h2 class="section-title" id="education">Education</h2>
+      <ol class="timeline">
+        {
+          education.map((ed) => (
+            <li>
+              <p class="when">
+                {ed.start} — {ed.end ?? "Present"}
+              </p>
+              <div>
+                <h3>
+                  {ed.degree} <span>@ {ed.school}</span>
+                </h3>
+                {ed.notes && <p class="where">{ed.notes}</p>}
+              </div>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </div>
+</Base>
+
+<style>
+  section {
+    margin-top: 2.5rem;
+  }
+
+  .actions {
+    margin-top: 1.25rem;
+  }
+
+  .timeline {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .timeline > li {
+    display: grid;
+    gap: 0.25rem 1.5rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (min-width: 40rem) {
+    .timeline > li {
+      grid-template-columns: 10rem 1fr;
+    }
+  }
+
+  .when {
+    margin: 0;
+    padding-top: 0.15rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  h3 span {
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .where {
+    margin: 0.15rem 0 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  .timeline ul {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+  }
+
+  .timeline ul li + li {
+    margin-top: 0.3rem;
+  }
+
+  .skills {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .skills div {
+    display: grid;
+    gap: 0.5rem 1.5rem;
+  }
+
+  @media (min-width: 40rem) {
+    .skills div {
+      grid-template-columns: 10rem 1fr;
+    }
+  }
+
+  dt {
+    font-weight: 600;
+  }
+
+  dd {
+    margin: 0;
+  }
+</style>

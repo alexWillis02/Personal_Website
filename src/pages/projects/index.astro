@@ -1,0 +1,121 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getProjects } from "../../lib/content";
+import { url } from "../../lib/utils";
+
+const projects = await getProjects();
+---
+
+<Base title="Projects" description="Things I've built.">
+  <div class="container">
+    <header class="page-head">
+      <p class="eyebrow">~/projects</p>
+      <h1>Projects</h1>
+      <p>Things I've built, am building, or have learned from.</p>
+    </header>
+
+    {projects.length === 0 && <p class="empty">Nothing here yet.</p>}
+
+    <ul class="grid">
+      {
+        projects.map((p) => (
+          <li class="card">
+            <div class="top">
+              <span class={`status ${p.data.status}`}>{p.data.status}</span>
+              {p.data.featured && <span class="tag">featured</span>}
+            </div>
+            <h2>
+              <a href={url(`/projects/${p.id}/`)}>{p.data.title}</a>
+            </h2>
+            <p>{p.data.description}</p>
+            {p.data.stack.length > 0 && (
+              <ul class="tags" aria-label="Tech stack">
+                {p.data.stack.map((s) => (
+                  <li class="tag">{s}</li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+
+  .card:hover,
+  .card:focus-within {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .top {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .status {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .status::before {
+    content: "●";
+    margin-right: 0.35rem;
+  }
+
+  .status.active::before {
+    color: var(--accent);
+  }
+
+  .status.shipped::before {
+    color: var(--accent-2);
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  /* Make the whole card clickable via the title link. */
+  h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  h2 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius);
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    flex: 1;
+  }
+</style>

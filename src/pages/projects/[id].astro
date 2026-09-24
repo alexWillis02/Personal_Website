@@ -1,0 +1,54 @@
+---
+import type { GetStaticPaths } from "astro";
+import { render } from "astro:content";
+import Post from "../../layouts/Post.astro";
+import { getProjects } from "../../lib/content";
+
+export const getStaticPaths = (async () => {
+  const projects = await getProjects();
+  return projects.map((project) => ({
+    params: { id: project.id },
+    props: { project },
+  }));
+}) satisfies GetStaticPaths;
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const { title, description, date, stack, repo, link } = project.data;
+---
+
+<Post
+  title={title}
+  description={description}
+  date={date}
+  tags={stack}
+  eyebrow="~/projects"
+  back={{ href: "/projects/", label: "all projects" }}
+>
+  {
+    (link || repo) && (
+      <p class="links" slot="actions">
+        {link && (
+          <a class="button" href={link} rel="noopener">
+            live site ↗
+          </a>
+        )}
+        {repo && (
+          <a class="button ghost" href={repo} rel="noopener">
+            source ↗
+          </a>
+        )}
+      </p>
+    )
+  }
+  <Content />
+</Post>
+
+<style>
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.25rem 0 1.5rem;
+  }
+</style>
