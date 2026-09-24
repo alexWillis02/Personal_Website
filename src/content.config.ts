@@ -64,6 +64,7 @@ const projects = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
+    kind: z.string().optional(), // e.g. "Capstone", "Personal", "Coursework"
     date: z.coerce.date(),
     stack: z.array(z.string()).default([]),
     repo: z.url().optional(),

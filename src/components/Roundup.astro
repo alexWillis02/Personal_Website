@@ -4,23 +4,31 @@ import { formatDate } from "../lib/utils";
 
 interface Props {
   roundup: CollectionEntry<"roundups">;
+  // 1 on the briefing's own page; 2 on the home page, under the hero's h1.
+  level?: 1 | 2;
 }
 
-const { roundup } = Astro.props;
+const { roundup, level = 1 } = Astro.props;
 const { date, title, coverage, top, sections, engineersCorner, footnote } =
   roundup.data;
+const Title = `h${level}` as "h1" | "h2";
+const Section = `h${level + 1}` as "h2" | "h3";
+const Item = `h${level + 2}` as "h3" | "h4";
 const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+const pad = (n: number) => String(n).padStart(2, "0");
 ---
 
 <article class="roundup">
   <header class="head">
-    <p class="eyebrow">$ cat briefing/{roundup.id}.md</p>
-    <h1 class="title">{title}</h1>
+    <p class="eyebrow">Daily briefing // {roundup.id}</p>
+    <Title class="title">{title}</Title>
     <p class="meta">
       <time datetime={date.toISOString()}>{formatDate(date)}</time>
       {
-        sections.map((s) => (
-          <a href={`#${slug(s.name)}`}>{s.name.toLowerCase()}</a>
+        sections.map((s, i) => (
+          <a href={`#${slug(s.name)}`}>
+            <span>{pad(i + 1)}</span> {s.name}
+          </a>
         ))
       }
     </p>
@@ -29,14 +37,14 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   {
     top.length > 0 && (
-      <section class="top" aria-labelledby="top-3">
-        <h2 class="section-title" id="top-3">
-          Top {top.length}
-        </h2>
+      <section class="top bracket" aria-labelledby={`top-${roundup.id}`}>
+        <Section class="section-title" id={`top-${roundup.id}`}>
+          Top {top.length} // priority traffic
+        </Section>
         <ol>
           {top.map((item) => (
             <li>
-              <h3>{item.headline}</h3>
+              <Item>{item.headline}</Item>
               <p>{item.summary}</p>
             </li>
           ))}
@@ -46,15 +54,16 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   }
 
   {
-    sections.map((section) => (
+    sections.map((section, i) => (
       <section class="block" aria-labelledby={slug(section.name)}>
-        <h2 class="section-title" id={slug(section.name)}>
+        <Section class="block-title" id={slug(section.name)}>
+          <span class="num">{pad(i + 1)}</span>
           {section.name}
-        </h2>
+        </Section>
         <ul class="items">
           {section.items.map((item) => (
             <li class="item">
-              <h3>{item.headline}</h3>
+              <Item>{item.headline}</Item>
               <p>{item.summary}</p>
               {item.sources.length > 0 && (
                 <p class="sources">
@@ -74,11 +83,11 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   {
     engineersCorner && (
-      <aside class="corner" aria-labelledby="engineers-corner">
-        <p class="section-title" id="engineers-corner">
-          Engineer's corner
+      <aside class="corner" aria-labelledby={`corner-${roundup.id}`}>
+        <p class="corner-label" id={`corner-${roundup.id}`}>
+          Note // Engineer's corner
         </p>
-        <h3>{engineersCorner.headline}</h3>
+        <Item>{engineersCorner.headline}</Item>
         <p>{engineersCorner.body}</p>
       </aside>
     )
@@ -89,23 +98,26 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
 <style>
   .head {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.75rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--border);
   }
 
   .title {
     margin: 0;
-    font-size: clamp(1.9rem, 5vw, 2.75rem);
+    font-size: clamp(1.9rem, 4.5vw, 2.6rem);
+    font-weight: 600;
   }
 
   .meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.35rem 1rem;
-    margin: 0.75rem 0 0;
+    gap: 0.4rem 1.25rem;
+    margin: 0.9rem 0 0;
     font-family: var(--font-mono);
-    font-size: 0.8rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     color: var(--muted);
   }
 
@@ -114,8 +126,7 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     text-decoration: none;
   }
 
-  .meta a::before {
-    content: "#";
+  .meta a span {
     color: var(--accent);
   }
 
@@ -125,29 +136,35 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   .coverage {
     margin: 1rem 0 0;
-    font-size: 0.9rem;
-    color: var(--muted);
+    font-size: 0.875rem;
+    color: var(--faint);
   }
 
-  h3 {
+  h3,
+  h4 {
     margin: 0;
-    font-size: 1.05rem;
-    line-height: 1.35;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.3;
   }
 
-  /* Top stories: numbered, set apart in a panel. */
+  /* Top stories: bracketed HUD panel. */
   .top {
     margin-bottom: 3rem;
-    padding: 1.5rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: var(--radius);
+    padding: 1.5rem 1.5rem 1.6rem;
+  }
+
+  .top > .section-title {
+    margin-bottom: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--accent);
   }
 
   .top ol {
     display: grid;
-    gap: 1.25rem;
+    gap: 1.3rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -156,7 +173,7 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   .top li {
     position: relative;
-    padding-left: 2.25rem;
+    padding-left: 2.5rem;
     counter-increment: top;
   }
 
@@ -164,9 +181,10 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     content: counter(top, decimal-leading-zero);
     position: absolute;
     left: 0;
-    top: 0.1rem;
+    top: 0.05rem;
     font-family: var(--font-mono);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 600;
     color: var(--accent);
   }
 
@@ -176,11 +194,35 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   }
 
   .block {
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 5.5rem;
   }
 
   .block + .block {
-    margin-top: 2.75rem;
+    margin-top: 3rem;
+  }
+
+  .block-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin: 0 0 0.25rem;
+    font-size: 1.35rem;
+    font-weight: 600;
+  }
+
+  .block-title .num {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .block-title::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+    align-self: center;
   }
 
   .items {
@@ -190,8 +232,20 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   }
 
   .item {
-    padding: 1.1rem 0;
-    border-top: 1px solid var(--border);
+    position: relative;
+    padding: 1.1rem 0 1.1rem 1.1rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Small tick mark on each entry, like a timeline node. */
+  .item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.55rem;
+    width: 5px;
+    height: 5px;
+    background: var(--accent);
   }
 
   .item p {
@@ -205,9 +259,10 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   .sources {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.25rem 1rem;
+    gap: 0.25rem 1.1rem;
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
   }
 
   .sources a {
@@ -219,12 +274,22 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
     text-decoration: underline;
   }
 
+  /* Engineer's corner: drawing-note callout. */
   .corner {
     margin-top: 3rem;
-    padding: 1.5rem;
-    background: var(--surface-2);
-    border: 1px dashed var(--border);
-    border-radius: var(--radius);
+    padding: 1.4rem 1.5rem;
+    background: var(--accent-soft);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+  }
+
+  .corner-label {
+    margin: 0 0 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
   }
 
   .corner p:last-child {
@@ -234,7 +299,9 @@ const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   .footnote {
     margin-top: 2rem;
-    font-size: 0.8rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
     color: var(--faint);
   }
 </style>

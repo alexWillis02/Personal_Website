@@ -1,0 +1,65 @@
+---
+import { facts } from "../data/resume";
+
+interface Props {
+  title?: string;
+}
+
+const { title = "Spec sheet" } = Astro.props;
+---
+
+<section class="spec bracket" aria-label={title}>
+  <p class="label">{title}</p>
+  <dl>
+    {
+      facts.map((fact) => (
+        <div>
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))
+    }
+  </dl>
+</section>
+
+<style>
+  .spec {
+    padding: 1.1rem 1.25rem;
+  }
+
+  .label {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  dl {
+    display: grid;
+    margin: 0;
+  }
+
+  dl div {
+    display: grid;
+    grid-template-columns: 5.5rem 1fr;
+    gap: 0.75rem;
+    padding: 0.45rem 0;
+    border-top: 1px dashed var(--border);
+  }
+
+  dt {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    padding-top: 0.15rem;
+  }
+
+  dd {
+    margin: 0;
+    font-size: 0.875rem;
+  }
+</style>

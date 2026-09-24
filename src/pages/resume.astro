@@ -2,8 +2,17 @@
 import fs from "node:fs";
 import path from "node:path";
 import Base from "../layouts/Base.astro";
+import SpecSheet from "../components/SpecSheet.astro";
 import { SITE } from "../consts";
-import { education, jobs, skills, summary } from "../data/resume";
+import {
+  certifications,
+  education,
+  jobs,
+  languages,
+  revision,
+  skills,
+  summary,
+} from "../data/resume";
 import { url } from "../lib/utils";
 
 // Only show the download button once a PDF has been added.
@@ -11,174 +20,325 @@ const hasPdf = fs.existsSync(path.join(process.cwd(), "public", "resume.pdf"));
 ---
 
 <Base title="Resume" description={`Experience, skills, and education of ${SITE.name}.`}>
-  <div class="container narrow">
-    <header class="page-head">
-      <p class="eyebrow">~/resume</p>
-      <h1>Resume</h1>
-      <p>{summary}</p>
-      {
-        hasPdf && (
-          <p class="actions">
-            <a class="button" href={url("resume.pdf")}>
-              download PDF
-            </a>
-          </p>
-        )
-      }
+  <div class="container">
+    <header class="page-head head">
+      <div>
+        <p class="eyebrow">Doc AW-RES-001 // Resume</p>
+        <h1>Resume</h1>
+        <p>{summary}</p>
+        <p class="actions">
+          {
+            hasPdf && (
+              <a class="button" href={url("resume.pdf")}>
+                Download PDF
+              </a>
+            )
+          }
+          <a class="button ghost" href={`mailto:${SITE.email}`}>
+            Email me
+          </a>
+        </p>
+      </div>
+      <SpecSheet title="Quick reference" />
     </header>
 
-    <section aria-labelledby="experience">
-      <h2 class="section-title" id="experience">Experience</h2>
-      <ol class="timeline">
-        {
-          jobs.map((job) => (
-            <li>
-              <p class="when">
-                {job.start} — {job.end ?? "Present"}
-              </p>
-              <div>
-                <h3>
-                  {job.role} <span>@ {job.company}</span>
-                </h3>
-                {job.location && <p class="where">{job.location}</p>}
-                <ul>
-                  {job.highlights.map((h) => (
-                    <li>{h}</li>
-                  ))}
-                </ul>
-              </div>
-            </li>
-          ))
-        }
-      </ol>
-    </section>
+    <!-- Engineering-drawing style title block. -->
+    <dl class="title-block" aria-label="Document details">
+      <div class="wide"><dt>Name</dt><dd>Alexander G. Willis</dd></div>
+      <div class="wide"><dt>Discipline</dt><dd>Mechanical Engineering · Aerospace</dd></div>
+      <div><dt>Dwg no.</dt><dd>AW-RES-001</dd></div>
+      <div><dt>Rev</dt><dd>{revision}</dd></div>
+      <div><dt>Sheet</dt><dd>1 of 1</dd></div>
+    </dl>
 
-    <section aria-labelledby="skills">
-      <h2 class="section-title" id="skills">Skills</h2>
-      <dl class="skills">
-        {
-          Object.entries(skills).map(([group, items]) => (
-            <div>
-              <dt>{group}</dt>
-              <dd>
+    <div class="layout">
+      <section aria-labelledby="experience" class="main">
+        <h2 class="section-title" id="experience">Experience</h2>
+        <ol class="timeline">
+          {
+            jobs.map((job) => (
+              <li class:list={{ current: job.current }}>
+                <p class="when">
+                  {job.dates}
+                  {job.location && <span> · {job.location}</span>}
+                </p>
+                <h3>{job.role}</h3>
+                <p class="org">
+                  {job.company}
+                  {job.program && <span> / {job.program}</span>}
+                </p>
+                {job.highlights.length > 0 && (
+                  <ul>
+                    {job.highlights.map((h) => (
+                      <li>{h}</li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+
+        <h2 class="section-title" id="education">Education</h2>
+        <ol class="timeline">
+          {
+            education.map((ed) => (
+              <li>
+                <p class="when">
+                  {ed.dates} · {ed.location}
+                </p>
+                <h3>{ed.school}</h3>
+                <p class="org">{ed.degree}</p>
+                {ed.detail && <p class="detail">{ed.detail}</p>}
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+
+      <aside class="side" aria-label="Skills and certifications">
+        <section aria-labelledby="skills">
+          <h2 class="section-title" id="skills">Technical skills</h2>
+          {
+            Object.entries(skills).map(([group, items]) => (
+              <div class="skill-group">
+                <h3>{group}</h3>
                 <ul class="tags">
                   {items.map((s) => (
                     <li class="tag">{s}</li>
                   ))}
                 </ul>
-              </dd>
-            </div>
-          ))
-        }
-      </dl>
-    </section>
-
-    <section aria-labelledby="education">
-      <h2 class="section-title" id="education">Education</h2>
-      <ol class="timeline">
-        {
-          education.map((ed) => (
-            <li>
-              <p class="when">
-                {ed.start} — {ed.end ?? "Present"}
-              </p>
-              <div>
-                <h3>
-                  {ed.degree} <span>@ {ed.school}</span>
-                </h3>
-                {ed.notes && <p class="where">{ed.notes}</p>}
               </div>
-            </li>
-          ))
-        }
-      </ol>
-    </section>
+            ))
+          }
+        </section>
+
+        <section aria-labelledby="certs">
+          <h2 class="section-title" id="certs">Certifications</h2>
+          <ul class="plain">
+            {certifications.map((c) => <li>{c}</li>)}
+          </ul>
+        </section>
+
+        <section aria-labelledby="langs">
+          <h2 class="section-title" id="langs">Languages</h2>
+          <ul class="plain">
+            {languages.map((l) => <li>{l}</li>)}
+          </ul>
+        </section>
+      </aside>
+    </div>
   </div>
 </Base>
 
 <style>
-  section {
-    margin-top: 2.5rem;
+  .head {
+    display: grid;
+    gap: 2rem;
+    align-items: end;
+  }
+
+  @media (min-width: 56rem) {
+    .head {
+      grid-template-columns: minmax(0, 1fr) 21rem;
+    }
   }
 
   .actions {
-    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.5rem !important;
   }
+
+  /* ---------- Title block ---------- */
+
+  .title-block {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 0 3rem;
+    border: 1px solid var(--muted);
+    font-family: var(--font-mono);
+  }
+
+  @media (min-width: 48rem) {
+    .title-block {
+      grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    }
+  }
+
+  .title-block div {
+    padding: 0.5rem 0.75rem;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .title-block .wide {
+    grid-column: span 2;
+  }
+
+  .title-block div:last-child {
+    grid-column: span 2;
+  }
+
+  @media (min-width: 48rem) {
+    .title-block .wide,
+    .title-block div:last-child {
+      grid-column: auto;
+    }
+
+    .title-block div {
+      border-bottom: 0;
+    }
+
+    .title-block div:last-child {
+      border-right: 0;
+    }
+  }
+
+  .title-block dt {
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  .title-block dd {
+    margin: 0.1rem 0 0;
+    font-size: 0.8rem;
+  }
+
+  /* ---------- Layout ---------- */
+
+  .layout {
+    display: grid;
+    gap: 3rem;
+  }
+
+  @media (min-width: 62rem) {
+    .layout {
+      grid-template-columns: minmax(0, 1fr) 21rem;
+    }
+  }
+
+  .main .section-title:not(:first-child) {
+    margin-top: 3rem;
+  }
+
+  /* ---------- Timeline ---------- */
 
   .timeline {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 1.5rem;
     list-style: none;
+    border-left: 1px solid var(--border);
   }
 
   .timeline > li {
-    display: grid;
-    gap: 0.25rem 1.5rem;
-    padding: 1.25rem 0;
-    border-top: 1px solid var(--border);
+    position: relative;
+    padding-bottom: 2rem;
   }
 
-  @media (min-width: 40rem) {
-    .timeline > li {
-      grid-template-columns: 10rem 1fr;
-    }
+  .timeline > li:last-child {
+    padding-bottom: 0.5rem;
+  }
+
+  /* Node marker on the timeline. */
+  .timeline > li::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.5rem - 5px);
+    top: 0.3rem;
+    width: 9px;
+    height: 9px;
+    background: var(--bg);
+    border: 2px solid var(--muted);
+    transform: rotate(45deg);
+  }
+
+  .timeline > li.current::before {
+    background: var(--accent);
+    border-color: var(--accent);
   }
 
   .when {
     margin: 0;
-    padding-top: 0.15rem;
     font-family: var(--font-mono);
-    font-size: 0.8rem;
-    color: var(--muted);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .when span {
+    color: var(--faint);
   }
 
   h3 {
-    margin: 0;
-    font-size: 1.1rem;
+    margin: 0.3rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 
-  h3 span {
-    font-weight: 400;
+  .org {
+    margin: 0.15rem 0 0;
     color: var(--muted);
   }
 
-  .where {
-    margin: 0.15rem 0 0;
+  .org span {
+    color: var(--faint);
+  }
+
+  .detail {
+    margin: 0.3rem 0 0;
     font-size: 0.9rem;
     color: var(--muted);
   }
 
   .timeline ul {
-    margin: 0.6rem 0 0;
+    margin: 0.75rem 0 0;
     padding-left: 1.1rem;
   }
 
+  .timeline ul li {
+    padding-left: 0.2rem;
+  }
+
+  .timeline ul li::marker {
+    content: "▸ ";
+    color: var(--accent);
+  }
+
   .timeline ul li + li {
-    margin-top: 0.3rem;
+    margin-top: 0.4rem;
   }
 
-  .skills {
+  /* ---------- Side column ---------- */
+
+  .side {
     display: grid;
-    gap: 1rem;
+    gap: 2.25rem;
+    align-content: start;
+  }
+
+  .skill-group + .skill-group {
+    margin-top: 1.1rem;
+  }
+
+  .skill-group h3 {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .plain {
     margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .skills div {
-    display: grid;
-    gap: 0.5rem 1.5rem;
-  }
-
-  @media (min-width: 40rem) {
-    .skills div {
-      grid-template-columns: 10rem 1fr;
-    }
-  }
-
-  dt {
-    font-weight: 600;
-  }
-
-  dd {
-    margin: 0;
+  .plain li {
+    padding: 0.4rem 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 0.925rem;
   }
 </style>

@@ -1,6 +1,7 @@
 ---
 title: This website
 description: A static portfolio built with Astro, fronted by a daily briefing written by an automated Claude routine.
+kind: Software
 date: 2026-09-24
 stack: [Astro, TypeScript, GitHub Actions]
 status: active

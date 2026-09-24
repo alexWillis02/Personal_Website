@@ -1,54 +1,62 @@
-/* ---------- Tokens ---------- */
+/* ---------- Tokens ----------
+   Flight-test palette: deep-space navy, international-orange accent,
+   HUD cyan for links. Light mode is "blueprint paper". */
 
 :root {
   color-scheme: dark;
-  --bg: #0b0d10;
-  --surface: #11151a;
-  --surface-2: #171c22;
-  --border: #232a32;
-  --text: #e6e9ed;
-  --muted: #8e98a4;
-  --faint: #5d6773;
-  --accent: #7ee787;
-  --accent-2: #79c0ff;
-  --accent-ink: #0b0d10;
+  --bg: #070b12;
+  --surface: #0c1320;
+  --surface-2: #111a2a;
+  --border: #1c2a40;
+  --grid: rgb(92 200 255 / 0.045);
+  --text: #e7edf5;
+  --muted: #8b9bb3;
+  --faint: #56667f;
+  --accent: #ff6b2c;
+  --accent-soft: rgb(255 107 44 / 0.12);
+  --accent-2: #5cc8ff;
+  --accent-ink: #0b0f16;
 
   --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Space Grotesk Variable", "Inter Variable", system-ui, sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, "Cascadia Code",
     Consolas, monospace;
 
-  --radius: 10px;
-  --maxw: 72rem;
+  --radius: 4px;
+  --maxw: 74rem;
   --gutter: clamp(1rem, 4vw, 2rem);
 }
 
-/* Light palette: chosen via the toggle, or the OS setting when JS is off. */
 :root[data-theme="light"] {
   color-scheme: light;
-  --bg: #fbfbfa;
+  --bg: #f5f6f2;
   --surface: #ffffff;
-  --surface-2: #f2f4f6;
-  --border: #e1e5e9;
-  --text: #15181d;
-  --muted: #57606a;
-  --faint: #8a939d;
-  --accent: #1a7f37;
-  --accent-2: #0969da;
+  --surface-2: #eef1f4;
+  --border: #d5dce5;
+  --grid: rgb(11 98 184 / 0.06);
+  --text: #0e1726;
+  --muted: #4d5b70;
+  --faint: #8592a5;
+  --accent: #c2410c;
+  --accent-soft: rgb(194 65 12 / 0.08);
+  --accent-2: #0b62b8;
   --accent-ink: #ffffff;
 }
 
 @media (prefers-color-scheme: light) {
   :root:not([data-theme]) {
     color-scheme: light;
-    --bg: #fbfbfa;
+    --bg: #f5f6f2;
     --surface: #ffffff;
-    --surface-2: #f2f4f6;
-    --border: #e1e5e9;
-    --text: #15181d;
-    --muted: #57606a;
-    --faint: #8a939d;
-    --accent: #1a7f37;
-    --accent-2: #0969da;
+    --surface-2: #eef1f4;
+    --border: #d5dce5;
+    --grid: rgb(11 98 184 / 0.06);
+    --text: #0e1726;
+    --muted: #4d5b70;
+    --faint: #8592a5;
+    --accent: #c2410c;
+    --accent-soft: rgb(194 65 12 / 0.08);
+    --accent-2: #0b62b8;
     --accent-ink: #ffffff;
   }
 }
@@ -71,12 +79,20 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--bg);
   color: var(--text);
   font-family: var(--font-sans);
   font-size: 1rem;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  /* Faint graph-paper grid: 8px minor, 40px major. */
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+    linear-gradient(color-mix(in srgb, var(--grid) 40%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--grid) 40%, transparent) 1px, transparent 1px);
+  background-size: 40px 40px, 40px 40px, 8px 8px, 8px 8px;
+  background-attachment: fixed;
 }
 
 main {
@@ -102,15 +118,15 @@ a:hover {
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 3px;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  line-height: 1.2;
-  letter-spacing: -0.015em;
+  font-family: var(--font-display);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
   text-wrap: balance;
 }
 
@@ -146,7 +162,7 @@ pre {
 }
 
 .narrow {
-  max-width: 46rem;
+  max-width: 48rem;
 }
 
 .visually-hidden {
@@ -167,56 +183,79 @@ pre {
   background: var(--accent);
   color: var(--accent-ink);
   font-family: var(--font-mono);
-  border-radius: var(--radius);
 }
 
 .skip-link:focus {
   top: 1rem;
 }
 
-/* Mono "terminal" label used above headings: ~/projects */
+/* Technical designator above headings: "SEC-02 // PROJECTS" */
 .eyebrow {
-  margin: 0 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.75rem;
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
   color: var(--accent);
-  letter-spacing: 0.02em;
+}
+
+.eyebrow::before {
+  content: "";
+  width: 1.25rem;
+  height: 2px;
+  background: var(--accent);
 }
 
 .page-head {
-  padding-block: clamp(2.5rem, 6vw, 4rem) 1.5rem;
+  padding-block: clamp(2.5rem, 6vw, 4rem) 1.75rem;
 }
 
 .page-head h1 {
   margin: 0;
-  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-size: clamp(2.2rem, 5.5vw, 3.25rem);
+  font-weight: 600;
 }
 
 .page-head p {
-  margin: 0.75rem 0 0;
+  margin: 0.85rem 0 0;
   color: var(--muted);
-  max-width: 40rem;
+  max-width: 42rem;
 }
 
 .section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
   margin: 0 0 1rem;
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.14em;
   color: var(--muted);
+}
+
+/* A hairline that runs out to the right of a section title. */
+.section-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
 }
 
 .tag {
   display: inline-block;
   padding: 0.1rem 0.5rem;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--muted);
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: 2px;
 }
 
 .tags {
@@ -232,12 +271,16 @@ pre {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.55rem 1rem;
+  padding: 0.6rem 1.05rem;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--accent-ink);
   background: var(--accent);
-  border-radius: var(--radius);
+  border: 1px solid var(--accent);
+  border-radius: 2px;
   text-decoration: none;
 }
 
@@ -248,11 +291,12 @@ pre {
 .button.ghost {
   color: var(--text);
   background: transparent;
-  border: 1px solid var(--border);
+  border-color: var(--border);
 }
 
 .button.ghost:hover {
-  border-color: var(--muted);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .empty {
@@ -260,7 +304,25 @@ pre {
   text-align: center;
   color: var(--muted);
   border: 1px dashed var(--border);
-  border-radius: var(--radius);
+}
+
+/* HUD corner brackets. Add .bracket to any positioned panel. */
+.bracket {
+  position: relative;
+  --b-color: var(--accent);
+  --b-size: 10px;
+  background:
+    linear-gradient(var(--b-color), var(--b-color)) top left / var(--b-size) 1px,
+    linear-gradient(var(--b-color), var(--b-color)) top left / 1px var(--b-size),
+    linear-gradient(var(--b-color), var(--b-color)) top right / var(--b-size) 1px,
+    linear-gradient(var(--b-color), var(--b-color)) top right / 1px var(--b-size),
+    linear-gradient(var(--b-color), var(--b-color)) bottom left / var(--b-size) 1px,
+    linear-gradient(var(--b-color), var(--b-color)) bottom left / 1px var(--b-size),
+    linear-gradient(var(--b-color), var(--b-color)) bottom right / var(--b-size) 1px,
+    linear-gradient(var(--b-color), var(--b-color)) bottom right / 1px var(--b-size),
+    var(--surface);
+  background-repeat: no-repeat;
+  border: 1px solid var(--border);
 }
 
 /* ---------- Long-form prose (thoughts, project write-ups) ---------- */
@@ -283,29 +345,32 @@ pre {
   font-size: 1.2rem;
 }
 
+.prose ul li + li {
+  margin-top: 0.4em;
+}
+
 .prose :not(pre) > code {
   padding: 0.1em 0.35em;
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .prose pre {
   padding: 1rem 1.25rem;
   overflow-x: auto;
   border: 1px solid var(--border);
-  border-radius: var(--radius);
 }
 
 .prose blockquote {
   margin-inline: 0;
   padding-left: 1.25rem;
   color: var(--muted);
-  border-left: 3px solid var(--accent);
+  border-left: 2px solid var(--accent);
 }
 
 .prose img {
-  border-radius: var(--radius);
+  border: 1px solid var(--border);
 }
 
 .prose hr {

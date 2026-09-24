@@ -3,7 +3,8 @@ title: WikiQuiz
 description: A quiz app built around Wikipedia articles.
 date: 2025-01-01
 stack: [JavaScript]
-featured: true
+kind: Software
+featured: false
 status: active
 # repo: https://github.com/your-username/wikiquiz
 # link: https://wikiquiz.example.com

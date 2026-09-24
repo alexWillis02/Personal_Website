@@ -9,9 +9,9 @@ const projects = await getProjects();
 <Base title="Projects" description="Things I've built.">
   <div class="container">
     <header class="page-head">
-      <p class="eyebrow">~/projects</p>
+      <p class="eyebrow">Sec-02 // Projects</p>
       <h1>Projects</h1>
-      <p>Things I've built, am building, or have learned from.</p>
+      <p>Hardware I've designed, built, and tested, plus the analysis and code behind it.</p>
     </header>
 
     {projects.length === 0 && <p class="empty">Nothing here yet.</p>}
@@ -19,10 +19,10 @@ const projects = await getProjects();
     <ul class="grid">
       {
         projects.map((p) => (
-          <li class="card">
+          <li class="card bracket">
             <div class="top">
               <span class={`status ${p.data.status}`}>{p.data.status}</span>
-              {p.data.featured && <span class="tag">featured</span>}
+              {p.data.kind && <span class="kind">{p.data.kind}</span>}
             </div>
             <h2>
               <a href={url(`/projects/${p.id}/`)}>{p.data.title}</a>
@@ -53,21 +53,27 @@ const projects = await getProjects();
   }
 
   .card {
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    padding: 1.25rem;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    transition: border-color 0.15s ease, transform 0.15s ease;
+    padding: 1.35rem;
+    --b-color: var(--faint);
+    transition: transform 0.15s ease;
   }
 
   .card:hover,
   .card:focus-within {
-    border-color: var(--accent);
+    --b-color: var(--accent);
     transform: translateY(-2px);
+  }
+
+  .kind {
+    margin-left: auto;
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
   }
 
   .top {
@@ -78,7 +84,9 @@ const projects = await getProjects();
 
   .status {
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     color: var(--muted);
   }
 
@@ -97,7 +105,8 @@ const projects = await getProjects();
 
   h2 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
   }
 
   /* Make the whole card clickable via the title link. */
@@ -110,7 +119,6 @@ const projects = await getProjects();
     content: "";
     position: absolute;
     inset: 0;
-    border-radius: var(--radius);
   }
 
   p {

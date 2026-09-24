@@ -3,13 +3,16 @@ import Base from "../layouts/Base.astro";
 import { url } from "../lib/utils";
 ---
 
-<Base title="Not found">
+<Base title="Signal lost">
   <div class="container narrow">
     <header class="page-head">
-      <p class="eyebrow">$ cd {Astro.url.pathname}</p>
-      <h1>404: no such file or directory</h1>
-      <p>That page doesn't exist, or it moved.</p>
+      <p class="eyebrow">Error 404 // Lost link</p>
+      <h1>Signal lost.</h1>
+      <p>
+        Nothing is transmitting at <code>{Astro.url.pathname}</code>. The page
+        may have moved, or it never existed.
+      </p>
     </header>
-    <a class="button" href={url()}>cd ~</a>
+    <a class="button" href={url()}>Return to base</a>
   </div>
 </Base>

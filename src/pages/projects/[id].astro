@@ -22,7 +22,7 @@ const { title, description, date, stack, repo, link } = project.data;
   description={description}
   date={date}
   tags={stack}
-  eyebrow="~/projects"
+  eyebrow={`Project file // ${project.data.kind ?? project.data.status}`}
   back={{ href: "/projects/", label: "all projects" }}
 >
   {
