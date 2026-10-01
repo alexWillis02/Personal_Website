@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-01",
+  "title": "Daily Briefing — Thursday, October 1",
+  "coverage": "Covering roughly Wednesday morning through Thursday midday MDT. Direct article fetching was blocked by this run's network egress proxy, so items were compiled from search-engine result summaries and cross-checked across outlets rather than read in full; NYT pieces are summarized from headlines and snippets.",
+  "top": [
+    {
+      "headline": "Google ships Gemini 4 Argon, aimed squarely at code and cybersecurity",
+      "summary": "Released after the US market close on September 30, Gemini 4 Argon is pitched as able to autonomously find, verify and patch software vulnerabilities, priced at $2 per million input tokens and $10 per million output with a 95% discount on cached input. It is Google's long-awaited answer to the current OpenAI and Anthropic frontier models."
+    },
+    {
+      "headline": "Pentagon stands up an Autonomous Warfare Command",
+      "summary": "Defense Secretary Pete Hegseth announced \"Autowarcom,\" a new four-star command consolidating AI, robotics and autonomous weapons work, targeted to go online in October 2027. For anyone working in uncrewed systems, this is the clearest signal yet that drone autonomy is becoming its own institutional warfighting domain rather than a program office."
+    },
+    {
+      "headline": "SpaceX runs a triple-header, including Google's first AI chips in orbit",
+      "summary": "Crew-13 launched toward the ISS at 11:10 a.m. EDT, Transporter-18 carried 130 payloads including the Project Suncatcher prototype with four Google TPUs, and a Falcon Heavy was set to fly NROL-97 — the National Reconnaissance Office's first-ever Falcon Heavy mission. Three orbital missions inside roughly 13 hours is a cadence record even by SpaceX standards."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Gemini 4 Argon lands with a security-first pitch",
+          "summary": "Google positioned the model on coding and cybersecurity rather than general chat, claiming autonomous vulnerability discovery, verification and repair. Pricing of $2 per million input and $10 per million output tokens undercuts much of the frontier tier, and the 95% cached-input discount is aimed at agentic workloads that re-read large codebases on every turn. That caching economics detail matters more than the benchmark numbers for anyone actually building on it.",
+          "sources": [
+            { "label": "Axios", "url": "https://axios.com/2026/09/30/google-gemini-4" },
+            { "label": "The Hacker News", "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html" }
+          ]
+        },
+        {
+          "headline": "FTC opens a sweeping probe into frontier AI labs",
+          "summary": "The Federal Trade Commission is investigating Anthropic, OpenAI, METR and other frontier labs over potential consumer harms, working under the FTC Act's unfair-or-deceptive-practices authority. The agency plans to issue civil investigative demands — subpoena-like instruments compelling executive testimony and documents. Chairman Andrew Ferguson reportedly opened the inquiry weeks before the September 30 disclosure.",
+          "sources": [
+            { "label": "Washington Times", "url": "https://www.washingtontimes.com/news/2026/sep/30/ftc-probes-ai-giants-consumer-safety-risks/" },
+            { "label": "Spectrum News", "url": "https://spectrumlocalnews.com/me/maine/business/2026/09/30/ftc-investigation-openai-and-anthropic" }
+          ]
+        },
+        {
+          "headline": "White House brokers a voluntary safety accord as it rebrands AI \"Super Intelligence\"",
+          "summary": "Trump and leaders from OpenAI, Anthropic, Nvidia, Google, Meta, SpaceX, Microsoft, AMD and Palo Alto Networks signed a voluntary accord built on internal evaluations, third-party audits, board-level oversight committees and recurring standards meetings. The administration separately directed the executive branch to use the term \"Super Intelligence.\" Voluntary and unenforceable, it arrives in visible tension with the FTC action landing the same week.",
+          "sources": [
+            { "label": "Benton Institute", "url": "https://www.benton.org/newsletter/daily-digest-9302026-super-intelligence" },
+            { "label": "The Hacker News", "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html" }
+          ]
+        },
+        {
+          "headline": "An open-weight model is closing the gap on frontier cyber capability",
+          "summary": "Anthropic flagged Z.ai's open-weight GLM-5.3 as the most cyber-capable open model NIST's CAISI has measured, estimating it runs roughly four months behind US frontier systems. The significance is the lag, not the ranking: a four-month gap on downloadable weights means offensive capability can no longer be gated by API terms of service. Expect this number to anchor a lot of the coming export-control and open-weights argument.",
+          "sources": [
+            { "label": "The Hacker News", "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html" }
+          ]
+        },
+        {
+          "headline": "AI-aligned super PACs have put $55.7M into the midterms",
+          "summary": "A New York Times tally finds OpenAI-aligned Leading the Future (backed by Greg Brockman, Marc Andreessen and Ben Horowitz) and Anthropic-funded Public First Action have spent $55.7 million, with $52.6 million of it on safe seats and almost entirely in primaries. Of 95 ads the Times reviewed, only seven mentioned AI or an AI company and none mentioned data centers. The spending is split across party lines — roughly $28 million behind 21 Democrats and $19 million behind 30 Republicans.",
+          "sources": [
+            { "label": "AI Weekly (NYT tally)", "url": "https://aiweekly.co/alerts/openai-anthropic-aligned-pacs-spent-557m-on-2026-midterms" },
+            { "label": "Techstrong.ai", "url": "https://techstrong.ai/articles/ai-industry-pours-millions-into-2026-midterms-to-head-off-state-regulations/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Crew-13 lifts off for the ISS",
+          "summary": "NASA astronauts Jessica Watkins and Luke Delaney, CSA's Joshua Kutryk and Roscosmos cosmonaut Sergey Teteryatnikov launched on a Falcon 9 and Dragon from Cape Canaveral pad 40 at 11:10 a.m. EDT, with docking about eight hours later. Watkins becomes the first NASA astronaut to fly a second time aboard a Dragon. Weather had been the main threat, with forecasters calling 45% odds of a violation at the launch readiness review.",
+          "sources": [
+            { "label": "Space.com", "url": "https://space.com/news/live/spacex-nasa-crew-13-astronauts-launch-to-iss-october-1-2026" },
+            { "label": "NASA Commercial Crew Blog", "url": "https://www.nasa.gov/blogs/commercialcrew/2026/09/30/nasa-spacex-conclude-review-crew-13-go-for-launch/" }
+          ]
+        },
+        {
+          "headline": "Project Suncatcher puts Google TPUs into low Earth orbit",
+          "summary": "Riding Transporter-18 alongside Planet Labs spacecraft, the refrigerator-sized \"MVP\" satellite carries four Google TPUs — the same silicon Google runs in ground data centers — and will execute Gemini models in orbit. The test targets radiation tolerance, launch loads and thermal management, the three things you cannot faithfully replicate on the ground. LEO offers up to eight times the solar energy available on Earth's surface, which is the whole economic premise.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/01/spacex-to-launch-google-ai-chips-to-orbit-with-planet-labs-satellites.html" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/satellites/spacex-launching-prototype-google-ai-satellite-next-week" }
+          ]
+        },
+        {
+          "headline": "NROL-97 marks the NRO's first Falcon Heavy flight",
+          "summary": "SpaceX was set to fly the classified NROL-97 mission on a Falcon Heavy from Kennedy's LC-39A, the first time the National Reconnaissance Office has used the triple-core vehicle. Moving an NRO payload to Falcon Heavy implies either a mass or an energy requirement that Falcon 9 could not close — a reasonable tell about orbit class even with the payload itself classified.",
+          "sources": [
+            { "label": "Spectrum News 13", "url": "https://mynews13.com/fl/orlando/space/2026/09/30/spacex-nrol-97-launch" }
+          ]
+        },
+        {
+          "headline": "New Glenn 9x4 joins NASA's launch services catalog",
+          "summary": "NASA added Blue Origin's New Glenn 9x4 configuration to the NASA Launch Services II contract, making the vehicle formally eligible to bid on agency science and robotic missions. On-ramping to NLS II does not award any specific mission, but it is the gate every provider must clear first. It gives NASA a third heavy-lift option alongside Falcon Heavy and ULA's Vulcan.",
+          "sources": [
+            { "label": "NASA 2026 News Releases", "url": "https://www.nasa.gov/2026-news-releases/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "\"Autowarcom\" gets a four-star commander and an October 2027 target",
+          "summary": "The new Autonomous Warfare Command will consolidate Pentagon AI, robotics and autonomous weapons efforts under a four-star general, announced by Hegseth on September 30 with a stand-up target of October 2027. Creating a unified command — rather than another joint program office — changes budget authority and acquisition speed for uncrewed systems. Worth watching how it divides responsibility with the existing services' drone programs.",
+          "sources": [
+            { "label": "U.S. News", "url": "https://www.usnews.com/news/world/articles/2026-09-30/pentagon-creates-autowarcom-to-expand-ai-and-drone-capabilities" },
+            { "label": "CNN", "url": "https://www.cnn.com/2026/09/30/politics/hegseth-speaks-to-military" }
+          ]
+        },
+        {
+          "headline": "FAA's Part 108 BVLOS rule is still stuck at OIRA",
+          "summary": "The final beyond-visual-line-of-sight rule has sat at the White House Office of Information and Regulatory Affairs since July 10 and remains unpublished as of late September, with the FAA hoping for release by year end. The sticking point is a contested provision granting Part 108 aircraft presumptive right of way over crewed aircraft that are not electronically broadcasting position. That is a genuinely hard airspace-integration question, and it is holding up routine scaled BVLOS operations for every US operator.",
+          "sources": [
+            { "label": "The Flight Brief", "url": "https://www.theflightbrief.com/articles/faa-part-108-bvlos-update-september-2026" },
+            { "label": "DRONELIFE", "url": "https://dronelife.com/2026/09/02/faa-drone-integration-bvlos-advanced-aviation/" }
+          ]
+        },
+        {
+          "headline": "Micron posts a $54.2B quarter on AI memory",
+          "summary": "Fiscal Q4 revenue hit $54.23 billion, up 379% year over year, with adjusted EPS of $33.42 against $31.61 expected; full-year FY2026 revenue reached $133.19 billion. The Core Data Center unit alone contributed $18.0 billion at a 90% gross margin. High-bandwidth memory is the bottleneck in the AI datacenter supply chain, and Micron is the only US-based HBM maker.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html" },
+            { "label": "Quartz", "url": "https://qz.com/micron-q4-2026-earnings-revenue-ai-memory-093026" }
+          ]
+        },
+        {
+          "headline": "US tests an AI pilot on an armed Talon IQ drone",
+          "summary": "The Army demonstrated a government-owned AI pilot flying an armed Talon IQ, with the stated goal of proving interoperable combat autonomy — the autonomy stack portable across airframes rather than welded to one vendor's aircraft. Government-reference autonomy interfaces are the unglamorous enabler for the whole collaborative-combat-aircraft concept. It is the software-defined analogue of a standard hardpoint.",
+          "sources": [
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/aerospace-news/2026/u-s-tests-ai-pilot-on-armed-talon-iq-drone-to-prove-interoperable-combat-autonomy" }
+          ]
+        },
+        {
+          "headline": "GPS-denied autonomy startup raises a pre-seed round",
+          "summary": "Estonian-Ukrainian firm DOD Solution closed $2.1 million for its AURA platform, an onboard compute and autonomy module that keeps FPV and fixed-wing UAVs navigating, recognizing and tracking targets after GPS is jammed and the control link is cut. Terminal guidance that survives full RF denial is the current hard requirement coming out of Ukraine. Small round, but it is squarely on the problem everyone in the field is chasing.",
+          "sources": [
+            { "label": "Kyiv Post", "url": "https://kyivpost.com/post/85717" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "BMW reveals the G50 3 Series alongside an electric i3",
+          "summary": "BMW premiered the new 3 Series on September 30 as a two-platform family: the 330 and M350 xDrive on an upgraded combustion architecture, and the i3 on the dedicated Neue Klasse EV platform with a 1.5-inch longer wheelbase. The i3 50 xDrive makes 463 hp and 476 lb-ft with an 800V system, 400 kW DC charging and a targeted 440-plus miles of range. The M350 xDrive keeps a 3.0-liter turbo inline-six with transmission-integrated 48V mild hybrid, good for 437 hp and a claimed 3.9-second 0-60.",
+          "sources": [
+            { "label": "BimmerFile", "url": "https://www.bimmerfile.com/2026/09/29/2027-bmw-3-series-revealed-neue-klasse-looks-six-cylinder-soul/" },
+            { "label": "autoevolution", "url": "https://www.autoevolution.com/news/2027-bmw-3-series-debut-confirmed-for-september-30-new-m350-xdrive-leads-the-charge-276253.html" }
+          ]
+        },
+        {
+          "headline": "GM commits Spring Hill to lithium-manganese-rich cells",
+          "summary": "GM is converting its Ultium plant in Spring Hill, Tennessee to produce LMR cells, adding about 500 jobs with LG Energy Solution. Ultium Cells claims LMR offers roughly 33% higher energy density than LFP at comparable cost, which is the combination that makes affordable long-range trucks and full-size SUVs work. Plant upgrades start late this year and complete by 2028, with the first LMR vehicle targeted for 2028 and over 400 miles of range.",
+          "sources": [
+            { "label": "CleanTechnica", "url": "https://cleantechnica.com/2026/09/29/ev-batteries-gm-lmr-lithium-manganese-rich/" },
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/810064/gm-lmr-battery-production-at-spring-hill-lges" }
+          ]
+        },
+        {
+          "headline": "Ocon and Haas part ways after two seasons",
+          "summary": "Haas confirmed on September 30 that Esteban Ocon leaves at the end of 2026, after the Frenchman was consistently outpaced by teammate Oliver Bearman. Ocon says his F1 career is not over, but with eight rounds left and the grid largely set, a 2027 seat looks unlikely. Ferrari-backed Brazilian Rafael Camara is reported as the favorite to replace him.",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13593556/esteban-ocon-haas-driver-to-leave-team-at-end-of-2026-f1-season-after-two-years-with-american-owned-squad" },
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/analysis-why-haas-have-decided-to-move-on-from-ocon-and-where-he-goes-from-here.2GOilh2UZ1qpFhfDnGDjYu" }
+          ]
+        },
+        {
+          "headline": "One year after the EV tax credit expired, the mix has shifted to hybrids",
+          "summary": "NPR marked the anniversary of the federal EV tax credit's end with a look at how sales reshuffled, with hybrids absorbing much of the demand that pure EVs lost. The practical read for product planning is that the affordability gap the credit papered over is now being attacked at the cell level instead — which is exactly what GM's LMR move is about. Separately, BMW told investors it is targeting 5% margins by 2028 while expanding local production.",
+          "sources": [
+            { "label": "NPR", "url": "https://npr.org/2026/09/30/nx-s1-5979915/ev-hybrid-sales-2026-federal-tax-credit" },
+            { "label": "CBT News", "url": "https://www.cbtnews.com/cbt-automotive-newscast-september-30-2026/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "In orbit, your bottleneck is heat, not power",
+    "body": "Google's Suncatcher prototype can only run its four TPUs for roughly 15 minutes at a stretch — not because it runs out of power, but because it runs out of cooling. In LEO the satellite harvests up to 8x the solar energy available on the ground, yet with no air and no coolant loop to a chiller, every watt of compute has to leave as thermal radiation off a finite surface. Radiated power scales with area and the fourth power of temperature, so a refrigerator-sized bus hits a hard duty-cycle wall long before it hits a power wall. The orbital data center problem is a radiator problem."
+  },
+  "footnote": "Compiled from public reporting on October 1, 2026. Items summarized from search-result snippets and cross-referenced across outlets; direct page fetches were unavailable in this run."
+}
