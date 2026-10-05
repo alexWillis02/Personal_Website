@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-05",
+  "title": "Daily Briefing — Monday, October 5",
+  "coverage": "Covering roughly Friday evening through Monday morning MDT, widened toward 72 hours for policy and earnings items after a quiet weekend. Direct article fetching was blocked by this run's network egress proxy, and nytimes.com is not reachable by the search crawler, so items were compiled from search results and cross-referenced across reachable outlets rather than read in full.",
+  "top": [
+    {
+      "headline": "Trump names an AI czar and signs an order rebranding AI as \"super intelligence\"",
+      "summary": "Director of National Intelligence Jay Clayton will chair a new White House \"Super Intelligence Force\" with 120 days to report on AI risks, opportunities and federal responsibilities. A companion executive order also gives the president's science and technology adviser 60 days to propose a statutory federal definition of \"Super Intelligence.\""
+    },
+    {
+      "headline": "Skyworks closes its Qorvo merger, creating a single large US RF chipmaker",
+      "summary": "The deal completed Monday and Qorvo was delisted from Nasdaq the same day, leaving a combined RF, analog and mixed-signal company with roughly 8,000 engineers and more than 12,000 patents and applications. Management is targeting at least $500 million in annual cost synergies within three years."
+    },
+    {
+      "headline": "Ukraine's robotic turrets record their first kills on Russia's jet-powered Geran-5",
+      "summary": "Air Force spokesman Yurii Ihnat said Monday that automated turret systems have now downed jet-powered drones including the Geran-5, days after an interceptor drone claimed its second. It matters because Ukraine stops only about 60 percent of Geran-5s versus roughly 95 percent of slower propeller variants."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "A White House \"Super Intelligence Force\" gets an AI czar and a 120-day clock",
+          "summary": "President Trump announced Sunday that DNI Jay Clayton will chair a new interagency task force on AI, keeping his intelligence post while serving as the administration's AI czar. FTC chair Andrew Ferguson, OPM director Scott Kupor and defense research undersecretary Emil Michael are vice chairs, and the group is directed to plan responses to AI-enabled threats, audit government breach-alert systems and support private-sector risk management. The accompanying order rebrands AI as \"super intelligence\" and asks for draft legislation defining the term within 60 days.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/"
+            },
+            {
+              "label": "NPR",
+              "url": "https://www.npr.org/2026/10/04/nx-s1-5990781/jay-clayton-ai-czar-trump"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI will put ads inside ChatGPT's image generator",
+          "summary": "OpenAI said Monday it will test a visual ad format later this month with an initial group of US advertisers, showing a labeled sponsored card with product photos and a \"Learn more\" button beside the image you asked for. The test runs on the Free and Go tiers, and OpenAI says advertisers cannot shape or reorder model responses and that private user data is not used for targeting. It is a notable step in an ad business now aimed at roughly $2.5 billion of 2026 revenue against about 1.2 billion weekly users.",
+          "sources": [
+            {
+              "label": "Android Headlines",
+              "url": "https://www.androidheadlines.com/2026/10/chatgpt-visual-ads-image-generation.html"
+            },
+            {
+              "label": "Inside AI",
+              "url": "https://insideai.news/news/ai-in-business/openai-visual-ads-chatgpt/13603/"
+            }
+          ]
+        },
+        {
+          "headline": "An AI-discovered crypto flaw went from disclosure to live exploitation in about a day",
+          "summary": "Horizon3.ai used Anthropic's Mythos model to find CVE-2026-61500 in Rejetto HTTP File Server, where the session-cookie signing key was derived from JavaScript's Math.random() while raw outputs of the same generator leaked through the unauthenticated login handshake. Chaining those two facts lets an attacker rebuild the generator state, recover the key, forge an administrator session and reach code execution through the server's scripting feature. Within a day of Wednesday's disclosure, VulnCheck sensors saw a China-based address attacking US and Japanese servers; the fix is HFS 3.2.1.",
+          "sources": [
+            {
+              "label": "SecurityWeek",
+              "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/"
+            },
+            {
+              "label": "The Hacker News",
+              "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+            }
+          ]
+        },
+        {
+          "headline": "People are using AI far more and liking it considerably less",
+          "summary": "MIT Technology Review pulled together survey data showing half of US adults now say they use a chatbot, more than double 2023, with one in four using one daily, and more than a third of adults across the 38 OECD countries reporting generative AI use in the last three months. Sentiment is moving the other way: a Gallup poll in May found 71 percent of US adults would oppose a new AI data center nearby, against 53 percent for a new nuclear plant. For anyone planning infrastructure, that gap is the siting problem in one number.",
+          "sources": [
+            {
+              "label": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "SpaceX aborts an SDA launch inside the final minute",
+          "summary": "A Falcon 9 carrying 21 Tranche 1 Transport Layer A satellites was stopped in the last minute of the count at Vandenberg's Space Launch Complex 4 East on Monday, as the vehicle was moving into its automated startup sequence, with no immediate reason given. The next attempt is set for no earlier than Tuesday at 1:17 a.m. PDT. This is the fourth batch of production Tranche 1 satellites for the Space Development Agency and, per Aviation Week, the first flight of a third vendor's spacecraft into the Proliferated Warfighter Space Architecture mesh for missile tracking and secure comms.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/"
+            },
+            {
+              "label": "Aviation Week",
+              "url": "https://aviationweek.com/aerospace-daily-defense-report/2026-10-05"
+            }
+          ]
+        },
+        {
+          "headline": "The International Astronautical Congress opens in Türkiye for the first time",
+          "summary": "The 77th IAC runs October 5 to 9 at the NEST Convention Center in Belek, near Antalya, with more than 10,000 delegates and the heads of the major space agencies expected. It is hosted by the Turkish Space Agency with the SAHA Aerospace Cluster, under the theme \"The World Needs More Space.\" IAC week is typically when agencies and primes time their programme announcements, so expect a cluster of news out of Antalya through Friday.",
+          "sources": [
+            {
+              "label": "IAC 2026",
+              "url": "https://www.iac2026.org/"
+            },
+            {
+              "label": "TRT World",
+              "url": "https://www.trtworld.com/article/341c90cd9875"
+            }
+          ]
+        },
+        {
+          "headline": "A space-surveillance SPAC lands hard on its first day",
+          "summary": "Montreal-based NorthStar Earth & Space completed its merger with Viking Acquisition Corp. I on September 30 and began trading on NYSE American as NSTR, then fell as much as 45 percent on debut. The deal valued the company at about $300 million with a further $30 million of private investment. NorthStar's pitch is space-based space situational awareness, tracking objects from orbit rather than from ground radar, and the reception is a useful read on how public markets are pricing pre-revenue space infrastructure right now.",
+          "sources": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-02/space-monitoring-firm-northstar-goes-public-after-spac-merger"
+            },
+            {
+              "label": "Via Satellite",
+              "url": "https://www.satellitetoday.com/finance/2026/10/02/northstar-earth-space-goes-public-after-spac-merger/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Skyworks and Qorvo finish combining into one RF and analog house",
+          "summary": "The merger closed Monday, with Qorvo holders receiving $32.50 in cash plus 0.960 Skyworks shares each, leaving legacy Skyworks holders with about 63 percent and former Qorvo holders about 37 percent fully diluted. The combined company keeps the Skyworks name and SWKS ticker, carries roughly 8,000 engineers and over 12,000 patents and applications, and targets at least $500 million of annual cost synergies within three years. Qorvo stock was delisted from Nasdaq the same day.",
+          "sources": [
+            {
+              "label": "Skyworks",
+              "url": "https://www.skyworksinc.com/Investors/Skyworks-Qorvo-Combination"
+            },
+            {
+              "label": "TipRanks",
+              "url": "https://www.tipranks.com/news/company-announcements/skyworks-completes-transformative-merger-with-qorvo-semiconductor"
+            }
+          ]
+        },
+        {
+          "headline": "Automated turrets and interceptor drones start biting into the Geran-5 problem",
+          "summary": "Ukrainian Air Force spokesman Yurii Ihnat said Monday that robotic turret systems have downed jet-powered UAVs including the Geran-5, and SkyFall reported its P1-SUN JetKiller interceptor claimed a second Geran-5 on October 3 after a first kill on September 30. The Geran-5 is the hard target because it flies around 600 km/h up to roughly 6,000 m with about 1,000 km of range, carries anti-jamming guidance, and presents a cylindrical, straight-wing profile closer to a cruise missile than a Shahed. Ukraine intercepts only about 60 percent of them against roughly 95 percent for other variants, which is why cheap gun-based and interceptor-drone layers are suddenly getting the attention.",
+          "sources": [
+            {
+              "label": "United24 Media",
+              "url": "https://united24media.com/war-in-ukraine/ukraines-robotic-turrets-record-first-shootdowns-of-russias-jet-powered-geran-5-drones-23116"
+            },
+            {
+              "label": "Asia Times",
+              "url": "https://asiatimes.com/2026/10/russias-jet-powered-drones-mark-a-deadly-evolution-in-ukraine-war/"
+            }
+          ]
+        },
+        {
+          "headline": "Taiwan's AIDC unveils a 100 km loitering munition with an \"AI pilot\"",
+          "summary": "Aerospace Industrial Development Corp. showed Raven X, its first self-developed fixed-wing tactical drone, at the Taichung AI Application and Smart Manufacturing Exhibition. AIDC says it locates and locks onto moving ground and seaborne targets within a 100 km radius, with payloads reconfigurable per mission and target handling managed by an onboard AI pilot system. It is still a working prototype in flight test, but it marks a state-backed aerospace prime pivoting real capacity toward attritable UAVs.",
+          "sources": [
+            {
+              "label": "Aviation Week",
+              "url": "https://aviationweek.com/defense/missile-defense-weapons/taiwans-aidc-unveils-raven-x-loitering-munition"
+            },
+            {
+              "label": "Taiwan News",
+              "url": "https://www.taiwannews.com.tw/news/6450870"
+            }
+          ]
+        },
+        {
+          "headline": "Embraer and Mahindra pick Nagpur for possible C-390 assembly in India",
+          "summary": "Aviation Week reported Monday that Embraer and its local partner Mahindra have selected Nagpur as the potential final assembly site for the C-390 Millennium, contingent on the Indian government actually procuring the transport. Naming a site before a contract is a standard offsets play in Indian defense competitions, where local industrial content often decides the award. For the C-390 it would be the type's first assembly line outside Brazil.",
+          "sources": [
+            {
+              "label": "Aviation Week",
+              "url": "https://aviationweek.com/aerospace-daily-defense-report/2026-10-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "GM keeps the US sales crown while its EV business falls off a cliff",
+          "summary": "GM sold 670,974 vehicles in the US in the third quarter, down 5.5 percent year over year, with EV volume down roughly 62 percent: Equinox EV off 92.4 percent to 1,905 units, Blazer EV down 84.4 percent, Hummer EV down 72.9 percent. Toyota moved 633,223 units, up 0.6 percent, with electrified models at 57.4 percent of its mix and up 28.5 percent, narrowing the gap to under 136,000 for the quarter. The post-incentive US EV market is resetting hard toward hybrids, and Ford held third ahead of Hyundai.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/01/us-auto-sales-q3.html"
+            },
+            {
+              "label": "GM Authority",
+              "url": "https://gmauthority.com/blog/2026/10/gm-sales-figures-numbers-results-united-states-q3-2026/"
+            }
+          ]
+        },
+        {
+          "headline": "BMW's turnaround plan bets on AI, fewer managers and two new models",
+          "summary": "BMW set a medium-term core automotive margin target of 3 to 5 percent by 2028, up from 2.3 percent in its latest results, and 8 to 10 percent by the early 2030s. It plans to cut divisions and the associated management roles by a fifth by mid-2027, with a redundancy programme expected to touch about 8,000 jobs in Germany, and wants AI tooling to raise development speed. The two headline products are an entry-level Neue Klasse EV for Europe from 2028 and a luxury SUV positioned above the X7 for American buyers, with more localization and local technology partners in China.",
+          "sources": [
+            {
+              "label": "BNN Bloomberg",
+              "url": "https://www.bnnbloomberg.ca/business/company-news/2026/09/30/bmw-bets-on-cuts-new-models-and-ai-to-revive-its-fortunes/"
+            },
+            {
+              "label": "The Detroit News",
+              "url": "https://www.detroitnews.com/story/business/autos/foreign/2026/09/30/how-bmw-plans-to-revive-its-fortunes-new-models-cuts-and-ai/92020809007/"
+            }
+          ]
+        },
+        {
+          "headline": "Briscoe dominates the Round of 8 opener at Las Vegas",
+          "summary": "Chase Briscoe swept both stages and led a race-high 175 laps to win Sunday's South Point 400, holding off Kyle Larson and Tyler Reddick for his second Cup win of 2026. Controlling a mile-and-a-half from the front for that share of the race is mostly a long-run balance story, where the fastest car is the one that gives up the least front grip as the right-front loads up over a run.",
+          "sources": [
+            {
+              "label": "Las Vegas Review-Journal",
+              "url": "https://www.reviewjournal.com/sports/motor-sports/nascar/briscoe-wins-nascar-south-point-400-at-las-vegas-motor-speedway-3895542/"
+            },
+            {
+              "label": "Racing America",
+              "url": "https://www.racingamerica.com/news/nascar/race-results-nascar-cup-series-south-point-400-at-las-vegas"
+            }
+          ]
+        },
+        {
+          "headline": "The F1 title math after Sepang still points one way",
+          "summary": "Max Verstappen's wet-weather win at the Bahrain Grand Prix held at Sepang did little to the top of the table: Kimi Antonelli finished second and now leads George Russell 320 to 236 after Russell's late retirement, an 84-point gap. Lewis Hamilton sits third on 214, Charles Leclerc fourth on 191, with Verstappen and Lando Norris tied on 188. With seven rounds plus a sprint left and 175 driver points available, Antonelli is the only driver who can still deny Verstappen even if he wins out, and Mercedes lead the constructors on 556, 151 clear of Ferrari.",
+          "sources": [
+            {
+              "label": "RacingNews365",
+              "url": "https://racingnews365.com/2026-f1-championship-standings-after-bahrain-grand-prix-in-malaysia"
+            },
+            {
+              "label": "Grande Premio",
+              "url": "https://grandepremio.com/en/f1/antonelli-stretches-f1-lead-to-84-points-as-russells-sepang-retirement-proves-costly/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "One Math.random() away from root",
+    "body": "Rejetto HFS derived its session-cookie signing key from JavaScript's Math.random(), and separately leaked raw outputs of that same generator to unauthenticated clients during the login handshake. V8 implements Math.random() as xorshift128+: fast, non-cryptographic, and fully invertible from a handful of outputs. Anthropic's Mythos spotted that the two code paths chained, and Horizon3.ai recovered the generator's internal state with Microsoft's Z3 SMT solver, forged an administrator session, and reached remote code execution. The lesson is the old one with a new finder: the bug was not one weak primitive, it was a weak primitive plus an oracle, and the model found the pair. Patch is HFS 3.2.1."
+  },
+  "footnote": "Compiled from public reporting. Direct article fetching was blocked by this run's network egress proxy, so items were assembled from search results and cross-referenced across the outlets linked above rather than read in full."
+}
