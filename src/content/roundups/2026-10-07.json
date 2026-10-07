@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-07",
+  "title": "Daily Briefing — Wednesday, October 7",
+  "coverage": "Window: roughly Oct 6-7, 2026, with two items reaching back to Oct 3 where that is when the news broke. Sourcing note: NYT, The Verge and Ars Technica were unreachable from this run, so these items are sourced from wires, trade press and primary company or agency releases.",
+  "top": [
+    {
+      "headline": "Northrop's YFQ-48A flew itself, gate to gate",
+      "summary": "Talon Blue completed a fully autonomous taxi, takeoff, maneuvering and landing cycle at Mojave with no human in the loop. It is the first CCA prototype to do the whole sortie on its own."
+    },
+    {
+      "headline": "Mistral shipped a 1-trillion-parameter model trained entirely in Europe",
+      "summary": "Large 4 is a natively multimodal MoE with 49B active parameters, trained from scratch on 3,800 Nvidia Grace Blackwell GPUs in Mistral's own datacenters. Weights drop at the end of the month."
+    },
+    {
+      "headline": "Nvidia pushed to the edge of a $6 trillion market cap",
+      "summary": "The stock hit a record Tuesday, and even so it is trailing the broader chip sector's 2026 rally. That is a useful signal about where the AI-infrastructure trade has broadened to."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Mistral Large 4: 1T total / 49B active, sovereign-stack bragging rights",
+          "summary": "Trained on 3,800 GB200s in Mistral's own European datacenters, with RL at scale generating about 33B tokens per day, 16B of them trainable after filtering. It claims 61.7% on DeepSWE v1.1, a top-five slot on the Artificial Analysis Cyber Index, and wins over GPT-6-Astra on legal and finance benchmarks. Weights by end of October.",
+          "sources": [
+            { "label": "Mistral AI", "url": "https://mistral.ai/news/mistral-large-4/" }
+          ]
+        },
+        {
+          "headline": "OpenAI dumped 372 math results on GitHub and said nearly all came from one prompt",
+          "summary": "A spokesperson said the results came from a single prompt handed to a single agent, cheaper than the multi-agent swarm used for earlier claims. Mathematicians are pushing back on verification and attribution.",
+          "sources": [
+            { "label": "The Decoder", "url": "https://the-decoder.com/openai-dumps-372-ai-generated-math-proofs-on-github-telling-the-academic-world-to-keep-up/" }
+          ]
+        },
+        {
+          "headline": "Finland ordered Google to stop work on two data center sites",
+          "summary": "Regulators say roughly 530 hectares of forest were cleared before environmental assessments were completed. It is the sharpest permitting brake yet on an AI datacenter buildout in the EU, and worth watching as a template.",
+          "sources": [
+            { "label": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns" }
+          ]
+        },
+        {
+          "headline": "Common Sense Media's Youth AI Safety Institute rated ChatGPT an unacceptable risk for teens",
+          "summary": "After more than 4,000 structured tests on accounts registered to 13- to 17-year-olds, it reported that ChatGPT missed more than one in four instances where testers judged a crisis referral was warranted, and that testers could discuss suicide, self-harm or disordered eating for up to an hour on parent-linked accounts without triggering an alert. OpenAI says much of the parental-alert testing happened before account linking had finished. Expect this to feed state-level AI-and-minors bills.",
+          "sources": [
+            { "label": "Axios", "url": "https://www.axios.com/2026/10/07/chatgpt-teens-safety-risk-common-sense-media" }
+          ]
+        },
+        {
+          "headline": "Lambda is raising up to $3B ahead of an IPO",
+          "summary": "The GPU-cloud company is reportedly seeking up to $3 billion at a $12 billion-plus valuation before a possible listing. It is filling the gap between hyperscalers and startups that cannot get allocation, another data point that compute leasing, not model training, is where the reliable margin currently sits.",
+          "sources": [
+            { "label": "DataCenterDynamics", "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-lambda-seeks-3bn-funding-round-ahead-of-ipo-plans-report/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Crew-12 undocked this morning after about 8 months aboard the ISS",
+          "summary": "Jessica Meir, Jack Hathaway, ESA's Sophie Adenot and Roscosmos' Andrey Fedyaev closed the hatch around 6:20 a.m. EDT with autonomous undocking at 8:05 a.m., on a 27-hour return profile to a splashdown off California Thursday around 11:34 a.m. EDT. They launched February 13.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/07/dragon-undocks-from-station-to-bring-nasas-spacex-crew-12-home/" }
+          ]
+        },
+        {
+          "headline": "Nuri's fifth flight put 14 of 15 satellites up, its most complex mission yet",
+          "summary": "The three-stage, 200-tonne KSLV-II shut down stage three at T+12:30 and sequenced five NEONSAT microsats, each under 220 lb with about 1 m panchromatic and 4 m color EO resolution, at 35 to 40 second intervals to build orbital separation, plus ten CubeSats into a roughly 350 mi sun-synchronous orbit. One CubeSat failed to eject. The flight also marked Hanwha Aerospace taking over launch operations.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/nuri-rocket-launches-15-satellites-on-south-koreas-1st-liftoff-of-2026-photo" },
+            { "label": "Korea Times", "url": "https://www.koreatimes.co.kr/business/tech-science/20261007/cover-story-nuri-rocket-successfully-completes-5th-flight" }
+          ]
+        },
+        {
+          "headline": "Nobel Prize in Physics to Francis Halzen for high-energy cosmic neutrinos",
+          "summary": "The award recognizes IceCube, a cubic kilometer of instrumented Antarctic ice that detects neutrinos by the Cherenkov light of their secondary particles. It is a detector whose primary structural material is the thing being drilled into. Halzen first proposed the concept in 1988.",
+          "sources": [
+            { "label": "NobelPrize.org", "url": "https://www.nobelprize.org/prizes/physics/2026/summary/" },
+            { "label": "CNN", "url": "https://www.cnn.com/2026/10/06/science/nobel-prize-physics-francis-halzen-winner-intl" }
+          ]
+        },
+        {
+          "headline": "AFRL is funding Sierra Space's Ghost for orbital cargo delivery",
+          "summary": "Under the REGAL program, Ghost is pitched as a reusable reentry vehicle loitering up to five years in an orbital warehouse and putting cargo on the ground anywhere in under 90 minutes. Sierra wants unit cost down from tens of millions to single-digit millions.",
+          "sources": [
+            { "label": "SpaceNews", "url": "https://spacenews.com/the-air-force-is-exploring-the-potential-of-space-vehicles-to-rapidly-transport-critical-supplies-from-orbital-warehouses-back-to-earth/" }
+          ]
+        },
+        {
+          "headline": "A full-halo CME off sunspot AR 4549 may arrive October 9",
+          "summary": "The eruption came with an M1.4 flare early on October 6 and is travelling at roughly 560 km/s, with NOAA issuing a G2 geomagnetic storm watch for October 9. Possible aurora across parts of 22 US states, and also a reminder to anyone flying GPS-dependent autonomy that ionospheric disturbance degrades position solutions well before anything dramatic happens.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/stargazing/auroras/powerful-solar-eruption-could-supercharge-the-northern-lights-this-week" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "YFQ-48A Talon Blue completed its first fully autonomous flight",
+          "summary": "October 3 at Mojave: autonomous taxi, takeoff, in-flight maneuvers and landing, with no human intervention, running Northrop's Prism Mission Autonomy stack on what the company bills as a government reference architecture. It lands weeks after the Air Force talked about 500 CCAs by 2032, and it is the clearest discriminator yet against General Atomics' YFQ-42.",
+          "sources": [
+            { "label": "Defense News", "url": "https://www.defensenews.com/industry/techwatch/2026/10/06/northrop-grummans-yfq-48a-cca-completes-first-fully-autonomous-flight/" },
+            { "label": "Northrop Grumman", "url": "https://news.northropgrumman.com/autonomous-systems/northrop-grumman-advances-autonomous-airpower-with-first-talon-blue-flight" }
+          ]
+        },
+        {
+          "headline": "Pentagon picked four directed-energy counter-drone systems for a 365-day pilot",
+          "summary": "JIATF 401 selected AeroVironment's palletized 30 kW LOCUST-family laser, Kord's 5 kW Firefly, Boeing's 5 kW Compact Laser Weapon System and Epirus' Leonidas high-power microwave, fielding to Fort Huachuca, Fort Bliss, Naval Base Kitsap, Grand Forks AFB and Whiteman AFB. Note the gap: only LOCUST has an FAA safety assessment, from White Sands.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/10/06/pentagon-jiatf-401-lasers-microwave-us-bases-pilot/" },
+            { "label": "Breaking Defense", "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/" }
+          ]
+        },
+        {
+          "headline": "Auterion's Nemyx vertical launch system squeezes 30% more aircraft into the same box",
+          "summary": "A modular tube launcher with an electric elevator that stacks drones vertically and keeps every one of them on charge, in powered standby and software-updated until launch. It is a packaging-and-thermal problem more than an aero one, and exactly the kind of constraint that decides sortie rate in the field. It is vendor-agnostic across partners including Skyfall, Rheinmetall, DeltaQuad and Griffon Aerospace, with tubes groupable into 2x2 or 4x4 arrays or a full ISO container.",
+          "sources": [
+            { "label": "DroneLife", "url": "https://dronelife.com/2026/10/06/auterion-introduces-universal-nemyx-vertical-launch-system/" },
+            { "label": "Auterion", "url": "https://auterion.com/auterion-introduces-nemyx-vertical-launch-system-for-drones-from-any-vendor/" }
+          ]
+        },
+        {
+          "headline": "Anduril and the Navy committed $6.6B to submarine component production",
+          "summary": "A Navy contract worth up to $2.9B, with payments tied to demonstrated production outcomes, plus $3.7B of Anduril private capital for a software-defined shipyard called Arsenal-2 at Sparrows Point, Maryland, making Virginia-class components. It is a defense-tech company moving from software and small autonomy into heavy industrial supply chain, which is where the Virginia program's actual bottleneck is. Production is targeted to begin by 2030.",
+          "sources": [
+            { "label": "Defense News", "url": "https://www.defensenews.com/industry/techwatch/2026/10/06/anduril-us-navy-invest-66-billion-to-boost-submarine-parts-production/" },
+            { "label": "DefenseScoop", "url": "https://defensescoop.com/2026/10/06/white-house-anduril-announce-new-shipyard-baltimore-county/" }
+          ]
+        },
+        {
+          "headline": "Nvidia touched a record high, closing on $6T",
+          "summary": "Worth holding alongside the Lambda raise and Mistral's 3,800-GPU training run: the compute layer keeps compounding while model differentiation narrows.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-06/nvidia-heads-for-6-trillion-value-with-chipmaker-back-at-record" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Jaguar launched the Type 01 in New York",
+          "summary": "Tri-motor, 986 bhp and 959 lb-ft, 120 kWh pack on an 850 V architecture charging at up to 350 kW, targeting 400-plus miles, from about $172,000 with deliveries early 2027. The 850 V choice is the interesting bit: it cuts conductor mass and I squared R loss at the cost of needing SiC inverters and tighter insulation coordination throughout.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/07/jaguar-electric-vehicle-autos-type-01.html" },
+            { "label": "Top Gear", "url": "https://topgear.com/car-news/official-jaguars-new-986bhp-electric-car-called-type-01" }
+          ]
+        },
+        {
+          "headline": "F1's formation-lap fiasco at Sepang was a wet-mode software bug",
+          "summary": "A wet-weather calibration shared across manufacturers derates the MGU-K from 350 kW to 250 kW in rain; at the near-crawl speeds of a safety-car formation lap approaching Turn 9 it dropped cars to walking pace, red-flagging the start until a software fix was loaded in the pits. FIA technical director Nikolas Tombazis said wet running had only ever been tested at tire tests and pre-season, never at those speeds.",
+          "sources": [
+            { "label": "RacingNews365", "url": "https://racingnews365.com/fia-explain-why-formation-lap-f1-engine-bug-was-not-previously-detected" },
+            { "label": "RaceFans", "url": "https://racefans.net/2026/10/05/fans-video-shows-moment-software-glitch-slowed-f1-cars-to-a-crawl-on-formation-lap" }
+          ]
+        },
+        {
+          "headline": "Singapore hosts the season's first sprint, and Russell takes another PU penalty",
+          "summary": "Mercedes goes into Marina Bay with a back-of-the-grid penalty for Russell after his Sepang power unit failure took him past the four-unit season allocation, served in Sunday's grand prix rather than the sprint. The open question is whether the ADUO-boosted engine gets fast-tracked into his pool to avoid a second penalty later. Kimi Antonelli, now 84 points clear, says the team cannot yet tell whether its upgrade package made the car faster or slower, a blunt reminder of how noisy correlation is when aero and PU changes land together.",
+          "sources": [
+            { "label": "RacingNews365", "url": "https://racingnews365.com/george-russell-to-start-singapore-gp-from-back-of-grid-after-fresh-penalty" },
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/mercedes-confirm-russell-is-set-for-grid-penalty-at-singapore-grand-prix.4Wp0nfUrqdG5TvhD76T8mw" }
+          ]
+        },
+        {
+          "headline": "Corvette ZR1X ran 206 mph in a standing mile, and still lost",
+          "summary": "The hybrid C8 flagship's full-mile trap speed was beaten by rivals in the same test at Johnny Bohmer Proving Grounds, with Lucid's Air Sapphire taking the zero-to-200-to-zero run by 6.1 seconds. That says more about gearing and aero drag at the top end than about the powertrain's output.",
+          "sources": [
+            { "label": "autoevolution", "url": "https://www.autoevolution.com/news/corvette-zr1x-goes-flat-out-for-a-full-mile-sprint-nails-206-mph-still-not-the-quickest-or-fastest-276638.html" }
+          ]
+        },
+        {
+          "headline": "Paris opens with Chinese brands taking floor space",
+          "summary": "Renault's E-Space concept leads the home lineup while Geely's refreshed Monjaro EM-i hybrid takes a European debut. The Paris show has become the clearest annual read on how fast Chinese OEMs are converting EU market access into showroom presence.",
+          "sources": [
+            { "label": "Motor1", "url": "https://www.motor1.com/features/808793/2026-paris-auto-show-preview/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "350 kW to 250 kW: the derate nobody tested at walking pace",
+    "body": "That is the wet-mode MGU-K derate that stranded the F1 field on the formation lap at Sepang. The calibration was correct everywhere in the tested envelope; it failed at near-zero vehicle speed, a corner of the state space nobody drives in anger and therefore nobody validated. Worth tattooing on the wall of any autonomy or flight-control shop: the untested regime isn't the fast one, it's the slow one."
+  },
+  "footnote": "Compiled from public reporting, wires, trade press and primary company and agency releases."
+}
