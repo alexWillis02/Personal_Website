@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-09",
+  "title": "Daily Briefing — Friday, October 9",
+  "coverage": "Window: roughly Oct 8-9, 2026. Sourcing note: direct article fetching was blocked again from this run (reuters.com, nytimes.com, arstechnica.com, techcrunch.com, spaceflightnow.com and others refused or failed DNS, and outbound curl returned 407/403 at the proxy), so items are built from cross-referenced search results rather than full article text. NYT is not reachable by this run's tooling at all, including domain-restricted search, so its technology, science and business beats are covered here via wires and trade press. Two items are flagged where they break the 24-hour line.",
+  "top": [
+    {
+      "headline": "OpenAI's real annualized revenue is near $50B, not the $70B that was reported",
+      "summary": "The FT reported Oct 8 that OpenAI told investors its annualized run rate was approaching $50 billion at the end of September, roughly $20 billion under the figure widely circulated in late September. Nothing was lost: the gap is an accounting artifact of investors trying to restate OpenAI's numbers on Anthropic's basis, which counts sales through AWS and Google Cloud."
+    },
+    {
+      "headline": "Blue Origin took $10B of outside money at a roughly $140B valuation",
+      "summary": "The first capital raise in the company's 26 years, led by Coatue with about $4 billion, with Bezos adding $2 billion of his own. He told Fox News an IPO is likely \"several years from now,\" while New Glenn remains grounded since the May pad explosion with return to flight targeted for December."
+    },
+    {
+      "headline": "Crew-12 is home after 237 days and four spacewalks",
+      "summary": "Dragon Freedom splashed down in the Pacific off Los Angeles at 11:34 a.m. EDT Thursday, closing out the mission this briefing left open yesterday. NASA's Jessica Meir and Jack Hathaway, ESA's Sophie Adenot and Roscosmos' Andrey Fedyaev now begin a 45-day post-flight reconditioning program."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "The $20B revenue gap knocked 3.4% off the semiconductor index",
+          "summary": "Axios and the FT both frame the restatement as a comparison-methodology problem rather than a business one: OpenAI excludes cloud-partner resale, Anthropic includes it, and the $70B figure came from investors adjusting upward to match. The market did not read it that way. The Philadelphia Semiconductor Index fell 3.39% and the Nasdaq 1.25% on Oct 8, with Nvidia off 2.94%, AMD 3.9% and Intel 5.34%, so the lesson is how much of the AI trade now rests on a run-rate metric that is one month multiplied by twelve.",
+          "sources": [
+            { "label": "Axios", "url": "https://www.axios.com/2026/10/08/openai-50-billion-arr-anthropic-revenue-accounting" },
+            { "label": "US News / Reuters", "url": "https://money.usnews.com/investing/news/articles/2026-10-08/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/10/08/intel-slides-3-as-chip-stocks-sell-off-with-yields-and-oil-higher/" }
+          ]
+        },
+        {
+          "headline": "OpenAI disrupted its first Category 5 influence operation",
+          "summary": "The Oct 8 threat report describes a Russian operation that stood up a fake Latin American think tank, the Social Research Center, staffed by local writers who appear not to have known who they worked for, placing 60-plus articles across Argentina, Bolivia, Ecuador, Peru and Poland. A parallel Iranian effort ran seven fabricated journalist personas pitching long-form pieces to real outlets. On OpenAI's six-point Breakout Scale the Russian campaign rates a 5, the highest it has published, and the models were used mostly for polish and translation rather than wholesale generation.",
+          "sources": [
+            { "label": "OpenAI", "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/" },
+            { "label": "Washington Examiner", "url": "https://www.washingtonexaminer.com/policy/technology/4760310/openai-ban-false-front-influence-operations-russia-iran/" }
+          ]
+        },
+        {
+          "headline": "Anthropic's new usage policy names drone arming and guidance software directly",
+          "summary": "The 2026 Usage Policy posted Oct 8 takes effect Nov 12, and the weapons section now explicitly covers guidance-and-control software and the arming of drones rather than relying on a general weapons clause. It also requires a human operator when a model is connected to physical machinery capable of causing injury, and bars Claude from recommending who police should investigate or arrest. Worth reading closely if you ever touch an LLM in a UAV autonomy or mission-planning loop.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/" },
+            { "label": "Unite.AI", "url": "https://www.unite.ai/anthropic-updates-usage-policy-adding-model-abuse-and-deception-rules/" }
+          ]
+        },
+        {
+          "headline": "The UN human rights chief says the regulatory clock is running out",
+          "summary": "In remarks this week the High Commissioner called for mandatory human rights due diligence in AI development and deployment, warning that the governance window is closing faster than states are moving. It lands against a fragmented picture: the EU's Digital Omnibus pushed high-risk obligations to December 2027, while the December 2026 watermarking deadline under Article 50 is unchanged. In the US, Executive Order 14365's DOJ litigation task force has yet to invalidate a single state AI law.",
+          "sources": [
+            { "label": "UN News", "url": "https://news.un.org/en/story/2026/10/1168529" },
+            { "label": "Gibson Dunn", "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Dragon Freedom brought Crew-12 down off Los Angeles",
+          "summary": "Splashdown was confirmed at 11:34 a.m. EDT (8:34 a.m. PDT) Thursday, about 27 hours after undocking from Harmony. The recovery ship Shannon hoisted the capsule aboard and extracted the crew; Meir's first radio call was that they were excited to be back on planet Earth. Four spacewalks and 237 days on orbit, which puts the crew near the upper end of a standard ISS increment and explains the 45-day reconditioning tail.",
+          "sources": [
+            { "label": "UPI", "url": "https://www.upi.com/Top_News/US/2026/10/08/nasa-crew-12-iss-splashdown/1811791486674" },
+            { "label": "Starlust", "url": "https://starlust.org/watch-splashdown-nasas-crew-12-astronauts-return-to-earth-after-237-days-in-space/" }
+          ]
+        },
+        {
+          "headline": "Blue Origin's first outside raise values it at about $140B",
+          "summary": "Coatue led with roughly $4 billion of a $10 billion round that was reportedly oversubscribed, and the valuation climbed from the $130 billion Reuters reported in July as demand built. Bezos has put in something like $30 billion himself since 2000 and says he held off on outside investors until he could see the financial future \"with some clarity.\" For scale, SpaceX listed in June at a $1.77 trillion market cap, so the gap between the two is still better than ten to one.",
+          "sources": [
+            { "label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4646915-jeff-bezoss-blue-origin-raises-10b-at-140b-valuation" },
+            { "label": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/10/62236128/jeff-bezos-blue-origin-ipo-funding" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab fell 4.9% as the space sector sold off, with Neutron still unflown",
+          "summary": "Shares closed Thursday at $68.40 amid a broad space selloff, continued losses and the fact that Neutron has yet to fly. TD Cowen cut its target to $90 from $120 while keeping a Buy, and Barclays initiated at Overweight with $85, so the analyst split is about timing rather than thesis. NASA has named Neutron alongside Falcon 9 as a candidate for bulk launch buys tied to its lunar base program, at roughly 13,000 kg to Falcon 9's 17,000 kg reusable.",
+          "sources": [
+            { "label": "MarketBeat", "url": "https://www.marketbeat.com/instant-alerts/price-rocket-lab-nasdaq-rklb-stock-falls-49-heres-what-happened-2026-10-08/" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/10/08/rocket-lab-fell-hard-over-the-last-3-months-wall-street-pro-predicts-it-doubles-from-today/" }
+          ]
+        },
+        {
+          "headline": "BlackSky sold a Gen-3 pilot to an unnamed foreign intelligence agency",
+          "summary": "The Oct 8 announcement is only a six-figure, short-term deal, but it buys 35-centimeter on-demand imagery over multiple global sites through the Spectra platform. BlackSky's stated play is converting pilots into multi-year subscriptions, which is the commercial-imagery business model in one sentence. The customer is described only as a sovereign partner in a strategically significant region.",
+          "sources": [
+            { "label": "BlackSky", "url": "https://blacksky.com/press-releases/blacksky-wins-six-figure-gen-3-on-demand-pilot-contract-with-new-international-intelligence-customer/" },
+            { "label": "Investing.com", "url": "https://www.investing.com/news/company-news/blacksky-wins-imagery-contract-with-international-intelligence-agency-93CH-4939017" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "TSMC's September revenue hit NT$511.86B, up 54.6% year over year",
+          "summary": "That is about $16.03 billion for the month, though down 0.6% sequentially from August, and brings nine-month revenue to roughly NT$3.9 trillion, up 41.1%. The monthly dip against a 55% annual gain is the useful detail: capacity, not demand, is setting the ceiling. Q3 earnings land next week, and TSMC committed in September to ASML High-NA EUV tools.",
+          "sources": [
+            { "label": "CNBC", "url": "https://cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html" },
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-q3-2026-revenue-hits-114521388.html" }
+          ]
+        },
+        {
+          "headline": "Part 108 hit 90 days at the White House with no final rule in sight",
+          "summary": "Oct 8 marked day 90 of OIRA review for the FAA's BVLOS final rule (RIN 2120-AL82), received July 10 and still listed as Pending Review; nothing happens automatically at 90 days. The original target was March 2026, and the FAA now says it hopes to publish by year end. Until it does, every BVLOS delivery operation runs on Part 135 certificates and case-by-case exemptions, and TSA's separate security-program roundtables have participation requests due Oct 19.",
+          "sources": [
+            { "label": "DroneRanker", "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/" },
+            { "label": "Commercial UAV News", "url": "https://www.commercialuavnews.com/part-108-nprm-bvlos-comment-period-107-waivers-tsa" }
+          ]
+        },
+        {
+          "headline": "A driverless resupply truck with an acoustic shotgun turret heads to AUSA",
+          "summary": "Forterra and Hypercraft are pairing the Razorback UGV with Forterra's AutoDrive stack and 9 Mothers' Edda counter-drone turret for the Oct 12-14 show, pitched at contested logistics. The 23 kg Edda cues on rotor acoustics, tracks optically and fires a shotgun at targets about 18 cm across between 10 and 100 meters, staying radio-silent until it shoots so it never gives away the vehicle's position. No customer, contract or price announced; payload is quoted as 2,400 lb by Defence Blog and 4,000 lb by Forterra, with 280 miles of range and 38 kW exportable power.",
+          "sources": [
+            { "label": "Defence Blog", "url": "https://defence-blog.com/self-driving-razorback-ugv-carries-drone-killing-turret/" },
+            { "label": "The Defense News", "url": "https://www.thedefensenews.com/news-details/Hypercraft-USA-Unveils-Razorback-Software-Defined-Autonomous-Unmanned-Ground-Vehicle/" }
+          ]
+        },
+        {
+          "headline": "Intel keeps its Terafab role and Musk says TSMC gets a sublease at most",
+          "summary": "Lip-Bu Tan confirmed Wednesday that Intel's arrangement on Musk's fab project stands, ending several days of speculation that TSMC would displace it. Musk separately said Tesla and SpaceX will build and run the plant themselves, with TSMC limited to possibly subleasing part of it. How a sublease would coexist with Intel 14A production in the same building is the unresolved part.",
+          "sources": [
+            { "label": "eeNews Europe", "url": "https://eenewseurope.com/en/intel-terafab-deal-tsmc-takeover-rumours" },
+            { "label": "DigiTimes", "url": "https://digitimes.com/news/a20261007VL218/intel-tsmc-manufacturing-ceo-tesla.html" }
+          ]
+        },
+        {
+          "headline": "Performance Drone Works put Shield AI's Hivemind on its attritable multirotors",
+          "summary": "PDW integrated Booz Allen's mission autonomy software, built on Hivemind, onto its AM-series drones with secure over-the-air fleet updates. The framing is partial workflow automation with the operator keeping mission decision authority, which is where most small-UAS autonomy actually sits right now. The interesting engineering question is how much of Hivemind runs on the airframe versus the ground station on a platform designed to be expendable.",
+          "sources": [
+            { "label": "PR Newswire", "url": "https://prnewswire.com/news-releases/pdw-to-deliver-booz-allen-mission-autonomy-software-and-secure-fleet-updates-on-am-drones-302903270.html" },
+            { "label": "Investing.com", "url": "https://in.investing.com/news/stock-market-news/performance-drone-works-integrates-booz-allen-autonomy-software-93CH-5626133" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Verstappen took Singapore sprint pole under investigation, after Russell topped the only practice",
+          "summary": "It is a sprint weekend, so the field got exactly one hour of running: Russell led FP1 at 1:32.274 in what reports describe as an older-spec Mercedes, two tenths up on Leclerc, with Verstappen sixth and without team radio for half the session. Verstappen then found the lap in SQ3 to take sprint pole ahead of Russell, Leclerc and Piastri, and is under investigation for a yellow-flag infringement. The session was broken up by a Perez crash, a red flag and a timing-system fault, and the FIA has declared a heat hazard for the weekend.",
+          "sources": [
+            { "label": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/fp1-russell-beats-leclerc-and-norris-to-top-spot-in-sole-practice-ahead-of-singapore-gp.6gZxy1UbfI5R8VLWXUBwZu" },
+            { "label": "Autosport", "url": "https://www.autosport.com/f1/live-text/f1-singapore-gp-follow-sprint-qualifying-at-marina-bay-circuit-with-live-timing/1127984/" },
+            { "label": "GrandPrix247", "url": "https://www.grandprix247.com/formula-1-news/singapore-grand-prix-sprint-qualifying-max-verstappen-on-pole-but-under-investigation" }
+          ]
+        },
+        {
+          "headline": "Britain weighs matching the EU's tariff on Chinese EVs",
+          "summary": "CNBC reported Oct 8 that Business Minister Jonathan Reynolds is considering aligning with the EU's levy, against a UK duty that currently sits at the standard 10% versus the effective 100% wall in the US. The UK government says it has imposed nothing yet. It is the clearest live test of whether the open-market approach to Chinese EVs survives contact with domestic manufacturing politics.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/08/autos-china-evs-uk-tariffs-hybrid-cars.html" }
+          ]
+        },
+        {
+          "headline": "The post-credit US EV cliff is steeper than the headline numbers suggest",
+          "summary": "Q3 data reported in the past week has Ford's US EV volume at 6,047 units, down 80.2% from 30,612 a year earlier, and GM's at 25,473, down 61.7%, with the Equinox EV off 92.4% and the Blazer EV off 84.4%. EVs fell to 1.2% of Ford's US sales from 5.6%, and 3.8% of GM's from 9.4%. Rivian is the outlier at 19,248 deliveries, up about 45% on the R2, though that is a global all-model figure and not directly comparable. Note the base: Q3 2025 was inflated by the pre-expiry tax-credit rush, so this overstates the underlying decline.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/gm-q3-2026-u-sales-170929019.html" },
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/810613/rivian-q3-sales-2026-r2/" },
+            { "label": "CleanTechnica", "url": "https://cleantechnica.com/2026/10/03/us-q3-ev-sales-report-the-good-the-bad-and-the-ugly/" }
+          ]
+        },
+        {
+          "headline": "Bloomberg sees gas prices setting up an EV comeback",
+          "summary": "Executives at Hyundai and Ford told Bloomberg that dealers are asking for more battery-electric inventory as fuel-price anxiety brings buyers back, which cuts directly against the Q3 collapse above. Both can be true: the credit expiry pulled demand forward into Q3 2025 and the hangover is mechanical, while the operating-cost argument is independent of subsidy. Watch Q4 and Q1 volumes rather than the quarter-over-quarter cliff.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-03/anxiety-over-gas-prices-points-to-looming-ev-comeback-in-us" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "A 23 kg turret that hears a drone before it sees it",
+    "body": "The Edda counter-UAS turret on the Razorback is a good lesson in choosing the cheap sensor. Rather than lead with radar, it cues on the acoustic signature of small rotors, then hands off to cameras for tracking, then fires a shotgun at a roughly 18 cm target between 10 and 100 meters. Every part of that chain is deliberately passive until the moment of engagement, which means the vehicle never radiates a signal an adversary can home on, and that matters more on a driverless resupply truck than on a crewed air-defense vehicle, because there is nobody aboard to notice being hunted. The tradeoff is honest: acoustics give you bearing and classification but poor range, which is exactly why the engagement envelope stops at 100 meters. Compare that with the 250 kW power cap and spooling-down turbo in yesterday's F1 bug, and you get the same principle from the other side, that the constraint you pick for one operating regime defines the one you fail in."
+  },
+  "footnote": "Compiled from public reporting on Oct 8-9, 2026. Direct article fetching was unavailable from this run, so figures are cross-referenced across search results and should be checked against primary sources before being quoted. The Q3 EV and Bloomberg items date to Oct 1-3 and are included as the week's relevant automotive data."
+}
