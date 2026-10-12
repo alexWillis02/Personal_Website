@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-12",
+  "title": "Daily Briefing — Monday, October 12",
+  "coverage": "Covering roughly Oct 9-12, 2026, with the window stretched past 24 hours for the weekend. The New York Times could not be reached from this run (its technology, science and business sections were blocked to automated fetching), so items come from other reputable outlets and primary announcements. Two Space bullets differ from the emailed edition: the emailed Sierra Space \"Ghost\" item was traced to an October 2024 story rather than this window, and an observatory-imagery item could not be verified to a specific article, so both were replaced with verified items from the same window (NASA's commercial station solicitation and the CRS-35 launch).",
+  "top": [
+    {
+      "headline": "AMD launches \"Helion,\" a rack-scale blueprint for agentic AI — and it's CPU-first",
+      "summary": "A single CPU-only rack carries up to 32,768 6th-gen EPYC \"Venice\" (Zen 6) cores, with an all-in-one variant mixing in Instinct MI350P GPUs. AMD is contributing the spec to the Open Compute Project; partner racks land November 2026."
+    },
+    {
+      "headline": "Microsoft's two most senior voices both called for hard AI safety controls inside 48 hours",
+      "summary": "Satya Nadella argued for an architectural \"emergency brake\" — separating model from harness, pushing safeguards outside the model, tamper-resistant action logs, and human authority to halt a model mid-task. Brad Smith followed with a call for binding global rules, noting AI faces lighter safety checks than milk."
+    },
+    {
+      "headline": "Ukrainian drones knocked out a third Yandex data center in four days",
+      "summary": "The Vladimir facility was fully halted overnight into Oct 11, with a fire that forced power cuts to about 5,000 residents and disrupted more than 80 cloud and consumer services. It is a live demonstration that cheap one-way UAVs can now reach strategic compute."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Nadella: AI models need an \"emergency brake\" humans control",
+          "summary": "In an Oct 10 post he pushed to stop treating models as opaque units whose outputs you accept or reject, proposing separation of the model from its orchestration harness, controls living outside the model, readable tamper-resistant records of every significant action, and containment by default: \"We must assume a model is compromised and contain it from the start.\" Notable because it is an architecture argument, not a policy one — closer to how you would design a flight control system than a content filter.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+            }
+          ]
+        },
+        {
+          "headline": "Brad Smith calls for binding global AI safety rules",
+          "summary": "Microsoft's president argued voluntary pledges are not enough, pressing for mandatory incident reporting and government shutdown capability, and urged the UK to lead. His line that dairy products face stricter safety checks than frontier AI is the quotable version of an argument now coming from inside the largest AI investor.",
+          "sources": [
+            {
+              "label": "BBC via Yahoo News",
+              "url": "https://www.yahoo.com/news/politics/articles/microsoft-president-brad-smith-calls-114008212.html"
+            }
+          ]
+        },
+        {
+          "headline": "White House restored UK AI Security Institute access to pre-release models after a 17-day freeze",
+          "summary": "AISI regained early access to unreleased models from OpenAI, Anthropic and Google DeepMind, ending a block that began Sept 24. Pre-release red-teaming by a foreign government body is one of the few real checks on frontier launches, so the interruption — and the reversal — matter more than the short duration suggests. Primary reporting was by The Telegraph; the link below is a secondary summary.",
+          "sources": [
+            {
+              "label": "Crypto Briefing",
+              "url": "https://cryptobriefing.com/uk-aisi-regains-pre-release-ai-model-access/"
+            }
+          ]
+        },
+        {
+          "headline": "Amazon will stop requiring NDAs in data center negotiations with local governments",
+          "summary": "It follows a similar Microsoft move and is aimed squarely at the community opposition now slowing siting. Grid interconnection and water are becoming the binding constraints on AI buildout, and secrecy clauses had become a liability in permitting fights.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Blue Origin is advancing the LC-36 rebuild, targeting a year-end New Glenn return to flight",
+          "summary": "Work is progressing roughly four months after a New Glenn failure damaged the pad; the launch bridge has been restored and most of the structure was salvaged. Pad-side rebuild speed, not vehicle readiness, is the pacing item here — a reminder that ground infrastructure is often the long-lead element in a launch program.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/blue-origin-lc-36-rebuild-new-glenn/"
+            }
+          ]
+        },
+        {
+          "headline": "Falcon 9 put 21 data-transport satellites up for the Space Development Agency",
+          "summary": "The Vandenberg launch, after a five-day delay from an Oct 4 scrub, supports the Proliferated Warfighter Space Architecture's Tranche 1 Transport Layer. The architecture is optical inter-satellite links in LEO — a low-latency mesh rather than a few big GEO birds.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/"
+            },
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launch-data-transport-satellites-military-proliferated-architecture"
+            }
+          ]
+        },
+        {
+          "headline": "NASA issued its final solicitation for commercial space stations, with bids due Dec 8",
+          "summary": "The agency released the final request for proposals on Oct 9 for commercial low Earth orbit destinations providing end-to-end destination and transportation services, with awards expected in spring 2027. NASA intends to be a paying tenant rather than the owner, and Jared Isaacman stressed the economics ultimately have to work — the hard part is closing a business case on a station whose anchor customer is deliberately not committing to own it.",
+          "sources": [
+            {
+              "label": "Houston Public Media",
+              "url": "https://www.houstonpublicmedia.org/articles/news/nasa/space/2026/10/12/564071/nasa-is-decommissioning-the-iss-its-asking-businesses-to-fill-its-space-in-space/"
+            },
+            {
+              "label": "NASA",
+              "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/"
+            }
+          ]
+        },
+        {
+          "headline": "Ship 42 is back at Massey's for more cryogenic proof testing ahead of Starship Flight 15",
+          "summary": "SpaceX pulled all six engines from the ship and returned it to the cryo stand for a third time, which points to an internal change — possibly engine plumbing — that needs thrust ram testing before a static fire. Repeat cryo proofing between campaigns signals continued margin work on tank structure rather than a settled design; Flight 15 is no earlier than Nov 8 from Pad 2.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/ship-40-returns-ship-42-more-testing/"
+            }
+          ]
+        },
+        {
+          "headline": "CRS-35 launches Tuesday with the ISS's final roll-out solar arrays",
+          "summary": "Falcon 9 is set to lift off from SLC-40 at 6:33 a.m. ET Oct 13, carrying the last two iROSA sets to augment station power, with docking planned about 52 hours later. Booster B1096 flies for the eighth time — the mission is a neat illustration of how routine reuse now underwrites station logistics.",
+          "sources": [
+            {
+              "label": "SpaceX",
+              "url": "https://www.spacex.com/launches/crs35"
+            },
+            {
+              "label": "SpacePolicyOnline",
+              "url": "https://spacepolicyonline.com/events/launch-of-spx-crs-35-cargo-mission-to-iss-oct-13-2026-ccsfs-633-am-et-nasa-coverage-begins-615-am-et/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "AMD Helion: 32,768 CPU cores in one rack, with an integrated token router",
+          "summary": "The CPU-only configuration is the interesting call — agentic workloads are dominated by orchestration, tool calls and context handling rather than raw matrix math, so core count and memory bandwidth can beat GPU FLOPs per dollar. A token router steers model calls across frontier and open-weight models, and the rack follows OCP's ORv4 spec with up to 16 MI350P GPUs and 102 Tbps of networking in the all-in-one build. Cisco, Dell, HPE, Lenovo, Supermicro, Foxconn, QCT and Wiwynn are building to it for November.",
+          "sources": [
+            {
+              "label": "AMD",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale"
+            },
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/pc-components/cpus/amd-debuts-helion-reference-design-for-agentic-ai-servers-with-up-to-32-768-zen-6-venice-cores-rack-design-ships-next-year-in-cpu-only-and-all-in-one-configurations"
+            }
+          ]
+        },
+        {
+          "headline": "FMCSA cleared cab-mounted beacons for driverless trucks, reversing its 2024 denial",
+          "summary": "The five-year exemption, granted Oct 8, lets Level 4 ADS trucks use roof beacons instead of a human walking out to place warning triangles — the single most-cited physical blocker to removing the safety driver. Aurora gets it without prior notice; other carriers must notify FMCSA in writing, file annual malfunction reports, and may not haul passengers or hazmat.",
+          "sources": [
+            {
+              "label": "CDLLife",
+              "url": "https://cdllife.com/2026/fmcsa-to-allow-self-driving-trucks-to-use-cab-mounted-warning-beacons-in-place-of-triangles/"
+            },
+            {
+              "label": "Automotive World",
+              "url": "https://www.automotiveworld.com/intelligence/fmcsa-clears-beacons-for-av-trucks-reversing-2024-denial/"
+            }
+          ]
+        },
+        {
+          "headline": "Lockheed unveiled PAC-3 Edge, aimed at hypersonic threats",
+          "summary": "The interceptor pairs a new seeker and upgraded flight controls with a Northrop Grumman rocket motor. Against a maneuvering hypersonic glide vehicle the binding problems are seeker acquisition late in the engagement and divert authority at endgame — which is exactly where those two changes land.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/2026/10/10/lockheed-martin-unveils-pac-3-edge-interceptor-designed-to-counter-hypersonic-threats/"
+            }
+          ]
+        },
+        {
+          "headline": "Counter-UAS is consolidating into layered air defense",
+          "summary": "Fortem Technologies and MBDA expanded their partnership to offer net-capture plus kinetic effectors to European and allied customers, jointly selling FireThorn — a radar-guided interceptor airframe paired with a NATO-approved warhead and aimed at Shahed/Geran-class one-way attack drones — alongside the net-capture DroneHunter. The cost-per-engagement math is the whole argument: you do not want to spend a missile on a $500 quadcopter.",
+          "sources": [
+            {
+              "label": "DroneLife",
+              "url": "https://dronelife.com/2026/10/12/integrated-counter-drone-systems-air-defense/"
+            },
+            {
+              "label": "Aviation Week",
+              "url": "https://aviationweek.com/defense/missile-defense-weapons/mbda-fortem-expand-partnership-counter-drone-tech"
+            }
+          ]
+        },
+        {
+          "headline": "FAA Part 107 knowledge test changes Oct 26 — worth knowing if you or your team are testing soon",
+          "summary": "The test adds image-based questions drawn from current FAA VFR charts rather than the printed testing supplement, so chart interpretation has to be done from the real thing; the underlying Part 107 operating regulations are unchanged. Separately, the FCC is moving to open 50 MHz of spectrum for drone use, which would ease the C2 link congestion that currently limits BVLOS density.",
+          "sources": [
+            {
+              "label": "DroneLife",
+              "url": "https://dronelife.com/2026/10/09/faa-part-107-test-changes-october-2026/"
+            },
+            {
+              "label": "DroneXL",
+              "url": "https://dronexl.co/2026/10/09/faa-part-107-test-chart-questions-october-26/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Verstappen led every lap at Singapore on his 250th GP start — his first Marina Bay win, 73rd overall",
+          "summary": "He took it from pole, beating Leclerc by 7.3s with Antonelli third. Antonelli extended his championship lead to 102 points over Russell, who recovered to 9th from P19 after a grid penalty for power-unit element overuse. Antonelli can now mathematically clinch the title in Austin.",
+          "sources": [
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+            },
+            {
+              "label": "RaceFans",
+              "url": "https://www.racefans.net/2026/10/11/2026-singapore-grand-prix-race-result-and-championship-points/"
+            }
+          ]
+        },
+        {
+          "headline": "Thermal management was the story down the field at Marina Bay",
+          "summary": "Antonelli reported brake struggles and heat soak warming the fluid around his feet, plus a pedal going long. Singapore's low average speed and high duty cycle is the worst case for cooling — constant throttle-to-brake transitions with almost no straight-line airflow to reject heat.",
+          "sources": [
+            {
+              "label": "Sky Sports",
+              "url": "https://www.skysports.com/f1/news/13597655/kimi-antonelli-relieved-max-verstappen-is-not-in-2026-f1-title-fight-after-red-bull-driver-dominates-singapore-gp"
+            }
+          ]
+        },
+        {
+          "headline": "Nio logged about 1.2 million battery swaps in a single week",
+          "summary": "Its network handled 1,192,221 swaps from Oct 1-7 across roughly 4,100 stations, breaking the daily record twice and peaking at 183,664. It is the strongest operational datapoint yet that swap can work at scale — the counter-argument to the usual objection that pack standardization and station utilization never pencil out.",
+          "sources": [
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/10/10/battery-swap-works-nio-completes-1-2-million-swaps-in-a-single-week/"
+            },
+            {
+              "label": "CnEVPost",
+              "url": "https://cnevpost.com/2026/10/09/nio-1-2-million-battery-swaps-7-day-holiday/"
+            }
+          ]
+        },
+        {
+          "headline": "Citroen revived the 2CV as a roughly 15,000-euro electric concept for 2028",
+          "summary": "That target price is the engineering constraint, not a marketing line: at 3.76 m long and a roughly 1,000 kg weight target, it implies a small pack, minimal power electronics and a deliberately low power target — the opposite of the spec-sheet race. Citroen has not disclosed battery size, range, power or charging speed.",
+          "sources": [
+            {
+              "label": "InsideEVs",
+              "url": "https://insideevs.com/news/811436/citroen-2cv-electric-reborn-concept/"
+            }
+          ]
+        },
+        {
+          "headline": "GM committed to mass-producing prismatic LMR cells, with a new development center behind them",
+          "summary": "Ultium Cells will build the cells at Spring Hill, Tennessee — GM says the first plant in the world to mass-produce prismatic lithium-manganese-rich cells — with commercial output by 2028. The chemistry runs roughly 65 percent manganese and 35 percent nickel for about 33 percent higher energy density than GM's best LFP at comparable cost, aimed at 400-plus-mile electric trucks.",
+          "sources": [
+            {
+              "label": "InsideEVs",
+              "url": "https://insideevs.com/news/810064/gm-lmr-battery-production-at-spring-hill-lges/"
+            },
+            {
+              "label": "Carscoops",
+              "url": "https://www.carscoops.com/2026/10/gm-lmr-battery-production/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "32,768",
+    "body": "That is the CPU core count AMD is putting in a single Helion rack — with no GPUs in it at all. The design bet is that agentic workloads are bound by orchestration, context handling and tool-call latency rather than matrix throughput, so for that class of job you would rather buy cores and memory bandwidth than FLOPs. Runner-up number: Aurora's beacon exemption rested on 34 driverless trucks logging over 500,000 miles across three months with zero beacon faults — regulatory approval is usually won with boring reliability data, not capability demos."
+  },
+  "footnote": "Compiled from public reporting and primary announcements, Oct 9-12, 2026."
+}
