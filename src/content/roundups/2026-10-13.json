@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-13",
+  "title": "Daily Briefing — Tuesday, October 13",
+  "coverage": "Covering roughly Oct 12-13, 2026. The New York Times, Reuters, AP, Ars Technica and The Verge could not be reached from this run (direct article fetching was blocked), so items come from other reputable outlets and primary announcements and were verified by search rather than by reading each page. Three details differ from the emailed edition: the emailed Space bullet on Sierra Space \"Ghost\" traced to an October 2024 SpaceNews story rather than this window and was replaced with a verified item from the same window (NASA's moon-base launch purchases); the Citroen 2 CV battery figure is an outside estimate rather than a Citroen disclosure and is now labeled as such; and unverified milestone counts in the Singapore Grand Prix bullet were dropped.",
+  "top": [
+    {
+      "headline": "Microsoft unveiled Maia 300, its third-generation AI accelerator",
+      "summary": "The chip claims 40% more tokens per megawatt than leading Nvidia and AMD GPU systems, with production deployment starting in 2027. Hyperscaler silicon is now competing on energy efficiency rather than raw FLOPS."
+    },
+    {
+      "headline": "SpaceX launched CRS-35 carrying the last pair of ISS roll-out solar arrays",
+      "summary": "This morning's Falcon 9 flight closes a station power-upgrade campaign that began in 2021. Dragon docks Thursday, and the arrays complete a modernization that lifts total station power past 160 kW."
+    },
+    {
+      "headline": "Paris Motor Show press day became Europe's cheap-EV counterattack",
+      "summary": "It was headlined by a Citroen 2 CV concept targeting 15,000 euros and a Peugeot RCZ Vision coupe on a 1,000-volt architecture with a solid-state pack. Both are aimed squarely at sub-20,000-euro Chinese competition."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Microsoft announces Maia 300 inference chip",
+          "summary": "Microsoft's third-gen custom accelerator, revealed Oct 12, claims 40% more tokens per megawatt than leading GPU-based systems and roughly 7x the rack-scale throughput of Maia 200 in a full 96-accelerator configuration. Each chip carries 288 GB of HBM4 at 18 TB/s with a 950 W TDP, and production workloads start in 2027 as Microsoft makes Maia its primary inference platform. Tokens-per-megawatt as the headline metric is the tell: at gigawatt scale, power - not silicon cost - is the binding constraint.",
+          "sources": [
+            {
+              "label": "UPI",
+              "url": "https://www.upi.com/Top_News/US/2026/10/12/microsoft-azure-maia-300-ai-chips-nvidia/3511791823960"
+            },
+            {
+              "label": "Neowin",
+              "url": "https://www.neowin.net/news/microsoft-unveils-maia-300-ai-accelerator-to-take-on-nvidia-at-gigawatt-scale/"
+            }
+          ]
+        },
+        {
+          "headline": "Amazon in talks to buy Decart for about $7B",
+          "summary": "Reports on Oct 12 say Amazon is negotiating to acquire the three-year-old Israeli real-time video and world-model startup, weeks after Anthropic reportedly walked away from a roughly $6B deal. Decart's niche is low-latency interactive generative video, which is compute-hungry in a way that fits an AWS capacity story.",
+          "sources": [
+            {
+              "label": "GeekWire",
+              "url": "https://www.geekwire.com/2026/why-amazon-might-pay-billions-for-decart-a-3-year-old-ai-startup-that-hasnt-disclosed-its-revenue/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic says new defenses cut model distillation by 90-99%",
+          "summary": "An Oct 12 research post describes preserved-thinking handling, a two-stage classifier with a false-positive rate under 0.1%, and stricter usage enforcement that together reduce the usable reasoning traces an attacker can harvest from Claude by 10-100x. Anthropic says it has banned tens of thousands of accounts, sometimes within two hours of a campaign starting, and names Z.ai as having attempted distillation. Distillation defense is becoming a real engineering discipline, since reasoning traces are the most valuable thing a frontier lab emits.",
+          "sources": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/research/distillation-defenses"
+            }
+          ]
+        },
+        {
+          "headline": "NTT Data near deal for Anthropic's first Japanese data center",
+          "summary": "Nikkei reports final-stage talks for an Osaka facility of up to 500 MW at around $6.3 billion. For scale, 500 MW is roughly half a large nuclear unit's output dedicated to a single tenant.",
+          "sources": [
+            {
+              "label": "AOL / Reuters",
+              "url": "https://www.aol.com/articles/ntt-data-final-talks-build-025106000.html"
+            }
+          ]
+        },
+        {
+          "headline": "China launches a mathematics-specific AI alliance",
+          "summary": "Fields medalist Shing-Tung Yau is leading a coalition of eight institutions, aiming at more than 1,000 scientists, to build domestic math-specialized models. The explicit framing is closing a gap with US labs on formal reasoning and proof automation.",
+          "sources": [
+            {
+              "label": "South China Morning Post",
+              "url": "https://www.scmp.com/news/china/science/article/3370492/leading-chinese-mathematicians-unite-behind-use-ai-research"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "CRS-35 launches with the final iROSA pair",
+          "summary": "Falcon 9 lifted off from Cape Canaveral at about 6:35 a.m. EDT (1035 UTC) today with roughly 2,860 kg of pressurized cargo plus the last two roll-out solar arrays in Dragon's unpressurized trunk. Dragon C211 docks to Harmony's zenith port on Oct 15 at 15:00 UTC, a trip of about 52 hours. The arrays are the fourth and final Redwire ROSA pair, closing a power upgrade begun in 2021.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/crs-35-launch/"
+            },
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/13/live-coverage-nasa-spacex-to-launch-new-solar-arrays-6300-pounds-of-cargo-to-the-space-station/"
+            }
+          ]
+        },
+        {
+          "headline": "Falcon 9 breaks an unusual three-week Starlink drought",
+          "summary": "A Vandenberg launch on Oct 12 put up 27 Starlink satellites, the first Falcon 9 Starlink mission in more than three weeks. The slower cadence is visible against 2025 as Starship takes on V3 deployment, and it lands in the same week that SpaceX is reported to have stopped taking new dedicated Falcon 9 bookings beyond 2028.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://space.com/space-exploration/launches-spacecraft/spacex-launches-falcon-9-starlink-mission-for-1st-time-in-more-than-3-weeks-photo"
+            }
+          ]
+        },
+        {
+          "headline": "Blue Origin rebuilding LC-36 for a year-end New Glenn return",
+          "summary": "After May's pad explosion destroyed the transporter-erector and its hydraulic cylinders beyond repair, Blue Origin dropped the transporter-erector entirely and switched to vertical integration on the support tower alone, which now has to move cryogenic propellant from the tank farm to the vehicle. Crews finished destacking the vehicle access tower in July and have restacked the first two modules as of October. The company is still targeting return-to-flight before year-end, with roughly three months left - a self-imposed and tight deadline.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/blue-origin-lc-36-rebuild-new-glenn/"
+            },
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/blue-origin-outlines-new-launch-pad-approach-as-it-pushes-to-return-new-glenn-to-flight/"
+            }
+          ]
+        },
+        {
+          "headline": "NASA weighs bulk launch buys as Isaacman calls the moon race \"months, not years\"",
+          "summary": "Administrator Jared Isaacman put China's crewed lunar target at 2029 against NASA's end-of-2028, and moon base program manager Carlos Garcia-Galan said NASA is evaluating groups of launch vehicles and expects to announce an initial set of purchases soon. The underlying plan is a roughly $30 billion, three-phase push for a permanent south-pole presence by 2036 that needs dozens of launches and drops the long-proposed lunar Gateway. Buying launch in blocks rather than per-mission is how you get a cadence that a surface base actually requires.",
+          "sources": [
+            {
+              "label": "Astronomy",
+              "url": "https://www.astronomy.com/space-exploration/nasas-30b-plan-to-build-a-moon-base/"
+            },
+            {
+              "label": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/nasa-unveils-new-ambitious-moon-base-plans/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Sikorsky packs four Nomad 100 drones into one 20-ft container",
+          "summary": "Announced Oct 12 as AUSA opened, the \"Fast Pack\" bundles four 18-ft-wingspan rotor-blown-wing aircraft plus mission command, power, comms and maintenance gear into a single standard container, runway-free and ship-deployable. Two aircraft are mission-ready in under 15 minutes, the other two in four to six hours, and the Nomad 100 came out of DARPA's EVADE program using Sikorsky's MATRIX autonomy. The rotor-blown wing is the interesting bit: VTOL without a separate lift system, at the cost of a tricky hover-to-cruise transition.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/techwatch/2026/10/12/sikorsky-packs-4-nomad-drones-into-a-single-shipping-container/"
+            },
+            {
+              "label": "Lockheed Martin",
+              "url": "https://news.lockheedmartin.com/2026-10-12-Sikorsky-Introduces-Nomad-TM-100-Fast-Pack,-a-Containerized-VTOL-UAS-Kit-for-Rapid-Deployment-in-Austere-Environments"
+            }
+          ]
+        },
+        {
+          "headline": "SIG Sauer / IAI armed quadcopter completes M250 live-fire test",
+          "summary": "The FIRE STORM 250 heavy quadcopter acquired and engaged aerial targets while firing a 6.8mm M250 light machine gun, per an Oct 13 report. Firing an automatic weapon from a multirotor is a recoil-rejection and attitude-control problem first and a weapons problem second.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/techwatch/2026/10/13/drone-carrying-m250-machine-gun-completes-firing-test/"
+            }
+          ]
+        },
+        {
+          "headline": "Army stands up a 390A robotics technician specialty",
+          "summary": "Announced Oct 12, the new warrant-officer field puts technicians alongside commanders to field, maintain and advise on autonomous systems, including keeping them working in GPS-denied conditions. Institutionalizing a maintenance career field is the unglamorous signal that drone warfare is now a sustainment problem.",
+          "sources": [
+            {
+              "label": "Military Times",
+              "url": "https://www.militarytimes.com/news/your-military/2026/10/12/us-army-creates-robotics-technician-job-to-focus-on-drone-warfare/"
+            }
+          ]
+        },
+        {
+          "headline": "Counter-drone consolidates into integrated air defense",
+          "summary": "Fortem Technologies and MBDA expanded their partnership at AUSA to offer net-capture and kinetic effectors under one fire-control picture rather than as standalone C-UAS boxes. The hard problem has moved from detection to magazine depth and cost-per-kill against cheap mass.",
+          "sources": [
+            {
+              "label": "DroneLife",
+              "url": "https://dronelife.com/2026/10/12/integrated-counter-drone-systems-air-defense/"
+            }
+          ]
+        },
+        {
+          "headline": "Lockheed debuts PAC-3 Edge for the Army's future interceptor program",
+          "summary": "Shown at AUSA this week, PAC-3 Edge is pitched as the most agile Patriot interceptor yet, aimed at maneuvering hypersonic threats, with a projected production rate around 2,000 units a year. Endgame agility against maneuvering reentry vehicles is a divert-thrust and seeker-bandwidth fight.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/techwatch/2026/10/12/lockheeds-new-pac-3-edge-interceptor-aims-for-agility/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Peugeot RCZ Vision concept: 1,000V, solid-state, about 500 hp",
+          "summary": "Revealed on Paris press day, the four-seat coupe claims 600 km range at 11.5 kWh/100 km and 10-80% charging in 10 minutes, from a Factorial-developed solid-state pack on a 1,000-volt architecture, with steer-by-wire and brake-by-wire with blended regen on Stellantis' STLA One platform. Outlets put output between 368 kW and 500 hp. A 1,000V bus is what makes a 10-minute charge thermally survivable: double the voltage, halve the current for the same power, and cut resistive losses fourfold.",
+          "sources": [
+            {
+              "label": "Paul Tan",
+              "url": "https://paultan.org/2026/10/12/peugeot-rcz-vision-four-seater-ev-concept-showcases-new-design-direction-600-km-range-fr-solid-state-battery/"
+            },
+            {
+              "label": "Top Gear",
+              "url": "https://www.topgear.com/car-news/first-look/new-peugeot-rcz-vision-solid-state-battery-493bhp-and-a-mad-steering-wheel"
+            }
+          ]
+        },
+        {
+          "headline": "Citroen revives the 2CV as a 15,000-euro EV concept",
+          "summary": "It is 3.76 m long with a target weight of about 1,000 kg, roughly half the mass of an e-C3, using flat steel panels, detachable bumpers, molded-in tailgate color to skip paint, and column-mounted controls. Citroen has not disclosed battery, motor or range; outside estimates put it near a 20-30 kWh LFP pack, based on the e-C3's 30 kWh entry car. Targeted for 2028 and built at Pomigliano d'Arco in Italy, it is a cost-down exercise disguised as nostalgia - and the clearest European answer yet to sub-20,000-euro Chinese EVs.",
+          "sources": [
+            {
+              "label": "New Atlas",
+              "url": "https://newatlas.com/automotive/citroen-2-cv-concept-paris-motor-show-2026/"
+            },
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/10/11/the-legendary-citroen-2cv-is-back-as-a-e15k-electric-concept-for-2028/"
+            }
+          ]
+        },
+        {
+          "headline": "BMW M says torque, not demand, will kill the manual",
+          "summary": "M boss Frank van Meel reiterated this week that keeping a manual gearbox is \"really difficult\" because current and future M powertrain torque exceeds what a packageable three-pedal transmission can handle - not because buyers stopped asking. A clean illustration of a gearbox torque-capacity ceiling driving a product decision.",
+          "sources": [
+            {
+              "label": "BMWBlog",
+              "url": "https://www.bmwblog.com/2026/10/11/bmw-m-manual-transmission-future-frank-van-meel/"
+            }
+          ]
+        },
+        {
+          "headline": "Verstappen wins Singapore; Antonelli can clinch the title in Austin",
+          "summary": "Verstappen took his first Singapore win from pole, 7.3s ahead of Leclerc with Antonelli third, while Ferrari fumbled Hamilton's strategy and left him sixth. Antonelli now leads Russell 340-238, a 102-point gap with five rounds left, putting the 2026 drivers' title within reach at the US Grand Prix. Mercedes leads the constructors' standings on 578 points to Ferrari's 444.",
+          "sources": [
+            {
+              "label": "The Race",
+              "url": "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-race-result/"
+            },
+            {
+              "label": "RacingNews365",
+              "url": "https://racingnews365.com/2026-f1-championship-standings-after-singapore-grand-prix"
+            }
+          ]
+        },
+        {
+          "headline": "Ford evaluating IndyCar's 2028 engine formula",
+          "summary": "Mark Rushbrook said Oct 13 that Ford is looking at the series' new 2.4-liter twin-turbo V6 hybrid but has nothing in motion, with 2029-30 the realistic entry window given F1, IMSA, NASCAR, WEC Hypercar in 2027 and a WRC return in 2028. Chevrolet and Honda are both committed and expected to begin track testing the 2.4L within about six months.",
+          "sources": [
+            {
+              "label": "RACER",
+              "url": "https://racer.com/2026/10/13/ford-evaluating-indycar-s-next-gen-engine"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "A deployment mechanism whose actuator is the structure itself",
+    "body": "Each iROSA wing delivers more than 20 kW for over 10 years, and the pair launched today completes eight wings totaling more than 160 kW of station power - enough to carry the ISS to its planned 2030 deorbit. The arrays unroll from a coiled composite boom driven by stored strain energy rather than motors or gearboxes, which is also what lets a full wing stow inside a Dragon trunk. A structure that is its own actuator is about as elegant as spacecraft mechanisms get."
+  },
+  "footnote": "Compiled from public reporting and primary announcements, Oct 12-13, 2026."
+}
