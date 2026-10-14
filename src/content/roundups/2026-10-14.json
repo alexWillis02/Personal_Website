@@ -1,0 +1,248 @@
+{
+  "date": "2026-10-14",
+  "title": "Daily Briefing — Wednesday, October 14",
+  "coverage": "Covering roughly Oct 13-14, 2026. The New York Times, Reuters, AP, Ars Technica and The Verge could not be fetched from this run, so items come from other reputable outlets and primary announcements; where a story originated at one of those outlets it was cross-referenced through accessible sources. Source links were rewritten from mail-client redirects to direct article URLs, and the Mercedes-AMG item now points to a specific Carscoops report rather than a news index.",
+  "top": [
+    {
+      "headline": "Google ships Gemini 4 \"Argon\" broadly",
+      "summary": "Generally available to developers, enterprises and consumers on Oct 13, with a 1M-token unified input/output window and introductory API pricing of $2/$10 per million tokens. Google's attempt to retake the frontier after months of delays and a DeepMind leadership shakeup."
+    },
+    {
+      "headline": "The Army reorganizes around autonomy",
+      "summary": "At AUSA, the Army revealed it stood up Futures and Autonomous Systems Command (FASCOM) on Oct 1, to be led by a three-star, with a first mandate of corps-level autonomous capability. Separately, officials said the first high-energy laser counter-drone weapon could field by early 2028."
+    },
+    {
+      "headline": "AI-bubble anxiety hit Asian chip stocks",
+      "summary": "The IMF's Global Financial Stability Report warned a sharp AI-equity correction is now a systemic risk, noting large U.S. tech is over 35% of S&P 500 market cap vs about 12% a decade ago. Korea's Kospi fell about 6.25% on Oct 13, SK Hynix off 10%, Samsung off 7.4%."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Gemini 4 Argon goes GA with aggressive safety claims",
+          "summary": "Beyond the 1M-token window and 95%-off cached input, Google claims #1 on the Vals Index, 87% on the ERQA embodied-reasoning benchmark, and a 0.7% attack success rate on Gray Swan's indirect prompt-injection benchmark across 15 adaptive attempts. Intro pricing ends Nov 30, then doubles to $4/$20. All benchmarks are Google's own.",
+          "sources": [
+            {
+              "label": "Google",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta launches Muse Wonder",
+          "summary": "Announced Oct 12, Muse Wonder and Muse Wonder Full are Meta's most capable models to date, via the Meta Model API and Muse Code, with new \"Active Memory\" and \"Active Focus\" features. Benchmark claims are internal-only so far.",
+          "sources": [
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/10/13/top-tech-news-today-october-13-2026-character-ai-bankruptcy-metas-muse-wonder-amd-ai-chips-apples-smart-home-push-and-cybersecurity-threats/"
+            }
+          ]
+        },
+        {
+          "headline": "Character.AI files Chapter 11; Disney bids $20M for assets",
+          "summary": "The company Google paid roughly $2.7B to license-and-hire from in 2024 listed assets and liabilities of $50-100M, with Disney as stalking-horse bidder for a non-exclusive perpetual IP license. Expected to close late Nov or early Dec.",
+          "sources": [
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/10/13/top-tech-news-today-october-13-2026-character-ai-bankruptcy-metas-muse-wonder-amd-ai-chips-apples-smart-home-push-and-cybersecurity-threats/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic warns of worm-like autonomous agents",
+          "summary": "Per an FT report Oct 13, Anthropic cautioned that future agentic systems could self-propagate across poorly secured IoT devices (TVs, thermostats, cameras). Framed as a forward-looking threat model, not an active outbreak.",
+          "sources": [
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/10/13/top-tech-news-today-october-13-2026-character-ai-bankruptcy-metas-muse-wonder-amd-ai-chips-apples-smart-home-push-and-cybersecurity-threats/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI says it found a hidden recording device in an office",
+          "summary": "Reported Oct 13: OpenAI traced a planted listening device to an employee using its own models, referred the case to the FBI, and the employee was arrested and fired. No indication model weights, source code or customer data were accessed.",
+          "sources": [
+            {
+              "label": "OpenAI Newsroom",
+              "url": "https://x.com/OpenAINewsroom/status/2110095403198849132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "CRS-35 launched with the last iROSA pair",
+          "summary": "Falcon 9 lifted Dragon from SLC-40 at 6:35 a.m. EDT Oct 13 with about 6,300 lb (2,860 kg) of cargo, docking to Harmony's space-facing port around 11 a.m. EDT Oct 15. Headline payload: the final set of ISS Roll-Out Solar Arrays, installed on spacewalks this fall, completing the power upgrade campaign begun in 2021. Dragon remains the only operational freighter that returns cargo to Earth.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/"
+            },
+            {
+              "label": "NASA",
+              "url": "https://www.nasa.gov/blogs/spacestation/2026/10/13/spacex-dragon-counts-down-to-launch-for-station-resupply-mission/"
+            }
+          ]
+        },
+        {
+          "headline": "Blue Origin's LC-36 rebuild is racing a December New Glenn return",
+          "summary": "After the pad explosion about four months ago (toppled lightning tower, bent support-tower beams, destroyed transporter-erector, launch mount into the flame trench), Blue Origin has abandoned horizontal integration for vertical integration off the support tower alone, Starship-style. Modules were destacked, repaired in parallel and are now restacking; umbilicals and rotating fairing-access platforms are still to come. Bezos is targeting December with a Blue Ring payload.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/blue-origin-lc-36-rebuild-new-glenn/"
+            }
+          ]
+        },
+        {
+          "headline": "Blue Origin is building toward four pads",
+          "summary": "LC-36A (rebuilding), LC-36B for New Glenn 9x4, SLC-14 at Vandenberg, and reportedly LC-46. The company is seeking approval for weekly launches from LC-36A alone.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/blue-origin-lc-36-rebuild-new-glenn/"
+            }
+          ]
+        },
+        {
+          "headline": "CRS-35's science manifest is heavy on tissue engineering",
+          "summary": "The flight carries artificial retina fabrication, 3D heart-tissue models for drug screening, brain organoids for neurodegenerative disease, and materials to study a glass that only forms without gravity-driven convection. Common thread: sedimentation-free processing.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Army targets early 2028 for its first fielded high-energy laser",
+          "summary": "Under Enduring High Energy Laser (E-HEL), AeroVironment's LOCUST X3 (modular, palletized, first on a JLTV with ISV integration planned) took a $464.8M contract in September for 26-plus units. Eight kills were demonstrated with a prototype at Modernization Day this month; first delivery is Q4 FY27, with BG Guy Yelverton naming spring 2028 as acceptable. Modularity is the maintenance argument: field-level subsystem swaps and upgrades without replacing the unit.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/"
+            }
+          ]
+        },
+        {
+          "headline": "FASCOM: the Army's new autonomy command",
+          "summary": "Established Oct 1 by redesignating Futures and Concepts Command, absorbing CCDC, Medical R&D Command and Joint Modernization Command. It will build \"capability-based formations\" for long-range fires, protection, armor, logistics and breaching. Fort Rucker was named the UAS Autonomy Center of Excellence, where manned-unmanned rotary pairing for over-the-horizon targeting has begun. New 390A Robotics Technician Integrator graduates go to FASCOM-supported experimental units.",
+          "sources": [
+            {
+              "label": "DefenseScoop",
+              "url": "https://defensescoop.com/2026/10/13/three-star-will-head-armys-new-autonomy-command-which-will-initially-focus-on-corps-level-systems/"
+            }
+          ]
+        },
+        {
+          "headline": "\"Operation Jailbreak\" is the interoperability story behind AUSA",
+          "summary": "From May to August, defense companies hacked each other's autonomous systems to force them onto a common network: 600 people and 50 companies at Fort Carson, then Falcon Fury in Tampa (Jul 27-Aug 28) with 70 companies and 150-plus pieces of tech. Integrations were fielded with CENTCOM units within 30 days of the first event. One demo put Epirus' Leonidas high-power-microwave counter-drone system onto a C2 network alongside other autonomous platforms. The idea came from watching Ukrainian forces chain drones, sensors and shooters on one network.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-hackathon-sets-backdrop-for-an-ausa-focused-on-autonomy/"
+            }
+          ]
+        },
+        {
+          "headline": "WindBorne wins up to $49M from the Air Force for balloon-sourced weather data",
+          "summary": "About 700 autonomous balloons will supply atmospheric soundings, with an initial order near $1.7M. Relevant to UAV mission planning: persistent in-situ profiles are what fix boundary-layer wind error in forecast models.",
+          "sources": [
+            {
+              "label": "TechStartups",
+              "url": "https://techstartups.com/2026/10/13/top-tech-news-today-october-13-2026-character-ai-bankruptcy-metas-muse-wonder-amd-ai-chips-apples-smart-home-push-and-cybersecurity-threats/"
+            }
+          ]
+        },
+        {
+          "headline": "Scaleway orders an AMD MI355X supercomputer; TSMC reports Thursday",
+          "summary": "The French cloud firm's first AI supercomputer outside France, sited in Sweden, runs on AMD Instinct MI355X and ROCm, a rare non-Nvidia frontier-scale win. TSMC's Oct 15 results are the best early read on Nvidia's next quarter, and SEMICON West opened with the industry past $1T and energy, not lithography, framed as the next wall.",
+          "sources": [
+            {
+              "label": "TechTimes",
+              "url": "https://www.techtimes.com/articles/328968/20261013/semicon-west-2026-opens-chips-cross-1-trillion-energy-now-becomes-industrys-next-wall.htm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "F1 returns to Africa: Rwanda signs a 10-year deal",
+          "summary": "Announced Oct 13, the African Grand Prix will run at a new Bugesera circuit near Kigali's new international airport from the early 2030s, F1's first African race since 1993. Designed by Carsten Tilke and Alex Wurz: 6 km, 17 corners, anti-clockwise, and 197 m of elevation change per lap at roughly 1,500 m altitude. Thinner air means less turbo mass flow, less downforce and a harder cooling problem.",
+          "sources": [
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/formula-1-returns-to-africa-with-10-year-agreement-to-race-in-rwanda.13xs9VMK7cGFiBd2IplyES"
+            },
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/hills-a-lake-and-a-roller-coaster-inside-rwandas-plan-for-the-african-grand-prix.76LEZDItQYH362QElcHoY1"
+            }
+          ]
+        },
+        {
+          "headline": "Ben Sulayem pulls the F1 V8 return forward to 2030",
+          "summary": "Speaking at the Rwanda launch, the FIA president confirmed the V8 formula arrives in 2030, a year earlier than previously floated, with Rwanda hosting its first race. Claims: cars roughly 80 kg lighter, at least 50% less engine R&D spend. The electrical side went unaddressed; today's power units are about 50% electric, so what happens to the MGU-K and energy store is the whole question.",
+          "sources": [
+            {
+              "label": "Motorsport Week",
+              "url": "https://www.motorsportweek.com/2026/10/13/fia-president-f1-v8-2030/"
+            }
+          ]
+        },
+        {
+          "headline": "Ford is evaluating IndyCar's 2028 engine but isn't in",
+          "summary": "Ford Racing boss Mark Rushbrook said Ford is looking at the new 2.4-liter twin-turbo hybrid V6 formula (up from 2.2 liters) without plans to enter; timing \"hasn't been right.\" Chevrolet and Honda should begin track testing their 2.4L hybrids within about six months. A Ford entry would realistically be 2029-30.",
+          "sources": [
+            {
+              "label": "Racer",
+              "url": "https://racer.com/2026/10/13/ford-evaluating-indycar-s-next-gen-engine"
+            }
+          ]
+        },
+        {
+          "headline": "Six Cadillac EVs burned for about 17 hours at a Fort Worth dealership, amid a GM battery recall",
+          "summary": "The Frank Kent Cadillac yard fire is a vivid lesson in thermal-runaway propagation through packed rows of vehicles, and it lands while GM notifies owners of a battery fire-risk recall covering Silverado EV, Sierra EV, Escalade IQ and IQL. No injuries.",
+          "sources": [
+            {
+              "label": "autoevolution",
+              "url": "https://www.autoevolution.com/news/six-evs-burn-down-in-cadillac-dealership-inferno-amid-gm-battery-recall-276991.html"
+            },
+            {
+              "label": "GM Authority",
+              "url": "https://gmauthority.com/blog/2026/10/eight-cadillac-evs-catch-fire-at-texas-dealership-video/"
+            }
+          ]
+        },
+        {
+          "headline": "Coming Oct 17: Mercedes-AMG's electric GT SUV",
+          "summary": "World premiere Saturday, with teasers pointing to a triple-motor layout, AMG building a performance identity out of torque vectoring rather than engine character. Reporting puts the flagship near 1,153 hp with one motor on the front axle and two at the rear, on the AMG.EA platform's 800-volt architecture; the figures remain unofficial.",
+          "sources": [
+            {
+              "label": "Carscoops",
+              "url": "https://www.carscoops.com/2026/09/mercedes-amg-ev-suv-reveal/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "197 meters of elevation change per lap",
+    "body": "That's the per-lap elevation change planned for Rwanda's 6 km African GP circuit, about 33 m of climb per kilometer. For scale, Spa, long considered F1's great elevation track, has roughly 100 m of total change over 7 km. Combine that gradient with a 1,500 m base altitude (about 16% lower air density than sea level) and you get a track where brake cooling, radiator sizing and turbo compressor mapping all have to be re-solved rather than carried over. Worth watching how the 2030 V8 regs interact with it."
+  },
+  "footnote": "Compiled from public reporting and primary announcements, Oct 13-14, 2026."
+}
