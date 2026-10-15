@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-15",
+  "title": "Daily Briefing — Thursday, October 15",
+  "coverage": "Covering roughly Oct 14-15, 2026. This run's network policy blocked all direct article fetches, including The New York Times, Reuters, AP, Ars Technica and The Verge, so every item was assembled from web search results and cross-referenced across at least two outlets where the detail mattered. The NYT technology section could not be read directly. Two widely circulated stories were checked and dropped as stale: Nvidia's Open Secure AI Alliance (announced July 2026) and Joby's pilotless cross-country flight (September 2026).",
+  "top": [
+    {
+      "headline": "TSMC posts a sixth straight record quarter as 2nm enters mass production",
+      "summary": "Net income rose 68.7% year over year on NT$1,494.24 billion of revenue, roughly US$46.7 billion and up about 41% in dollar terms, with HPC now 68% of sales. Guidance for Q4 is $52.3-54.3 billion, a 14% sequential jump, but gross margin slipped 1.3 points to 66.4% on 2nm startup costs."
+    },
+    {
+      "headline": "CoreWeave's bonds start trading like distressed debt",
+      "summary": "Shares fell about 15.5% to $65.78 and the 2032 notes changed hands near 79.5 cents on the dollar for a 15.06% yield, dragging Oracle down 9%, Nebius 10%, Dell 11% and the Nasdaq 100 2%. A hotter US inflation print revived December rate-hike talk, which raises refinancing costs for debt-funded AI buildouts."
+    },
+    {
+      "headline": "Anthropic tells investors Q3 revenue reached about $16.8 billion",
+      "summary": "Per the Financial Times, that is up from $11.6 billion in Q2 and $4.8 billion in Q1, and the company says it is cash-flow positive ahead of an IPO expected this fall. Anthropic also told investors it earned $1.70 of revenue for every dollar spent on compute."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic's pre-IPO numbers land, with expectations trimmed",
+          "summary": "Quarterly revenue of roughly $16.8 billion is a 45% jump on Q2, and the $1.70-of-revenue-per-compute-dollar figure is the more interesting disclosure: it is a unit-economics claim, not a growth one. Notably, projections have been cut over the last three months, with SemiAnalysis modeling about $74 billion annualized against summer forecasts well above $100 billion, partly because large customers like Meta increasingly run their own models.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
+            },
+            {
+              "label": "PYMNTS",
+              "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-quarterly-revenue-jumps-45-before-planned-ipo/"
+            }
+          ]
+        },
+        {
+          "headline": "The AI trade's weak point turns out to be the credit market",
+          "summary": "CoreWeave carried roughly $52 billion in debt and lease obligations as of June, and a 15% yield on its 2032 paper means the market is now pricing real default risk into the companies renting out GPUs rather than the ones designing them. CEO Mike Intrator called the move irrational and said the backlog more than covers the obligations. Worth watching because leased-capacity economics underpin much of the current buildout.",
+          "sources": [
+            {
+              "label": "Axios",
+              "url": "https://www.axios.com/2026/10/15/ai-coreweave-bonds-stocks"
+            },
+            {
+              "label": "Forbes",
+              "url": "https://www.forbes.com/sites/jimosman/2026/10/14/coreweave-bonds-are-warning-of-a-bigger-problem-for-ai-stocks/"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia commits $250 million of compute to UK agentic-safety research",
+          "summary": "Announced Oct 14, the five-year pledge delivers about $50 million a year in compute access, not cash, routed through UK-based Nvidia Cloud Partners with infrastructure hosted in-country. Named beneficiaries are Oxford-led BOLD, UCL-led SOFAIR and Imperial College London, with work aimed at secure AI agents and open-model security. Provider selection and commercial terms are still to be agreed.",
+          "sources": [
+            {
+              "label": "NVIDIA Newsroom",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+            },
+            {
+              "label": "GlobeNewswire",
+              "url": "https://www.globenewswire.com/news-release/2026/10/14/3380340/0/en/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years.html"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI engineer charged over a recording device in an executive conference room",
+          "summary": "Prosecutors in the Northern District of California charged Abdulrahman Alfozan, 35, with using or attempting to use a device to intercept oral communications; he was arrested Oct 9 and the case was announced Oct 13. Security staff found an encrypted recorder plugged into a USB port behind a television on Sept 30, and a second similar device on Oct 5. OpenAI says its own models helped identify which employee planted it. The charge is an allegation and he has not been convicted.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/14/openai-alfozan-recording-raed-ventures.html"
+            },
+            {
+              "label": "NBC News",
+              "url": "https://www.nbcnews.com/tech/tech-news/openai-employee-arrested-hidden-listening-device-company-says-rcna603262"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "CRS-35 delivers the last pair of roll-out solar arrays",
+          "summary": "The Cargo Dragon launched 6:33 a.m. EDT Oct 13 and was set to dock autonomously to Harmony's space-facing (zenith) port around 10:30-11:00 a.m. EDT today after a transit of just over 52 hours. Among the 6,300 pounds of cargo is the final pair of iROSA arrays, to be installed on spacewalks later this fall; Dragon stays until mid-November. Booster B1096 flew its eighth mission and landed at Landing Zone 40.",
+          "sources": [
+            {
+              "label": "NASA",
+              "url": "https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-cargo-mission-approaching-station/"
+            },
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/crs-35-launch/"
+            }
+          ]
+        },
+        {
+          "headline": "Arianespace sets the next Amazon Leo flight for Nov 23 at the earliest",
+          "summary": "Announced Oct 14, mission VA271 (Amazon's LE-04) will carry 36 Amazon Leo satellites on an Ariane 64, the four-booster variant, and will be only the second flight using the uprated P160C solid rocket boosters. It would be the tenth Ariane 6 flight overall and the fourth Leo mission of 2026. Amazon has launched 396 satellites so far and is visibly constrained by launcher availability rather than satellite production.",
+          "sources": [
+            {
+              "label": "Arianespace",
+              "url": "https://newsroom.arianespace.com/arianespace-to-launch-36-amazon-leo-satellites-on-november-23-at-the-earliest-for-10th-ariane-6-flight/"
+            },
+            {
+              "label": "Space Intel Report",
+              "url": "https://www.spaceintelreport.com/amazon-leo-were-on-track-for-initial-service-this-year-vulcan-ariane-6-launches-expected-within-weeks/"
+            }
+          ]
+        },
+        {
+          "headline": "Reflect Orbital buys two dedicated launches from India's Skyroot",
+          "summary": "The Oct 14 deal puts Reflect's orbital sunlight-reflecting mirrors on a Vikram-1 and then the in-development Vikram-1U, which adds first-stage boosters for more performance. Reflect's CEO was blunt that there is a real launch capacity shortage right now, which is why a US startup is buying dedicated rides from an Indian private launcher. Terms were not disclosed and Reflect recently won FCC authorization for its first spacecraft.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/reflect-orbital-books-two-launches-with-indias-skyroot-aerospace/"
+            },
+            {
+              "label": "Via Satellite",
+              "url": "https://www.satellitetoday.com/launch/2026/10/14/skyroot-to-provide-2-launches-for-reflect-orbital/"
+            }
+          ]
+        },
+        {
+          "headline": "The CRS-35 ascent produced a textbook twilight jellyfish plume",
+          "summary": "The pre-dawn launch lit up skies across Florida and Georgia as the exhaust plume expanded into near-vacuum and caught sunlight the ground had not yet seen. It is a nice visual proxy for nozzle underexpansion: the same plume that is tightly collimated at sea level balloons into that shape once ambient pressure drops away.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://space.com/space-exploration/launches-spacecraft/cosmic-jellyfish-wows-skywatchers-after-spacex-launch-space-photo-of-the-day-for-oct-14-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "ASML says EUV demand outruns supply through 2028",
+          "summary": "Q3 results on Oct 14 showed record sales of 11.7 billion euros, with net system sales of 8.4 billion (4.1 billion of it EUV), net income up to 5.0 billion from 2.9 billion, and gross margin widening to 57.5% from 54.0%. The capacity numbers are the real story: about 65 systems in 2026 against 44 last year, with low-NA EUV and DUV immersion capacity to rise another 30% in 2027. Shares fell anyway, and ASML no longer publishes a quarterly bookings figure.",
+          "sources": [
+            {
+              "label": "The Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/asml-asml-q3-2026-earnings-call-transcript/"
+            },
+            {
+              "label": "Investing.com",
+              "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-tops-q3-2026-estimates-but-shares-fall-93CH-4948118"
+            }
+          ]
+        },
+        {
+          "headline": "TSMC's record quarter shows what a node transition costs",
+          "summary": "Revenue of roughly $46.7 billion beat guidance and profit hit a sixth consecutive record, with advanced nodes at 7nm and below making up 79% of wafer revenue and HPC up 22% sequentially to 68% of the total. Capex was $13.8 billion for the quarter and free cash flow reached NT$476.56 billion. The 1.3-point gross-margin decline was attributed specifically to initial 2nm mass production.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html"
+            },
+            {
+              "label": "SEC (TSMC 6-K)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+            }
+          ]
+        },
+        {
+          "headline": "Teledyne FLIR launches a compact mid-range counter-UAS radar at AUSA",
+          "summary": "The Ranger R10-3DX claims detection of micro-drones beyond 3 km, pedestrians beyond 6 km and light vehicles beyond 12 km, with each panel covering 90 degrees in azimuth and up to 60 in elevation so four panels give full hemispheric coverage. An AI classifier separates drones from aircraft, birds, pedestrians and vehicles, which is the hard part at micro-UAS radar cross-sections. Qualified to MIL-STD-810H and 461G, available Q1 2027; specs are the company's own.",
+          "sources": [
+            {
+              "label": "Breaking Defense",
+              "url": "https://breakingdefense.com/2026/10/teledyne-flir-defense-releases-new-compact-counter-uas-radar/"
+            },
+            {
+              "label": "Unmanned Airspace",
+              "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/teledyne-flir-defense-launches-mid-range-c-uas-radar-at-ausa-2026/"
+            }
+          ]
+        },
+        {
+          "headline": "Raytheon books $729 million in counter-drone work, including first KuRFS and Coyote exports",
+          "summary": "The awards cover LIDS components for the US Army plus Qatar and Jordan, in a mix of fixed-site and mobile configurations, and mark the first international sales of the KuRFS 360-degree detection radar and the Coyote interceptor. Raytheon is ramping Coyote production and also completed three tests this week of the Block 2C+RM upgrade, aimed at faster launch, higher speed and greater range. Reporting differs on whether the figure covers components or complete systems.",
+          "sources": [
+            {
+              "label": "DroneDJ",
+              "url": "https://dronedj.com/2026/10/13/raytheon-counter-drone-lids-army/"
+            },
+            {
+              "label": "Defence Industry Europe",
+              "url": "https://defence-industry.eu/raytheon-says-coyote-and-kurfs-enter-export-market-with-qatar-and-jordan-contracts/"
+            }
+          ]
+        },
+        {
+          "headline": "Cheap autonomy and counter-swarm claims crowd the AUSA floor",
+          "summary": "Defense autonomy startup Rownd took a $10 million Department of War contract for low-cost autonomous drones, adding jobs in Wisconsin and North Carolina. Separately, Skapion unveiled a mobile kinetic counter-swarm system it says can engage more than 100 targets simultaneously with better than 97% interception. Treat the Skapion figures as marketing until someone shows a test range; the trend of vehicle-mounted counter-drone kit everywhere on the floor is the durable signal.",
+          "sources": [
+            {
+              "label": "DroneDJ",
+              "url": "https://dronedj.com/2026/10/14/rownd-drone-ai-jobs-wisconsin"
+            },
+            {
+              "label": "Interesting Engineering",
+              "url": "https://interestingengineering.com/military/skapion-counter-swarm-defense-system-intercepts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "F1 signs a 10-year deal for an African Grand Prix in Rwanda",
+          "summary": "Announced at a Kigali press conference with President Paul Kagame, Stefano Domenicali and Mohammed Ben Sulayem, the race is billed as the Formula 1 African Grand Prix presented by Visit Rwanda and could run as early as 2030, depending on construction. The unbuilt circuit sits about 40 km south of Kigali beside the under-construction Bugesera airport: a 6 km, 17-corner lap designed by Tilke Engineering, Alex Wurz and WurzDesign, and DAR. It would be F1's first African round since 1993, and the deal has drawn sportswashing criticism.",
+          "sources": [
+            {
+              "label": "Autosport",
+              "url": "https://www.autosport.com/f1/news/f1-signs-historic-10-year-rwanda-deal-to-host-african-grand-prix/10864843/"
+            },
+            {
+              "label": "ABC News",
+              "url": "https://www.abc.net.au/news/2026-10-14/f1-to-host-african-grand-prix-in-rwanda/107263392"
+            }
+          ]
+        },
+        {
+          "headline": "Ben Sulayem confirms the V8 returns in 2030",
+          "summary": "The FIA president said the push is going ahead with support from FOM and the power unit manufacturers, describing a 3.0-litre turbocharged V8 on sustainable fuel paired with a smaller, simpler electrical system. Targets include engines roughly 80 kg lighter and at least 50% lower engine R&D and build costs, which is really an attempt to cut the cost of entry for new manufacturers. Caveat: Audi's Mattia Binotto calls 2030 the earliest possible date, the technical regulations are unpublished and unvoted, and Reuters reported in September 2025 that 2031 was more realistic.",
+          "sources": [
+            {
+              "label": "PlanetF1",
+              "url": "https://www.planetf1.com/news/fia-confirms-f1-v8-mohammed-ben-sulayem"
+            },
+            {
+              "label": "GPFans",
+              "url": "https://www.gpfans.com/en/f1-news/1091509/f1-v8-engine-return-2030-fia-president-ben-sulayem/"
+            }
+          ]
+        },
+        {
+          "headline": "BMW starts Gen6 battery production in Shenyang",
+          "summary": "Series production began today at BMW's third Gen6 site after Debrecen and Irlbach-Strasskirchen, using large cylindrical cells reported in 4695 and 46120 formats mounted cell-to-pack directly into the housing with no module layer. BMW claims more than 20% higher energy density and up to 30% faster charging and greater range versus the prismatic-cell Gen5. Output initially feeds the Neue Klasse iX3 and i3; BMW's release names only leading cell manufacturers, while CnEVPost cites CATL and EVE Energy.",
+          "sources": [
+            {
+              "label": "BMW Group PressClub",
+              "url": "https://www.press.bmwgroup.com/global/article/detail/T0461769EN/bmw-group-begins-series-production-of-gen6-high-voltage-batteries-in-shenyang"
+            },
+            {
+              "label": "CnEVPost",
+              "url": "https://cnevpost.com/2026/10/15/bmw-starts-gen-6-battery-production-china/"
+            }
+          ]
+        },
+        {
+          "headline": "Porsche reveals the Mission S concept, and it burns fuel",
+          "summary": "Debuting today, the mid-engined concept previews a super sports car platform positioned above the 911, and it is pointedly not an EV: teasers show a tachometer running past 7,500 rpm and a 250 mph speedometer, with reports pointing to a new flat-eight revving to 8,000 rpm. Porsche has not confirmed engine, output, dimensions or production plans. It follows the Oct 7 capital markets day, where Porsche reaffirmed a three-pronged powertrain strategy and fresh investment in combustion and plug-in hybrids.",
+          "sources": [
+            {
+              "label": "Porsche Newsroom",
+              "url": "https://newsroom.porsche.com/en/2026/company/porsche-capital-markets-day-strategy-sportwagenschmiede-35-43419.html"
+            },
+            {
+              "label": "autoevolution",
+              "url": "https://www.autoevolution.com/news/the-porsche-mission-s-concept-s-8000-rpm-tacho-raises-more-questions-than-it-answers-276801.html"
+            }
+          ]
+        },
+        {
+          "headline": "Suppliers and dealers are notably gloomier than automakers",
+          "summary": "Automotive News' Q3 2026 industry confidence survey, out today, finds suppliers and dealers markedly less optimistic about the future than the automakers they serve, which is usually the part of the chain that feels volume and tariff pressure first. It lands alongside reports that Volvo EX60 production problems will starve US dealers of the EV deep into 2027. Worth tracking as a leading indicator for program cancellations.",
+          "sources": [
+            {
+              "label": "Automotive News",
+              "url": "https://autonews.com/data-center/an-auto-industry-confidence-q3-2026-1015"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "The ISS gets more power without giving up any area",
+    "body": "The final iROSA pair aboard CRS-35 does not replace the station's original solar wings. The roll-out blankets are mounted on top of the degraded originals, partially shadowing them while adding net capacity, because designing a retrofit that overlays existing structure is far cheaper in EVA hours than removing a 20-year-old deployed array in orbit. The constraint driving the design is not watts per square meter, it is spacewalk time."
+  },
+  "footnote": "Compiled from public reporting on Oct 14-15, 2026. All direct article fetching was blocked in this run, so items were assembled from search results and cross-referenced across outlets; figures attributed to companies are their own claims unless noted."
+}
