@@ -1,0 +1,234 @@
+{
+  "date": "2026-10-16",
+  "title": "Daily Briefing — Friday, October 16",
+  "coverage": "Window: Oct 15–16, 2026. Two items are dated Oct 13–14 where they're still the freshest version of the story; dates noted. NYT's own pages were not directly retrievable, so NYT business coverage was cross-referenced via wire digests.",
+  "top": [
+    {
+      "headline": "China proposes export controls on its own AI models, chips and agents",
+      "summary": "A draft catalog update from the commerce and science ministries would restrict or ban 40 technologies, including 23 in AI — model weights above 2 trillion parameters, agents built for defense and critical infrastructure, and core tech for models trained on sensitive national data. It's the mirror image of US chip controls: China now treating its frontier models as strategic exports."
+    },
+    {
+      "headline": "Meta ships Muse Spark Open, an 816B-parameter open-weight model that runs on a desktop",
+      "summary": "Natively multimodal, 1M-token context, aimed at coding and agentic work — and runnable locally on a Mac Studio with an M5 Ultra, though it wants ~1 TB of RAM. Meta is positioning it against Chinese open-weight models while keeping its best systems closed."
+    },
+    {
+      "headline": "Rocket Lab slips Neutron's debut to 2027 over carbon-fiber dome voids",
+      "summary": "Inspectors found voids in the plies of a newly cured first-stage forward propellant dome, laid up by automated fiber placement. Peter Beck says the process fix is in and the aft dome came out as their best composite dome yet — but a new forward dome, stage integration and testing now run into Q1 2027."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Meta releases Muse Spark Open — 816B params, open weights, local inference",
+          "summary": "Meta paired it with its Muse Code terminal and demoed it building a Mastodon client and doing video review in DaVinci Resolve. Meta claims it beats other open-weight models; the benchmarks are self-reported and not independently verified. The engineering story is memory, not FLOPs — a trillion-ish-parameter-class model fitting in unified memory on one workstation changes who can run frontier-adjacent models without a data center.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/meta-releases-open-ai-model-while-keeping-its-best-tech-closed"
+            }
+          ]
+        },
+        {
+          "headline": "China drafts export curbs on 23 AI technologies",
+          "summary": "Exports of core tech for large models trained on sensitive national data would be banned outright; models at or above 2 trillion parameters or with \"world-leading\" capabilities could require licensing. Chip design tech for some AI and memory chips, 12 solar technologies including polysilicon, and five biomedicine items are also in the draft. Beijing framed it as keeping AI \"under human control\" — notable timing, as US–China AI safety and incident-notification talks have been making progress.",
+          "sources": [
+            {
+              "label": "AP",
+              "url": "https://www.kiro7.com/news/business/china-moves-curb/EYTUHONO7E44ZEJURVWD57K6AI/"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic gives METR researchers employee-level access",
+          "summary": "Six researchers from the nonprofit evaluator get company laptops, office space and internal tooling roughly equivalent to Anthropic's own risk teams, and can publish assessments without veto — redactions limited to narrow categories like customer data and model architecture, with METR free to say publicly whether a redaction was justified. Anthropic likens it to resident bank examiners; OpenAI has pledged something similar. This is the first real test of whether third-party audit of frontier labs can work with actual access instead of API-only probing.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/"
+            }
+          ]
+        },
+        {
+          "headline": "Character.AI's maker files Chapter 11; Disney picks up assets for ~$20M",
+          "summary": "(Filed Oct 13; state child-data objections Oct 14.) A reminder that consumer AI companion apps have brutal unit economics and legal exposure — several US states are now intervening in the bankruptcy specifically over children's data. Worth watching as a template for how AI-product wind-downs handle user data.",
+          "sources": [
+            {
+              "label": "Reuters/NYT digest",
+              "url": "https://www.marketscreener.com/news/press-digest-new-york-times-business-news-october-16-ce785cdad98df025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Neutron pushed to 2027 on a composites manufacturing defect",
+          "summary": "The 141 ft (42 m) methalox rocket's first-stage domes — the end caps on the LOX and LCH4 tanks — are built on an AFP machine; post-cure inspection of a new forward dome turned up interlaminar voids. Beck's line was \"Possible success isn't our standard\": the voids wouldn't necessarily have failed in flight, but the margin wasn't there. New forward dome by end of 2026, stage integration and test through Q1 2027, then a new launch date. Fifth slip since the 2021 announcement.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-14/rocket-lab-delays-debut-of-larger-neutron-rocket-to-next-year"
+            }
+          ]
+        },
+        {
+          "headline": "Falcon 9 flies classified USSF-481 from Vandenberg; booster hits flight 28",
+          "summary": "Liftoff 5:01 p.m. PDT Oct 15 from SLC-4E on a southerly trajectory, with hazard areas implying an ~80° inclination LEO orbit. B1081 flew its 28th mission and landed on Of Course I Still Love You — the droneship's 228th recovery and the 671st Falcon booster landing overall. Second \"TH\" mission in two months after USSF-259 on Sept 16.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/15/live-coverage-spacex-to-launch-classified-payload-for-u-s-space-force/"
+            },
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-space-force-launch-ussf-481-vandenberg"
+            }
+          ]
+        },
+        {
+          "headline": "Blue Origin targets multiple New Glenn flights per week by 2030",
+          "summary": "Ops SVP Ian Richardson laid out the infrastructure case: $3B+ already in Florida production and integration across ~31 acres and ~5,000 staff, plus a $330M expansion due summer 2027 to support the heavier New Glenn 9x4 and up to 150 upper stages a year. Context for the ambition: three New Glenn flights since 2025 debut, the vehicle grounded since a May pad explosion, return to flight expected early next year — versus 165 Falcon missions last year.",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.investing.com/news/stock-market-news/blue-origin-targets-multiple-new-glenn-launches-weekly-by-end-of-decade-4953590"
+            }
+          ]
+        },
+        {
+          "headline": "CRS-35 Dragon docked to Harmony with the last iROSA arrays",
+          "summary": "(Launched Oct 13, berthed Oct 15.) 6,300 lb (2,860 kg) of cargo including the final pair of ISS roll-out solar arrays, which complete the station's power upgrade. Science aboard: microgravity artificial-retina fabrication, 3D heart-tissue drug models, glass-formation studies, and brain organoids. Dragon stays about a month and is still the only freighter that brings cargo back down.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "TSMC posts a sixth straight record quarter: net profit up 69% to NT$763.1B (~$23.6B)",
+          "summary": "Beat the LSEG SmartEstimate of NT$746.3B, driven by AI processor demand from customers including Nvidia and Apple. Reporting around the call noted 2nm ramp costs weighing on gross margin and a \"fierce\" fight among Nvidia, Apple and Broadcom for leading-edge capacity, plus exploratory talk of further Texas investment. TSMC's quarter remains the cleanest leading indicator for Nvidia's next one.",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.investing.com/news/stock-market-news/tsmc-q3-profit-jumps-69-to-record-beating-expectations-4950551"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html"
+            }
+          ]
+        },
+        {
+          "headline": "Raytheon lands $729M for LIDS counter-UAS, including first international KuRFS and Coyote sales",
+          "summary": "The Low, slow, small-UAS Integrated Defeat System package covers fixed-site and mobile configurations for the US Army, Qatar and Jordan. KuRFS is the Ku-band 360° detect-and-track radar; Coyote is the low-cost effector with kinetic and non-kinetic variants sized for both single drones and swarms. First export of both is the real signal — C-UAS is becoming a foreign military sales product line, not just a US program.",
+          "sources": [
+            {
+              "label": "Unmanned Airspace",
+              "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/raytheon-awarded-usd729-million-lids-c-uas-contract-for-us-army-qatar-and-jordan/"
+            }
+          ]
+        },
+        {
+          "headline": "Leonardo DRS wins a $500M ceiling IDIQ from JIATF-401 for C-UAS sensing",
+          "summary": "Three-year indefinite-delivery vehicle letting DRS compete for task orders on integrated sensing for force protection and low-altitude air defense, with the same radars doing double duty for C-RAM and SHORAD. JIATF-401's whole premise is shortening the path from vetted tech to operators — IDIQ structure is how they intend to buy at the speed the threat is evolving.",
+          "sources": [
+            {
+              "label": "Unmanned Airspace",
+              "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/leonardo-drs-awarded-usd500-million-jiatf-401-counter-uas-contract/"
+            }
+          ]
+        },
+        {
+          "headline": "AUSA 2026 was an autonomy show, and the Army is reorganizing around it",
+          "summary": "(Conference Oct 12–14; recap Oct 16.) Hegseth said the Pentagon wants ~$50B in reconciliation funding to take the autonomous weapons stockpile from thousands of units to millions. An Oct 1 memo directs standing up Army Futures and Autonomous Systems Command (FASCOM) and consolidating autonomous-system purchases. On the floor: Sig Sauer's M250 air-fired from IAI's Fire Storm 250 (~2 hr endurance, stabilized gun mount), Anduril's Steelfin interceptor family, Northrop's 50mm Raid Hunter with AI targeting, and AeroVironment's $464.8M LOCUST X3 JLTV-mounted HEL, first unit due Q4 FY2027. Under Secretary Obadal reiterated human-in-the-loop stays the default.",
+          "sources": [
+            {
+              "label": "Defense News",
+              "url": "https://www.defensenews.com/recap/ausa/2026/10/16/recap-autonomy-dominates-the-us-armys-2026-conference-in-washington/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Tesla finally revealed the Roadster — and it hovers",
+          "summary": "Three trims: Performance ($50k reservation, active aero and a \"multi-mode suction system\"), Thrust ($250k, rear cold-gas thrusters, sub-1-second 0–60), and single-seat Rocket (invite only, 10 thrusters). All three claim 300 mi range and 230+ mph. The flight trick runs 10 cold-gas thrusters off 600 L of rechargeable compressed air stored in COPVs packed into \"every usable void\" — the same vessel class implicated in past SpaceX failures. Body styling cribs the SR-71 and F-35; Musk says production in 2028, and no base price was given.",
+          "sources": [
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+            }
+          ]
+        },
+        {
+          "headline": "Porsche shows Mission S, a mid-engine concept positioned above the 911",
+          "summary": "Porsche is calling it the design and engineering direction for a new mid-engine platform meant to carry a permanent flagship, not a one-off. No powertrain, output or weight disclosed; the exposed fan under the rear glass is cooling hardware and a 917 nod, flat-eight talk is unconfirmed. Mission E went from 2015 concept to production approval in ~3 months, so watch the next quarter. Backdrop: 2025 deliveries down 10% and EU CO2 rules squeezing combustion flagships.",
+          "sources": [
+            {
+              "label": "duPont Registry",
+              "url": "https://news.dupontregistry.com/blogs/porsche-news/porsche-mission-s-revealed-mid-engine-concept-previews-a-new-flagship-above-the-911"
+            },
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-15/porsche-takes-aim-at-ferrari-with-new-luxury-supercar-concept"
+            }
+          ]
+        },
+        {
+          "headline": "BMW starts Gen6 battery production in Shenyang",
+          "summary": "Third Gen6 assembly site after Debrecen and Irlbach-Straßkirchen, with Woodruff SC and San Luis Potosí to follow. Gen6 moves to cylindrical cells integrated straight into the pack housing — cell-to-pack, no module layer — for >20% higher energy density and up to 30% better charging and range. Shenyang packs go into long-wheelbase Neue Klasse EVs for China; the same cells appear in the i3, iX3, iX4, and CLAR-based iX5.",
+          "sources": [
+            {
+              "label": "BMW Blog",
+              "url": "https://bmwblog.com/2026/10/16/bmw-starts-gen6-battery-production-china-shenyang"
+            }
+          ]
+        },
+        {
+          "headline": "Motorsport: Antonelli up 102 points, WEC decides Barcelona, F1 idle until Austin",
+          "summary": "Kimi Antonelli leads by roughly four wins' worth of points, and the two drivers nearest him are also in Mercedes — the title fight is now intra-team. F1's next round is the US GP at COTA, Oct 23–25. This weekend it's the 6 Hours of Barcelona, WEC round 7 of 8, with Toyota leading BMW and Ferrari in Hypercar manufacturers; Monza (Nov 6–8) closes the season. Racing Bulls still haven't named their 2027 pair from three candidates.",
+          "sources": [
+            {
+              "label": "Daily Motorsport Briefing",
+              "url": "https://sports.yahoo.com/articles/daily-motorsport-briefing-oct-15-133000158.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Voids in a cured laminate are a margin problem before they're a failure problem",
+    "body": "Rocket Lab's slip came from interlaminar voids found on inspection of an AFP-laid forward propellant dome — and Beck was explicit that they would not necessarily have caused a flight failure. That's the whole discipline in one sentence: a cryogenic pressure vessel's allowable isn't set by what probably survives, it's set by knock-down factors on a laminate you can actually certify. The encouraging half is that the revised layup/cure process produced their highest-quality dome to date on the aft unit — process fix validated on hardware, not on paper. Counterpoint number of the day: Falcon booster B1081 flew its 28th mission last night, and SpaceX logged its 671st booster landing. Reusable-stage reliability is now an industrial process, which is exactly the bar Neutron is being held to before it flies once."
+  },
+  "footnote": "Compiled from public reporting; see source links on each item."
+}
