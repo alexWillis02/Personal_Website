@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-17",
+  "title": "Daily Briefing — Saturday, October 17",
+  "coverage": "Window: Oct 16–17, 2026, reaching back to Oct 12–15 where that is still the freshest version of a story (dates noted in each item). Direct article fetching was blocked from this environment, so every item was assembled and cross-checked across search results rather than read in full; NYT pages in particular were not retrievable, and NYT-area stories were cross-referenced against wire and Bloomberg coverage. Items marked as reported remain single-sourced.",
+  "top": [
+    {
+      "headline": "Anthropic offers Blackstone a double-digit yield to finance $60B of Google TPUs",
+      "summary": "The FT reported on Oct 16 that Anthropic is offering Blackstone a coupon above 10 percent on $9 billion of junior debt inside a $60 billion package, codenamed Project North Star, to fund roughly 1.5 GW of Google-designed TPUs. It is a striking price for compute: comparable borrowers pay around 7 percent, and Anthropic's own cost of capital has reportedly risen from about 8.5 percent four months ago."
+    },
+    {
+      "headline": "Taiwan moves to criminalize AI chip and server shipments to China",
+      "summary": "Economic Affairs Minister Kung Ming-hsin told Bloomberg on Oct 16 that Taiwan will add AI servers and advanced semiconductors to its controlled-items list under the Foreign Trade Act, making unauthorized shipments to Chinese buyers a criminal offense. The move aligns Taiwan with US export controls and would close a gap prosecutors have had to work around in existing diversion cases."
+    },
+    {
+      "headline": "FAA opens an environmental review of up to 456 Starship launches a year",
+      "summary": "The FAA issued a Notice of Intent to prepare an environmental impact statement covering up to 456 Starship launches and 912 landings annually at Starbase, against a current authorized cap of 25 launches and 50 landings. Phase one would study 100 launches a year; phase two, weekdays only, is where the 456 figure sits."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic's $60B chip-financing package prices compute like junk debt",
+          "summary": "Per FT reporting on Oct 16, the structure is roughly $42 billion of senior debt tied to Broadcom plus $18 billion of junior debt backed by Anthropic's five-year chip lease payments, with Blackstone funds taking $9 billion of the junior tranche at an all-in yield above 10 percent. The remaining $9 billion of junior paper is expected to go to other investors in coming months, possibly cheaper. The interesting engineering-adjacent number is the denominator: about 1.5 GW of TPU capacity, which is the load of a large power station being financed as if it were a leveraged buyout.",
+          "sources": [
+            { "label": "Investing.com (FT report)", "url": "https://www.investing.com/news/company-news/anthropic-offers-blackstone-over-10-yield-in-60b-ai-chip-financing--ft-reports-4955122" },
+            { "label": "Il Sole 24 Ore", "url": "https://en.ilsole24ore.com/art/anthropic-debt-60-billion-google-and-blackstone-chips-returns-of-over-10-per-cent-AJ1kwmmB" }
+          ]
+        },
+        {
+          "headline": "FTC sends 50-page civil investigative demands to OpenAI and Anthropic",
+          "summary": "First reported by Axios around Oct 15, each demand runs more than 50 pages and seeks records on security incidents, safeguards, marketing materials and privacy policies. A civil investigative demand functions like a subpoena and opens an investigation without alleging wrongdoing. Axios reported the agency also plans to compel testimony from executives at leading labs and from the evaluation group METR, with third-party subpoenas to follow.",
+          "sources": [
+            { "label": "The Globe and Mail", "url": "https://www.theglobeandmail.com/business/article-us-ftc-subpoenas-openai-anthropic-over-safety-incidents/" },
+            { "label": "Gizmodo", "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413" }
+          ]
+        },
+        {
+          "headline": "ChatGPT's Chrome extension gains a mode that actually drives the browser",
+          "summary": "OpenAI split the extension into two modes on Oct 15: Chat, which reads across open tabs to answer questions, and Work, which controls tabs to send messages, fill forms, download files and group tabs. Work is the successor to the agent mode OpenAI folded in from its Atlas browser. Browser control is configured from the desktop app under Computer Use, including site allowlists, which is the real safety surface here.",
+          "sources": [
+            { "label": "PPC Land", "url": "https://ppc.land/chatgpt-gains-control-of-chrome-tabs-to-fill-forms-and-send-messages/" },
+            { "label": "Unite.AI", "url": "https://www.unite.ai/openai-brings-computer-use-to-chrome-with-chatgpt-tab-controls/" }
+          ]
+        },
+        {
+          "headline": "The AI trade wobbles: longest chip selloff since 2006",
+          "summary": "Bloomberg's technology desk led this week with the longest run of semiconductor declines since 2006, which it calculated handed short sellers about $32 billion. Reuters separately reported that CoreWeave's CEO has sold close to $1 billion of stock since the company's IPO, according to filings. Neither is a verdict on the underlying demand, but both are the kind of financing-side signal worth tracking alongside the capex announcements.",
+          "sources": [
+            { "label": "Bloomberg Technology", "url": "https://www.bloomberg.com/technology" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "FAA begins scoping for near-daily Starship flights from Starbase",
+          "summary": "The FAA's Notice of Intent, issued Oct 12 and widely covered through the week, starts a programmatic environmental impact statement for up to 456 launches and 912 landings a year, roughly 18 times today's authorized 25 and 50. The review is two-phased: 100 launches and 200 landings in phase one at any hour, then 456 and 912 restricted to weekdays once vehicle reliability supports it. Scoping meetings are set for Brownsville on Nov 17, a virtual session Nov 18 and Port Isabel on Nov 19, with comments due Nov 30.",
+          "sources": [
+            { "label": "SatNews", "url": "https://satnews.com/2026/10/14/spacex-requests-faa-approval-for-up-to-456-starship-launches-annually-at-starbase/" },
+            { "label": "SpaceQ", "url": "https://spaceq.ca/starship-launches-456-a-year-starbase-faa-review/" }
+          ]
+        },
+        {
+          "headline": "Blue Origin adds two more Florida pads and asks the FAA for 50 New Glenn flights a year",
+          "summary": "On Oct 16 Blue Origin said it will build two additional New Glenn pads on the Space Coast beyond the two already going up at LC-36, part of roughly $330 million of expansion on top of more than $3 billion invested in Florida. The package also includes two more landing ships and a facility capable of producing up to 150 upper stages a year, and the company is asking the FAA to approve up to 50 launches annually. All of this is being built while New Glenn is still grounded after the May 28 hotfire explosion that damaged LC-36.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/" }
+          ]
+        },
+        {
+          "headline": "Artemis III booster stacking finished; short stack heads for a tanking test",
+          "summary": "NASA's Oct 13 status update confirmed engineers completed stacking the twin solid rocket boosters on Sept 30 in the Vehicle Assembly Building, with all four RS-25 engines installed on the core stage. The boosters alone supply more than 75 percent of SLS liftoff thrust. The vehicle now sits in a short stack on the mobile launcher, with a roll to Pad 39B for a tanking test planned in the coming months and NASA still citing 2027.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/blogs/missions/2026/10/13/nasa-completes-artemis-iii-booster-stacking-shares-status-update/" },
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/10/nasa-progress-sls-artemis/" }
+          ]
+        },
+        {
+          "headline": "The lunar lander race narrows to a handful of flights",
+          "summary": "A Reuters-syndicated analysis circulating Oct 16 framed the remaining schedule as roughly seven missions standing between now and a 2027 landing attempt. SpaceX's Starship HLS still owes a long-duration flight test and, critically, an on-orbit propellant transfer demonstration, the item most likely to set the real pace. Artemis III has already been restructured into a crewed low Earth orbit test where Orion rehearses rendezvous and docking with commercial landers.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-just-turned-10-years-old-when-will-it-go-to-mars" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Navy lands a tactical drone on a moving ship with no GPS and no radar",
+          "summary": "NAWCAD announced on Oct 14 that a tactical UAS flew mission tasks and recovered on a pitching vessel at sea using only commercial-grade cameras and motion sensors, with satellite navigation jammed or unavailable. NAWCAD-developed algorithms visually recognize ship structure and predict deck motion in real time, and the software needs no shipboard equipment at all. That is the headline for anyone working UAV autonomy: conventional recovery leans on multimillion-dollar radar and deck gear whose installation can take months of ship modification. Initial flight tests are complete and the modular software is headed for operational testing and adaptation to larger aircraft.",
+          "sources": [
+            { "label": "U.S. Navy", "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/4625421/navy-flies-drones-without-gps-lands-autonomously-on-moving-ships/" },
+            { "label": "Naval Today", "url": "https://www.navaltoday.com/2026/10/16/us-navy-drone-lands-autonomously-on-moving-ship-without-gps" }
+          ]
+        },
+        {
+          "headline": "Taiwan to put AI servers and advanced chips on the controlled-items list",
+          "summary": "Minister Kung Ming-hsin told Bloomberg on Oct 16 that unauthorized shipments to China will become a criminal offense under the Foreign Trade Act once the measures take effect, though he gave no timeline and the rules are not yet law. The step is tied to a US-Taiwan trade agreement committing Taipei to align with US controls and act against diversion of advanced chips. Context for why it matters: Keelung prosecutors indicted nine people in August over alleged server diversion, with reports that 74 of 130 servers reached Chinese customers through third countries.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal" },
+            { "label": "Forkast", "url": "https://forkast.news/taiwan-moves-to-criminalize-ai-chip-smuggling-to-china-under-foreign-trade-act/" }
+          ]
+        },
+        {
+          "headline": "Anduril's Steelfin bets on a common second stage to cut interceptor cost",
+          "summary": "Unveiled at AUSA on Oct 12 and picked up widely through Oct 16, Steelfin is a family of two-stage surface-to-air interceptors in which the booster is swapped for range and performance while the terminal stage keeps a common airframe, avionics, software and flight-control system. Anduril designed it to fit existing infrastructure, citing the M903A2 launcher, Mk 41 VLS and Typhon, and to work with Aegis and IBCS fire control. The company says it has completed ballistic testing with representative air vehicles, with flight testing starting next year and production on the order of several thousand units a year; the cost and performance claims are Anduril's own and unverified.",
+          "sources": [
+            { "label": "Army Technology", "url": "https://www.army-technology.com/news/anduril-steelfin-interceptor-family/" },
+            { "label": "Overt Defense", "url": "https://www.overtdefense.com/2026/10/16/anduril-unveils-steelfin-interceptor-family/" }
+          ]
+        },
+        {
+          "headline": "Intel's CEO says Washington has no governance role",
+          "summary": "In a Nikkei interview released Oct 17, Lip-Bu Tan said the Trump administration has no policy of using its stake to steer Intel's strategy, calling the company independent. The government holds 9.9 percent from an $8.9 billion investment in 2025, alongside SoftBank's $2 billion and Nvidia's $5 billion commitment. The question behind it is 14A, where Intel has targeted a 0.9 process design kit for external customers with risk production in 2028 and volume in 2029.",
+          "sources": [
+            { "label": "Breaking The News (Nikkei interview)", "url": "https://breakingthenews.net/Article/Intel-CEO-insists-Trump-admin-not-meddling-in-business/67337981" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Stellantis idles Windsor Assembly for three weeks as Unifor talks stall",
+          "summary": "Unifor says production is cancelled for the weeks of Oct 19, Oct 26 and Nov 2, affecting more than 6,400 workers, with Stellantis citing market conditions. The contract expired Sept 20 and the biggest sticking point is the future of Brampton Assembly, with Windsor's third shift and Etobicoke Casting also contested. Reports of an Oct 29 strike deadline and of a new V8 Dodge Charger program for Windsor are both circulating but unconfirmed.",
+          "sources": [
+            { "label": "CTV News", "url": "https://www.ctvnews.ca/windsor/article/windsor-assembly-plant-to-idle-again/" },
+            { "label": "National Law Review (Foley Automotive Update)", "url": "https://natlawreview.com/article/foley-automotive-update-october-14-2026" }
+          ]
+        },
+        {
+          "headline": "Haas signs Rafael Camara for 2027, completing an all-Ferrari-academy lineup",
+          "summary": "Haas confirmed on Oct 16 that the 21-year-old Brazilian, reigning F3 champion and current F2 points leader with three wins this season, joins on a multi-year deal to replace Esteban Ocon. He will partner fellow Ferrari Driver Academy graduate Oliver Bearman. Ocon leaves at the end of the year; reports of a WEC move are unconfirmed.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/ferrari-junior-rafael-camara-promoted-to-f1-with-haas-for-2027.1RSxvnFaLu8Hd3JD2ppFsz" },
+            { "label": "The Race", "url": "https://www.the-race.com/formula-1/ferrari-f1-junior-rafael-camara-joins-haas-everything-you-need-to-know/" }
+          ]
+        },
+        {
+          "headline": "ProLogium and Rimac show a module-free solid-state pack mock-up",
+          "summary": "At the Paris Motor Show the pair displayed the first concept mock-up of their planned pack, which integrates ProLogium's all-inorganic solid-state lithium ceramic pouch cells directly into the structure and eliminates conventional modules. Rimac's stated targets are 500 to 600 km of range and a 10 to 80 percent charge in under 10 minutes. The roadmap runs a functional battery segment at CES 2027, a full-scale pack later that year, vehicle trials in H2 2028 and small-scale production around 2030, so this is still firmly prototype territory.",
+          "sources": [
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/13/prologium-and-rimac-target-2028-for-solid-state-battery-vehicle-tests/" },
+            { "label": "Automotive World", "url": "https://www.automotiveworld.com/news/prologium-and-rimac-show-cell-to-pack-battery-mockup/" }
+          ]
+        },
+        {
+          "headline": "Austin returns to a standard format as F1 heads for COTA",
+          "summary": "Next weekend's United States Grand Prix, Oct 23 to 25, drops the sprint after three consecutive sprint years at Circuit of the Americas, reverting to two Friday practice sessions, FP3 and qualifying Saturday, and a 56-lap race Sunday. Elsewhere, Max Verstappen spent the weekend in a GT3 car rather than an F1 one, qualifying off the pace at the GT World Challenge Europe finale at Portimao after his track-conduct penalty was confirmed.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/gtwce-endurance/news/gtwc-portimao-2026-verstappens-amg-off-the-pace-as-porsche-takes-pole/10865736/" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/f1/races/united-states-gp" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "456 launches a year is a number worth unpacking",
+    "body": "SpaceX's Starbase request is 456 launches and 912 landings annually, and phase two confines them to weekdays. There are about 261 weekdays in a year, so that is roughly 1.75 Starship launches and 3.5 booster-and-ship landings every working day, sustained. Against today's authorized 25 launches and 50 landings it is an 18x step. The constraint that shows up first is almost never the pad: it is propellant logistics, range turnaround and the acoustic and air-quality envelope the EIS is being written to bound."
+  },
+  "footnote": "Compiled from public reporting. Direct article fetching was unavailable from this environment, so items were assembled from search results and cross-checked across outlets where possible; single-sourced and company-claimed figures are flagged inline."
+}
