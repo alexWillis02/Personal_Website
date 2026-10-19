@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-19",
+  "title": "Daily Briefing — Monday, October 19",
+  "coverage": "Covering roughly Oct 17–19, 2026, stretched back to Oct 15–16 on a few items where that is still the freshest version of the story (dates noted per item). Sourcing caveat: this session's network policy blocked direct article fetching, and nytimes.com is not reachable by the search crawler at all, so items are built from search-surfaced reporting across multiple outlets rather than page-by-page reads. Single-source or unconfirmed claims are flagged inline.",
+  "top": [
+    {
+      "headline": "Anthropic pledges 5% of itself to a public benefit fund",
+      "summary": "The company will set aside 5% of its shares — growing by 2 points for every 50% rise in valuation — in a wholly owned LLC aimed partly at AI labor-market disruption, pending a stockholder vote. Combined with founder and employee pledges, Anthropic says roughly 20% of the company is now earmarked for public benefit, announced just ahead of a reported IPO."
+    },
+    {
+      "headline": "An F-22 pilot flew a Fury drone from the cockpit for the first time",
+      "summary": "The Air Force had an F-22 crew take direct control of an FQ-44A collaborative combat aircraft in flight — the first time a manned fighter has quarterbacked a CCA this way. The program's stated goal has also jumped from \"over 150 by the end of the decade\" to 500 aircraft by 2032."
+    },
+    {
+      "headline": "Washington is restarting three dead nuclear plants to feed AI data centers",
+      "summary": "DOE is advancing roughly $4.4B in loans to revive Palisades in Michigan, Crane/Three Mile Island in Pennsylvania and Duane Arnold in Iowa — about 2.25 GW — with two of the three already under premium power contracts to Big Tech. It is the clearest sign yet that the AI buildout's binding constraint is generation, not silicon."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic commits 5% of its shares to a Public Benefit Fund",
+          "summary": "Announced Oct 18: a wholly owned limited liability company rather than a traditional nonprofit, with the stake rising 2 percentage points per 50% increase in company value, subject to existing stockholder approval. Money could go to large nonprofit donations or direct distributions to affected populations. None of the fund's shares may be used for lobbying or political giving, and Anthropic says governance details come in the next few months.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" },
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/siladityaray/2026/10/19/anthropic-pledges-5-of-its-shares-to-public-benefit-fund-heres-how-it-works/" },
+            { "label": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/10/19/anthropic-says-it-will-commit-5-of-shares-to-public-benefit-fund" }
+          ]
+        },
+        {
+          "headline": "DOE lends about $4.4B to restart three shuttered reactors for data-center load",
+          "summary": "Reported Oct 17: Palisades, Crane and Duane Arnold together add roughly 2.25 GW of carbon-free baseload. Palisades is furthest along, with Holtec having begun fuel load in August and Michigan adding $300M of its own. The engineering story is the restart itself — nobody had ever brought a fully defueled, decommissioning-track US reactor back online before this program.",
+          "sources": [
+            { "label": "Business Standard", "url": "https://www.business-standard.com/world-news/us-to-revive-3-shuttered-nuclear-plants-to-meet-rising-electricity-demand-126101700056_1.html" },
+            { "label": "US Department of Energy", "url": "https://www.energy.gov/node/4851571" }
+          ]
+        },
+        {
+          "headline": "Nvidia reportedly moves custom HBM base dies to TSMC's 3nm, and Samsung accepts",
+          "summary": "Per a Seoul Economic Daily report relayed by Reuters on Oct 18, Samsung will build base dies for Nvidia's custom HBM on TSMC N3, with Nvidia asking SK hynix and Micron to do the same and to move to sixth-generation DRAM for core dies. Nobody involved has confirmed on the record and TSMC declined to comment. If true it means the HBM logic die is now a leading-edge logic problem rather than a memory-fab problem, and Samsung is willing to hand that step to its main foundry rival to keep the socket.",
+          "sources": [
+            { "label": "Reuters via The Star", "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports" },
+            { "label": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/10/62431195/samsung-accepts-nvidia-terms-turns-to-tsmc-next-generation-memory" }
+          ]
+        },
+        {
+          "headline": "The AI trade snapped back Monday after its worst chip week in months",
+          "summary": "The semiconductor ETF opened up about 3.6% after falling nearly 12% last week; Micron rebounded about 3.6% off a 14.6% weekly loss, and the Nasdaq rose as traders moved back into tech. The week's damage was not just sentiment — CoreWeave fell about 25% and Oracle's debt load drew sustained scrutiny, which is the market starting to price AI infrastructure as a leveraged capex story rather than a software one.",
+          "sources": [
+            { "label": "Reuters via Investing.com", "url": "https://www.investing.com/news/stock-market-news/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-4957420" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Japan launches MMX for Phobos tonight",
+          "summary": "JAXA's Martian Moons eXploration lifts off on an H3-24L from Tanegashima at 19:41 UTC today, 04:41 JST on Oct 20 — the heaviest H3 configuration, two LE-9 core engines plus four SRB-3 solids. MMX reaches Mars around August 2027, lands on Phobos in 2027, and departs in 2031 to return more than 10 grams of regolith. It would be the first sample ever returned from a Martian moon, and the first from the Mars system at all.",
+          "sources": [
+            { "label": "Astronomy", "url": "https://www.astronomy.com/space-exploration/japan-prepares-to-launch-sample-return-mission-to-phobos/" },
+            { "label": "The Conversation", "url": "https://theconversation.com/japans-mmx-mission-aims-to-swipe-soil-samples-from-mars-moon-phobos-294129" }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 has slipped to no earlier than November 8, with a ship catch on the table",
+          "summary": "Planning material had pointed at Oct 19; the current reference date is NET Nov 8 on Booster 22 and Ship 42, the fourth Block 3 pair, from Pad B at Starbase. SpaceX has not announced a date or formally committed to catching the upper stage, so treat both as unconfirmed. A tower catch of the ship is the single biggest remaining step toward the rapid-reuse case, and Flight 14 on Sept 28 was the first Starship to reach orbit and deploy real Starlinks.",
+          "sources": [
+            { "label": "Wikipedia (Starship flight 15)", "url": "https://en.wikipedia.org/wiki/Starship_flight_15" },
+            { "label": "KeepTrack", "url": "https://keeptrack.space/deep-dive/starship-launch-tracker" }
+          ]
+        },
+        {
+          "headline": "Bandwagon-5 flies today after a weather scrub",
+          "summary": "The Falcon 9 mid-inclination rideshare was set for a window opening 6:30 a.m. EDT from SLC-40 at Cape Canaveral, with the booster targeting a droneship landing. Bandwagon is the less-discussed half of SpaceX's rideshare business — roughly 45-degree inclination rather than Transporter's sun-synchronous polar drop-offs, which is where a lot of ISR and maritime-domain smallsats actually want to be.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/launch-schedule/" }
+          ]
+        },
+        {
+          "headline": "The ISS power upgrade now has firm dates: Oct 29 and Nov 5",
+          "summary": "US spacewalks 100 and 101 will install the last pair of roll-out solar arrays delivered in the Dragon trunk on Oct 13, with Canada's Josh Kutryk and NASA's Anil Menon going outside; NASA previews both at a briefing on Oct 20. Completing the iROSA set takes station generating capacity from about 160 kW to roughly 215 kW, a gain of about 34% from arrays that partially overlay the degraded originals rather than replacing them.",
+          "sources": [
+            { "label": "SpaceQ", "url": "https://spaceq.ca/josh-kutryk-spacewalks-station-solar-arrays/" },
+            { "label": "SpacePolicyOnline", "url": "https://spacepolicyonline.com/events/nasa-bfg-on-upcoming-spacewalks-oct-20-2026-jsc-online-200-pm-et/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "F-22 crew controls an FQ-44A Fury in flight, a program first",
+          "summary": "Reported Oct 16–17: the Raptor is slated to be the first aerial quarterback for collaborative combat aircraft once they field, and this was the first time the control loop ran from a fighter cockpit rather than a ground station or surrogate aircraft. The designations have also firmed up — FQ-42 Vengeance and FQ-44 Fury, with the Y prototype prefix dropped at contract award — and Northrop's Talon Blue YFQ-48A first flew Oct 3. Reported procurement ambition is now 500 CCAs by 2032 versus an earlier goal of over 150 by the end of the decade.",
+          "sources": [
+            { "label": "TWZ", "url": "https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time" },
+            { "label": "The Aviationist", "url": "https://theaviationist.com/2026/10/17/f-22-controls-cca-first-time/" }
+          ]
+        },
+        {
+          "headline": "Intel's foundry case got a Monday reprieve: JPMorgan upgrade plus the Tesla 14A anchor",
+          "summary": "JPMorgan lifted Intel to Neutral from Underweight with an $85 target and the stock jumped about 4% premarket, having closed Friday at $89.85, down 36% from its June peak. The Tesla commitment to 14A, made on Tesla's Q1 call in April and tied to the Terafab project in Austin with SpaceX, remains Intel Foundry's only named marquee external customer on its most advanced planned node, with volume targeted around 2027 to 2028.",
+          "sources": [
+            { "label": "TipRanks", "url": "https://www.tipranks.com/news/j-p-morgans-take-on-intel" },
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/intel-tesla-terafab-deal-tests-080701413.html" }
+          ]
+        },
+        {
+          "headline": "Part 108 BVLOS is still unpublished, now past 100 days at White House review",
+          "summary": "The FAA's beyond-visual-line-of-sight rule entered OIRA review on July 10 and still has not hit the Federal Register; an FAA official said in September the agency hopes to publish by year-end, against an executive-order deadline of Feb 1, 2026. Until it lands, routine BVLOS still needs a Part 107 waiver, a 44807 exemption or a Section 927 waiver. A separate petition by 15 states and Harris County, filed Sept 28 in the Second Circuit, is attacking the FAA's nationwide environmental finding that lets new delivery markets open without per-site review.",
+          "sources": [
+            { "label": "DroneRanker", "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/" },
+            { "label": "Commercial UAV News", "url": "https://www.commercialuavnews.com/states-sue-faa-drone-delivery-environmental-review" }
+          ]
+        },
+        {
+          "headline": "Counter-drone money keeps compounding",
+          "summary": "Reported Oct 14–16: Leonardo DRS took a $500M three-year IDIQ from Joint Interagency Task Force 401 to compete for integrated sensing task orders supporting force protection and low-altitude air defense, and MARSS signed a roughly £370M ($496M) deal for a nationwide counter-UAS architecture in Kuwait tying air and coastal defense together. Separately the Army is targeting 2028 for its first fielded high-energy laser counter-drone weapon, with AeroVironment saying initial delivery holds for 2027 — the cost-per-kill argument finally starting to bite on interceptor-based defense.",
+          "sources": [
+            { "label": "Defense Mirror", "url": "https://defensemirror.com/news/42190/Leonardo_DRS_Secures__500M_Counter_Drone_Contract" },
+            { "label": "Defense News", "url": "https://www.defensenews.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Toyota went 1-2 at Barcelona and sealed the WEC manufacturers' title",
+          "summary": "On Oct 18 the number 8 GR010 of Hartley, Hirakawa and Buemi beat the number 7 sister car by 0.583s in the 6 Hours of Barcelona, with Ferrari number 50 third and Cadillac number 38 fourth. That locks the manufacturers' championship with one round still to run at Monza on Nov 8, and it came at a circuit that was never on the original 2026 calendar.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/wec/results/2026/barcelona-668778/" },
+            { "label": "GM Authority", "url": "https://gmauthority.com/blog/2026/10/cadillac-racing-weathers-wild-fia-wec-race-in-barcelona/" }
+          ]
+        },
+        {
+          "headline": "Austin is Antonelli's mathematical match point, barely",
+          "summary": "Kimi Antonelli arrives at COTA on 340 points, 102 clear of Russell and 111 clear of Hamilton. To clinch this Sunday he must win and leave Texas 125 or more points ahead, meaning Russell ninth or lower and Hamilton fifth or lower. Mercedes deputy team principal Bradley Lord put the odds at roughly one in 25. A win would at least mathematically eliminate Verstappen, Leclerc and Norris regardless of their results.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/how-can-kimi-antonelli-become-world-champion-at-f1-us-gp/10864359/" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50131911/kimi-antonelli-formula-1-title-race-permutations-standings-explained" }
+          ]
+        },
+        {
+          "headline": "The real Austin fight is McLaren vs Red Bull for third, seven points apart",
+          "summary": "McLaren sits on 339 to Red Bull's 332 with 43 points available this weekend, and Andrea Stella says McLaren will introduce aero developments progressively starting in Austin. Verstappen has won the last two rounds, so Red Bull arrives with the momentum and McLaren arrives with the parts — a straight read on whether McLaren's late-season aero work actually found load or just moved it around.",
+          "sources": [
+            { "label": "GrandePremio", "url": "https://grandepremio.com/en/f1/mclarens-austin-f1-upgrades-face-crucial-test-as-red-bull-threatens-third-place/" },
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/what-red-bull-needs-to-pass-mclaren-at-the-united-states-grand-prix/10866209/" }
+          ]
+        },
+        {
+          "headline": "Penske Automotive agreed to go private at $16.3B",
+          "summary": "Announced Oct 15: unaffiliated holders get $212.00 per share in cash from Motown Acquisition Corp., a Penske Corporation and Mitsui vehicle. Post-close ownership splits roughly 64% Penske and 36% Mitsui, with closing expected in Q1 2027 and the racing operations excluded from the deal. It is one of the largest dealer-group take-privates on record, and a bet that franchise retail is better run away from quarterly disclosure as EV mix and service economics churn.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/15/penske-automotive-agrees-to-be-taken-private-by-penske-mitsui.html" }
+          ]
+        },
+        {
+          "headline": "Corvette's answer to electrification is a hybrid V8, for now",
+          "summary": "Reported Oct 15: the ZR1X pairs a twin-turbo 5.5-liter V8 with an electric motor for about 1,250 hp combined, and a Grand Sport X joins for 2027, while Corvette's chief engineer still says EVs are the end game and an electric Corvette is coming. The interesting part is the packaging logic: front-axle electrification on a mid-engine car buys all-wheel-drive traction and torque fill without touching the V8's character.",
+          "sources": [
+            { "label": "Motor1", "url": "https://www.motor1.com/news/812011/electric-corvette-still-happening/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Ten grams, five years",
+    "body": "MMX launches tonight on the heaviest H3 variant — four SRB-3 boosters and two LE-9s — to arrive at Mars in August 2027, land on Phobos, and come home in 2031 carrying more than 10 g of regolith. That is roughly a five-year round trip and a full-size interplanetary spacecraft spent on about two sugar packets of dirt. It is a good reminder that in sample return the mass budget that matters is the one measured in grams at the end, not tonnes at the start — and that Phobos' surface gravity of about 5.7 mm/s squared means landing there is closer to docking with a tumbling rock than touching down on a planet."
+  },
+  "footnote": "Compiled from public reporting. Direct article fetching and nytimes.com were unavailable to this session, so items are summarized from search-surfaced reporting and cross-referenced where possible; single-source or unconfirmed claims are flagged inline."
+}
