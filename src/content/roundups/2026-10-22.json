@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-22",
+  "title": "Daily Briefing — Thursday, October 22",
+  "coverage": "Covering roughly Oct 21–22, 2026. Sourcing caveat: this session's network policy blocked all direct article fetching (reuters.com, nytimes.com, arstechnica.com, theverge.com and spacenews.com all failed), so every item is assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times was checked and is not accessible to this tool's crawler at all, so nothing is sourced from it today. Weakly sourced or single-source claims are flagged inline. A couple of items reach back a few days where that is still the freshest version of the story.",
+  "top": [
+    {
+      "headline": "Tesla and SpaceX boards form special committees to study a merger",
+      "summary": "Disclosed on SpaceX's Q3 call on Oct 20 and still driving coverage through Oct 22, both boards have stood up independent-director committees to examine combining the two companies, a pairing reported at roughly $3.5 trillion. Musk says he is a conflicted party and sits on neither committee, though he has publicly called the merger \"a good idea\" — which governance critics say puts a thumb on the scale before the committees finish."
+    },
+    {
+      "headline": "OpenAI's models go on sale through Google Cloud",
+      "summary": "OpenAI and Google announced on Oct 21 that OpenAI frontier models and Codex agent workflows are coming to Google Cloud's Model Garden, making Google the only hyperscaler selling Gemini, Claude and GPT side by side. Buyers can purchase through Google Cloud Marketplace and draw down existing cloud commitments; terms and pricing were not disclosed."
+    },
+    {
+      "headline": "GM details a fourth-generation EV platform built around lithium-manganese-rich cells",
+      "summary": "At its GM Forward event in New York on Oct 21, GM laid out a next-gen EV architecture that launches on LMR chemistry only, with roughly 30% less wiring and about 20% less battery than the outgoing platform. It comes as GM's EV sales fell 43% through Q3 to about 82,000 units and the company has written down more than $11 billion in EV investment."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "OpenAI models land in Google Cloud's Model Garden",
+          "summary": "The Oct 21 deal puts OpenAI's frontier models and Codex agentic coding workflows into Google Cloud, with arrival on Google's Antigravity IDE and Gemini Agent said to follow in the coming weeks. It extends OpenAI's move off exclusive Microsoft distribution, which ended in April and already brought in AWS. Reporting differs on rollout stage — some outlets describe a private preview for selected enterprises ahead of general availability — and the specific model names circulating in secondary coverage should be treated as unconfirmed.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/21/openai-bring-its-ai-models-to-googles-cloud-expands-beyond-microsoft.html" },
+            { "label": "IndexBox (Reuters-sourced)", "url": "https://www.indexbox.io/blog/openai-models-and-codex-agent-coming-to-google-cloud-in-coming-weeks/" }
+          ]
+        },
+        {
+          "headline": "Anthropic opens a research preview of Claude Duet, an agent that messages you first",
+          "summary": "Announced Oct 21, Duet is a standalone iOS, Android and web app where Claude works proactively — watching connected tools like Slack, email and calendar, surfacing what needs attention, and continuing to run after you close the app because the work executes on a cloud VM. It supports more than 6,000 connectors and asks for approval before sensitive actions such as sending, paying, signing or deleting. The preview is waitlisted for US Pro and Max subscribers, with usage counted against existing plan limits rather than a separate fee; Anthropic acknowledges it can misjudge urgency.",
+          "sources": [
+            { "label": "9to5Mac", "url": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/" },
+            { "label": "Anthropic (announcement)", "url": "https://x.com/claudeai/status/2112984664256241837" }
+          ]
+        },
+        {
+          "headline": "Anthropic's draft IPO prospectus reportedly shows an $80.7 billion first-half loss",
+          "summary": "A draft prospectus is reported to carry an $80.7 billion net loss for the first half, with most of it attributed to non-cash accounting charges rather than operating burn. If accurate, it is a reminder of how little headline net income tells you about an AI lab's actual cash position once remeasurement of convertible instruments and stock compensation are in the mix. Flagged as single-source aggregator reporting — treat the figure as unverified until a primary filing or a major outlet confirms it.",
+          "sources": [
+            { "label": "Tech Startups", "url": "https://techstartups.com/2026/10/21/tech-news-today-october-21-2026-anthropic-emudhra-openai-nvidia-spacex-more/" }
+          ]
+        },
+        {
+          "headline": "EU opens comment on how it will actually fine AI companies",
+          "summary": "A draft implementing regulation published Oct 12 sets out procedure for AI Act fines — file access, trade-secret handling and limitation periods — with feedback closing Nov 9 and adoption expected by the end of 2026. The AI Office's enforcement powers over general-purpose AI have applied since Aug 2, 2026, and its first moves have been requests for information to OpenAI and Anthropic over two summer incidents, with no fines or formal proceedings yet. High-risk obligations were pushed back by the Digital Omnibus, with secondary sources citing late 2027 and 2028 dates that are worth checking against the primary text.",
+          "sources": [
+            { "label": "ActuIA", "url": "https://www.actuia.com/en/news/ai-act-obligations-in-force-and-delays-under-omnibus-2026-1744/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "DARPA funds the first full-power ground test of a new US space reactor in 50 years",
+          "summary": "Space Nuclear Power Corporation (SpaceNukes) won a DARPA Other Transaction Agreement under the Fat Cat program to build and ground-test a Kilopower-class reactor with self-adjusting control rods, working with Los Alamos National Laboratory. The 2018 KRUSTY demonstration used a passive design that simply followed load; adding active control rods lets the reactor throttle power on demand, which is what you need for a lander or spacecraft whose electrical draw swings. Kilopower-class units target 1 to 10 kWe, and no test date was announced.",
+          "sources": [
+            { "label": "PR Newswire (SpaceNukes)", "url": "https://www.prnewswire.com/news-releases/space-nuclear-power-corporation-awarded-darpa-agreement-for-ground-test-of-autonomous-nuclear-reactor-controller-302914566.html" },
+            { "label": "KeepTrack", "url": "https://keeptrack.space/space-brief/space-brief-2026-10-22" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies three HawkEye 360 satellites on Electron",
+          "summary": "The mission \"We're Not Hawking Around\" carries three HAWK radio-frequency-geolocation satellites from New Zealand to a 520 km orbit — Rocket Lab's 19th launch of the year, Electron's 98th flight overall, and the third dedicated HawkEye 360 cluster on the vehicle since 2023. Schedules disagreed by about a day across Rocket Lab's own page, NASASpaceflight and third-party trackers, so confirm liftoff before quoting a time. Separately, Neutron's first flight slipped to 2027 earlier this month, tied to a defect in its carbon-composite tank.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/hawkeye-360/" },
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/10/launch-preview-102026/" },
+            { "label": "Space.com (Neutron)", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027" }
+          ]
+        },
+        {
+          "headline": "NASA to lay out its lunar surface plan on Friday",
+          "summary": "NASA has a Kennedy Space Center briefing set for Oct 23 to detail how it intends to put astronauts back on the Moon by 2028, including test scheduling for the commercial landers. Reporting ahead of it describes Artemis III moving to Q3 2027 as a docking and compatibility demonstration between Orion and both SpaceX's Starship and Blue Origin's Blue Moon — with no landing — effectively a fly-off to decide which lander carries the Artemis IV crew to the south pole. The pre-briefing details come from secondary aggregators, so treat the Artemis III reframing as provisional until NASA says it on Friday.",
+          "sources": [
+            { "label": "NASA Artemis blog", "url": "https://www.nasa.gov/blogs/artemis/" },
+            { "label": "Newsy Today", "url": "https://www.newsy-today.com/nasa-to-detail-artemis-moon-return-plans-on-oct-23/" }
+          ]
+        },
+        {
+          "headline": "A Falcon 9 booster goes for its 36th flight out of Vandenberg",
+          "summary": "SpaceX's 27-satellite Starlink mission from Vandenberg, scrubbed Oct 20 for a technical issue, moved to an Oct 22 afternoon window. The notable number is the first stage: flight 36 on a booster originally qualified for far fewer, which is the clearest ongoing data point on how far Falcon 9 life-leader hardware has been pushed. Starlink launches are routine now, but the reuse count is not.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/10/20/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Nvidia expands Isaac with a reference humanoid you can actually buy specs for",
+          "summary": "At GTC Berlin on Oct 21 Nvidia added a reference humanoid, datasets, an Isaac OS runtime and Isaac Lab 3.0 to its robotics platform. The reference machine, Agile Robots' Agile ONE SN, is built on Isaac GR00T models and Jetson Thor compute: 1.40 m tall, 40 kg, 31 degrees of freedom, 3 kg payload per arm, with the Halos safety stack planned. Nvidia pitches it as cutting researcher setup from weeks to days, and names Agility Robotics, Figure, KUKA, NEURA, ABB Robotics and Universal Robots as partners on the platform.",
+          "sources": [
+            { "label": "Nvidia (press release)", "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Advances-Isaac-Platform-for-General-Purpose-Robotics-With-New-Reference-Humanoid-Frameworks-Simulation-Pipelines-and-Data/default.aspx" },
+            { "label": "Unite.AI", "url": "https://www.unite.ai/nvidia-expands-isaac-platform-with-agile-one-sn-reference-humanoid/" }
+          ]
+        },
+        {
+          "headline": "Counter-FPV hardware gets cheap and physical at Prague's Future Forces Forum",
+          "summary": "The volunteer initiative DroneAid unveiled DRONOLAW, an active protection system that defeats FPV drones with nets rather than kinetic or RF effects, shown alongside a GRYF drone carrier built to hunt UAVs. Separately, Skapion showed a counter-swarm air defense system aimed at detecting, tracking and engaging large coordinated attacks. The theme is the same economics problem UAV programs keep running into: you cannot answer a $500 FPV with a $100,000 interceptor, so nets, drone-on-drone intercepts and swarm-scale fire control keep resurfacing.",
+          "sources": [
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/droneaid-volunteers-develop-dronolaw-active-protection-system-against-fpv-drones" }
+          ]
+        },
+        {
+          "headline": "FAA's Part 108 BVLOS rule is still sitting at OIRA",
+          "summary": "The final rule normalizing beyond-visual-line-of-sight operations has been pending review at the White House Office of Information and Regulatory Affairs since July 10, 2026, and the FAA has said it hopes for publication by year end. Until it lands, no operator in the US holds Part 108 authority and everyone is still flying BVLOS on Part 107 waivers or exemptions. The 2025 proposal would have allowed package delivery without exemptions under caps of 100 active aircraft, 55 lb max takeoff weight and flight only over lower population-density categories; final terms may differ.",
+          "sources": [
+            { "label": "Federal Register (NPRM)", "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations" },
+            { "label": "UAS Dashboard", "url": "https://uasdashboard.com/guides/part-108-guide" }
+          ]
+        },
+        {
+          "headline": "Emergency PHP patches for a pair of server-takeover bugs",
+          "summary": "PHP shipped out-of-band patches on Oct 21 for two critical vulnerabilities, dubbed PHP2Shell, reported to allow takeover of any server running PHP 5.4 or later. The affected version range is unusually wide, which makes this a patch-now item for anything self-hosted. Sourced from aggregator reporting — confirm against the PHP project's own advisory before acting on specifics.",
+          "sources": [
+            { "label": "Tech Startups", "url": "https://techstartups.com/2026/10/21/tech-news-today-october-21-2026-anthropic-emudhra-openai-nvidia-spacex-more/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "GM's Gen-4 EV platform: LMR cells, less copper, and a lot less battery",
+          "summary": "GM Forward on Oct 21 detailed a fourth-generation EV architecture launching exclusively on lithium-manganese-rich chemistry, with about 30% less wiring and roughly 20% less battery than today's Ultium-era cars — a mainstream, cost-down play rather than a halo one. A new central computer debuts on the 2028 Cadillac Escalade IQ before spreading to GM's highest-volume gas trucks and SUVs, three-row crossovers and the Gen-4 EVs. GM says simulation-led development is meant to halve EV development time; no nameplates or firm dates were given.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-21/gm-pushes-ahead-with-next-generation-ev-even-as-sales-have-slid" },
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/812810/gm-fourth-generation-ev-platform-lmr-battery/" },
+            { "label": "Fortune", "url": "https://fortune.com/2026/10/21/gm-forward-simulated-battery-cell-34000-years-computer-time/" }
+          ]
+        },
+        {
+          "headline": "VW's fix for a possible ID.4 fire risk is to take away 20% of the battery",
+          "summary": "Volkswagen is pushing an 80% charge limit to affected ID.4s over a battery fire concern, taking an entry-level 2023 car from its rated range down to roughly 162 miles. The setting applies from Oct 27 unless owners opt out. Capping state of charge is the standard mitigation when a cell defect is suspected but not yet root-caused — it keeps cells out of the high-SOC regime where lithium plating and separator stress are worst — but doing it via software on cars already sold is a blunt instrument for owners.",
+          "sources": [
+            { "label": "CarBuzz", "url": "https://carbuzz.com/volkswagen-id4-battery-capacity-fire-risk-october-2026" }
+          ]
+        },
+        {
+          "headline": "Ferrari's 2026 engine is judged more than 4% down — and behind Audi's",
+          "summary": "Under the FIA's ADUO catch-up mechanism, Ferrari's internal combustion engine was assessed more than 4% behind benchmark Red Bull, placing it in the same bottom tier as Audi and Honda and earning two upgrade tokens for 2026 and two for 2027; Mercedes, inside 4%, got one. The thresholds also unlock budget: within 4% is worth about $3 million extra, between 4% and 6% about $4.65 million. Ferrari spent its first token at Monza on a revised combustion chamber and turbocharger worth a forecast 15 hp, with Fred Vasseur conceding afterwards that \"we are missing pure power.\"",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13551591/aduo-in-f1-red-bull-engine-top-rated-by-fia-as-mercedes-ferrari-granted-upgrades-for-2026-formula-1-season" },
+            { "label": "Motorsport Week", "url": "https://www.motorsportweek.com/2026/09/07/ferrari-pure-power-f1/" }
+          ]
+        },
+        {
+          "headline": "Perez calls a cost cap provision unfair ahead of an F1 Commission vote",
+          "summary": "Sergio Perez publicly criticised a cost cap rule as weighted against smaller teams in the run-up to an F1 Commission vote. The cap is the real constraint on how fast a midfield team can respond to the 2026 regulations, so where the line gets drawn on what counts against it is a competitiveness question, not an accounting one.",
+          "sources": [
+            { "label": "Motorsport Week", "url": "https://motorsportweek.com/2026/10/21/sergio-perez-f1-unfair-ruling" }
+          ]
+        },
+        {
+          "headline": "Alonso wants Honda's power unit issues investigated",
+          "summary": "Fernando Alonso called for an investigation into Honda amid continuing complaints at Aston Martin about the 2026 power unit. Honda sits in the same sub-benchmark ADUO tier as Ferrari and Audi, and one account suggests its deficit is the largest of the group though no more than 10% — which makes a works-team driver going public a useful signal on how the first year of the new PU rules is actually shaking out.",
+          "sources": [
+            { "label": "Motorsport Week", "url": "https://motorsportweek.com/2026/10/21/aston-martin-fernando-alonso-honda" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "34,000 years of compute before a single cell got built",
+    "body": "GM says it simulated roughly 300,000 battery cell designs for its Gen-4 platform, consuming the equivalent of about 34,000 years of computer time, before physically building anything. That is the clearest number yet on how far cell development has shifted from build-and-test to screen-in-silico: the physical program's job is no longer to explore the design space but to validate the handful of candidates that survived it. Worth noting the limit, too — simulation screens chemistry and geometry well, but the ID.4 charge-limit story in the same day's news is a reminder that manufacturing defects are exactly what simulation does not catch."
+  },
+  "footnote": "Compiled from public reporting on Oct 21–22, 2026. Direct article fetching was blocked in this run, so items are built from search-surfaced reporting; weakly sourced claims are flagged inline."
+}
