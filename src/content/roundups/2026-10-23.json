@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-23",
+  "title": "Daily Briefing — Friday, October 23",
+  "coverage": "Covering roughly Oct 21–23, 2026. Sourcing caveat: this session's network policy blocked all direct article fetching (nytimes.com, reuters.com, arstechnica.com, theverge.com, spacenews.com, space.com and dronelife.com all failed to resolve or were refused by the proxy), so every item is assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times was checked and remains unreachable for this tool, so nothing is sourced from it today. Where outlets disagree on a figure, the disagreement is noted inline, and single-source claims are flagged.",
+  "top": [
+    {
+      "headline": "Chip stocks take their worst session since summer as Lam warns on supply and Huang warns on financing",
+      "summary": "The Philadelphia Semiconductor Index fell about 6.7 percent on Oct 22 — its lowest close since late July, with all 30 members down — after Lam Research capped its December-quarter guidance on supply constraints and Jensen Huang said neoclouds lack the working capital to fund demand that is otherwise \"off the charts.\" Roughly 200 billion dollars in chip-sector market value evaporated in a day, which is a financing story rather than a demand story."
+    },
+    {
+      "headline": "Artemis III is now an Earth-orbit docking rehearsal, not a Moon landing",
+      "summary": "Coverage on Oct 22 laid out NASA's revised plan: Artemis III flies four astronauts to low Earth orbit in 2027 to rendezvous and dock with test articles of SpaceX's Starship HLS and Blue Origin's Blue Moon, with the first crewed landing pushed to Artemis IV in 2028. The driver is Starship HLS schedule risk, especially the orbital propellant-transfer campaign that has to be demonstrated before any crewed descent."
+    },
+    {
+      "headline": "GM's fourth-generation EV platform goes all-in on manganese-rich cells",
+      "summary": "At GM Forward in New York on Oct 21, GM detailed a fourth-gen architecture that launches exclusively on lithium manganese-rich (LMR) cells — more manganese, less nickel and cobalt — claiming 20 percent more range per kWh. The platform also claims 15 percent less mass, 20 percent better efficiency, 25 percent better aero and 30 percent less wiring, which together let GM cut installed pack capacity by 20 percent for the same range."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "AI trade cracks: SOX down 6.7 percent, Nvidia loses roughly 235 billion dollars in a session",
+          "summary": "Nvidia fell 4.4 percent to about 212 dollars on Oct 22 after Huang told CNBC at GTC Berlin that \"what is missing in the middle is the working capital to fuel that growth\" for neocloud buildouts. AMD dropped about 8 percent, ASML about 7 percent and KLA roughly 10 percent, with CoreWeave off 10 percent; health care and staples led the S&P instead. Reported index and single-stock moves vary a little between outlets, so treat the exact closes as approximate.",
+          "sources": [
+            { "label": "TradingKey", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262233889-us-stock-market-close-meta-ai-capex-nasdaq-fall-semiconductor-tradingkey" },
+            { "label": "Benzinga", "url": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62545840/nvidias-ai-warning-111-oil-why-soxl-just-suffered-a-brutal-20-wipeout" },
+            { "label": "PA via AOL", "url": "https://www.aol.com/articles/tech-stocks-fall-nvidia-boss-152634000.html" }
+          ]
+        },
+        {
+          "headline": "Meta raises the floor on 2026 capex to 135–145 billion dollars and goes free-cash-flow negative",
+          "summary": "Meta's Q3 report lifted the bottom of its 2026 capital expenditure range from 130 to 135 billion dollars and total expense guidance to 175–179 billion, while posting negative free cash flow of about 2.12 billion dollars for the quarter on revenue of 64.6 billion, up 26 percent. Shares fell as much as 7 percent, and an Oct 22 filing showed future compute and data-center lease commitments well above July's level. This was one of the triggers for the broader AI-capex repricing above.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/newsletters/2026-10-22/meta-raises-capex-guidance-as-its-ai-bet-pays-off" },
+            { "label": "Business Today", "url": "https://www.businesstoday.in/markets/stocks/story/meta-shares-slide-7-as-ai-spending-push-drives-capex-higher-free-cash-flow-turns-negative-563170-2026-10-22" }
+          ]
+        },
+        {
+          "headline": "Anthropic opens a waitlisted preview of Claude Duet, a proactive background agent",
+          "summary": "Announced Oct 21, Duet is a research preview for US Pro and Max subscribers on iOS, Android and the web, with no separate price — it draws on existing subscription limits, including for background work. It runs continuously rather than turn-by-turn, briefing the user and pausing for approval before consequential actions like sending, paying, signing or deleting. Secondary coverage says it runs on Claude Opus 5.5; there is no Team or Enterprise tier and no admin console yet, which several analysts flagged.",
+          "sources": [
+            { "label": "TestingCatalog", "url": "https://www.testingcatalog.com/claude-duet/" },
+            { "label": "Crypto Briefing", "url": "https://cryptobriefing.com/anthropic-unveils-claude-duet-ai-agent/" }
+          ]
+        },
+        {
+          "headline": "Reservoir Media sues both Anthropic and Suno over music training data",
+          "summary": "Filed Oct 21 in the Northern District of California, the suits cover lyrics from 853 compositions against Anthropic and 1,050 compositions against Suno, with DMCA claims over stripped copyright-management information; pleaded damages total roughly 340 million dollars across both. Notably, the requested relief includes destruction of copies inside datasets, internal repositories and model weights — the remedy that actually bites, since weights cannot be selectively unlearned. These are allegations, not findings, and neither company had responded publicly.",
+          "sources": [
+            { "label": "Billboard", "url": "https://www.billboard.com/pro/reservoir-sues-suno-anthropic-over-ai-training/" },
+            { "label": "Digital Music News", "url": "https://www.digitalmusicnews.com/2026/10/22/reservoir-media-suno-anthropic-lawsuit/" },
+            { "label": "Music Business Worldwide", "url": "https://www.musicbusinessworldwide.com/reservoir-sues-suno-for-infringment-over-1050-songs-including-tracks-by-joni-mitchell-johnny-cash-madonna-and-more/" }
+          ]
+        },
+        {
+          "headline": "More DeepMind staff resign over Google's military AI work",
+          "summary": "The Intercept reported on Oct 21 that London research engineer Sofia Liguori resigned after three years over Google's expanding US and Israeli military contracts, following senior research scientist Andreas Kirsch, who told the BBC that Google's \"governance and oversight are not sufficient or meaningful enough to deploy AI safely and responsibly in military and classified settings.\" An earlier petition on human oversight of military AI drew more than 250 signatures before being rejected. Google says public-sector contracts are reviewed under its acceptable-use policies and AI principles.",
+          "sources": [
+            { "label": "The Intercept", "url": "https://theintercept.com/2026/10/21/google-deepmind-resign-ai-military-gaza/" },
+            { "label": "Slashdot (BBC roundup)", "url": "https://tech.slashdot.org/story/26/10/22/0043216/google-staff-resign-in-backlash-over-its-ai-contracts-with-military" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "NASA's lander race reframed: Artemis III to LEO in 2027, landing on Artemis IV in 2028",
+          "summary": "Oct 22 coverage detailed the re-scoped Artemis III as an Orion rendezvous and docking demonstration in low Earth orbit with Starship HLS and Blue Moon test vehicles, with SpaceX targeting an uncrewed Starship lunar landing before the end of 2027 and Blue Origin an uncrewed Blue Moon MK2 landing in Q1 2028. Cryogenic propellant transfer at scale is the gating technology: one widely repeated figure puts the required orbital refueling demonstrations at around ten, though that number traces to a single secondary source and should be treated as unconfirmed.",
+          "sources": [
+            { "label": "Tech Times", "url": "https://www.techtimes.com/articles/329390/20261022/nasas-lunar-lander-race-starship-blue-moon-prepare-artemis-iii-iv.htm" },
+            { "label": "Universe Today", "url": "https://www.universetoday.com/articles/nasa-updates-artemis-program-adding-a-mission-and-delaying-lunar-landing" },
+            { "label": "Teslarati", "url": "https://www.teslarati.com/spacex-hls-artemis-3/" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies its 98th Electron, lofting three HawkEye 360 RF-sensing satellites",
+          "summary": "\"We're Not Hawking Around\" lifted off from Launch Complex 1 in New Zealand at 8:11 p.m. NZDT on Oct 23 (3:11 a.m. EDT), placing three HAWK satellites into a 520 km orbit — the 19th Electron of 2026 and the third dedicated HawkEye 360 mission. The cluster geolocates emitters by time-difference and frequency-difference of arrival across formation-flying satellites, covering maritime tracking, GNSS jamming detection and radar monitoring. Neutron's debut remains the open question, with public schedules still showing TBD 2027.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-3-hawk-satellites-to-orbit-to-gather-signals-intelligence" },
+            { "label": "Rocket Lab (via StockTitan)", "url": "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-98th-electron-c212cs72rxf0.html" }
+          ]
+        },
+        {
+          "headline": "SpaceX declined to bid Falcon on three Space Force missions — and nobody else bid either",
+          "summary": "Reporting relayed this week says SpaceX passed on three future national security launches, two of them Space Development Agency satellites, with no other provider offering to fly them. That lands while ULA's Vulcan is barred from national security missions pending a booster anomaly investigation and Blue Origin's New Glenn is recovering from a May pad explosion, leaving an uncomfortably thin assured-access picture after SpaceX handled roughly 85 percent of US launches in 2025. The underlying report is single-source and secondhand here, with no official SpaceX or Space Force confirmation of the details.",
+          "sources": [
+            { "label": "Politico report via Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-edges-overnight-spacex-035834780.html" },
+            { "label": "Air & Space Forces Magazine", "url": "https://www.airandspaceforces.com/space-force-pauses-vulcan-missions-anomaly/" }
+          ]
+        },
+        {
+          "headline": "Starlink 15-15 scrubs for a third straight day at Vandenberg",
+          "summary": "The launch director called a hold in the final seconds of the Oct 22 countdown for weather, after a technical scrub on Oct 20, pushing the 27-satellite stack to a window at 2:30 p.m. PDT on Oct 23. The flight would be the 36th for booster B1063. One outlet reported a successful Oct 22 liftoff with 28 satellites, but it is uncorroborated and contradicted by the live-coverage reporting.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/10/20/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/" },
+            { "label": "Spaceflight Now (New Glenn pads, Oct 16)", "url": "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Lam Research posts a record quarter, then says the ceiling is now its own supply chain",
+          "summary": "Lam guided to 8.60 billion dollars plus or minus 400 million for the quarter ending Dec 27 and said the number would have been higher without near-term supply constraints, sending the stock down roughly 10 to 12 percent despite record revenue and a bullish 2027 view. It sized the wafer-fab equipment market in the mid-150-billion-dollar range for 2026 and above 200 billion for 2027. The read-through for anyone buying memory or storage: the bottleneck has moved upstream from fab capacity to the tools that build it, and reports differ on whether the CEO or CFO delivered the warning.",
+          "sources": [
+            { "label": "Money Morning", "url": "https://moneymorning.com/2026/10/23/lam-research-record-revenue-supply-chain-constraints-october-2026" },
+            { "label": "TokenPost", "url": "https://www.tokenpost.com/news/business/38567" },
+            { "label": "Tech Times", "url": "https://www.techtimes.com/articles/329406/20261023/chip-stocks-lose-200-billion-equipment-makers-warning-counters-nvidias-ai-optimism.htm" }
+          ]
+        },
+        {
+          "headline": "Agility standardizes Digit 5 on NVIDIA IGX Thor, making onboard compute a single-supplier decision",
+          "summary": "Announced Oct 22, the general-availability Digit 5 will ship with NVIDIA IGX Thor modules as the exclusive onboard compute platform. IGX is the functional-safety-oriented variant of the Thor line, which matters for a bipedal robot sharing a warehouse floor with people — the safety island and certifiable I/O are the reason to pick it over raw TOPS. Locking the compute spec also lets Agility freeze its thermal and power budget, usually the hard constraint on a legged platform.",
+          "sources": [
+            { "label": "Unite.AI", "url": "https://unite.ai/agility-robotics-standardizes-digit-5-on-nvidia-igx-thor-compute" }
+          ]
+        },
+        {
+          "headline": "Unitree shows H2-X as China says humanoid output could top 100,000 units this year",
+          "summary": "Unitree demoed H2-X on Oct 21 with combat moves, drops from height and a vehicle-rescue scenario, while China's MIIT reported humanoid production above 40,000 units in the first half of 2026 and on pace to exceed 100,000 for the year. Separately, Agile Robots and NVIDIA unveiled Agile ONE SN, a compact research humanoid on Jetson Thor preconfigured with the GR00T 1.7 model. Demo athleticism is not the same as duty-cycle endurance or certified safety, and none of this coverage establishes unsupervised industrial use.",
+          "sources": [
+            { "label": "DigiTimes", "url": "https://digitimes.com/news/a20261022PD234/robot-production-miit-security-vehicle.html" },
+            { "label": "TechRepublic", "url": "https://techrepublic.com/article/news-nvidia-agile-one-sn-humanoid-robot" }
+          ]
+        },
+        {
+          "headline": "FAA's Part 108 BVLOS rule is still sitting at the White House, 100-plus days in",
+          "summary": "The final beyond-visual-line-of-sight rule has been under White House review since July 10, past its statutory deadline, with the FAA still hoping to publish by year-end and no date announced; until it lands, every BVLOS operation needs a waiver, exemption or COA. An NBAA-BACE panel on Oct 22 worked through how BVLOS traffic would share low-altitude airspace with crewed aircraft — the detection-and-avoid and airspace-deconfliction problem that the rule has to codify. Separately the FAA awarded 12 million dollars to 19 drone research projects across its nine test sites, though that item is thinly dated.",
+          "sources": [
+            { "label": "NBAA-BACE", "url": "https://nbaabace.org/news-media/news/proposed-rules-emerging-technologies-seek-to-expand-bvlos-operations-in-business-aviation" },
+            { "label": "DroneXL", "url": "https://dronexl.co/bvlos/" }
+          ]
+        },
+        {
+          "headline": "US moves toward an Autonomous Warfare Command as a 50-billion-dollar drone push is floated",
+          "summary": "A report dated Oct 22 says the Pentagon is standing up an Autonomous Warfare Command to speed fielding of drones and robotics, with project leads laying out the approach in an Oct 21 open letter: competitions, exercises and combat performance decide which systems scale and which get cut. That pairs with a roughly 50-billion-dollar autonomy proposal presented at AUSA 2026, which would be sought through budget reconciliation and is not approved funding. For anyone on a UAV program, the signal is procurement by fly-off rather than by requirements document.",
+          "sources": [
+            { "label": "Defence Industry Europe", "url": "https://defence-industry.eu/u-s-moves-to-establish-autonomous-warfare-command-to-accelerate-battlefield-adoption-of-drones-and-robotics/" },
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-plans-50-billion-push-to-build-millions-of-autonomous-weapons-and-attack-drones" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "GM commits its fourth-gen EV platform to LMR cells only",
+          "summary": "GM's chief product officer said the team had expected to need a second long-range chemistry and found it did not: lithium manganese-rich cells alone, with 20 percent more range per kWh than today's high-nickel packs and less nickel and cobalt per cell. Vehicle-level claims are 15 percent less mass, 20 percent better efficiency, 25 percent better aero and 30 percent less wiring, plus new drive units, a centralized compute architecture and a target of cutting development from five years to two. GM named no specific models or dates, and withheld cold-weather performance and charging-speed numbers — the two places manganese-rich chemistries usually struggle.",
+          "sources": [
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/812810/gm-fourth-generation-ev-platform-lmr-battery/" },
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/22/gm-announces-new-efficient-ev-platform/" }
+          ]
+        },
+        {
+          "headline": "Ferrari prices the Luce at 560,800 dollars, about 80,000 under expectations",
+          "summary": "Ferrari confirmed US pricing for its first EV on Oct 22, with deliveries from Q2 2027, against a European list of 550,000 euros and the roughly 640,000-dollar figure that had circulated since the May reveal. The powertrain is four motors for a combined 1,035 hp — the rear pair doing most of the work — fed by a 122 kWh pack good for up to 329 miles WLTP and 350 kW DC charging. Kerb weight is the honest number: 2,260 kg for a four-door, five-seat Ferrari.",
+          "sources": [
+            { "label": "Electrek", "url": "https://electrek.co/2026/10/22/ferrari-luce-ev-us-price-560800/" },
+            { "label": "Edmunds", "url": "https://www.edmunds.com/car-news/ferrari-luce-ev-debut-first-look.html" }
+          ]
+        },
+        {
+          "headline": "2027 Mustang Mach-E makes the 88 kWh extended-range pack standard",
+          "summary": "Revealed Oct 22, the 2027 Mach-E drops the small battery entirely: EPA-estimated range goes to about 320 miles RWD and 300 AWD, versus 260 and 240 on last year's base cars, with GT at 280 and Rally at 255. Ford Authority lists the Select at 39,995 dollars before destination, and other outlets quote about 42,040 with it, so the \"under 40,000\" framing depends on how you count. Deleting a battery variant is as much a manufacturing simplification as a product one.",
+          "sources": [
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/812887/2027-ford-mustang-mach-e-trail-battery-range/" },
+            { "label": "Electrek", "url": "https://electrek.co/2026/10/22/2027-ford-mustang-mach-e-adds-range-starts-40000/" }
+          ]
+        },
+        {
+          "headline": "Ben Sulayem pushes the V8 return ahead of Austin: 80 kg lighter, half the engine spend",
+          "summary": "Speaking before the United States Grand Prix, the FIA president said talks with FOM, the teams and the power unit manufacturers are progressing on V8s for the 2030s, targeting roughly 80 kg off the cars and at least a 50 percent cut in engine research, development and cost. Earlier remarks named 2030 specifically, a year ahead of the current cycle's end, but the manufacturers have not approved regulations and key decisions are expected before the end of 2026. The weight target is the interesting part: most of that 80 kg lives in the hybrid system, so it is really a question of how much electrification survives.",
+          "sources": [
+            { "label": "Gulf News", "url": "https://gulfnews.com/sport/fia-president-mohammed-ben-sulayem-calls-for-return-of-v8-engines-to-formula-one-1.500720769" },
+            { "label": "PlanetF1", "url": "https://www.planetf1.com/news/fia-confirms-f1-v8-mohammed-ben-sulayem" }
+          ]
+        },
+        {
+          "headline": "COTA goes back to a normal format with the title on the line",
+          "summary": "No sprint this year: three practice sessions starting Friday Oct 23, qualifying Saturday and a 56-lap race Sunday, with Apple TV carrying every session in the US. Kimi Antonelli leads Mercedes teammate George Russell 340 to 238 and can mathematically clinch in Austin. In F1 Academy support running, Alisha Palmowski took double pole after officials reinstated a deleted lap, edging local driver Payton Westcott. Published Friday session times conflict between outlets, so check the official timetable.",
+          "sources": [
+            { "label": "RacingNews365", "url": "https://racingnews365.com/2026-f1-united-states-grand-prix-austin-time-schedule" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50138986/united-states-grand-prix-2026-circuit-americas-race-f1-start-s-how-watch-schedule-usa-tv-channel-live-stream-predictions" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Mass compounding, quantified",
+    "body": "GM's fourth-gen platform claims 20 percent less installed battery capacity for the same range — and the way it gets there is a textbook compounding loop rather than a single breakthrough. 20 percent more range per kWh from LMR chemistry, 25 percent better aero and 20 percent better efficiency reduce the energy needed per mile; a smaller pack then removes mass, which feeds back into 15 percent lower vehicle mass, which reduces the energy needed again. On an EV the pack is typically 25 to 30 percent of curb weight, so every kWh you design out buys roughly 6 to 7 kg back, and the loop converges in your favor. It is the same spiral that drives airframe sizing: shrink the energy store and the whole vehicle shrinks around it."
+  },
+  "footnote": "Compiled from public reporting on Oct 21–23, 2026. Direct article fetching was blocked in this session, so items are assembled from search-surfaced reporting; figures that outlets report inconsistently are flagged inline."
+}
