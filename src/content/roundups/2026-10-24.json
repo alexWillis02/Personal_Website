@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-24",
+  "title": "Daily Briefing — Saturday, October 24",
+  "coverage": "Covering roughly Oct 22–24, 2026, weighted to Friday Oct 23. Sourcing caveat: this session's network policy again blocked direct article fetching from nytimes.com, reuters.com, arstechnica.com, theverge.com, techcrunch.com, spaceflightnow.com and nasa.gov, so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology section was checked and remains unreachable for this tool, so nothing is sourced from it today. Where outlets disagree on a figure the disagreement is noted inline, and single-source or company-announced claims are flagged.",
+  "top": [
+    {
+      "headline": "NASA formally lays out the Artemis reshuffle: Artemis III becomes an Earth-orbit docking test",
+      "summary": "At a Kennedy Space Center briefing on Oct 23, Administrator Jared Isaacman confirmed Artemis III will fly four astronauts to low Earth orbit in 2027 for a roughly two-week rendezvous-and-docking test against SpaceX's Starship and Blue Origin's Blue Moon, with the first crewed landing moved to Artemis IV in 2028. NASA is deliberately keeping both landers in the running for that landing, and officials pointed at lander supply chains as the pacing problem."
+    },
+    {
+      "headline": "OpenAI's round reprices down to 1.25 trillion dollars while DeepSeek closes about 15 billion",
+      "summary": "Reports on Oct 22–23 have OpenAI nearing up to 30 billion dollars at a 1.25 trillion pre-money valuation, led by UAE investors with Coatue in talks to co-lead — down from the 1.4 trillion discussed earlier and the 1.5 trillion sought before that. The same week, DeepSeek wrapped roughly 100 billion yuan (about 15 billion dollars) backed by Tencent and battery maker CATL, after raising its own target twice."
+    },
+    {
+      "headline": "The AI bottleneck is now electricity, not silicon",
+      "summary": "Business Insider reported on Oct 23 that AWS has about 5 billion dollars of Nvidia GB300 racks sitting in warehouses because the data centers meant to host them do not yet have power, and Microsoft walked away from anchoring Nscale's Loughton site in Essex after being told grid supply may not arrive until the 2030s. Two very different companies hit the same wall in the same week: interconnect queues, not chip supply, now set the schedule."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "OpenAI nears up to 30 billion dollars at a 1.25 trillion valuation, led by UAE money",
+          "summary": "CNBC and Bloomberg reporting on Oct 23 put the round at up to 30 billion dollars on a 1.25 trillion dollar pre-money valuation, which would land near 1.28 trillion post-money if fully subscribed. OpenAI has reportedly told investors it wants signatures by the end of next week, and the round is framed as an opportunistic bridge ahead of a listing CFO Sarah Friar has suggested could come in 2027. Notably, demand is described as softer than in past rounds, and the price has stepped down twice — from 1.5 trillion sought, to 1.4 trillion discussed, to 1.25 trillion now.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/video/2026/10/23/openai-nears-up-to-30b-funding-round-at-1-point-25t-valuation-led-by-uae-investors-sources.html" },
+            { "label": "Reuters via Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/openai-nears-30-billion-funding-210230995.html" },
+            { "label": "FinanceFeeds", "url": "https://financefeeds.com/openai-seeks-30-billion-funding-round-at-1-25-trillion-valuation/" }
+          ]
+        },
+        {
+          "headline": "DeepSeek closes roughly 15 billion dollars with Tencent and CATL, eyes a STAR Market listing",
+          "summary": "Reuters and Bloomberg report the Hangzhou lab wrapped about 100 billion yuan (14.98 billion dollars), having lifted its target from 50 to 80 to 100 billion yuan as the book filled. Existing shareholders Tencent and CATL were among the largest checks, with Midea, Meituan, Geely and GigaDevice also named, and CITIC Securities has reportedly been engaged on a possible Shanghai STAR Market IPO. Valuation reporting conflicts — one account says roughly 500 billion yuan pre-money, another about 74 billion dollars — so treat that number as unsettled.",
+          "sources": [
+            { "label": "Reuters via KSL", "url": "https://www.ksl.com/article/51639460/deepseek-wrapping-up-15-billion-fundraising-to-fuel-ai-race" },
+            { "label": "Bloomberg via Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/deepseek-raises-15-bln-tencent-032709910.html" },
+            { "label": "Quartz", "url": "https://qz.com/deepseek-15-billion-funding-round-possible-ipo-102226" }
+          ]
+        },
+        {
+          "headline": "Amazon is reportedly stockpiling about 5 billion dollars of Nvidia GB300 racks it cannot switch on",
+          "summary": "Business Insider, citing internal emails, reported on Oct 23 that AWS expected roughly 5 billion dollars of GB300 server racks at US staging facilities ahead of final deployment, with some sitting in warehouses because the host data centers lack available power. It is a reporting story on internal documents rather than a company statement, and confirmation really lands with the next quarterly filings. For context, a Forbes read of Nvidia's latest 10-Q counts as much as 164.5 billion dollars of guarantees and commitments Nvidia has placed behind the data centers that buy its parts.",
+          "sources": [
+            { "label": "Reuters via Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/amazon-stockpiles-nvidia-ai-hardware-194615746.html" },
+            { "label": "American Bazaar", "url": "https://americanbazaaronline.com/2026/10/23/amazons-5-billion-nvidia-ai-servers-sit-idle-in-warehouses-amid-data-center-power-shortages-490651" },
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/janakirammsv/2026/10/21/nvidia-backs-1645-billion-of-ai-data-centers-to-keep-gpus-selling/" }
+          ]
+        },
+        {
+          "headline": "Chips steadied on Friday, but an oil shock pulled the rest of the market down",
+          "summary": "After Thursday's 30-for-30 semiconductor rout, the Philadelphia Semiconductor Index edged up 0.44 percent to 10,779.46 on Oct 23, with Micron up nearly 3 percent and AMD about 2 percent. The selling simply moved elsewhere: the Dow fell 652.82 points (1.23 percent) to 52,215.16, the S&P 500 slipped 0.52 percent and the Nasdaq 0.21 percent, as WTI settled 3.8 percent higher at 103.27 dollars and Brent at 116.72 dollars, its highest close since April. For the week the Dow was up 0.4 percent while the S&P lost 0.5 percent and the Nasdaq 0.7 percent.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html" },
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html" },
+            { "label": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-23-2026" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Artemis III reframed as a 2027 LEO rendezvous demo, with the landing contract still open",
+          "summary": "NASA's Oct 23 briefing at Kennedy set Artemis III as a crew of four flying to low Earth orbit in 2027 to practice rendezvous and docking between Orion and both commercial landers, pushing the crewed descent to Artemis IV in 2028. Isaacman said the point is to give both lunar landing partners the greatest opportunity for readiness, which is a polite way of saying the Artemis IV lander award has not been made. Space.com notes NASA has not published a firm liftoff date and that an internal memo put Artemis III about 90 days behind schedule, with sources split between summer 2027 and late 2027.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch" },
+            { "label": "Spectrum News 13", "url": "https://mynews13.com/fl/orlando/space/2026/10/23/nasa-gives-update-to-artemis-iii-mission" }
+          ]
+        },
+        {
+          "headline": "Starlink 15-15 finally flies from Vandenberg on a booster making its 36th trip",
+          "summary": "After three days of scrubs for weather and technical issues, Falcon 9 lifted off from SLC-4E at 3:48 p.m. PDT on Oct 23 with 27 Starlink satellites, SpaceX's first Starlink launch in 11 days. The first stage was B1063 on its 36th flight, landing on a droneship about 8.5 minutes after liftoff for what reporting counts as the 673rd Falcon booster recovery. Outlets name the droneship differently, so take the vessel identification loosely.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/10/20/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly" }
+          ]
+        },
+        {
+          "headline": "Space Force moves six national security launches off Vulcan and onto Falcon",
+          "summary": "Space Systems Command disclosed on Oct 21 that six NSSL missions are being reassigned from ULA to SpaceX's Falcon 9 and Falcon Heavy while Vulcan stays grounded after the Feb 12 solid-rocket-booster anomaly on USSF-87. ULA keeps its contracts — the swapped missions are paired against later flights that go to Vulcan once it is recertified — and Lt. Gen. Philip Garrant gave no return-to-flight date. The reporting is trade press and secondary summaries rather than an official release, so the exact count is worth re-checking; it also sits oddly next to the separate report that SpaceX declined three NSSL missions nobody else bid on.",
+          "sources": [
+            { "label": "SatNews", "url": "https://satnews.com/2026/10/22/space-force-reassigns-six-national-security-launches-to-spacex-amid-vulcan-grounding/" },
+            { "label": "SpaceNews", "url": "https://spacenews.com/space-force-weighs-launch-alternatives-as-vulcan-faces-potential-months-long-grounding/" }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 will try to catch both stages, and SpaceX expects the licence to allow it",
+          "summary": "On the Oct 20 earnings call Musk said Flight 15, targeted for November, will attempt tower catches of both Super Heavy and the ship — the first full recovery of an orbital launch vehicle if it works — and put the odds at more likely than not rather than certain. Gwynne Shotwell said SpaceX expects the FAA licence to cover return-to-launch-site and tower catch for both stages. Flight 14 on Sept 28 reached orbit and deployed 26 Starlink V3 satellites despite an early engine shutdown; one report says Ship 42's Raptors were pulled after that flight for inspection.",
+          "sources": [
+            { "label": "Starlust", "url": "https://starlust.org/starship-flight-15-elon-musk-says-spacex-will-try-to-catch-both-rocket-stages-next-month/" },
+            { "label": "Teslarati", "url": "https://www.teslarati.com/spacex-confirms-starship-15-launch-window-massive-ambitions/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "A cargo quadcopter with a three-pod APKWS launcher shoots down attack drones",
+          "summary": "Reporting on Oct 23 detailed trials at Eglin AFB in which a modified Malloy T-150 — the TRV-150 in US service — carried a three-pod launcher of laser-guided APKWS rockets and engaged multiple one-way attack drones in a single sortie, without landing to reload. SURVICE Engineering adapted the airframe to Army requirements and BAE Systems' FalconWorks integrated the APKWS modification, under the Pentagon's Mission Capabilities Joint Readiness Experimentation effort. The interesting part is the cost asymmetry: a 70 mm rocket with a guidance kit is a far cheaper magazine than an interceptor missile, and a multi-shot rotary-wing platform beats one-shot kamikaze interceptors on sorties per launch.",
+          "sources": [
+            { "label": "The Aviationist", "url": "https://theaviationist.com/2026/10/23/trv-150-drone-three-pod-apkws-counter-uas-test/" },
+            { "label": "Unmanned Airspace", "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/bae-systems-tests-t-150-drone-with-multi-shot-counter-drone-capability/" },
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-forces-examine-use-of-british-trv-150-logistics-drones-armed-with-apkws-rockets-for-short-range-air-defense" }
+          ]
+        },
+        {
+          "headline": "Microsoft exits Nscale's flagship UK site after being told grid power may not arrive until the 2030s",
+          "summary": "Microsoft has ended its agreement to anchor Nscale's roughly 90 MW Loughton, Essex data center, with reporting tying the decision to grid officials saying they do not expect to energise the site until the 2030s. Microsoft has not stated a reason and says its wider Nscale partnership stands; Nscale calls it a London-wide grid issue, says it is pursuing alternative power and remains committed to the site. The story broke in the Telegraph on Oct 18 and was still reverberating through the week because it lands just before Nscale's planned IPO.",
+          "sources": [
+            { "label": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays" },
+            { "label": "Channel Insider", "url": "https://www.channelinsider.com/infrastructure/news-microsoft-nscale-uk-ai-data-center-power-delay-emea/" },
+            { "label": "Investing.com", "url": "https://www.investing.com/news/economy-news/microsoft-pulls-out-of-uk-data-centre-deal-with-nscale-telegraph-reports-4955855" }
+          ]
+        },
+        {
+          "headline": "GitLab patches a CVSS 10.0 unauthenticated RCE that reaches back to 2014",
+          "summary": "CVE-2026-110264 lets an unauthenticated attacker execute code on self-managed GitLab CE and EE servers, and the affected code path dates to GitLab 7.0 in 2014. It is the second 10.0 of the month and the Oct 12 patches do not cover it, so anyone on 19.2.8, 19.3.5 or 19.4.2 is still exposed; fixed builds are 18.11.13, 19.0.10, 19.1.9, 19.2.9, 19.3.6, 19.4.3 and 19.5.1, with no official workaround. GitLab.com and Dedicated are already patched, and as of Oct 24 there was no known exploitation or public proof of concept.",
+          "sources": [
+            { "label": "The Hacker News", "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html" },
+            { "label": "eSecurity Planet", "url": "https://www.esecurityplanet.com/news/news-gitlab-critical-rce-patch-october/" },
+            { "label": "SecurityOnline", "url": "https://securityonline.info/gitlab-critical-patch-release-cve-2026-110264/" }
+          ]
+        },
+        {
+          "headline": "Beta Technologies, not Joby or Archer, gets the first US eVTOL market-survey authorisation",
+          "summary": "The FAA issued Beta a Special Airworthiness Certificate covering market surveys for the ALIA A250 — the first such authorisation for an eVTOL in the US — letting it fly prospective customers on demonstration flights. It is not type certification and not unrestricted commercial service, but it is the first time paying-adjacent passengers get to sit in one. Beta's first flight under the authority on Oct 20 covered 34 nautical miles from Plattsburgh, New York to Burlington, Vermont; Joby and Archer remain in the final stages of type certification with no approval yet.",
+          "sources": [
+            { "label": "Zag Daily", "url": "https://zagdaily.com/zag-air/beta-wins-first-faa-approval-for-evtol-demonstration-flights" },
+            { "label": "Motley Fool", "url": "https://www.fool.com/investing/2026/10/22/surprise-candidate-gets-first-ever-evtol-faa-authorization/" }
+          ]
+        },
+        {
+          "headline": "Europe weighs letting utilities and infrastructure operators shoot down drones themselves",
+          "summary": "Defense News reported on Oct 21 that European governments are considering giving critical-infrastructure operators active counter-drone powers, following Poland, which has already set drone-restricted zones around energy infrastructure and authorised operator security units to destroy, disable or take control of intruding aircraft. Germany's interior ministry told Reuters it is reviewing how operators and third parties could be legally involved. The push comes after a leaked European Defence Agency report found counter-drone investment grew sixfold from 2024 to 2025 while only about a third of programmes are expected to deliver by 2030, citing fragmented procurement and weak interoperability.",
+          "sources": [
+            { "label": "Defense News", "url": "https://www.defensenews.com/global/europe/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/" },
+            { "label": "Euronews", "url": "https://www.euronews.com/2026/10/08/only-a-third-of-eu-counter-drone-programmes-will-deliver-by-2030-leaked-report-warns" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "GM leads a 108 million dollar round in sodium-ion maker Peak Energy",
+          "summary": "Announced Oct 23, GM Ventures led Peak Energy's Series B as the startup prepares to begin production at a 4 GWh plant in Sacramento in Q1 2027, with Maverick Silicon, Infinite Capital, Eclipse, Xora and LG Technology Ventures joining. Peak says the money funds domestic manufacturing, more than 1 billion dollars of existing orders and a push into data center storage; GM is developing sodium-ion cells at its Michigan labs that Peak plans to use later. Sodium-ion is still more expensive per kWh than lithium-ion, so this is a bet on supply chain independence from lithium, nickel and cobalt rather than on cost today.",
+          "sources": [
+            { "label": "ESS News", "url": "https://www.ess-news.com/2026/10/23/sodium-ion-storage-maker-peak-energy-raises-108-million-in-gm-led-round/" },
+            { "label": "CBT News", "url": "https://www.cbtnews.com/gm-backs-battery-startup/" },
+            { "label": "citybiz", "url": "https://www.citybiz.co/article/921918/gm-leads-108-million-investment-in-peak-energy-to-expand-u-s-battery-manufacturing/" }
+          ]
+        },
+        {
+          "headline": "GM will close and decommission its Brownstown battery assembly plant",
+          "summary": "GM says it will shut the 480,000 square foot Brownstown Township facility south of Detroit when the lease ends in summer 2027, and attributes the decision to the expiring lease rather than EV strategy. The plant built packs for the Cadillac Celestiq plus motors and batteries for the Corvette E-Ray, and had shrunk from about 300 workers at its 2009 opening to fewer than a dozen; staff and work move to other GM sites, unnamed. Several outlets push back on the lease framing given GM's multibillion-dollar EV write-downs and its exit from the Samsung SDI joint venture in Indiana earlier this year.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/20/gm-to-close-detroit-battery-assembly-plant-but-not-for-reasons-you-might-think/" },
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/21/gm-shutters-us-battery-assembly-near-detroit/" }
+          ]
+        },
+        {
+          "headline": "Leclerc sweeps Friday practice at Austin with the title within Antonelli's reach",
+          "summary": "Charles Leclerc topped both US Grand Prix sessions on Oct 23, leading Verstappen by 0.084s in FP1 and Antonelli by 0.042s in FP2, with Verstappen third and 0.189s back in the second session. Hamilton's FP2 lap was deleted for exceeding track limits even though some published tables still showed him fourth, so check the official classification. Kimi Antonelli can clinch the drivers' title on Sunday — per grandprix.com he needs the win with Russell outside the top eight and Hamilton outside the top four.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/fp2-leclerc-sets-the-pace-from-antonelli-and-verstappen-in-second-practice-at-united-states-grand-prix.4lRGhApoylA3exqOxagIqx" },
+            { "label": "The Race", "url": "https://www.the-race.com/formula-1/f1-2026-united-states-grand-prix-practice-results/" },
+            { "label": "grandprix.com", "url": "https://www.grandprix.com/races/united-states-gp-2026-practice-2-results.html" }
+          ]
+        },
+        {
+          "headline": "FIA freezes wheel-rim specification per weekend for 2027, killing a hidden thermal development war",
+          "summary": "The World Motor Sport Council's approved 2027 change forces teams to pick one wheel rim specification from the pre-parc-ferme period before a sprint or grand prix and stick with it. Teams are still free to develop their own rims — the ban is on swapping between specs mid-weekend, which had become a quiet lever for managing tyre bulk temperature and carcass behaviour between sessions and compounds. It is a neat example of the FIA closing a loophole by constraining when a part can change rather than what it can be.",
+          "sources": [
+            { "label": "PlanetF1", "url": "https://planetf1.com/features/why-the-fia-has-announced-it-is-banning-a-hidden-f1-development-war-in-2027" },
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/fias-wmsc-ratifies-f1-regulatory-changes-for-2027-and-2028.ACyRcPvBKo8LRiOleCSJU" }
+          ]
+        },
+        {
+          "headline": "FIA writes five new articles to stop cost-cap spending hiding inside parent companies",
+          "summary": "Autosport reports the 2027 Operational Regulations gain a new Section F with five articles aimed squarely at the loophole that let work be funded through a team's parent-company programmes and kept off the cap. The changes were approved by the WMSC on Oct 19 and cover factory and staff arrangements, which is where the ambiguity lived for manufacturer-owned teams. It matters because the cap only constrains engineering choices if the accounting boundary matches the organisational one.",
+          "sources": [
+            { "label": "Autosport", "url": "https://www.autosport.com/f1/news/fia-set-to-close-f1-cost-cap-loophole/10866649/" },
+            { "label": "Grande Premio", "url": "https://grandepremio.com/en/f1/fia-closes-f1-cost-cap-loopholes-with-strict-new-factory-and-staff-rules-for-2027/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "673 and 36",
+    "body": "Friday's Starlink 15-15 flight was, by current reporting, the 673rd Falcon booster recovery overall, and it flew on B1063 making its 36th trip to space. Those two numbers together are the real reuse story: fleet-wide landings prove the recovery envelope is routine, but a single core at 36 flights is a fatigue and life-limited-parts story — nine Merlin 1Ds, grid fins, landing legs, COPVs and a thrust structure all cycling through launch loads, reentry heating and a hard deceleration, over and over, with inspection intervals rather than retirement as the answer. For anyone working on airframe life on a UAV program, that is the same question at a different scale: what you replace on condition versus on a cycle count."
+  },
+  "footnote": "Compiled from public reporting on Oct 22–24, 2026. Direct article fetching was blocked by this session's network policy, so items rest on search-surfaced reporting; figures from company announcements and single outlets are flagged inline."
+}
