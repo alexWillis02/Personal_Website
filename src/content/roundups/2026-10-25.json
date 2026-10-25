@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-25",
+  "title": "Daily Briefing — Sunday, October 25",
+  "coverage": "Covering roughly Oct 23–25, 2026, weighted to Saturday Oct 24. Saturday was a quiet news day, so a few Wednesday–Thursday items are carried where they are still the live story. Sourcing caveat: this session's network policy blocked direct article fetching from nytimes.com, reuters.com, arstechnica.com, theverge.com, techcrunch.com, nasa.gov, spacenews.com and space.com, and direct RSS was refused by the proxy, so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and remain unreachable for this tool, so nothing is sourced from them today. Where outlets disagree on a figure or a date the disagreement is noted inline, and single-source or company-announced claims are flagged.",
+  "top": [
+    {
+      "headline": "A decade-old PHP flaw found with AI help has 70 percent of the web patching at speed",
+      "summary": "Wiz, OpenAI and Calif disclosed PHP2Shell, a pair of memory-safety bugs in PHP's core engine reaching back to version 5.4, rated up to CVSS 9.2 and tracked as CVE-2026-109618 and CVE-2026-109619. The NSA and ENISA urged immediate patching, Cloudflare reported millions of exploitation attempts within days, and the discovery is being credited to large-model code analysis rather than conventional fuzzing."
+    },
+    {
+      "headline": "Anthropic's draft S-1 puts a number on what the AI buildout actually costs",
+      "summary": "Press reviews of the confidential draft report 16.3 billion dollars of first-half 2026 revenue against an 80.7 billion dollar net loss, roughly 72 billion of which is a non-cash charge tied to convertible instruments. The filing also discloses about 450 billion dollars of mostly non-cancelable cloud commitments over seven to ten years, split across Google Cloud, AWS and Microsoft."
+    },
+    {
+      "headline": "NASA's 2028 lander architectures change shape, and Blue Origin drops orbital propellant transfer",
+      "summary": "NASA and its partners detailed revised designs and concepts of operations for the 2028 crewed landings. Blue Origin's accelerated path abandons cryogenic propellant transfer entirely in favour of three expendable transfer stages launched ahead of the lander, while SpaceX cuts how much propellant Starship must aggregate in orbit but still has to demonstrate the technique."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic's leaked S-1 shows 16.3 billion dollars of revenue and an 80.7 billion dollar loss",
+          "summary": "Reporting on the draft prospectus puts first-half 2026 revenue at 16.3 billion dollars and the GAAP net loss at 80.7 billion, with about 72 billion of that a non-cash charge from financial instruments issued to raise money rather than cash burn. The same draft discloses roughly 450 billion dollars in mostly non-cancelable cloud agreements, reportedly 111 billion with Google Cloud, 110 billion with AWS and 31 billion with Microsoft, and total future infrastructure obligations above 600 billion once Nvidia and Broadcom-facilitated chip deals are counted. No public S-1 had appeared on EDGAR as of Oct 23, so every figure here comes from journalists reading a confidential draft and Anthropic has declined to comment.",
+          "sources": [
+            { "label": "WSJ via Investing.com", "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928" },
+            { "label": "Fortune", "url": "https://fortune.com/2026/10/21/anthropic-s-1-leak-income-statement-ipo/" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/10/21/anthropic-has-committed-450-billion-to-cloud-computing-its-draft-ipo-filing-shows/" }
+          ]
+        },
+        {
+          "headline": "Replit moves most of its AI spend to OpenAI in a deal reported above 100 million dollars a year",
+          "summary": "The Information reported Friday that Replit shifted the bulk of its model spending from Anthropic to OpenAI after OpenAI offered a discount of more than 30 percent and Anthropic declined to extend Replit's existing discount without a larger commitment. The same reporting says OpenAI has been pitching discounts of up to 90 percent at Anthropic's largest coding customers, citing Rippling, where OpenAI's share of the coding workload rose from 16 to 52 percent while Anthropic's fell from 57 to 18 percent. Accounts conflict on how complete the break is: Replit's CEO said publicly that the company no longer works with Anthropic, while a person familiar told TechCrunch the partnership stands and only the Agent default changed.",
+          "sources": [
+            { "label": "The Information via Techmeme", "url": "https://www.techmeme.com/261024/p8" },
+            { "label": "The Decoder", "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/" },
+            { "label": "Digital Today", "url": "https://www.digitaltoday.co.kr/en/view/116213/replit-ceo-says-chatgpt-is-better-why-it-picked-openai-over-anthropic" }
+          ]
+        },
+        {
+          "headline": "PHP2Shell: AI-assisted analysis surfaces memory-safety bugs hiding since PHP 5.4",
+          "summary": "Wiz's write-up describes two flaws in how PHP's core engine handles fatal errors mid-request, stemming from architectural decisions made more than a decade ago and present in every release since 5.4. The patch landed Oct 21 and the bugs were held from public disclosure until a fix existed, having been found in late August. Forbes and Fortune credit the discovery to a mix of frontier models reading the engine's source, which makes this a useful datapoint on where automated code analysis now sits relative to human review on legacy C.",
+          "sources": [
+            { "label": "Wiz", "url": "https://www.wiz.io/blog/php2shell-php-rce" },
+            { "label": "CNN", "url": "https://www.cnn.com/2026/10/21/tech/php2shell-vulnerability-ai-intl" },
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/thomasbrewster/2026/10/21/openai-ai-found-one-of-the-biggest-web-weaknesses-ever/" }
+          ]
+        },
+        {
+          "headline": "Moonshot ships Kimi K3.1 Pro and strips cyber training data before the open release",
+          "summary": "The model is a mixture-of-experts design listed at about 2.8 trillion total parameters with 104 billion active and a one-million-token context window, available now through Kimi's apps and API with full weights promised by Nov 4. Moonshot's own numbers put it at 65.7 percent on Terminal-Bench 4.0 against 66.4 for Claude Opus 5.5, with a clear gap on science tasks, and Artificial Analysis independently scored it 55 on its intelligence index. The interesting detail is deliberate capability removal: an unfiltered checkpoint solved 90.5 percent of Moonshot's internal xdev-bench-hard at pass@3, and the shipped model solves 81.0 percent.",
+          "sources": [
+            { "label": "MarkTechPost", "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/" },
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber" }
+          ]
+        },
+        {
+          "headline": "Thirty-two export-controlled Nvidia B300s turn up on a China Telecom-linked network, found through an open dashboard",
+          "summary": "Israeli security firm Lava says it identified 32 Blackwell Ultra B300 accelerators on infrastructure tied to the state-owned carrier, which would breach US export controls. The method is the notable part: Lava found them by scanning publicly reachable instances of Nvidia's DCGM Exporter, the telemetry agent operators install for GPU monitoring, which is meant for internal networks and often ships without authentication. Nothing in the reporting establishes where the GPUs physically sit or how they got there, and Nvidia called diversion a drop in the bucket, putting it at under half a percent in recent court cases without denying the finding.",
+          "sources": [
+            { "label": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor" },
+            { "label": "DigiTimes", "url": "https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Blue Origin trades cryogenic propellant transfer for three expendable transfer stages",
+          "summary": "In NASA's update on the 2028 landings, Blue Origin's accelerated profile launches three transfer stages to low Earth orbit on one New Glenn, then sends the Blue Moon Mark 2 Alpha lander up on a second New Glenn to rendezvous with them and be pushed toward the Moon. That removes orbital cryogenic transfer from the critical path and buys schedule, at the cost of extra rendezvous events and expended hardware. SpaceX's revised Starship concept reduces how much propellant must be aggregated in orbit and has Orion dock with Starship in high-Earth orbit, with four crew launching on SLS and two descending; the aggregation demonstration is still a prerequisite. Outlets disagree on whether the first landing is labelled Artemis III or IV.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/" },
+            { "label": "Astronomy.com", "url": "https://www.astronomy.com/space-exploration/nasa-overhauls-artemis-adds-second-mission-before-first-lunar-landing/" },
+            { "label": "NewSpace Economy", "url": "https://newspaceeconomy.ca/2026/10/24/nasa-revises-artemis-lunar-landing-plans-for-spacex-and-blue-origin/" }
+          ]
+        },
+        {
+          "headline": "Electron's 98th flight puts three HawkEye 360 RF satellites into a 520 km tri-satellite formation",
+          "summary": "The mission, named We're Not Hawking Around, lifted off from Launch Complex 1 in New Zealand at 07:11 UTC and was Rocket Lab's 19th successful launch of 2026 and its third dedicated HawkEye 360 flight. The three-satellite cluster formation is what makes the payload work: geolocating a radio emitter by time and frequency difference of arrival needs several receivers flying in a controlled relative geometry, so cluster spacing is a mission requirement rather than a convenience. It lands while Neutron, the partially reusable medium-lift vehicle, has slipped to 2027 on a manufacturing issue. Orbital Radar dates the flight Oct 24 while most outlets say Oct 23; a 07:11 UTC liftoff is Oct 23 evening in New Zealand.",
+          "sources": [
+            { "label": "NewSpace Economy", "url": "https://newspaceeconomy.ca/2026/10/23/rocket-lab-launches-three-hawkeye-360-radio-frequency-satellites/" },
+            { "label": "Quiver Quantitative", "url": "https://www.quiverquant.com/news/Rocket+Lab+Launches+Third+Dedicated+HawkEye+360+Mission+on+Record+98th+Electron+Flight" }
+          ]
+        },
+        {
+          "headline": "Space Force issues the first operational CASR contracts, six of them, for surge space-domain awareness",
+          "summary": "Space Systems Command awarded agreements to EOS Space Systems, NorthStar Earth and Space, InTrack Radar, Anduril via its ExoAnalytic acquisition, Slingshot Aerospace and LeoLabs, totalling about 1.37 million dollars. The point is the contracting model rather than the money: CASR is the space analogue of the Civil Reserve Air Fleet, pre-arranging commercial sensor capacity the military can call on in a crisis, and these short awards, typically six months or less, are there to test real demand. The hard questions are still open, namely whether the US can require a vendor to deny service to its other customers and who pays if a commercial satellite is lost in a conflict. Sources conflict on the vehicle used, with SSC citing the GSA ACCESS contract and Inside Defense citing a Golden Dome Marketplace.",
+          "sources": [
+            { "label": "Aviation Week", "url": "https://aviationweek.com/space/commercial-space/space-force-awards-first-operational-casr-contracts-six-vendors" },
+            { "label": "Breaking Defense", "url": "https://breakingdefense.com/2026/10/space-force-reveals-first-6-operational-contracts-for-civil-reserve-support-in-space-monitoring/" },
+            { "label": "Space Systems Command", "url": "https://www.ssc.spaceforce.mil/Newsroom/Article/4631645/ssc-awards-casr-agreements-to-establish-commercial-sda-surge-capability" },
+            { "label": "Air & Space Forces Magazine", "url": "https://www.airandspaceforces.com/space-force-picks-six-companies-commercial-augmentation-space-reserve/" }
+          ]
+        },
+        {
+          "headline": "A Long March 8A flies the 28th batch of China's LEO internet constellation, the 674th Long March mission",
+          "summary": "The rocket lifted off from the Hainan commercial launch site at 10:03 a.m. Beijing time this morning and placed the satellites in their planned orbit, with the Philippine Space Agency independently confirming the launch and its timing through a drop-zone advisory. The 8A is the hydrogen-upper-stage variant built specifically for constellation work, and the batch cadence out of Hainan is the clearest indicator of how fast China is closing on Starlink-scale deployment rates. Separately, Arianespace's next Amazon Leo flight, Leo Europe 4 with 36 satellites on an Ariane 6, is no earlier than Nov 23.",
+          "sources": [
+            { "label": "Xinhua", "url": "https://english.news.cn/20261025/9db370bd21374619aa7ad7a637a20657/c.html" },
+            { "label": "The Philippine Star", "url": "https://www.philstar.com/headlines/2026/10/25/2565626/philsa-confirms-chinas-rocket-launch" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "378 drone incursions in 30 days on the southern border, and a layered counter-UAS stack going in to meet them",
+          "summary": "Brig. Gen. Brian Filler, deputy commander for operations at Joint Task Force Southern Border, said the military detected 378 drone incursions in the previous month and that the trend is rising. Forces are testing radars, interceptor drones and automated guns including the Bullfrog M240, on the explicit logic that no single effector covers every small-UAS engagement, and lasers have reportedly downed 11 cartel drones since deploying in August. In parallel the Pentagon picked four directed-energy counter-drone systems from AeroVironment, Epirus, Kord and Boeing for an operational pilot at US installations, two of them near the border.",
+          "sources": [
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-military-tests-low-cost-drone-defenses-after-378-border-incursions-in-30-days" },
+            { "label": "The Watch", "url": "https://thewatch-journal.com/2026/10/21/u-s-army-tests-counterdrone-tech-at-mexican-border-as-cartel-drone-use-rises/" },
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-tests-four-directed-energy-weapons-to-defend-homeland-military-bases-against-drone-attacks" }
+          ]
+        },
+        {
+          "headline": "Jet-powered Shaheds are beating Ukraine's interceptors, and engine supply is the bottleneck",
+          "summary": "Ukraine is testing five high-speed interceptor types against Russia's jet-powered Geran-4 and Geran-5, with one line expected to reach roughly 400 units and the other four still in trials. The performance gap is stark: Ukraine reportedly downs about 57 percent of jet-powered Shahed-type drones versus 85 to 90 percent of propeller-driven ones, which is a closure-rate and seeker problem more than a numbers problem. Scaling is limited by small turbojet supply, since Ukraine imports most of its engines. Russia is meanwhile trialling a handful of MiG-35s as drone interceptors, which is an expensive way to chase a cheap target.",
+          "sources": [
+            { "label": "Kyiv Post", "url": "https://www.kyivpost.com/post/85960" },
+            { "label": "The Kyiv Independent", "url": "https://kyivindependent.com/ukraine-aims-to-produce-up-to-400-interceptor-drones-as-russian-jet-powered-drone-use-grows-zelensky-says/" },
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/russia-deploys-experimental-mig-35-fighters-to-intercept-ukrainian-drones/" }
+          ]
+        },
+        {
+          "headline": "FAA Part 108 is still sitting at White House review, past its own target, with DJI warning most airframes are excluded",
+          "summary": "The BVLOS final rule has been at OIRA since July 10 as an economically significant rulemaking, so routine beyond-visual-line-of-sight flight still requires a waiver or exemption. DJI's objection is about the airworthiness acceptance pathway, which it reads as limited to manufacturers in the US or in countries with bilateral airworthiness agreements, and which would therefore leave the bulk of the fleet in current commercial use outside Part 108. DJI also argues the draft is written around highly automated operations with no pilot in direct control. Worth tracking if you fly commercially: participation in the FAA's BEYOND program grants no Part 108 authority.",
+          "sources": [
+            { "label": "Drone Authority", "url": "https://droneauthority.org/news/part-108-final-rule-oira-review" },
+            { "label": "DJI Viewpoints", "url": "https://viewpoints.dji.com/blog/part-108-can-unlock-bvlos.-lets-make-sure-it-works-for-everyone" },
+            { "label": "Pilot Institute", "url": "https://pilotinstitute.com/part-108-explained/" }
+          ]
+        },
+        {
+          "headline": "Archer maps a Texas air-taxi network while the eVTOL trade keeps unwinding",
+          "summary": "Archer said it plans networks across Dallas-Fort Worth, Austin and Houston, operating under the FAA's eVTOL Integration Pilot Program. The market is reading the sector very differently from the press releases: Joby is down about 53 percent year to date and fell 27 percent in a month, Archer dropped roughly 32 percent over the same stretch, and Barclays cut Joby to Underweight with a 4 dollar target. Stock moves are not engineering, but for a sector that needs years of certification funding before revenue, the cost of capital is a design constraint.",
+          "sources": [
+            { "label": "The Dallas Morning News", "url": "https://www.dallasnews.com/business/airlines/article/archer-aviation-texas-air-taxi-network-plans-dfw-22489779.php" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/10/23/joby-just-dropped-27-in-a-month-did-joby-stock-just-find-a-bottom/" }
+          ]
+        },
+        {
+          "headline": "The Army widens ground-robot roles with Overland AI's ULTRA 4x4",
+          "summary": "The service is evaluating the wheeled uncrewed vehicle for resupply, reconnaissance and, notably, counter-drone surveillance, which puts a sensor mast on a mobile ground node rather than a fixed site. Pairing ground autonomy with counter-UAS detection is a sensible answer to the coverage problem that fixed radars have in broken terrain. It is an evaluation rather than a program of record, so treat capability claims as vendor-stated for now.",
+          "sources": [
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-army-broadens-ground-drone-roles-with-ultra-wheeled-unmanned-vehicle-for-future-combat" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Antonelli takes Austin pole by 0.179s with the title mathematically live on Sunday",
+          "summary": "A 1:34.035 put Kimi Antonelli ahead of Max Verstappen by 0.179s and Isack Hadjar by 0.215s, his seventh pole of 2026 and his first since the summer break, with Leclerc fourth, Hamilton fifth and Russell sixth. He can clinch the championship today, but only on a narrow combination: he needs the win plus Russell ninth or lower and Hamilton fifth or lower. PlanetF1 says a late lap-time deletion moved Norris behind Piastri while other tables keep Norris eighth, so treat the exact midfield order as unsettled.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/antonelli-seizes-pole-position-ahead-of-verstappen-in-qualifying-at-the-united-states-gp.4xdH4w09GhNDOJdknowRAk" },
+            { "label": "RaceFans", "url": "https://www.racefans.net/2026/10/24/antonelli-beats-red-bull-pair-to-pole-position-in-austin/" },
+            { "label": "F1i", "url": "https://f1i.com/news/575963-united-states-gp-antonelli-beats-verstappen-to-thrilling-austin-pole.html" }
+          ]
+        },
+        {
+          "headline": "Engine allocation reshuffles the Austin grid, and Racing Bulls simply gave up on Q3",
+          "summary": "Arvid Lindblad took a sixth internal combustion engine of the season, drawing a five-place penalty that dropped him from ninth to 14th, and Racing Bulls had Liam Lawson sit out Q3 rather than burn mileage, which leaves Lawson starting ninth. Bortoleto goes from 14th to last for Audi and Colapinto starts 21st on a ten-place penalty. This is the 2026 power-unit allocation rules doing exactly what they are designed to do, forcing teams to treat ICE life as a season-long budget and sometimes to trade a qualifying session for hardware.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/lindblad-colapinto-and-bortoleto-to-take-grid-penalties-for-united-states-grand-prix.4qjn84W4zOmwNXeELFWn0k" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/heavily-adjusted-2026-f1-united-states-grand-prix-starting-grid-after-major-penalties" },
+            { "label": "GPFans", "url": "https://www.gpfans.com/en/f1-news/1091945/f1-2026-us-grand-prix-starting-grid-all-fia-penalties-applied/" }
+          ]
+        },
+        {
+          "headline": "GM's fourth-generation EV platform bets on lithium manganese-rich prismatic cells",
+          "summary": "The platform, outlined at GM Forward, is built around LMR prismatic cells from the Ultium Cells joint venture with LG Energy Solution at Spring Hill, Tennessee, with volume production targeted for 2028. GM's design target is 33 percent higher energy density than LFP at comparable cost, which is the interesting claim: manganese-rich chemistry is cheap on raw materials but historically fights voltage fade and manganese dissolution, so a durable production cell would be a real result. GM separately targets about 20 percent more range per kWh from the battery, redesigned drive units, lower mass and better aerodynamics together, so the pack is only part of it. These are company targets, not measured figures, and one report questions how much Spring Hill output goes to vehicles rather than LG's grid-storage unit.",
+          "sources": [
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/22/gm-announces-new-efficient-ev-platform/" },
+            { "label": "The EV Report", "url": "https://theevreport.com/gm-fourth-generation-ev-platform-lmr-battery" },
+            { "label": "GM Authority", "url": "https://gmauthority.com/blog/2026/10/gm-confirms-fourth-generation-ev-platform-is-under-development/" }
+          ]
+        },
+        {
+          "headline": "Tariff pressure reaches the tier-one supply base as a Detroit interior plant closes",
+          "summary": "Dakkota Integrated Systems will close its Detroit plant in two stages and cut 397 jobs after losing Stellantis instrument-panel contracts, the kind of second-order effect that follows assembly-plant downtime rather than appearing alongside it. The same risk digest notes a threat to raise auto tariffs to 50 percent absent a trade deal by Jan 1, which would expose on the order of 457,000 Toyota vehicles a year. Stellantis CEO Antonio Filosa has been arguing that trade barriers are fragmenting a globally integrated industry into regional blocs, with Windsor facing a three-week shutdown and Brampton's future disputed.",
+          "sources": [
+            { "label": "ELM Analytics Automotive Supply Chain Risk Digest", "url": "https://automotive-risk-digest.elmanalytics.com/p/automotive-supply-chain-risk-digest-505-20261023" },
+            { "label": "Hashtag Investing", "url": "https://www.hashtaginvesting.com/blog/stellantis-ceo-says-trade-barriers-are-breaking-up-the-global-auto-industry-as-canadian-plants-face-u-s-tariff-pressure" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "57 percent versus 85 to 90 percent",
+    "body": "That is Ukraine's reported intercept rate against jet-powered Shahed-type drones compared with propeller-driven ones. The airframe barely changes and the warhead does not, but swapping a piston engine for a small turbojet roughly doubles cruise speed, and the interceptor's problem scales badly with it: less time from detection to engagement, a tighter lead-angle solution, higher required closure speed, and a terminal seeker that has to resolve and track a faster-crossing target. It is a clean reminder that in an intercept problem the hard currency is closure geometry, not explosive yield, and that a modest change in target speed can cost you half your kill probability."
+  },
+  "footnote": "Compiled from public reporting on Oct 23–25, 2026. Direct article fetching and RSS were blocked by this session's network policy, so items rest on search-surfaced reporting; figures from company announcements, single outlets and leaked draft documents are flagged inline."
+}
