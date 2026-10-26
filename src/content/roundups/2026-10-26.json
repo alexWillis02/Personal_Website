@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-26",
+  "title": "Daily Briefing — Monday, October 26",
+  "coverage": "Covering roughly Oct 24–26, 2026, weighted to Sunday Oct 25 and Monday morning Oct 26. Because it is Monday, a few Oct 21–23 items are carried where they are still the live story, and each one's date is noted inline. Sourcing caveat: this session's network policy again blocked direct article fetching at the DNS level for most news domains (nytimes.com, reuters.com, cnbc.com, arstechnica.com, theverge.com, spaceflightnow.com, nasaspaceflight.com, dronedj.com, globenewswire.com and others), so most items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. anthropic.com was reachable and was read directly. The New York Times technology, science and business sections were checked and remain unreachable for this tool, so nothing is sourced from them today. Where outlets disagree on a figure the disagreement is noted, and single-source or company-announced claims are flagged.",
+  "top": [
+    {
+      "headline": "Anthropic's S-1 goes public: 16.3 billion dollars of half-year revenue, an 80.7 billion dollar loss, and a Nasdaq listing under ANT",
+      "summary": "The filing that leaked last week is now on EDGAR, confirming first-half 2026 revenue of 16.3 billion dollars against a GAAP net loss of 80.7 billion, roughly 72.4 billion of which is a non-cash fair-value charge on convertible notes rather than cash burn. Goldman Sachs and Morgan Stanley are leading an offering targeted for the week of Nov 16; the filing discloses no offering size or target valuation, so the 1.5-to-2 trillion dollar figures circulating are press estimates, not company numbers."
+    },
+    {
+      "headline": "Musk says SpaceX closed a 40 billion dollar GPU debt deal, and warns the credit window has shut behind it",
+      "summary": "Musk said on X that SpaceX has closed roughly 40 billion dollars of mostly callable debt to buy GPUs arriving in Q1 and Q2 2027, underwritten by an investment-grade rating resting on Starlink and launch revenue. In the same exchange he said debt markets have \"almost entirely shut off\" for companies without substantial revenue independent of AI data centers, and predicted failures and consolidation across 200-plus neoclouds plus \"stranded compute\" in half-finished buildings."
+    },
+    {
+      "headline": "Antonelli wins in Austin and is one top-nine finish from being F1's youngest champion",
+      "summary": "Kimi Antonelli converted pole into his ninth win of the season at the United States Grand Prix on Sunday, beating Charles Leclerc by 13.078 seconds and Max Verstappen by 17.485. Russell's eighth place kept the title mathematically alive, but a ninth-place finish in Mexico City on Nov 1 would make Antonelli champion at 20 years, 2 months and 7 days, more than three years younger than Vettel's 2010 record."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic files publicly for a Nasdaq IPO under the ticker ANT",
+          "summary": "Anthropic confirmed the S-1 on its own newsroom on Oct 26 and the document is now on EDGAR, ending a week in which every figure came from journalists reading a confidential draft. Revenue was 16.3 billion dollars in the first half of 2026 against 1.1 billion a year earlier, with full-year 2025 at 4.6 billion; the 80.7 billion dollar net loss is dominated by a roughly 72.4 billion dollar non-cash charge on convertible notes and other financing instruments, and Q2 operating income was reported at roughly 974 million to 1 billion dollars. The company had filed confidentially in June and is targeting a float in the week of Nov 16, with terms expected in an amendment about two weeks out.",
+          "sources": [
+            { "label": "SEC (Form S-1)", "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm" },
+            { "label": "Anthropic newsroom", "url": "https://www.anthropic.com/news" },
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-s-1-filing-offers-first-look-at-claude-maker-s-finances" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html" }
+          ]
+        },
+        {
+          "headline": "The interesting number in the filing is not the loss, it is the compute ratio",
+          "summary": "Anthropic spent about 9 billion dollars on compute and infrastructure in the first half of 2026, up from 2.3 billion a year earlier, but as a share of revenue compute fell from roughly 251 percent to about 48 percent across five quarters, working out to roughly 1.80 dollars of revenue per compute dollar. Against that, the filing carries enormous forward obligations: press reads put signed compute agreements near 650 billion dollars, with the company estimating 125 to 150 billion dollars of future payments on agreements whose commercial terms are not yet final, and roughly 750 to 800 billion once estimated chip leases are counted. Customer concentration is real but modest, with about 20 percent of first-half revenue from two unnamed customers.",
+          "sources": [
+            { "label": "VKTR", "url": "https://www.vktr.com/ai-market/anthropics-s1-shows-163b-in-revenue-and-compute-squeeze/" },
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/anthropic-s-1-750bn-compute-80-7bn-loss" },
+            { "label": "FourWeekMBA", "url": "https://fourweekmba.com/ai-anthropic-took-in-about-1-80-per-compute-dollar-in-h1/" }
+          ]
+        },
+        {
+          "headline": "Musk's neocloud warning lands the same day as his own 40 billion dollar financing",
+          "summary": "Reuters reports Musk saying SpaceX raised about 40 billion dollars in debt for GPUs, with a regulatory filing describing a binding commitment from an Apollo-managed entity and Bloomberg reporting a possible special purpose vehicle to keep the debt off SpaceX's balance sheet. The warning attached to it is the substantive part: lenders have reportedly pulled back from anyone whose revenue depends on AI data centers, which would strand capital in partially built capacity. Treat the sector-wide claim carefully, since no lender, rating agency or central bank has confirmed it, and a tighter market makes SpaceX's own investment-grade deal look better by comparison.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html" },
+            { "label": "Reuters via Investing.com", "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248" },
+            { "label": "Fox Business", "url": "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation" }
+          ]
+        },
+        {
+          "headline": "The AI data center trade is selling off hard underneath all of it",
+          "summary": "Since the S&P 500's record close on Oct 6, the companies that build and equip AI data centers are down a median 23 percent, which is the market pricing in exactly the financing risk Musk described. The pullback is concentrated in the suppliers rather than the hyperscalers, and local resistance is adding friction at the permitting end, with Trumbull, Connecticut passing a moratorium on new data centers while still allowing upgrades at existing sites. This is the backdrop against which Anthropic is asking public markets to fund hundreds of billions in compute commitments.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/the-ai-sell-off-is-crushing-stocks-of-companies-leading-the-data-center-build-out-175206076.html" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/10/26/is-money-for-ai-data-centers-drying-up-heres-who-could-come-out-on-top/" }
+          ]
+        },
+        {
+          "headline": "Block's Dessa drops text out of the voice pipeline entirely and runs on a laptop",
+          "summary": "TechCrunch reported Saturday on Dessa, a full-duplex conversational speech model that Block trained on conversation audio rather than transcribed text, so it listens and talks simultaneously instead of running the usual speech-to-text, LLM, text-to-speech chain. Block says it runs locally on consumer hardware, a MacBook M4 Max or better, which matters for latency and for keeping audio off a server. It is not broadly available: there is no product, API or price, and early access went to a small group of AI safety researchers, so the demos are the only evidence so far.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starlink and launch revenue are now collateral for AI hardware",
+          "summary": "The structural point in Sunday's 40 billion dollar GPU financing is that SpaceX borrowed against an investment-grade rating built on recurring Starlink subscriptions and launch contracts, then spent it on Nvidia silicon rather than rockets. SpaceX expects 35 to 40 billion dollars of capital expenditure in Q4 2026 alone, and Musk said the new debt would not be a major factor this quarter. Earlier reporting put SpaceX's data center and Grok agent business ahead of investor expectations in Q3, which is the revenue line that makes this leverage work.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html" },
+            { "label": "Fox Business", "url": "https://www.foxbusiness.com/technology/spacex-secures-40b-financing-gpus-elon-musk-warns-ai-cloud-industry-consolidation" },
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/" }
+          ]
+        },
+        {
+          "headline": "NASA restructures Artemis: the next crewed flight stays in low Earth orbit",
+          "summary": "At an Oct 23 acceleration briefing NASA recast Artemis III as a roughly 14-day crewed test in low Earth orbit, targeted for summer 2027, whose job is rendezvous and docking with the commercial landers rather than a landing. The first crewed landing near the south pole moves to Artemis IV in early 2028, and NASA has deliberately not named which company lands first, saying it will pick on lander readiness. Bloomberg notes Isaacman held the timeline despite hardware concerns, and the readiness document puts the first flight unit of the new Sortie suit in the first half of 2028, which is uncomfortably close to the landing it has to support.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/artemis/nasa-wants-to-accelerate-its-artemis-missions-to-the-moon-it-will-need-to-drop-some-big-hardware-to-do-it" },
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-23/nasa-commits-to-lunar-mission-timeline-despite-hardware-concerns" },
+            { "label": "National Space Society", "url": "https://nss.org/nasa-sets-a-new-course-for-artemis/" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies Electron for the 98th time while Neutron slips on a carbon-fiber defect",
+          "summary": "Electron put three HawkEye 360 satellites into a 520 km orbit from Launch Complex 1 to extend that company's RF-sensing constellation for maritime tracking and signals intelligence; Rocket Lab calls it mission success and its 19th Electron flight of 2026, though outlets split between Oct 21 and Oct 23 for liftoff. The contrast with Neutron is the story: the first flight slipped to 2027 after voids were found between plies in the carbon composite forward dome of the first-stage propellant tank. Beck says the defect is understood and the design changed, but the company chose to build a replacement dome rather than fly with uncertainty in a cryogenic tank bulkhead.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-98th-electron-mission/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-launches-3-hawk-satellites-to-orbit-to-gather-signals-intelligence" },
+            { "label": "Space.com (Neutron)", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027" }
+          ]
+        },
+        {
+          "headline": "Quiet launch weekend, with Starship's ship catch attempt next up in November",
+          "summary": "Nothing major flew from the US over the weekend: a Long March 8A was the listed Oct 25 mission, and Starlink Group 15-16 is set for no earlier than Oct 27 at 04:45 UTC. The Falcon 9 family stood at 712 launches with 709 full successes and 655 booster landings as of late last week, which is the cadence baseline everything else is measured against. Musk confirmed on the Oct 20 earnings call that Starship Flight 15 launches in November and will attempt a ship catch for the first time, while Pad 39A in Florida is being modified for Starship.",
+          "sources": [
+            { "label": "Wikipedia (Falcon 9 launch list)", "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches" },
+            { "label": "Teslarati", "url": "https://www.teslarati.com/spacex-confirms-starship-15-launch-window-massive-ambitions/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/things-are-going-super-well-at-39a-spacex-gearing-up-to-launch-starship-from-florida-for-1st-time" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "L3Harris takes a ramjet counter-drone interceptor into flight test on a 60 million dollar Army contract",
+          "summary": "Announced Oct 23, the three-year award worth up to 60 million dollars moves L3Harris into phase two of the Army's Xtended Range Counter-sUAS Missile program, run out of the Combat Capabilities Development Command Aviation and Missile Center, with a fully integrated interceptor now headed for flight performance testing. The propulsion choice is the interesting bit: an air-breathing ramjet carries no oxidizer, so for the same airframe volume it buys substantially more range and sustained speed than a solid rocket, which is exactly what you want when you are chasing drones rather than aircraft. Northrop Grumman holds a separate 18.8 million dollar agreement for solid-fuel ramjet propulsion on the same program, and no performance figures, launcher compatibility or unit cost have been released.",
+          "sources": [
+            { "label": "L3Harris", "url": "https://www.l3harris.com/newsroom/press-release/2026/10/l3harris-receives-contract-develop-long-range-drone-interceptor" },
+            { "label": "Inside Defense", "url": "https://insidedefense.com/daily-news/l3harris-wins-60-million-army-deal-develop-longer-range-c-uas-missile" },
+            { "label": "Army Technology", "url": "https://www.army-technology.com/news/l3harris-drone-interceptor-contract/" }
+          ]
+        },
+        {
+          "headline": "GXO expands humanoid deployments to two more warehouses after 100,000 totes of evidence",
+          "summary": "GXO and Agility Robotics announced Monday that Digit will go into e-commerce fulfillment at Statesville, North Carolina and Lebanon, Tennessee starting in early 2027, beginning with Digit 4 and transitioning to Digit 5 when it is commercially available. The justification is operational rather than speculative: the original Flowery Branch, Georgia pilot, the first commercial humanoid deployment and first humanoid Robots-as-a-Service agreement, has moved more than 100,000 totes. Agility separately said it has three new manufacturing customers and a pipeline of more than 30 prospects spanning automotive, logistics, agricultural equipment and defense.",
+          "sources": [
+            { "label": "GXO", "url": "https://investors.gxo.com/news-releases/news-release-details/gxo-and-agility-robotics-expand-partnership-accelerate" },
+            { "label": "Unite.AI", "url": "https://www.unite.ai/gxo-agility-robotics-expand-digit-humanoid-deployments-to-more-u-s-sites/" }
+          ]
+        },
+        {
+          "headline": "The FCC votes Thursday on ending a 35-year ban on drones in the 800 MHz cellular band",
+          "summary": "Thursday's open meeting takes up a Report and Order that would strike the restriction keeping drones out of 50 MHz of low-band cellular spectrum, adding a drone exemption to section 22.925 under GN Docket 26-74. The rule dates to 1991 and was written to stop airborne handsets from hitting too many towers at once, a premise the draft finds no longer applies to drones; AT&T, Verizon and Zipline are backing it. It matters because reliable low-band command and control is a practical prerequisite for scaled BVLOS operations, and the FAA's Part 108 rule has now sat at OIRA for more than 100 days with no publication date announced.",
+          "sources": [
+            { "label": "FCC (Chairman's agenda)", "url": "https://docs.fcc.gov/public/attachments/DOC-425692A1.pdf" },
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/10/09/fcc-800-mhz-cellular-band-drones-october-29-vote/" },
+            { "label": "DroneRanker", "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/" }
+          ]
+        },
+        {
+          "headline": "Nvidia pushes HBM base dies onto TSMC's 3nm, and Samsung goes along with it",
+          "summary": "Reporting from Oct 18-20 says Nvidia has asked all three of its HBM suppliers to build the memory base die on TSMC's 3nm logic process, and Samsung's Device Solutions division accepted after an internal foundry review, which would be the first time Samsung and TSMC have cooperated at the HBM manufacturing stage. The base die is the logic layer underneath the stack that handles the interface and test logic, so moving it to a leading logic node buys bandwidth and power headroom that DRAM-process base dies cannot. JPMorgan projects a 20 percent HBM shortfall in 2026, which is the pressure driving this.",
+          "sources": [
+            { "label": "The Information", "url": "https://www.theinformation.com/briefings/nvidia-tells-suppliers-tap-tsmc-process-next-generation-memory-chips" },
+            { "label": "Techzine", "url": "https://www.techzine.eu/news/infrastructure/145117/nvidia-standardizes-hbm-production-at-tsmc/" },
+            { "label": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/10/62431195/samsung-accepts-nvidia-terms-turns-to-tsmc-next-generation-memory" }
+          ]
+        },
+        {
+          "headline": "eMudhra is shutting down its certificate business after eight CA keys turned out to be guessable",
+          "summary": "Carried from Oct 20-21 because the cleanup is still running: researchers recomputed the private keys of eight eMudhra intermediate certificate authorities straight from their public certificates, and the keys were revoked within hours by Mozilla, Chrome, Apple and Microsoft. eMudhra blames a script error during a key-generation ceremony that produced a second, weak key set whose labels resembled the good ones, so the wrong keys were selected for signing; it says its infrastructure was not breached. The company is exiting the SSL/TLS certificate business and its shares fell about 40 percent in two days.",
+          "sources": [
+            { "label": "The Register", "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312" },
+            { "label": "CyberScoop", "url": "https://cyberscoop.com/emudhra-shuts-down-certificate-business-weak-private-keys/" },
+            { "label": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Antonelli dominates Austin and leaves the title to be settled in Mexico",
+          "summary": "Starting from pole, Antonelli took his ninth win of 2026 on his 42nd Grand Prix start, 13.078 seconds clear of Leclerc and 17.485 clear of Verstappen, with Hamilton fourth. Bottas stopping on track brought out a virtual safety car, and Colapinto, Bearman and Bottas all retired. Antonelli now leads Russell by 123 points and Hamilton by 124 with 125 still available, so a top-nine finish in Mexico City clinches it outright, a tenth will do if Hamilton wins, and any finish is enough if neither Mercedes nor Ferrari rival wins; his nine victories also give him the tiebreak.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/antonelli-surges-to-dominant-victory-in-united-states-grand-prix-ahead-of-leclerc-and-verstappen.6kmBQv9FNTW7LzkDj8S34j" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13603603/united-states-gp-kimi-antonelli-wins-austin-race-to-move-to-brink-of-f1-world-title-after-dominant-drive" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50131911/kimi-antonelli-formula-1-title-race-permutations-standings-explained" }
+          ]
+        },
+        {
+          "headline": "The FIA closes the floor-stay loophole behind Red Bull's and Audi's sidepods for 2027",
+          "summary": "Red Bull found that the regulations exempt the thin rods supporting the floor from the minimum bodywork radius requirements, then ran a stay along the lower sidepod so the surrounding bodywork could take a far sharper edge than the rules otherwise allow. It first appeared on the RB22 at the Austrian Grand Prix and Audi copied the idea in Baku. The 2027 fix rewrites Article C3.5.14 so the rod may not intersect a bodywork surface except near its mounting points and within small defined areas on the engine cover, with the permitted dimension reportedly cut from 20mm to 5mm; outlets disagree on whether this is already approved in Issue 3 of the 2027 regulations or still pending, and the design stays legal for the rest of 2026.",
+          "sources": [
+            { "label": "Formula 1 (Tech Weekly)", "url": "https://www.formula1.com/en/latest/article/the-floor-stay-loophole-behind-red-bull-and-audis-sidepods-and-why-it-is-being-closed-for-2027.4rwr2rImgcIIHLCLed473w" },
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/fia-outlaws-red-bulls-clever-sidepod-aerodynamic-loophole-ahead-of-2027-season/10864930/" },
+            { "label": "GPblog", "url": "https://www.gpblog.com/en/news/fias-red-bull-sidepod-ban-is-already-in-the-2027-rulebook-what-article-c3514-changes" }
+          ]
+        },
+        {
+          "headline": "GM's fourth-generation EV platform bets the whole thing on one battery chemistry",
+          "summary": "Detailed at GM Forward on Oct 21, the platform uses lithium manganese-rich prismatic cells from the Ultium Cells joint venture with LG in Spring Hill, Tennessee, which GM calls the first LMR cell in production and targets at about 33 percent higher energy density than LFP at comparable cost. The system-level numbers are the engineering story: 15 percent less vehicle mass, 25 percent better aerodynamics, 40 percent fewer components in the drive units, 30 percent less wiring length, and about 20 percent more range per kilowatt-hour, which together let the pack shrink by roughly 20 percent in capacity. GM's product chief said the team expected to need a second long-range chemistry alongside LMR and decided it did not; no launch date or models were given, with a new centralized computing architecture arriving from 2028.",
+          "sources": [
+            { "label": "InsideEVs", "url": "https://insideevs.com/news/812810/gm-fourth-generation-ev-platform-lmr-battery/" },
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/22/gm-announces-new-efficient-ev-platform/" },
+            { "label": "CarExpert", "url": "https://www.carexpert.com.au/car-news/gms-next-generation-ev-platform-detailed-lmr-batteries-only-fewer-parts-mainstream-focus" }
+          ]
+        },
+        {
+          "headline": "European buyers are routing around Chinese EV tariffs by buying used",
+          "summary": "Used Chinese EV sales in the EU rose 280 percent in January through September 2026, reported Oct 23, as duties on new Chinese battery-electric imports pushed demand into the secondhand market and into plug-in hybrids that the tariffs do not hit the same way. It is a clean illustration of how a tariff aimed at new-vehicle imports leaks through channels it does not cover. For context on the wider market, US battery-electric sales are down about 29 percent year over year through September while hybrids are up about 2 percent, following the federal tax credit's expiry.",
+          "sources": [
+            { "label": "BioEnergy Times", "url": "https://bioenergytimes.com/used-chinese-ev-sales-in-europe-surge-280-as-tariffs-weigh-on-new-vehicle-imports/" },
+            { "label": "National Law Review (Foley Automotive Update)", "url": "https://natlawreview.com/article/foley-automotive-update-october-14-2026" }
+          ]
+        },
+        {
+          "headline": "Toyota's 400,000-robot factory plan is mostly not humanoids",
+          "summary": "Toyota Group plans to spend roughly 6.4 billion dollars a year from 2028 on about 400,000 robots, and its ELEY humanoid was shown at the Japan Mobility Show being trained by workers wearing finger-shaped jigs that demonstrate assembly motions directly. The headline number needs unpacking: analysis of the plan splits it into roughly 150,000 robots in Toyota's own vehicle plants and 250,000 across group component and materials companies, covering both replacements and new installations and both humanoid and conventional machines, with no stated humanoid count. Honda is pursuing dexterous humanoids for part sorting and assembly but targets the early 2030s for commercialization.",
+          "sources": [
+            { "label": "Automotive News", "url": "https://www.autonews.com/toyota/an-toyota-plans-humanoid-robot-workers-from-2028-0921/" },
+            { "label": "Just Auto", "url": "https://www.just-auto.com/news/toyota-to-deploy-humanoid-robots-at-its-global-plants-from-2028/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Why the Army is buying a ramjet to shoot down drones",
+    "body": "L3Harris's XRC interceptor uses air-breathing ramjet propulsion instead of a solid rocket motor. A solid motor carries its oxidizer on board, and oxidizer is most of the propellant mass; a ramjet takes oxygen from the air it is already flying through, so for the same airframe volume you trade stored oxidizer for range and, critically, for sustained thrust across the whole flyout instead of a short boost followed by a long coast. That matters against drones specifically, because an interceptor that is still powered when it arrives can still maneuver, and a maneuvering target at the end of a ballistic coast is how you miss. Northrop holds a separate 18.8 million dollar XRC award for solid-fuel ramjet propulsion, so the Army is funding two routes to the same physics."
+  },
+  "footnote": "Compiled from public reporting, company and agency announcements. Direct article fetching was blocked for most news domains this session, so most items rest on search-surfaced reporting; figures from leaked or company-announced sources are flagged inline."
+}
