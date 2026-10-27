@@ -1,0 +1,280 @@
+{
+  "date": "2026-10-27",
+  "title": "Daily Briefing — Tuesday, October 27",
+  "coverage": "Covering roughly Oct 26–27, 2026, weighted to Monday Oct 26 and Tuesday morning Oct 27. Sourcing caveat: this session's network policy again blocked direct article fetching at the DNS level for essentially every news domain tested (nytimes.com, reuters.com, apnews.com, arstechnica.com, theverge.com, spaceflightnow.com, spacenews.com, dronelife.com, nasa.gov, spacex.com, blueorigin.com, caranddriver.com, autosport.com, arxiv.org and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and are not accessible to this tool at all, so nothing is sourced from them today. A few items are 2–8 days old where they are still the live story and yesterday's edition did not carry them; each such date is noted inline. Where outlets disagree on a figure the disagreement is flagged, and single-source or company-reported claims are marked as such.",
+  "top": [
+    {
+      "headline": "OpenAI ships GPT-6.1 Terra, a computer-use model at half the price",
+      "summary": "OpenAI released GPT-6.1 Terra on Oct 26 as its everyday workhorse for on-screen agentic work, claiming standard API prices 50 percent below GPT-5.6 Terra and task completion more than three times faster than GPT-6 Astra. It also carries a Critical cybersecurity rating under OpenAI's own Preparedness Framework, which is the part worth watching."
+    },
+    {
+      "headline": "Anthropic's S-1 sets up a Thanksgiving-week listing and moved Asian chip stocks",
+      "summary": "The filing disclosed 16.3 billion dollars of first-half revenue, up roughly 1,300 percent year over year, against about 80 billion dollars of first-half losses, with a Nasdaq listing under ANT reportedly targeted for the week of Nov 23. Korean memory names rallied on it, with the KOSPI closing up 3.09 percent on Oct 27."
+    },
+    {
+      "headline": "A Falcon 9 out of Vandenberg set the base's annual launch record",
+      "summary": "Starlink 15-16 lifted off from SLC-4E early Tuesday with 27 satellites, and booster B1082 flew for the 26th time before landing on Of Course I Still Love You. The flight set a new annual record for launches from Vandenberg, days after an Oct 23 mission tied the old one."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "GPT-6.1 Terra lands with a 50 percent price cut and a Critical cyber rating",
+          "summary": "OpenAI began rolling GPT-6.1 Terra out on Oct 26 in the API as gpt-6.1-terra and in ChatGPT Work and Codex, positioning it as the model that reads a screen, clicks through apps and drafts text all day. OpenAI reports it solved 50.3 percent of Terminal-Bench 4.0 tasks at maximum reasoning effort against 21.5 percent for GPT-5.6 Terra, and that a low-effort internal error rate fell from 53.6 percent to 16.7 percent; standard API pricing is listed at 1 dollar per million input tokens, 0.05 dollars per million cached input and 5 dollars per million output. Every performance and cost figure here is OpenAI's own, and the more consequential detail is that the model is rated Critical for cybersecurity capability under the Preparedness Framework, which puts it in the same deployment-safeguard bucket as GPT-6 Astra.",
+          "sources": [
+            {
+              "label": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/"
+            },
+            {
+              "label": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
+            },
+            {
+              "label": "Decrypt",
+              "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
+            }
+          ]
+        },
+        {
+          "headline": "The Anthropic S-1 numbers, and what is still missing from them",
+          "summary": "Anthropic publicly filed its Form S-1 on Oct 26 to list on Nasdaq as ANT, disclosing 16.3 billion dollars in first-half 2026 revenue on roughly 1,300 percent year-over-year growth, against first-half losses reported at about 80 billion dollars. What the filing does not contain is the part that sets the price: no share count and no range, with reporting pointing to a listing in Thanksgiving week beginning Nov 23 and valuation talk in the 1.5 to 2 trillion dollar band that remains unconfirmed. One analyst note worth filing away is that SpaceX fell 15 percent in its first week in the Nasdaq-100, a caution for any fast-tracked index addition.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+            },
+            {
+              "label": "CNN",
+              "url": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo"
+            },
+            {
+              "label": "Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/anthropic-files-for-nasdaq-ipo-as-revenue-jumps-to-163-billion-4972842"
+            }
+          ]
+        },
+        {
+          "headline": "Big Tech's AI capex gets audited this week, with the Fed on the same afternoon",
+          "summary": "Microsoft and Alphabet report Wednesday Oct 28 after the close and Amazon and Apple follow Thursday Oct 29, with capex guidance rather than earnings per share as the number that matters. Alphabet's guidance has walked from 175 to 185 billion dollars in February up to 195 to 205 billion in July, Amazon's sits near 220 billion, and Microsoft's 2026 figure is reported at either roughly 190 billion or about 175 billion depending on how a lease-accounting change is treated; estimates of combined 2026 Big Tech AI capex cluster around 735 billion dollars. The framing in the previews is that spending is now outrunning free cash flow growth, and the Fed announces its rate decision the same afternoon Microsoft reports.",
+          "sources": [
+            {
+              "label": "Saxo",
+              "url": "https://www.home.saxo/en-sg/content/articles/equities/big-tech-earnings-preview-27102026"
+            },
+            {
+              "label": "ValueAdd",
+              "url": "https://valueaddvc.com/ai-spending"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starlink 15-16 sets Vandenberg's annual launch record on a 26th-flight booster",
+          "summary": "A Falcon 9 cleared SLC-4E at Vandenberg overnight Monday into Tuesday with 27 Starlink satellites, and first stage B1082 landed on Of Course I Still Love You off Baja California. This was B1082's 26th flight, after a career that includes USSF-62, NROL-145, OneWeb Launch 20, Transporter-18 and 21 Starlink batches, and the mission set a new annual record for launches from the base after an Oct 23 flight tied the previous mark. Reported liftoff times differ, with Space.com giving 3:25 a.m. EDT and one tracker logging 0825 UTC, and the same tracker notes SpaceX has now passed 100 Falcon 9 launches in 2026.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/27/west-coast-falcon-9-rocket-to-launch-27-starlink-satellites/"
+            },
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-16-b1082-ocisly"
+            },
+            {
+              "label": "KEYT",
+              "url": "https://keyt.com/vandenberg-space-base/2026/10/26/record-setting-falcon-9-launch-from-vandenberg-sfb-scheduled-for-late-monday-into-early-tuesday/"
+            }
+          ]
+        },
+        {
+          "headline": "National security launch is down to two certified rockets, and it shows",
+          "summary": "SpaceX took five of seven Phase 3 Lane 2 missions awarded for fiscal 2026, ULA took two, and Blue Origin took none because New Glenn is not yet certified, leaving the Space Force adding 25 high-energy launches through Lane 2 with only two providers able to fly them and no plan to add more. A separate Politico report, relayed secondhand and not confirmed by SpaceX or the Space Force, says SpaceX declined to offer Falcon for three future missions, two of them Space Development Agency, and that nobody else bid either. Treat that specific claim as single-source, but the structural squeeze behind it is well documented.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/spacex-lands-majority-of-u-s-national-security-launches-awarded-for-fiscal-year-2026/"
+            },
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/space-force-faces-surge-in-demand-for-heavy-lift-launches/"
+            }
+          ]
+        },
+        {
+          "headline": "FAA planning dates put Starship 16 on Dec 10 and New Glenn's return on Dec 28",
+          "summary": "An FAA planning presentation surfaced tentative dates of Dec 10 for the 16th Starship and Super Heavy flight and Dec 28 for New Glenn's first launch since the May 28 pad explosion that destroyed both the rocket and the pad. All of these are planning placeholders rather than commitments, and Blue Origin has separately said it is aiming to return to flight by year end. The company also announced a 330 million dollar expansion of its Cape Canaveral Rocket Park on Oct 16, adding two launch and landing pads and capacity for up to 150 New Glenn upper stages a year by summer 2027.",
+          "sources": [
+            {
+              "label": "Behind The Black",
+              "url": "https://behindtheblack.com/behind-the-black/points-of-information/faa-provides-tentative-dates-for-two-starship-launches-and-next-new-glenn-launch/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html"
+            }
+          ]
+        },
+        {
+          "headline": "Artemis III hardware is stacking, and the tanking test is aimed at the hydrogen problem",
+          "summary": "Following NASA's Oct 23 Artemis update, engineers have completed the first stacking phase of the twin solid rocket boosters for the shortened Artemis III stack, which will roll to Launch Complex 39B for tanking tests. Those tests exist specifically to chase the hydrogen leak behavior seen before Artemis I and II, which is the kind of problem that only shows up with cryogenic propellant actually in the vehicle. Artemis III is now a low Earth orbit test mission no earlier than summer 2027, including docking tests with prototype Blue Origin and SpaceX landers, with the surface return targeted for 2028.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://www.nasaspaceflight.com/2026/10/nasa-artemis-sls-sortie-suit-dual-paths/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Ukraine reports about 80 percent intercept rates against jet-powered attack drones",
+          "summary": "Euronews reported Oct 27 that some Ukrainian air defence units are now claiming intercept rates near 80 percent against Russia's jet-powered drones, which are substantially harder targets than Shahed-type airframes because of speed and altitude. The headline engineering number is cost: F-Drones' F-Jet 80 interceptor is aiming to hold 5,000 to 7,000 dollars per unit in mass production, and the manufacturer says it has already downed several Russian drones while still in development. The same reporting flags a dependency risk, in that recent restrictions on US satellite services exposed how much of this kill chain leans on Starlink.",
+          "sources": [
+            {
+              "label": "Euronews",
+              "url": "https://www.euronews.com/2026/10/27/ukraine-improves-jet-powered-drone-interception-rates-but-starlink-disruptions-threaten-pr"
+            },
+            {
+              "label": "Kyiv Post",
+              "url": "https://www.kyivpost.com/post/85960"
+            },
+            {
+              "label": "Kyiv Independent",
+              "url": "https://kyivindependent.com/ukraine-aims-to-produce-up-to-400-interceptor-drones-as-russian-jet-powered-drone-use-grows-zelensky-says/"
+            }
+          ]
+        },
+        {
+          "headline": "Apple's touchscreen MacBook Pro arrives Wednesday, and the interesting part is the hinge",
+          "summary": "Bloomberg's Mark Gurman reports Apple will unveil 14-inch and 16-inch MacBook Pro models with touch-enabled OLED displays at a Los Angeles event on Wednesday Oct 28, alongside an M6 iMac and an OLED iPad mini. The mechanical problem with a touchscreen clamshell is display rock, and Apple is said to be highlighting a revamped hinge that keeps the panel from wobbling when pressed; the machines are also reported to drop the notch for a Dynamic Island and run M5 Pro and M5 Max silicon. None of this is confirmed by Apple, and Gurman has reported the OLED switch could push starting prices up by as much as 500 dollars.",
+          "sources": [
+            {
+              "label": "MacRumors",
+              "url": "https://www.macrumors.com/2026/10/25/macbook-pro-with-touchscreen-on-wednesday/"
+            },
+            {
+              "label": "9to5Mac",
+              "url": "https://9to5mac.com/2026/10/08/apple-to-launch-touchscreen-macbook-pro-and-more-on-october-27-report/"
+            },
+            {
+              "label": "Phandroid",
+              "url": "https://phandroid.com/2026/10/27/apples-touchscreen-macbook-pro-reportedly-fixes-screen-wobble/"
+            }
+          ]
+        },
+        {
+          "headline": "Korean memory reports this week on a record quarter and a record payout",
+          "summary": "SK Hynix reports third quarter results Oct 28 and Samsung Electronics follows Oct 29, with consensus for a combined operating profit around 184.4 trillion won on AI memory demand and rising prices. The two are also reported to be preparing a combined shareholder return program worth more than 152 billion dollars, with SK Hynix's portion expected alongside its Wednesday numbers, and the KOSPI closed up 3.09 percent on Oct 27 on the combination of that and Anthropic IPO enthusiasm. Watch the HBM4 share split: one sell-side estimate has Samsung overtaking SK Hynix on Q3 HBM revenue at 8.7 billion against 7.6 billion dollars, which is unconfirmed and would reverse a long-standing order if it holds.",
+          "sources": [
+            {
+              "label": "MoneyToday",
+              "url": "https://www.mt.co.kr/en/stock/2026/10/27/2026102620094547941"
+            },
+            {
+              "label": "Bloomingbit",
+              "url": "https://en.bloomingbit.io/feed/news/123028"
+            }
+          ]
+        },
+        {
+          "headline": "378 drone incursions in 30 days is driving a layered counter-UAS buy",
+          "summary": "The US military logged 378 drone incursions along the southwest border in a single 30-day window and is accelerating tests of layered defenses that pair radars with interceptor drones and automated gun systems such as the Bullfrog M240. That sits on top of Raytheon's Oct 13 award of 729 million dollars for LIDS components for the US Army, Qatar and Jordan, the first international sales of both the KuRFS radar and the Coyote interceptor. Quantities, schedules and the split across the three customers were not disclosed, which makes the per-engagement economics impossible to pin down from the outside.",
+          "sources": [
+            {
+              "label": "Army Recognition",
+              "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-military-tests-low-cost-drone-defenses-after-378-border-incursions-in-30-days"
+            },
+            {
+              "label": "DroneDJ",
+              "url": "https://dronedj.com/2026/10/13/raytheon-counter-drone-lids-army/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Antonelli needs ninth in Mexico City, and Russell sits out FP1",
+          "summary": "After winning in Austin on Oct 25, Kimi Antonelli goes to the Autodromo Hermanos Rodriguez on 365 points to George Russell's 242, with Lewis Hamilton a point further back and 125 still available; a ninth place or better on Sunday makes him champion. Max Verstappen is mathematically out of the drivers' title for the first time since Abu Dhabi 2025. Russell will miss Free Practice 1 to satisfy the mandatory young-driver session, with Mercedes reserve Frederik Vesti taking the car, which is a real cost at a 2,240-metre-altitude circuit where setup and cooling work do not transfer from anywhere else on the calendar.",
+          "sources": [
+            {
+              "label": "Sky Sports",
+              "url": "https://www.skysports.com/f1/news/13603683/kimi-antonelli-f1-title-permutations-how-mercedes-driver-can-win-2026-formula-1-drivers-championship-at-mexico-city-gp-on-sunday"
+            },
+            {
+              "label": "RacingNews365",
+              "url": "https://racingnews365.com/george-russell-to-miss-crucial-mexico-gp-session-in-mandatory-f1-absence"
+            },
+            {
+              "label": "RaceFans",
+              "url": "https://www.racefans.net/2026/10/27/how-to-watch-the-2026-mexican-grand-prix-live-this-weekend/"
+            }
+          ]
+        },
+        {
+          "headline": "The 2027 F1 engine rules are now published, and they walk back the electric half",
+          "summary": "The FIA's 2027 Section C technical regulations went to Issue 04 on Oct 19, confirming the shift away from the roughly 50/50 combustion-electric split that defines the 2026 cars. The target becomes about 58/42 in 2027 and 60/40 in 2028, with reported maximum internal combustion output rising from 400 kW to 420 kW for 2027 and up to 450 kW for 2028, MGU-K deployment pulled back from 350 kW to 300 kW, and fuel flow raised about 5 percent in 2027 then 13 percent in 2028. Minimum driver weight including ballast goes to 82 kg and the underfloor aero is simplified; figures still vary slightly between outlets, so treat the exact kilowatts as provisional.",
+          "sources": [
+            {
+              "label": "The Race",
+              "url": "https://www.the-race.com/formula-1/f1-engine-rule-changes-2027-2028/"
+            },
+            {
+              "label": "Sky Sports",
+              "url": "https://www.skysports.com/f1/news/12433/13541470/f1-chiefs-agree-engine-rules-changes-for-2027-season-in-tweak-to-50-50-power-source-split-for-more-intuitive-driving"
+            },
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/fia-reveals-latest-tweaks-to-f1-rules-for-2027-season/10819135/"
+            }
+          ]
+        },
+        {
+          "headline": "Tesla has 1.74 million FSD subscriptions and a 2027 date for unsupervised driving",
+          "summary": "Tesla reported 1.74 million active FSD subscriptions at the end of September, up from 1.48 million three months earlier, which is the clearest evidence yet that the take rate is real even as the autonomy promise slips. On the Oct 21 earnings call Tesla moved unsupervised FSD in customer-owned cars to the second quarter of 2027, and only by enrolling those cars into its geofenced Robotaxi fleet rather than unlocking them everywhere. Waymo, by contrast, is reported to be running more than a million fully driverless rides a month, and Nevada approved network licences for Waymo at 1,000 vehicles and Tesla Robotaxi at up to 5,000.",
+          "sources": [
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/10/21/tesla-unsupervised-fsd-q2-2027-robotaxi-fleet/"
+            },
+            {
+              "label": "MLQ",
+              "url": "https://mlq.ai/news/teslas-autonomy-bet-is-gaining-users-but-it-has-not-replaced-the-car-business/"
+            }
+          ]
+        },
+        {
+          "headline": "Toyota seals WEC, and the Hypercar rulebook opens up for 2030",
+          "summary": "Toyota took a 1-2 at Barcelona on Oct 18, the replacement round for the Qatar 1812km, to seal the WEC manufacturers' title, while Genesis claimed its first series pole. The forward-looking item matters more for anyone reading the regulations: the FIA and ACO are outlining 2030 rules that would let Hypercar manufacturers develop their own chassis and hybrid systems again, a reversal of the convergence logic that produced the current LMDh and LMH balance-of-performance fights. The 2027 calendar expands to nine rounds with Silverstone added, and Porsche's factory IMSA GTP programme is reported to be ending.",
+          "sources": [
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/wec/"
+            },
+            {
+              "label": "Porsche Motorsport",
+              "url": "https://racing.porsche.com/en-US/articles/october-monthly-preview-2026"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "The counter-drone cost exchange is finally being designed for, not discovered",
+    "body": "Ukraine's F-Jet 80 interceptor is targeting 5,000 to 7,000 dollars per unit in mass production against jet-powered attack drones, and units are claiming roughly 80 percent intercept rates. Put that next to the US side of the same problem, where 729 million dollars buys KuRFS radars and Coyote interceptors in undisclosed quantities for three countries, and the design constraint is obvious: the interceptor's unit cost has to sit below the threat's, because 378 border incursions in 30 days means you will be firing a lot of them. Anything that solves the kinematics but not the economics is not a solution at that rate."
+  },
+  "footnote": "Compiled from public reporting, company and agency announcements. Direct page fetching was blocked for nearly all news domains this run, so figures are as reported in search-surfaced coverage and should be checked against primary sources before use."
+}
