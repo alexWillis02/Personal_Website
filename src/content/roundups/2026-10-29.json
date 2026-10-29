@@ -1,0 +1,342 @@
+{
+  "date": "2026-10-29",
+  "title": "Daily Briefing — Thursday, October 29",
+  "coverage": "Covering roughly Oct 27-29, 2026. Sourcing caveat: this session's network policy again blocked direct article fetching at the DNS/proxy level for every news domain tested (spacenews.com, nytimes.com and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and are not reachable by this tool; the Nvidia/Megaspeed item below is NYT reporting as relayed by secondary outlets, not read directly. Benchmark scores and after-hours stock moves are company- or market-reported and not independently verified; the size of Alphabet's after-hours decline varies by source. Two items (Rocket Lab's Neutron slip, the Part 108 rule status) are older than 72 hours but are still the live story and add engineering context, with dates noted inline.",
+  "top": [
+    {
+      "headline": "Alphabet tops the AI benchmarks and still gets punished for the bill",
+      "summary": "Gemini 4 Carbon went to No. 1 on the Artificial Analysis Intelligence Index v5 at 59, ahead of Claude Opus 5.5 and GPT-6 Astra, but Alphabet's Q3 report on Oct 28 showed $51.4 billion of quarterly capex, negative $9.1 billion free cash flow and unchanged 2026 capex guidance of $195-205 billion. The stock fell roughly 8-11% in extended trading, the clearest sign yet that investors now price frontier capability and frontier spending separately."
+    },
+    {
+      "headline": "NYT: U.S. officials saw Nvidia's CEO as the target of a Chinese intelligence operation",
+      "summary": "The New York Times reported that U.S. intelligence concluded Alice Huang, a senior executive at Singapore-based Megaspeed, cultivated a close relationship with Jensen Huang to pass information to Beijing while her company was under scrutiny for diverting restricted Nvidia accelerators. Officials briefed President Trump about a year ago and he chose not to act, reportedly over concerns about chip sales and relations with China."
+    },
+    {
+      "headline": "The FIA has formally put V8s back on the table for 2030-31",
+      "summary": "The FIA sent all six power unit manufacturers a proposal for a 2.0-2.3 litre turbocharged V8 with a much smaller hybrid system, around 900 horsepower, 80 kg less car weight and the engine cost cap cut roughly in half from $190 million a year. The target is ratification at December's World Motorsport Council, and Mercedes has already backed it."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Gemini 4 Carbon takes the Intelligence Index lead at 59",
+          "summary": "Google's newest frontier model scores 59 on Artificial Analysis Intelligence Index v5, ahead of Claude Opus 5.5 at 58 and GPT-6 Astra at 57, with Google emphasising cybersecurity and long-horizon agentic work. The v5 index is a weighted average of production benchmarks across four equally weighted buckets — Knowledge Work, Coding, Science and General — so a one-point lead is narrower than it looks and is not comparable to the older Gemini 4 Argon scores of 50-53 from the previous index version. Worth watching whether the cybersecurity claim survives independent red-teaming rather than internal evals.",
+          "sources": [
+            {
+              "label": "Artificial Analysis",
+              "url": "https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index"
+            },
+            {
+              "label": "Trending Topics",
+              "url": "https://www.trendingtopics.eu/gemini-4-carbon-dethrones-claude-opus-5-5/"
+            },
+            {
+              "label": "Free Malaysia Today",
+              "url": "https://freemalaysiatoday.com/category/business/2026/10/29/google-unveils-gemini-4-carbon-ai-model"
+            }
+          ]
+        },
+        {
+          "headline": "Alphabet's Q3: Cloud more than doubles, free cash flow goes negative",
+          "summary": "Revenue was about $127.6 billion, up 25%, with Google Cloud at $30.7 billion (up 103%) and a $561 billion cloud backlog, but $51.4 billion of capex drove free cash flow to negative $9.1 billion. Reported EPS of $2.12 missed a ~$3.01 consensus largely because of an $8.2 billion unrealized loss on Alphabet's SpaceX stake, a reminder that mark-to-market private holdings now move megacap earnings. Management held full-year capex guidance at $195-205 billion and said 2027 spending rises significantly, which is what sold the stock off.",
+          "sources": [
+            {
+              "label": "Benzinga (transcript)",
+              "url": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript"
+            },
+            {
+              "label": "MarketBeat",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/"
+            },
+            {
+              "label": "SEC 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000119312526257724/d83560dex991.htm"
+            }
+          ]
+        },
+        {
+          "headline": "The Megaspeed espionage report lands on an already open investigation",
+          "summary": "NYT reporting, relayed by Capital Brief and others, says U.S. intelligence identified a Megaspeed executive as an asset gathering information for Beijing, with surveillance ongoing and no formal warning given to Nvidia's CEO. Megaspeed was already the subject of a Commerce Department probe over an alleged $2 billion in H100 and H800 accelerators reportedly rerouted through Indonesian and Malaysian facilities run by its Speedmatrix subsidiary. Nvidia says it debunked the supply allegations and that its dealings with Megaspeed were routine; Bain Capital's data centre unit has since evicted the company as a tenant.",
+          "sources": [
+            {
+              "label": "Capital Brief",
+              "url": "https://www.capitalbrief.com/briefing/nvidias-jensen-huang-targeted-by-alleged-chinese-spy-nyt-a6f4fd2e-a3f6-41bd-82f5-b2fb83332dd7/"
+            },
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bain-capitals-data-center-unit-removes-disgraced-tenant-suspected-of-smuggling-nvidia-gpus-to-china-megaspeed-previously-alleged-to-have-spent-roughly-usd2-billion-on-ai-processors-for-illicit-distribution"
+            }
+          ]
+        },
+        {
+          "headline": "AMD buys $1 billion of Meta stock to lock in a compute customer",
+          "summary": "AMD is taking $1 billion of Meta's $35 billion equity offering, part of a capital raise reported as targeting up to $95 billion, with Nvidia separately pledging $3 billion. The first AMD Helios rack systems are installed at Meta at 72 GPUs per rack, alongside EPYC CPUs and Instinct accelerators for training and ranking, and the roadmap covers a custom Meta-optimised Instinct part, the Verano CPU and MI500 GPUs. Chip vendors investing in their own customers' equity is now standard practice, and it makes the demand signal harder to read.",
+          "sources": [
+            {
+              "label": "StockTitan (AMD release)",
+              "url": "https://www.stocktitan.net/news/AMD/amd-and-meta-advance-strategic-partnership-to-power-meta-s-w7j6r9jk2soy.html"
+            },
+            {
+              "label": "Globe and Mail",
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/META/pressreleases/8489310/amd-to-invest-1-billion-in-meta-as-companies-expand-ai-infrastructure-partnership/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI reportedly moving to buy Google TPUs",
+          "summary": "Reuters, citing The Information, reported on Oct 27 that OpenAI plans to purchase AI processors from Google, with no financial terms disclosed. If it holds, the largest buyer of Nvidia-class training compute would be hedging into a rival's custom silicon, and it would put OpenAI workloads on a vendor it competes with directly at the model layer. Treat as single-sourced until either company confirms.",
+          "sources": [
+            {
+              "label": "CommonWealth (digest)",
+              "url": "https://english.cw.com.tw/article/article.action?id=5094"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Vulcan returns Nov 13 on its first Amazon Leo mission",
+          "summary": "ULA has set Nov 13 for Vulcan Leo 1 from Cape Canaveral carrying 40 Amazon Leo satellites, pending range approval, ending a roughly nine-month stand-down since the February solid rocket booster anomaly on USSF-87. Flying a commercial constellation payload first is deliberate: the Space Force says it wants to study data from Vulcan's commercial launches before clearing it again for national security missions. ULA's national security backlog is being delayed rather than reassigned, though some missile-warning and cislunar missions have moved to Falcon Heavy.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/vulcan-to-return-to-flight-in-mid-november-with-first-amazon-leo-mission/"
+            },
+            {
+              "label": "Air & Space Forces",
+              "url": "https://www.airandspaceforces.com/united-launch-alliance-vulcan-rocket-launch-again-november/"
+            },
+            {
+              "label": "SpaceNews (Space Force)",
+              "url": "https://spacenews.com/space-force-expects-ula-vulcan-return-as-it-reshuffles-military-launches/"
+            }
+          ]
+        },
+        {
+          "headline": "Blue Origin says the rebuilt LC-36 pad should be ready in early December",
+          "summary": "SpaceNews reported Oct 28 that Blue Origin expects its reconstructed pad ready in the first half of December and has finished reassembling the vehicle access tower at Launch Complex 36. The site was wrecked by a May 28 static-fire explosion traced in August to one of the rocket's BE-4 engines, and it is Blue Origin's only operational New Glenn pad, so the rebuild is the entire critical path. Bezos has named Blue Ring as the return-to-flight payload with a December target, but no launch day is set and slipping into early 2027 looks plausible.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/blue-origin-still-pushing-for-return-to-flight-of-new-glenn-this-year/"
+            },
+            {
+              "label": "New Space Economy",
+              "url": "https://newspaceeconomy.ca/2026/10/09/what-does-blue-origins-december-2026-target-mean-for-new-glenns-return-to-flight/"
+            }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 goes for the first catch of an orbital-velocity upper stage",
+          "summary": "Musk said on SpaceX's Oct 20 call that the next flight, no earlier than Nov 8 and unofficially targeting Booster 22 with Ship 42, will attempt to catch both the Super Heavy booster and the Ship. The booster has been caught three times, but the upper stage is the hard problem: it returns from orbital velocity, so the thermal protection system and the attitude control have to survive full reentry heating and then hand the vehicle to the tower arms with metres of accuracy. Flight 16 is tentatively late this year and could be the first Starship launch from LC-39A in Florida.",
+          "sources": [
+            {
+              "label": "Gizmodo",
+              "url": "https://gizmodo.com/spacex-is-finally-going-for-the-starship-double-catch-2000828826"
+            },
+            {
+              "label": "Technology.org",
+              "url": "https://www.technology.org/2026/10/23/spacex-starship-flight-15-ship-booster-tower-catch-november/"
+            }
+          ]
+        },
+        {
+          "headline": "Rocket Lab pushes Neutron into 2027 on a manufacturing issue",
+          "summary": "Rocket Lab has slipped the debut of its partially reusable medium-lift Neutron to 2027, citing a manufacturing problem rather than a design change. The company is otherwise having a strong year operationally: its trio of Hawk signals-intelligence satellites flew Oct 21 as mission 19 of 2026, with iQPS launches queued from around Nov 3. Neutron is the vehicle that would move Rocket Lab out of the small-launch niche, so each slip extends the window in which Falcon 9 has no real price competitor in that class.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft"
+            },
+            {
+              "label": "Rocket Launch schedule",
+              "url": "https://rocketlaunch.org/launch-schedule"
+            }
+          ]
+        },
+        {
+          "headline": "An $8.2 billion markdown shows how SpaceX's valuation now ripples outward",
+          "summary": "The single largest line item in Alphabet's earnings miss was an $8.2 billion unrealized loss on its SpaceX investment, flowing straight through the income statement under current fair-value accounting rules. It is a paper move, not a cash event, but it means the private valuation of a launch company is now a material swing factor in a $100-billion-a-quarter advertising business. Expect more of this as megacaps hold larger stakes in private space and AI firms.",
+          "sources": [
+            {
+              "label": "MarketBeat",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/"
+            },
+            {
+              "label": "Benzinga (transcript)",
+              "url": "https://www.benzinga.com/news/26/10/62679903/alphabet-q3-2026-earnings-call-transcript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "UK takes the lead on three undersea payloads for AUKUS drones",
+          "summary": "Announced Oct 27 after the Maritime Big Play exercise in San Diego, Britain will develop a synthetic aperture sonar, a deployable anti-submarine warfare sensor and a deployable non-kinetic effector for AUKUS uncrewed underwater vehicles, targeting all three navies in 2027. Synthetic aperture sonar is the interesting one: it coherently combines many pings taken as the vehicle moves to synthesise a much longer effective array, trading platform motion accuracy for seabed image resolution you could never get from a fixed aperture that size. The deployable ASW sensor is a lay-and-leave node, so one UUV sortie can seed a persistent listening field and move on.",
+          "sources": [
+            {
+              "label": "GOV.UK",
+              "url": "https://www.gov.uk/government/news/uk-sets-pace-on-new-undersea-sensors-to-detect-threats-as-aukus-partners-test-advanced-kit-in-san-diego"
+            },
+            {
+              "label": "Breaking Defense",
+              "url": "https://breakingdefense.com/2026/10/aukus-partners-test-autonomous-systems-as-europe-weighs-maritime-surveillance-needs/"
+            },
+            {
+              "label": "E&T",
+              "url": "https://eandt.theiet.org/2026/10/28/uk-develops-underwater-sensors-protect-critical-subsea-infrastructure"
+            }
+          ]
+        },
+        {
+          "headline": "Malaysia seizes $12 million of AI chips declared as 'electronic components'",
+          "summary": "Customs disclosed on Oct 28 that an Oct 15 inspection in the Kuala Lumpur airport free trade zone found roughly 49.5 million ringgit of advanced accelerators inside 30 server units, inbound from one Asian country and bound for re-export to another with Malaysia as the transit leg. Officials say the syndicate declared the hardware generically to dodge Malaysia's strategic trade permit regime, tightened last year specifically to catch transshipment. It follows a June 5 seizure of 72 servers worth about $13 million at the same airport, with reported cumulative seizures of $24-25 million this year.",
+          "sources": [
+            {
+              "label": "SCMP",
+              "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372404/malaysia-seizes-smuggled-ai-chips-worth-us12-million-kuala-lumpur-airport"
+            },
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub"
+            }
+          ]
+        },
+        {
+          "headline": "An underwater drone places live charges on a moored sea mine",
+          "summary": "Defence Blog reported Oct 28 that Singapore-based BeeX used its ALPHA hovering AUV to position explosive charges on a moored sea mine during a UK trial, one of the clearer demonstrations of uncrewed mine disposal rather than just detection. The hard part is station-keeping: placing a charge on a tethered, current-swayed target requires closed-loop hover control against disturbance with no GPS, which is exactly the capability that lets you take the diver out of the loop. Mine countermeasures is where navies are most willing to field autonomy, because the alternative risk is explicit.",
+          "sources": [
+            {
+              "label": "Defence Blog",
+              "url": "https://defence-blog.com/category/news"
+            }
+          ]
+        },
+        {
+          "headline": "AI chip stocks sell off on Alphabet's capex signal",
+          "summary": "Intel, AMD and Broadcom all fell on Oct 29, with reporting tying the move to Alphabet's earnings and its unchanged capex guidance rather than to anything company-specific. The read-through is that the market is starting to treat hyperscaler capex as the single variable behind the entire semiconductor complex, so a guide that merely fails to rise is enough to reprice suppliers. Japan's Advantest went the other way, raising its FY2027 operating profit forecast to ¥967 billion on AI chip-test demand.",
+          "sources": [
+            {
+              "label": "TipRanks",
+              "url": "https://www.tipranks.com/news/why-ai-chip-stocks-intel-amd-and-broadcom-are-tumbling-today-october-29-and-what-wall-street-expects-next"
+            }
+          ]
+        },
+        {
+          "headline": "Part 108 is still sitting at the White House, and the year is running out",
+          "summary": "As of mid-to-late October the FAA's BVLOS final rule (RIN 2120-AL82) has been pending at OIRA since July 10, five months past its executive-order deadline of Feb 1, and nothing has been published. The FAA said at September's Commercial UAV Expo that it hopes to publish by end of 2026, which industry trackers read as aspiration rather than a date; one reported sticking point is the right-of-way provision, which forced the agency to reopen its own comment period. Until it lands, routine beyond-visual-line-of-sight work still needs a Part 107 waiver, a 44807 exemption or a Section 927 waiver, which is the bottleneck for anyone trying to scale UAV operations.",
+          "sources": [
+            {
+              "label": "Drone Authority",
+              "url": "https://droneauthority.org/news/part-108-final-rule-oira-review"
+            },
+            {
+              "label": "Drone Pilot Ground School",
+              "url": "https://www.dronepilotgroundschool.com/part-108/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "The FIA's V8 proposal: smaller hybrid, lighter car, half the engine budget",
+          "summary": "The formal proposal now with all six manufacturers is a 2.0-2.3 litre turbocharged V8 — not naturally aspirated, as earlier floated — with a more compact turbo, lower boost, fully sustainable fuel and roughly 900 horsepower, most of it from the combustion engine. The energy recovery motor drops from 350 kW to 200 kW, which is the whole point: less battery, less cooling, less packaging mass, and a target of 80 kg off the car. The engine cost cap would be halved from today's $190 million a year, with ratification aimed at December's World Motorsport Council; 2030 needs four of six manufacturers to agree, and 2031 the FIA can impose.",
+          "sources": [
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/mohammed-ben-sulayem-v8s-to-return-to-f1-by-2031/10817797/"
+            },
+            {
+              "label": "ESPN",
+              "url": "https://www.espn.com/f1/story/_/id/48665603/formula-1-v8-engines-back-f1-mercedes-backs-plans-fia-president-aims-2030-return"
+            },
+            {
+              "label": "GPFans",
+              "url": "https://www.gpfans.com/en/f1-news/1092084/fia-f1-v8-engine-return-new-regulations-2030/"
+            }
+          ]
+        },
+        {
+          "headline": "Porsche's restructuring shows up in the numbers, and the EV target shrinks",
+          "summary": "Nine-month operating profit came in around €1.7 billion against €40 million a year earlier, on revenue of €25.3 billion (down about 6%), with Q3 operating profit of €387 million and deliveries down 16%. Battery-electric share actually fell to 21.7% from 23.1%, and the revised strategy now targets roughly a third of sales electric rather than the earlier goal of more than 80% by 2030, with Panamera and Cayenne keeping combustion and hybrid options into the 2030s. Roughly €2.4 billion of last year's charges were tied to unwinding the aggressive EV programme — the cost of a platform bet reversed late.",
+          "sources": [
+            {
+              "label": "Investing.com (Reuters)",
+              "url": "https://www.investing.com/news/stock-market-news/porsche-profit-rebounds-in-ninemonth-period-after-restructuring-costs-4974263"
+            },
+            {
+              "label": "Investing.com (Q3)",
+              "url": "https://www.investing.com/news/earnings/porsche-keeps-2026-outlook-as-q3-profit-rebounds-deliveries-fall-16-4974262"
+            },
+            {
+              "label": "CFO.com",
+              "url": "https://www.cfo.com/news/porsches-profit-plunges-99-percent-as-cfo-jochen-breckner-manages-ev-reset-trial-balance/803672/"
+            }
+          ]
+        },
+        {
+          "headline": "GM repurposes an EV grant to build hybrid three-row SUVs",
+          "summary": "Reuters reported Oct 27 that GM will build hybrid versions of the Chevrolet Traverse, Buick Enclave and GMC Acadia at Lansing, Michigan, partly funded by restructuring a $500 million Department of Energy grant originally awarded for battery-electric production. Those three mechanically related crossovers are among GM's best sellers, and dealer pressure is explicit as U.S. market share slid to 16.6% over nine months from 17.4%. Notably, GM's only hybrid on sale in the U.S. today is the Corvette E-Ray, so this is a near-standing start on a powertrain its rivals have shipped for two decades.",
+          "sources": [
+            {
+              "label": "Reuters via Yahoo",
+              "url": "https://finance.yahoo.com/technology/articles/exclusive-gm-plans-offer-hybrid-171953743.html"
+            },
+            {
+              "label": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/27/gm-is-embracing-hybrids-now/"
+            }
+          ]
+        },
+        {
+          "headline": "Pérez re-signs with Cadillac through 2029, the year GM's own engine arrives",
+          "summary": "Cadillac announced on Oct 28, ahead of the Mexican Grand Prix, that Sergio Pérez has extended through at least 2029 despite a difficult debut season, with team CEO Dan Towriss framing him as central to the long-term plan. The timing lines up with Cadillac's transition off customer Ferrari power units to General Motors' own F1 engine in 2029, and keeping a six-time race winner through that changeover protects development continuity when the hardware is brand new. Valtteri Bottas's seat remains unresolved, with Colton Herta a possible promotion.",
+          "sources": [
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/perez-signs-contract-extension-to-remain-at-cadillac-until-at-least-2029.4oF3HFX8tK9qTWvU7wAXHM"
+            },
+            {
+              "label": "The Race",
+              "url": "https://www.the-race.com/formula-1/cadillac-gives-perez-new-f1-deal-through-2029/"
+            },
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/sergio-perez-signs-fresh-cadillac-f1-deal-until-2029/10869093/"
+            }
+          ]
+        },
+        {
+          "headline": "Aston Martin Valhalla Spider: 1,065 hp, and a roof that costs you 93 mph",
+          "summary": "The open-top Valhalla keeps the coupe's carbon monocoque and plug-in hybrid driveline — a bespoke 4.0-litre flat-plane-crank twin-turbo V8 at 816 hp plus three electric motors adding 249 hp, for 1,065 hp and 1,100 Nm, and a claimed 2.5-second 0-100 km/h. Aston Martin Performance Technologies, the F1 team's consulting arm, worked the aero: the roof scoop sits 35 mm higher than the coupe's to keep the intake in clean flow with the roof structure changed. Deliveries start Q3 2027; pricing is unannounced, with one estimate near $950,000.",
+          "sources": [
+            {
+              "label": "CarScoops",
+              "url": "https://www.carscoops.com/2298885/aston-martin-valhalla-spider-debut/"
+            },
+            {
+              "label": "evo",
+              "url": "https://www.evo.co.uk/aston-martin/valhalla/209231/new-aston-martin-valhalla-spider-ferraris-849-testarossa-spider-has-a"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "A fabric roof is worth 93 mph",
+    "body": "The Valhalla Spider tops out at 124 mph (200 km/h) with its standard fabric roof, but 217 mph (350 km/h) with the optional carbon hardtop — same 1,065 hp, same monocoque. The limit is not power, it is what a tensioned fabric panel does under aerodynamic load: at 217 mph dynamic pressure is roughly three times what it is at 124 mph, and a soft top will balloon, flutter and eventually fail long before the driveline runs out. On the other side of the ledger, the FIA's proposed V8 cuts the hybrid motor from 350 kW to 200 kW — about 200 horsepower of electrical deployment deleted on purpose, to buy back 80 kg of battery, inverter and cooling mass."
+  },
+  "footnote": "Compiled from public reporting, Oct 27-29, 2026. Direct article fetching was blocked in this environment, so items rest on search-surfaced reporting and snippets; verify figures against primary sources before relying on them."
+}
