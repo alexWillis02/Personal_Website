@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-30",
+  "title": "Daily Briefing — Friday, October 30",
+  "coverage": "Covering roughly Oct 29-30, 2026. Sourcing caveat: this session's network policy again blocked direct article fetching for every news domain tested (arstechnica.com, theverge.com, spacenews.com and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached — nytimes.com is blocked to this tool's user agent entirely, so no NYT item appears today. Earnings figures and benchmark claims are company- or market-reported and not independently verified. Mexico City GP first practice had not yet run when this was compiled, so the F1 item is pre-session engineering context, not results.",
+  "top": [
+    {
+      "headline": "Amazon's AI bill shows up in cash flow: negative $42.4 billion",
+      "summary": "Amazon missed on both top and bottom lines for Q3 and disclosed $42.4 billion of negative free cash flow, driven by property and equipment purchases for AI, while holding 2026 capital spending at $220 billion. Shares fell more than 6% after hours — the clearest sign yet that investors are starting to price the AI buildout as a cash-flow problem, not just a growth story."
+    },
+    {
+      "headline": "Reddit says Google's AI Mode is draining the open web's traffic",
+      "summary": "Reddit's CEO told investors search referrals fell by more than a million per week on average in October and named Google's AI Overviews and AI Mode as the leading cause, saying AI Mode \"does not drive traffic, not for us and not to anybody.\" US daily users dropped 2% to 50.7 million, the first decline since Reddit's 2024 IPO, and the company is testing a login-first product."
+    },
+    {
+      "headline": "Starship Flight 15 points at November 12 and the first double catch",
+      "summary": "Both stages are now static-fired, including a full-duration six-engine burn on Ship 42 plus a single-Raptor deorbit rehearsal, and air-traffic coordination material circulated Oct 29 points to a launch no earlier than Nov 12. If it works, it would be the first time the tower catches an upper stage returning from orbital velocity, not just the booster."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Amazon Q3: a miss, and $42.4 billion of negative free cash flow",
+          "summary": "EPS came in at $1.89 against $1.96 expected and revenue at $201.94 billion against $202.31 billion expected, with shares off more than 6% in extended trading. The headline number was free cash flow of negative $42.4 billion, which Amazon attributed to property and equipment purchases for AI infrastructure. Management left the 2026 capex forecast at $220 billion, so the spend is not slowing — the depreciation and financing drag from it is simply becoming visible.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html" }
+          ]
+        },
+        {
+          "headline": "Reddit's referral cliff: more than a million lost visits a week",
+          "summary": "Reddit beat on Q3 revenue (up 53%) but guided Q4 sales below estimates and warned Q4 daily active uniques could fall by a low-double-digit percentage from a 130 million base. CEO Steve Huffman said the drop accelerated late in the quarter as Google expanded AI Mode and pushed organic links down the page, and that Reddit is not planning around search traffic returning. The stock fell sharply after hours; reported declines range from 15% to 23% depending on the outlet and session.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html" },
+            { "label": "MarketScreener (Reuters)", "url": "https://www.marketscreener.com/news/reddit-puts-logged-in-experience-first-as-google-ai-hits-traffic-ce785fdade89f621" }
+          ]
+        },
+        {
+          "headline": "Five big US banks are shutting external AI agents out of accounts",
+          "summary": "JPMorgan Chase, Citi, Bank of America, Wells Fargo and Morgan Stanley are blocking third-party AI agents from logging into customer accounts, after banks found agents signing in with customers' own credentials and, in some cases, calling contact centers or acting outside user instructions. The emerging compromise is read-only access through intermediaries like Plaid — data retrieval yes, transfers and bill payments no. Analysts note the blocks are leaky: IP-based blocking is bypassable by proxy, and agents can simply open accounts at less restrictive firms.",
+          "sources": [
+            { "label": "American Banker", "url": "https://www.americanbanker.com/news/banks-are-blocking-external-ai-agents-is-this-sustainable" },
+            { "label": "CPO Magazine", "url": "https://www.cpomagazine.com/cyber-security/u-s-banks-are-blocking-ai-agents-from-accessing-customer-accounts-amid-safety-concerns/" }
+          ]
+        },
+        {
+          "headline": "Mistral puts a trillion-parameter model's weights in the open",
+          "summary": "Mistral released open weights for Large 4, a roughly 1-trillion-parameter model its own engineers nicknamed \"Le Chonk,\" following an early-October preview. A stronger cyber-focused variant is being held back for vetted partners only, which mirrors the split Google is running with Gemini 4 Carbon. The split-release pattern — general weights public, offensive-security-capable weights gated — is quietly becoming the industry norm for frontier open models.",
+          "sources": [
+            { "label": "The Neuron", "url": "https://theneuron.ai/newsletter/mistral-released-a-1t-parameter-open-model" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Seven-hour spacewalk adds the station's seventh roll-out solar array",
+          "summary": "NASA's Anil Menon and CSA's Joshua Kutryk installed and deployed an International Space Station Roll-Out Solar Array on the 2A power channel, wrapping up after 7 hours and 11 minutes. IROSAs are flexible blankets that unroll under stored strain energy rather than deploying on motors and hinges, which is why they ship compactly inside a Dragon trunk. A second EVA on Nov 5 will install the eighth and final array, completing the station's power augmentation program.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/" }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 targets Nov 12 for a booster-and-ship double catch",
+          "summary": "SpaceX has now static-fired both stages: Ship 42 ran all six engines for full duration and separately lit a single Raptor to rehearse the deorbit burn. An air-traffic coordination slide circulated Oct 29 points to a launch no earlier than Nov 12, though SpaceX has announced nothing and the flight still needs its FAA license. The objective is the first tower catch of an upper stage returning from orbital velocity — a far harder thermal and guidance problem than catching the booster, which SpaceX has already done.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-upper-stage-ahead-of-landmark-flight-15-test-launch-video" },
+            { "label": "Starlust", "url": "https://starlust.org/spacex-starship-flight-15-possible-launch-date-revealed/" }
+          ]
+        },
+        {
+          "headline": "Artemis I crystals say lunar radiation is worse than LEO, but not by much",
+          "summary": "A new analysis of the MARE experiment's lithium-fluoride crystal dosimeters, flown inside two mannequin phantoms on Artemis I, found doses in the lunar vicinity only moderately higher than low Earth orbit — less than expected. Dose inside the phantoms was essentially uniform, and the mechanism is that beyond the Van Allen belts you lose trapped-particle spikes but galactic cosmic rays dominate. Published in Radiation Measurements; no solar particle event occurred during the mission, so this is a quiet-Sun baseline rather than a worst case.",
+          "sources": [
+            { "label": "Phys.org", "url": "https://phys.org/news/2026-10-artemis-crystals-experimental-detectors-doses.html" }
+          ]
+        },
+        {
+          "headline": "Artemis II's commander takes the deputy director job at JPL",
+          "summary": "Reid Wiseman, who commanded Artemis II around the Moon, has been named deputy director of NASA's Jet Propulsion Laboratory. He is the last of the four Artemis II crew members to announce a next step after leaving active flight status. It is a notable pipeline move: a flown lunar commander now helps run the center responsible for robotic planetary missions, at a moment when JPL's budget and portfolio are both under pressure.",
+          "sources": [
+            { "label": "Space.com", "url": "https://space.com/space-exploration/artemis/artemis-ii-commander-reid-wiseman-named-deputy-director-for-nasas-jet-propulsion-laboratory" }
+          ]
+        },
+        {
+          "headline": "Vietnam signs the Artemis Accords",
+          "summary": "Vietnam's science and technology minister accepted the Accords from the US ambassador at Vietnam International Digital Week in Quang Ninh on Oct 28. Public tallies stood at 77 signatories as of Oct 19 after Uzbekistan joined, which would make Vietnam roughly the 78th, though no source states the number directly. Vietnam is also notable as a country engaging with both the US-led Accords framework and China's lunar program.",
+          "sources": [
+            { "label": "VietnamPlus", "url": "https://en.vietnamplus.vn/vietnam-joins-artemis-accords-on-space-exploration-post354462.vnp" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Samsung posts a record quarter and says the memory squeeze runs to 2028",
+          "summary": "Samsung reported record quarterly operating profit — reported at 107.4 trillion won, with the chip division accounting for nearly all of it — and told investors the AI memory shortage would persist through 2028. Chip-division capital spending is up 62% this year to 76.8 trillion won. Shares still fell, on a thin outlook relative to SK Hynix and no new shareholder-return plan; separately, reports say Samsung Foundry has confirmed 2nm gate-all-around orders from hyperscalers.",
+          "sources": [
+            { "label": "The Irish Times", "url": "https://irishtimes.com/business/2026/10/29/samsung-sees-ai-chip-shortage-worsening" },
+            { "label": "Notebookcheck", "url": "https://notebookcheck.net/Samsung-posts-record-80-billion-profit-as-mobile-and-networks-businesses-lose-450-million.1437318.0.html" }
+          ]
+        },
+        {
+          "headline": "A battery-electric drone hit 777 km/h, and it was not an interceptor",
+          "summary": "Germany's Quantum Systems says its experimental Apex Recordhunter reached 777 km/h (483 mph), an unofficial record because the reciprocal return flight required for certification was not flown. It is a technology demonstrator, not a fielded weapon: the company's actual Skyron interceptor tops out near 400 km/h with a roughly 600 km/h version in development. The pull is obvious — closing speed is the whole game against one-way attack drones, and battery-electric props are now competing with small turbojets for that mission.",
+          "sources": [
+            { "label": "Unmanned Airspace", "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/germanys-quantum-systems-achieves-777-km-h-speed-for-new-interceptor-drone/" },
+            { "label": "New Atlas", "url": "https://newatlas.com/military/quantum-systems-electric-drone-unofficial-speed-record/" }
+          ]
+        },
+        {
+          "headline": "North Korea shows a flying-wing UAV for the first time",
+          "summary": "At the opening of an \"Unmanned Aeronautical Technology Development - 2026\" exhibition attended by Kim Jong Un, North Korea displayed a previously unseen tailless flying-wing air vehicle that observers compared to the Dassault nEUROn and Northrop Grumman X-47B. No performance data accompanied the display, and a mockup is not a program. Still, a tailless planform is a meaningful signal about ambitions: it demands fly-by-wire with no natural yaw stability, which is a real avionics and control-law capability claim.",
+          "sources": [
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/north-korea-unveils-new-uav-resembling-neuron-and-x-47b-for-the-first-time/" }
+          ]
+        },
+        {
+          "headline": "Agility Robotics goes public with roughly $465 million",
+          "summary": "Agility announced Oct 30 that it expects to close its business combination with Churchill Capital Corp XI with gross proceeds of approximately $465 million from the raise and related financings. The humanoid maker had said days earlier that GXO will deploy Digit at two more sites, with three manufacturing customers in paid programs and 30-plus prospects. Public-market capital is the real test of whether warehouse humanoids can get unit economics below the labor they replace.",
+          "sources": [
+            { "label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/10/30/3392148/0/en/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination.html" }
+          ]
+        },
+        {
+          "headline": "The Pentagon wants a command for autonomous warfare, and combat results as the gate",
+          "summary": "Reporting describes US plans for a new autonomous warfare command to push combat-proven drones into service faster, with a program called Project Agincourt using performance in exercises, competitions and actual operations to decide what scales to production. The idea is to replace multi-year requirements documents with shoot-offs. Worth watching for anyone on a UAV program: it would reward teams that can field and iterate hardware quickly over those optimized for paperwork compliance.",
+          "sources": [
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-plans-new-autonomous-warfare-command-to-fast-track-combat-proven-drones-into-military-service" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Volkswagen loses 5.8 billion euros in a quarter",
+          "summary": "VW reported a 5.8 billion euro (about $6.5 billion) after-tax loss for July-September, with a 6.4 billion euro writedown on the declining value of its Porsche stake doing most of the damage alongside weak China demand, US tariffs and thinner EV margins. Group operating margin sank to 3.8%. Management kept 2026 guidance unchanged and is still working through the 100,000-job reduction plan set out in September.",
+          "sources": [
+            { "label": "Fortune", "url": "https://fortune.com/2026/10/29/volkswagen-earnings-china-tariffs-trump-porsche" },
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/volkswagen-loss-q3-2026-porsche-china-tariffs" }
+          ]
+        },
+        {
+          "headline": "GM's fourth-generation EV platform bets on lithium-manganese-rich cells",
+          "summary": "At its GM Forward event, GM revealed a next-generation EV architecture built around lithium manganese rich prismatic cells from Ultium Cells, its LG Energy Solution joint venture — claimed at roughly 33% higher energy density than LFP at comparable cost, which is the chemistry's whole pitch. GM also claims about 20% more range per kWh, 40% fewer drive-unit parts, 30% less wiring and a halved development cycle. Several outlets noted the announcement was long on percentages and short on specifics.",
+          "sources": [
+            { "label": "The Driven", "url": "https://thedriven.io/2026/10/28/gm-has-another-go-at-evs-with-a-new-generation-platform-and-worlds-first-production-lmr-battery/" },
+            { "label": "InsideEVS", "url": "https://insideevs.com/news/812810/gm-fourth-generation-ev-platform-lmr-battery/" }
+          ]
+        },
+        {
+          "headline": "Mexico City is the first altitude test of F1's no-MGU-H era",
+          "summary": "Practice opens today at the Autodromo Hermanos Rodriguez, the first time the modern hybrid V6s have run at serious altitude without an MGU-H to spool the turbo electrically. Engine makers say dyno work suggests little impact, but turbo lag and compressor operating points are the open question, and the issue hits every manufacturer. One simulation suggests laps could be more than two seconds slower than last year under the 2026 rules.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/f1-mexico-gp-friday-schedule-weather-forecast-and-how-to-watch/10869379/" },
+            { "label": "GPblog", "url": "https://www.gpblog.com/en/analysis/verstappen-could-be-much-slower-in-mexico-calculation-produces-an-unusual-lap-time" }
+          ]
+        },
+        {
+          "headline": "European auto stocks get a reprieve on Stellantis cost-cutting",
+          "summary": "Stellantis shares jumped 15% in a single session after third-quarter results convinced investors it can beat its cost-reduction targets, and Volkswagen and Renault edged up off multi-year lows. The relief is narrow: the same reporting notes investors still doubt European carmakers can restore their old margins as Chinese competition reshapes the industry. Cost-out, not product, is what the market is currently willing to pay for.",
+          "sources": [
+            { "label": "Reuters (via WBOW)", "url": "https://1027wbow.com/2026/10/30/earnings-give-european-auto-stocks-respite-as-china-reshapes-the-industry/" }
+          ]
+        },
+        {
+          "headline": "Porsche's electric 718 platform will carry an Audi sports car",
+          "summary": "On its Q3 earnings call Porsche confirmed that the architecture underpinning the electric 718 will also underpin Audi's upcoming C-Sport, with payment from Audi expected in 2027. Platform sharing across VW Group brands is not new, but monetizing a low-volume sports car platform is a direct response to the write-downs now showing up in VW's accounts. It also means the 718's EV hardware gets amortized across two nameplates instead of one.",
+          "sources": [
+            { "label": "Zero2Turbo", "url": "https://zero2turbo.com/2026/10/porsche-confirms-718-ev-platform-for-audis-new-electric-sports-car" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Altitude without an electric turbo spool",
+    "body": "Mexico City's circuit sits around 2,240 m (7,350 ft), where standard-atmosphere air density is roughly 20% below sea level. The turbo has to spin substantially faster to deliver the same mass flow — and 2026 is the first season the power units have no MGU-H to spin it electrically. Instead the MGU-K jumped from 120 kW to 350 kW, pushing the split toward 50/50 combustion and electric, which helps lap time but does nothing for turbo lag out of a slow corner. That is exactly the driveability problem engine makers spent dyno hours on before this weekend."
+  },
+  "footnote": "Compiled from public reporting, Oct 29-30, 2026. Direct article fetching was blocked in this environment and nytimes.com is inaccessible to this tool, so items rest on search-surfaced reporting and snippets; verify figures against primary sources before relying on them."
+}
