@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-31",
+  "title": "Daily Briefing — Saturday, October 31",
+  "coverage": "Covering roughly Oct 30-31, 2026. Sourcing caveat: this session's network policy again blocked direct article fetching for every news domain tested (arstechnica.com and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached - nytimes.com is blocked to this tool's user agent - so no NYT item appears today; the Nasdaq figures below are cross-referenced to Reuters and NBC News instead. Mexico City GP FP3 and qualifying had not run when this was compiled, so the F1 item covers Friday practice only. The Ford item is from Oct 28, carried because Saturday is otherwise thin. Earnings and benchmark figures are company- or market-reported and not independently verified.",
+  "top": [
+    {
+      "headline": "Intel's guidance detonates a trillion-dollar chip selloff",
+      "summary": "Intel fell about 28.6% on Friday, its worst single day since 1974, after guiding Q4 revenue to $15-16 billion against roughly $17.1 billion consensus and a non-GAAP gross margin of 38%, down from 44.1% in Q3. The drop dragged Nvidia, AMD, TSMC and Broadcom with it, wiping roughly $1 trillion off semiconductor market value in a day."
+    },
+    {
+      "headline": "OpenAI cuts its funding round by $10 billion as investors flinch",
+      "summary": "The Financial Times reported Friday that OpenAI trimmed its round target to about $20 billion from $30 billion and its implied valuation to $1.25 trillion from $1.4 trillion, with the binding-commitment deadline passing that day. It is the clearest sign yet that the AI capital cycle is repricing, after the company was valued at $852 billion in March."
+    },
+    {
+      "headline": "Four AI labs agree on one robots.txt token for training opt-out",
+      "summary": "OpenAI, Google, Microsoft and Anthropic all said they will honor a single robots.txt directive, __usage_ai-training, letting a site opt out of AI training with one line instead of chasing each crawler by name. It covers training only, not retrieval or grounding, and it does not remove anything already scraped into existing datasets or trained models."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "One opt-out token replaces the per-crawler whack-a-mole",
+          "summary": "Anthropic put the mechanism forward as an IETF draft and the other three labs announced support the same day: a robots.txt group of \"User-Agent: __usage_ai-training\" plus Disallow rules marks paths as off-limits for training. Rollout is staggered - Anthropic has started, OpenAI says \"coming months,\" Microsoft targets Feb 1, 2027 and Google 2027, where it will read the token as equivalent to its existing Google-Extended control. Crucially it is a voluntary request, not a technical barrier, and labs outside the four are not bound by it.",
+          "sources": [
+            {
+              "label": "The Next Web",
+              "url": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic"
+            },
+            {
+              "label": "Data Studios",
+              "url": "https://www.datastudios.org/post/openai-google-microsoft-anthropic-robots-txt-ai-training-opt-out-token"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI trims the round to about $20 billion at $1.25 trillion",
+          "summary": "Per the FT, some investors cut the amounts they had planned to commit during this week's AI selloff, and the first close could land below even the reduced $20 billion target. The round is described as a bridge toward a possible IPO, which makes the valuation haircut from $1.4 trillion to $1.25 trillion a real signal rather than a negotiating posture. OpenAI declined to comment.",
+          "sources": [
+            {
+              "label": "Benzinga",
+              "url": "https://www.benzinga.com/markets/tech/26/10/62763209/openai-cuts-funding-target-ai-selloff"
+            },
+            {
+              "label": "Trending Topics",
+              "url": "https://www.trendingtopics.eu/openai-funding-round-20-billion-ai-sector/"
+            }
+          ]
+        },
+        {
+          "headline": "The SEC's top enforcement official says AI disclosures are under review",
+          "summary": "Enforcement Director David Woodcock told Reuters on Friday that the agency is examining how AI companies describe their risks to investors, saying the SEC does not want to slow innovation but that where full disclosure is absent, \"enforcement will be present.\" He also flagged that AI makes mass-produced fraudulent schemes cheaper to run. Reuters named no specific companies, filings or circular deals under examination.",
+          "sources": [
+            {
+              "label": "Reuters via Investing.com",
+              "url": "https://www.investing.com/news/economy-news/us-secs-top-cop-says-agency-is-monitoring-ai-corporate-disclosures-4988480"
+            },
+            {
+              "label": "Reuters via Yahoo Finance",
+              "url": "https://ca.finance.yahoo.com/news/us-secs-top-cop-says-175527223.html"
+            }
+          ]
+        },
+        {
+          "headline": "AI cash burn, not AI revenue, set Friday's market tone",
+          "summary": "The Nasdaq Composite fell about 2.9%, its biggest one-day percentage drop since June 5, leaving it 7.8% below its Oct 6 record close; the Nasdaq 100 shed more than $2 trillion in market value across October. The trigger was Intel and Amazon reporting Thursday night, with Amazon's AI build-out spending running faster than expected while core retail growth slowed. Most S&P 500 reporters have beaten estimates, so the selling is about payback timing on capex, not earnings misses.",
+          "sources": [
+            {
+              "label": "Reuters via Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-sink-amazon-intel-114737736.html"
+            },
+            {
+              "label": "NBC News",
+              "url": "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Falcon 9 flies its 700th mission - and October was its slowest month in over a year",
+          "summary": "Starlink 15-18 lifted off from Vandenberg SLC-4E at 9:04 p.m. PT Friday (0404 UTC Oct 31) with 27 V2 Mini Optimized satellites, booster B1093 flying its 18th mission and landing on Of Course I Still Love You about 8.5 minutes later. It was the 700th Falcon 9 launch and SpaceX's 11th and final orbital flight of October. On Oct 27 the rolling 365-day orbital launch total slipped below 150 for the first time since July 2025, consistent with engineering attention shifting to Starship.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/"
+            },
+            {
+              "label": "KeepTrack",
+              "url": "https://keeptrack.space/space-brief/space-brief-2026-10-31"
+            }
+          ]
+        },
+        {
+          "headline": "India puts NVS-03 into orbit on a GSLV",
+          "summary": "ISRO's GSLV left Satish Dhawan Space Centre late Friday local time and placed the third second-generation NavIC navigation satellite in its intended orbit. NVS-03 carries a mix of indigenous and procured atomic clocks - the indigenous clock program matters because clock failures crippled earlier IRNSS spacecraft - and serves India plus a 1,500 km perimeter beyond its borders. It was the fourth orbital launch from Indian soil this year.",
+          "sources": [
+            {
+              "label": "Briefs.co",
+              "url": "https://www.briefs.co/news/isro-sends-nvs-03-navigation-satellite-up-on-gslv-extending/"
+            }
+          ]
+        },
+        {
+          "headline": "Virgin Galactic slips its return to service again, to Q2 2027",
+          "summary": "The company pushed commercial Delta-class flights to early in the second quarter of 2027, citing additional testing and validation of integrated avionics software. Avionics integration is the kind of schedule risk that does not compress: you cannot fly passengers until the software stack is qualified end to end. Virgin Galactic's own quarterly filing has flagged substantial doubt about its ability to continue as a going concern.",
+          "sources": [
+            {
+              "label": "KeepTrack",
+              "url": "https://keeptrack.space/space-brief/space-brief-2026-10-30"
+            }
+          ]
+        },
+        {
+          "headline": "Rocketdyne lands the GeoXO propulsion package - 28 thrusters per spacecraft",
+          "summary": "Lockheed Martin selected Rocketdyne to supply propulsion for NOAA's Geostationary Extended Observations weather satellites, at 28 thrusters per vehicle. That count reflects how much redundancy and fine attitude authority a decades-long GEO weather mission needs: station-keeping, momentum dumping and eventual graveyard disposal all come out of the same chemical system. GeoXO replaces the GOES-R series as the backbone of US weather forecasting.",
+          "sources": [
+            {
+              "label": "New Space Economy",
+              "url": "https://newspaceeconomy.ca/2026/10/30/rocketdyne-will-supply-28-thrusters-per-geoxo-satellite/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Intel's worst day in 50 years, and a fab fire inside the numbers",
+          "summary": "Beyond the guidance miss, Intel told investors the Oct 14 accident at Fab 28 in Israel costs roughly $300 million of Q4 revenue with a similar hit likely in Q1, and CEO Lip-Bu Tan blamed memory prices for squeezing corporate IT budgets - the same DRAM squeeze Samsung said this week runs to 2028. The reported quarter was actually fine, with adjusted EPS of $0.52 against $0.40 expected; the market punished the outlook and the 6.1-point gross-margin step-down.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/intel-stock-plunges-nearly-30-on-pace-for-its-worst-day-since-1974-135850305.html"
+            }
+          ]
+        },
+        {
+          "headline": "The FCC frees 800 MHz cellular spectrum for airborne drones",
+          "summary": "The commission lifted a decades-old prohibition on airborne use of roughly 50 MHz of 800 MHz cellular spectrum, which had forced drone operators to treat LTE links as a gray area rather than a design assumption. For BVLOS work this is the command-and-control and telemetry backbone question: licensed low-band propagation beats unlicensed 900 MHz or 2.4 GHz for range and penetration. It does not change FAA flight-authorization requirements, so Part 107 and waivers still gate operations.",
+          "sources": [
+            {
+              "label": "DroneDJ",
+              "url": "https://dronedj.com/2026/10/30/fcc-drone-cellular-spectrum/"
+            },
+            {
+              "label": "DRONELIFE",
+              "url": "https://dronelife.com/2026/10/29/fcc-opens-cellular-spectrum-drones-800-mhz"
+            }
+          ]
+        },
+        {
+          "headline": "Counter-drone radar rules go to an FCC vote on Nov 19",
+          "summary": "Chairman Brendan Carr announced the commission will consider rules for drone communications and for counter-UAS detection radar at its November open meeting. Radar-based detection has been stuck in a licensing gap - the hardware exists but civil operators have had no clean spectrum path to run it. Pairing it with the cellular decision above points at a federal push to make both the drone link and the counter-drone sensor legally routine.",
+          "sources": [
+            {
+              "label": "DRONELIFE",
+              "url": "https://dronelife.com/2026/10/29/fcc-drone-communications-counter-drone-radar-rules/"
+            }
+          ]
+        },
+        {
+          "headline": "A $56 million contract to retrofit exactly one Triton",
+          "summary": "The Navy modified Northrop Grumman's MQ-4C contract to install a B7 retrofit material kit on a single airframe, with completion set for May 2030 and 64% of the work in Palmdale, 34% in San Diego. The per-tail cost is a useful reminder of what mid-life capability blocks cost on a high-altitude long-endurance platform once the kit, integration and flight test are priced in. A separate $66 million order earlier in October covered 17 US Navy and 16 RAAF engineering change proposals.",
+          "sources": [
+            {
+              "label": "Defence Blog",
+              "url": "https://defence-blog.com/northrop-grumman-gets-56m-to-upgrade-one-mq-4c-triton-drone/"
+            },
+            {
+              "label": "Interesting Engineering",
+              "url": "https://interestingengineering.com/military/northrop-grumman-triton-surveillance-drone"
+            }
+          ]
+        },
+        {
+          "headline": "Joby and Beta fly piloted eVTOLs across Florida, 112 years after the first airline",
+          "summary": "The two companies re-flew the 1914 St. Petersburg-to-Tampa route - the first scheduled commercial airline service in the US - as the opening of a week of piloted electric air-taxi flights with the Florida DOT under the federal eVTOL Integration Pilot Program. Beta separately holds the first FAA special airworthiness certificate for market surveys, for its A250, which permits carrying people for evaluation but not ticket sales. Beta was picked for seven of the eight eIPP projects, Joby five, Archer three.",
+          "sources": [
+            {
+              "label": "Flying Magazine",
+              "url": "https://www.flyingmag.com/2-electric-aircraft-land-at-tampa-international/"
+            },
+            {
+              "label": "Interesting Engineering",
+              "url": "https://interestingengineering.com/transportation/joby-electric-air-taxi-flights-florida-airports"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Leclerc sweeps Friday in Mexico City, with Ferrari 0.1s clear of the field",
+          "summary": "Leclerc topped FP1 at 1:18.128 and FP2 at 1:17.827, with Norris 0.103s and Russell 0.106s back and the top five covered by 0.311s. Hamilton's FP2 ended after 13 laps with a power unit problem, and a Verstappen-Lawson collision brought out a red flag with both drivers summoned to the stewards. At 2,240 m the thin air cuts both downforce and radiator mass flow, so Mexico is the one weekend where cooling package choice can outrank aero efficiency.",
+          "sources": [
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/fp2-leclerc-tops-eventful-second-practice-from-norris-and-russell-at-mexico-city-grand-prix.5iyjNG9TZGc6DfLTacb05D"
+            },
+            {
+              "label": "The Race",
+              "url": "https://www.the-race.com/formula-1/verstappen-collides-with-lawson-as-leclerc-tops-mexico-fp2/"
+            }
+          ]
+        },
+        {
+          "headline": "Tariffs, diesel and memory chips are all pushing automaker costs up at once",
+          "summary": "NPR reported that the cost pressure on carmakers is now arriving from three directions simultaneously: import tariffs, diesel prices moving freight and, newly, the same DRAM and NAND price spike that Intel blamed for its guidance cut. A modern vehicle carries gigabytes of memory across infotainment, ADAS and domain controllers, so memory inflation now shows up in BOM cost the way steel used to. US tariffs on Canadian steel and autos sit at 25% and are set to double in January, with Ford's Ontario-built Super Duty the most exposed program.",
+          "sources": [
+            {
+              "label": "NPR via KJZZ",
+              "url": "https://www.kjzz.org/npr-top-stories/2026-10-29/tariffs-diesel-and-computer-chips-are-driving-up-costs-for-automakers"
+            },
+            {
+              "label": "CBT News",
+              "url": "https://cbtnews.com/cbt-automotive-newscast-october-30-2026"
+            }
+          ]
+        },
+        {
+          "headline": "Foxconn shows three more EVs and keeps pushing contract manufacturing for cars",
+          "summary": "Hon Hai unveiled the MODEL A+, MODEL K+ and MODEL K at its HHTD26 event, extending a lineup built around selling platforms and assembly capacity to brands rather than badges to customers. If that model takes hold the way it did in consumer electronics, it reshapes where vehicle engineering value actually sits - platform integration and software, not final assembly. Foxconn has been the loudest advocate of a contract-manufacturing tier in automotive for five years now.",
+          "sources": [
+            {
+              "label": "FuelCellsWorks",
+              "url": "https://fuelcellsworks.com/2026/10/30/electric/hon-hai-technology-group-foxconn-unveils-3-distinctive-ev-models-at-hhtd26"
+            }
+          ]
+        },
+        {
+          "headline": "Ford's EV unit loses $1.1 billion in a quarter - and that is an improvement",
+          "summary": "Ford's Model e division posted $1.2 billion of revenue against an EBIT loss of about $1.1 billion, a 25% year-over-year improvement, while the company raised the low end of full-year adjusted EBIT guidance to $10.5-11 billion. Management still expects roughly $4 billion of Model e losses for 2026, a 40% improvement in first-generation EV EBIT, and breakeven no earlier than 2029. Revenue of $1.2 billion against a $1.1 billion loss is close to a dollar lost per dollar earned, which is why the next-generation low-cost platform carries the whole plan.",
+          "sources": [
+            {
+              "label": "Proactive Investors",
+              "url": "https://proactiveinvestors.com/companies/news/1100874/ford-beats-third-quarter-profit-estimates-raises-low-end-of-annual-outlook-1100874.html"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/article/ford-stock-higher-on-q3-earnings-beat-tightened-profit-forecast-140639942.html"
+            }
+          ]
+        },
+        {
+          "headline": "BYD takes its flagship sedan global from the UAE, not China",
+          "summary": "BYD previewed the Yangwang-badged flagship's rear-hinged coach doors and faceted grille, and confirmed the world launch happens in the United Arab Emirates rather than at home. Launching a halo car outside China is a deliberate signal that Yangwang is a premium export brand, not a domestic prestige exercise. It also sidesteps a Chinese luxury market where price wars have made launch pricing almost impossible to defend.",
+          "sources": [
+            {
+              "label": "Electrek",
+              "url": "https://electrek.co/2026/10/30/byd-reveals-flashy-new-feature-upcoming-luxury-ev"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Intel's 6.1 points of gross margin",
+    "body": "Intel guided Q4 non-GAAP gross margin to 38%, down from 44.1% in Q3 - a 6.1-point step-down on roughly $15.5 billion of revenue, so about $950 million of gross profit evaporating in one quarter. Roughly $300 million of the revenue hit traces to a single accident at Fab 28 in Israel on Oct 14. That is the leverage that makes semiconductor fabs unlike almost any other factory: fixed depreciation is so large that utilization and yield, not price, set the margin, and one damaged fab shows up directly in the income statement a quarter later."
+  },
+  "footnote": "Compiled from public reporting, agency and company announcements. Figures are as reported by the cited outlets."
+}
