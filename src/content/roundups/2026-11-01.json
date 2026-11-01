@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-01",
+  "title": "Daily Briefing — Sunday, November 1",
+  "coverage": "Covering roughly Oct 30 - Nov 1, 2026, with a few items stretched back to Oct 28-29 because a weekend news cycle is thin. Sourcing caveat: this session's network policy again blocked direct article fetching for every news domain tested (reuters.com, nytimes.com, arstechnica.com, spacenews.com and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached - nytimes.com is blocked to this tool's user agent - so the Binance story the Times led with is cross-referenced to CNBC, CBS News and CoinDesk instead. The Mexico City Grand Prix runs this afternoon and had not started when this was compiled, so the F1 items cover Saturday qualifying and the title permutations only. Financial and benchmark figures are company- or filing-reported and not independently verified.",
+  "top": [
+    {
+      "headline": "NASA asks industry to go save Hubble",
+      "summary": "NASA issued a Request for Information asking companies how they would capture the Hubble Space Telescope, raise it to at least 600 km, service it, or steer it to a controlled reentry, with responses due Nov 30 and any mission flown by 2032. Hubble has not had an orbit raise since the 2002 servicing flight and is currently projected to make an uncontrolled reentry in the early-to-mid 2030s; NASA has committed no money, so this is a market survey, not a contract."
+    },
+    {
+      "headline": "Google's first orbital data-center satellite is alive and inferencing",
+      "summary": "Google's Project Suncatcher prototype is online and talking to the ground, running a Gemma 4 model on a Google TPU in orbit - reportedly the first AI inference performed on purpose-built accelerator silicon in space. It is one satellite, not a data center: power and heat rejection limit it to short bursts, and the optical inter-satellite links that would make it an actual cluster do not fly until 2027."
+    },
+    {
+      "headline": "Binance reopens withdrawals after the largest crypto theft on record",
+      "summary": "Binance resumed withdrawals in phases starting Sunday, beginning with Bitcoin and 15 major tokens, after halting them Friday in the wake of a $6.3 billion breach; the company says it has restored backing for about 90% of affected assets and will absorb the loss rather than pass it to users. The FBI attributed the attack to North Korea on Saturday, naming the TraderTraitor group previously tied to the $1.5 billion Bybit theft in 2025."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "DeepSeek drops an open-source coding agent aimed squarely at Claude Code",
+          "summary": "DeepSeek's Harness team unveiled \"Super-agent\" in a WeChat post on Oct 31, an open-source prototype that can watch a development team's group chats and propose fixes without being invoked. Its stated design goal is to \"take as little human attention as possible, and give as much value as possible\" - the interesting shift is from prompt-response to an agent that decides on its own when it has something to contribute. No benchmarks, pricing or GA date were published, and DeepSeek is calling it a prototype.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic" },
+            { "label": "Digital Today", "url": "https://www.digitaltoday.co.kr/en/view/122265/deepseek-unveils-super-agent-autonomous-coding-agent-targeting-claude-code" }
+          ]
+        },
+        {
+          "headline": "Mistral opens the weights on its trillion-parameter Large 4",
+          "summary": "Mistral released downloadable weights for Mistral Large 4 (\"Le Chonk\") on Oct 29, a roughly 1-trillion-parameter mixture-of-experts model with about 50 billion parameters active per token and a 1M-token context, shipped as an FP8 checkpoint plus a 4-bit NVFP4 quantization tuned for NVIDIA Blackwell. Mistral says continued RL training lifted Terminal-Bench 4.0 from 28.3% on the October preview build to roughly 41%. Note the license is \"open weight,\" not open source - check the terms before anything commercial.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/" },
+            { "label": "Mistral AI", "url": "https://mistral.ai/news/mistral-large-4-oss/" }
+          ]
+        },
+        {
+          "headline": "Anthropic heads for a junk credit rating ahead of a mid-November listing",
+          "summary": "An FT report says credit agencies are expected to put Anthropic in the top tier of speculative grade - double-B range - as it moves toward a Nasdaq debut now expected in mid-November. Its Oct 26 S-1 showed first-half 2026 revenue of $16.29 billion against a net loss of $80.75 billion, plus committed compute spending of $115 billion with Google and $45 billion with Microsoft through 2033. Customer concentration is the flagged risk: the five largest accounts were about 25% of revenue over the first nine months.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html" }
+          ]
+        },
+        {
+          "headline": "Nvidia weighs cosigning billions of Nscale's data-center debt",
+          "summary": "Nvidia is in talks to guarantee debt for Nscale's Monarch campus in Mason County, West Virginia, reportedly a residual-value guarantee on the building itself rather than on leases or chips - Nvidia would step in on default, hold the facility and help find a new tenant. Anthropic has signed a $44.6 billion contract for the first 460 MW building alone per Nscale's IPO filing, and the debt would fund a second 460 MW phase. It would make Nvidia chip supplier, equity investor and debt backer in the same chain; nothing is signed.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/" },
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/nvidia-nscale-anthropic-data-centre-debt-guarantee" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "NASA puts Hubble's rescue out to the commercial market",
+          "summary": "The RFI asks industry to describe a mission that could capture Hubble and raise it to 600 km or better, improve its performance, or perform a controlled deorbit - with the contractor supplying launch vehicle, servicing spacecraft, operations and crew if applicable. The hard engineering problem is grappling a 1990-vintage observatory with no modern docking interface and no propulsion of its own, without damaging optics or solar arrays. Astroscale and Momentus pitched a joint reboost against an earlier RFI in 2023, and SpaceX ran a NASA-funded study; none produced a funded mission.",
+          "sources": [
+            { "label": "Gizmodo", "url": "https://gizmodo.com/nasas-begging-the-commercial-space-industry-to-save-the-doomed-hubble-telescope-2000833501" },
+            { "label": "New Space Economy", "url": "https://newspaceeconomy.ca/2026/10/31/nasa-seeks-commercial-options-for-hubble-servicing-and-reboost/" }
+          ]
+        },
+        {
+          "headline": "Project Suncatcher's TPU answers from orbit",
+          "summary": "Google's prototype, launched in October on a Falcon 9 rideshare with more than 100 other spacecraft, is now online and was asked to write poetry and report orbital conditions. TechCrunch's corrected account says the spacecraft carries four TPUs but can only power one at a time, in bursts of roughly 20 minutes - the constraint is the solar array and radiator budget, not the silicon. Two follow-on satellites with laser inter-satellite links are scheduled for 2027.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/" },
+            { "label": "NPR", "url": "https://www.npr.org/2026/10/01/nx-s1-5983697/project-suncatcher-google-ai-data-center-space" }
+          ]
+        },
+        {
+          "headline": "SpaceX closes October at 700 Falcon 9 flights and lines up a double Starship catch",
+          "summary": "A Falcon 9 put Starlink Group 15-18 up from Vandenberg at 04:04 UTC on Oct 31, capping a month that took the Falcon 9 program to its 700th launch; USSF-432, a classified Space Force mission, follows from Vandenberg on Nov 3. Starship Flight 15 is targeted for November - the FAA's working date is Nov 12, pending a recovery licence - and will attempt to catch both the Super Heavy booster and the ship on the tower arms for the first time. The Flight 15 upper stage completed a six-engine static fire on Oct 27.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says" },
+            { "label": "Aviation Week", "url": "https://aviationweek.com/space/launch-vehicles-propulsion/spacex-attempt-starship-super-heavy-landings-next-flight" },
+            { "label": "Starlust", "url": "https://starlust.org/spacex-starship-flight-15-possible-launch-date-revealed/" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies Electron Monday while Neutron slips into 2027",
+          "summary": "Electron is go for \"The Sea God Surveys\" (iQPS Launch 9) on Nov 2 at 16:41 UTC, the latest in Rocket Lab's synthetic-aperture-radar cadence for iQPS. Neutron's debut, meanwhile, moved to no earlier than 2027 after inspectors found voids between carbon-fiber plies in the first-stage forward propellant dome produced on the automated fiber placement machine - the same dome family implicated in January's tank rupture, which had been hand-laid by a contractor. Peter Beck says a revised layup process has produced the company's best composite dome yet and a replacement is in production, but no launch date has been set.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/10/carbon-fibre-force-rocket-lab-delay-neutron-debut/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "North Korea's $6.3 billion Binance heist, and the phased restart",
+          "summary": "Binance halted withdrawals Friday morning Asia time after disclosing the breach, and began reopening them Sunday blockchain by blockchain - Bitcoin, Ethereum, BNB, XRP, Base, Doge and Optimism first - with each chain gated on its own security and stability checks. CNBC reports about 90% of affected assets re-backed; Forbes Middle East puts it at 95%. The FBI named North Korea's TraderTraitor on Saturday, the same crew tied to Bybit in 2025, which makes this the largest state-attributed digital theft on record.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html" },
+            { "label": "CoinDesk", "url": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack" },
+            { "label": "CBS News", "url": "https://www.cbsnews.com/news/binance-crypto-heist-withdrawals/" }
+          ]
+        },
+        {
+          "headline": "Kodiak signs the first binding driverless long-haul fleet deal",
+          "summary": "Kodiak AI and Fresno-based DTL Transport agreed to equip 75 DTL trucks with the Kodiak Driver, with deliveries from 2028 and DTL paying a per-mile fee under a Driver-as-a-Service model - the first binding commitment by a long-haul carrier to run driverless trucks inside its own fleet. The routes are I-10 Dallas to El Paso and I-20 Dallas to Atlanta, both already test-validated. Kodiak still has to remove safety operators on public highways at all: that milestone is targeted for December on I-45 between Dallas and Houston hauling IKEA freight, pending the long-haul safety case.",
+          "sources": [
+            { "label": "Kodiak AI", "url": "https://kodiak.ai/news/deal-marks-first-ever-binding-commitment-by-a-long" },
+            { "label": "Trucking Info", "url": "https://www.truckinginfo.com/news/kodiak-lines-up-fleets-for-driverless-trucking" }
+          ]
+        },
+        {
+          "headline": "Joby and Beta fly Florida's first eVTOL integration trials",
+          "summary": "Joby and Beta opened operations under the White House-backed eVTOL Integration Pilot Program on Oct 30 with side-by-side flights across Tampa Bay, Joby's S4 running between Albert Whitted Airport and Tampa International. These are the program's first demonstration flights, and the point is less the aircraft than the procedures: slotting low-noise electric rotorcraft into Class B airspace and existing ATC flow. Beta won seven of the eight eIPP projects to Joby's five and Archer's three, and on Oct 21 took the FAA's first special airworthiness market-survey certificate for an eVTOL, letting it fly prospective customers in the A250.",
+          "sources": [
+            { "label": "AIN FutureFlight", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-10-30/joby-and-beta-kick-florida-eipp-flights" },
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/transportation/joby-electric-air-taxi-flights-florida-airports" }
+          ]
+        },
+        {
+          "headline": "FCC opens 800 MHz to drones, but BVLOS still waits on Part 108",
+          "summary": "The FCC voted 3-0 on Oct 29 to let unmanned aircraft use the 800 MHz cellular band, ending an airborne prohibition dating to 1991 and freeing 50 MHz of licensed, nationwide low-band spectrum for drone command-and-control. Low-band propagation is exactly what long-range BVLOS links want - better range and terrain penetration than the mid-band most operators lean on today. The rule that actually unlocks routine BVLOS, Part 108, has been sitting at the White House since July 10 and is past 100 days in review against a December statutory deadline.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/10/29/fcc-800-mhz-drones-adopted-part-108-deadline" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Hamilton takes his first Ferrari pole by nine thousandths",
+          "summary": "Lewis Hamilton put a 1:16.514 on the board at the Autodromo Hermanos Rodriguez to beat George Russell's 1:16.523 by 0.009s, with Charles Leclerc third at 1:16.633 and Max Verstappen fourth. It is Hamilton's 105th career pole, his first for Ferrari, and his first in a conventional qualifying session since Hungary 2023; reports have him as the oldest pole-sitter since Mario Andretti at Monza in 1982. Mexico City sits at about 2,200 m, where roughly 20% less air density guts downforce and turbo and cooling margins set the setup window - a good track to be quick at on a single lap.",
+          "sources": [
+            { "label": "FIA", "url": "https://www.fia.com/news/f1-hamilton-claims-first-ferrari-pole-position-thrilling-mexico-city-qualifying" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13606015/mexico-city-gp-qualifying-lewis-hamilton-claims-first-pole-position-for-ferrari-by-edging-out-mercedes-george-russell" }
+          ]
+        },
+        {
+          "headline": "Antonelli can clinch the 2026 title this afternoon",
+          "summary": "Kimi Antonelli arrives on 365 points, 123 clear of Mercedes teammate Russell and 124 clear of Hamilton, with a maximum of 125 points left across the final five rounds - so only those two can still stop him. He qualified fifth and starts fourth after Verstappen's grid penalty; sources differ on whether eighth or ninth is enough to seal it. Mercedes leads the constructors' standings on 607 points to Ferrari's 474.",
+          "sources": [
+            { "label": "GrandePremio", "url": "https://grandepremio.com/en/f1/can-andrea-kimi-antonelli-win-2026-f1-title-from-fourth-on-mexican-gp-grid/" },
+            { "label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix" }
+          ]
+        },
+        {
+          "headline": "Ford's EV unit loses another $1.1 billion as volume collapses",
+          "summary": "Model e posted a roughly $1.1 billion Q3 EBIT loss, about 25% better than the $1.4 billion a year earlier, but on revenue down 31% to $1.2 billion and wholesales down to about 34,000 units from 50,000 - so the EBIT margin actually worsened to about -86.5% from -79.1%. The volume drop traces to killing the F-150 Lightning and cutting Mach-E output; the narrower loss comes from right-sizing first-generation programs and pulling incentives, partly offset by spending on the next-gen platform and the new Ford Energy storage unit. Ford held its full-year Model e loss guidance at about $4 billion.",
+          "sources": [
+            { "label": "electrive", "url": "https://www.electrive.com/2026/10/29/ford-model-e-division-reports-sustained-losses-in-q3/" },
+            { "label": "Tesla North", "url": "https://teslanorth.com/2026/10/28/ford-model-e-q3-1-1-billion-loss/" }
+          ]
+        },
+        {
+          "headline": "GM insists it is not walking away from EVs",
+          "summary": "Mark Reuss used GM's Forward event to push back on the retreat narrative, laying out fourth-generation EV architecture plans, OnStar AI, and an eyes-off highway driving system targeted for 2028. The numbers are the problem: Chevrolet EV sales are down roughly half year to date and electric Cadillac about 10%, and GM has confirmed Lansing Delta Township will build hybrids. Separately GM is replacing battery modules a second time in 66 EVs after reused modules went back into cars.",
+          "sources": [
+            { "label": "Yahoo Autos", "url": "https://autos.yahoo.com/ev-and-future-tech/articles/general-motors-isnt-walking-away-180000997.html" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Four TPUs, one at a time, twenty minutes a burst",
+    "body": "Google's Suncatcher satellite carries four tensor processing units but can only power one of them at a time, for roughly 20-minute stretches. Nothing is wrong with the chips - the ceiling is the solar array's output and, just as hard, the radiator area available to dump the waste heat. On the ground you solve a hot accelerator with air or water and a bigger power feed; in vacuum the only way out is radiation, and radiated power scales with area and the fourth power of surface temperature. That is why an orbital data center is a thermal problem long before it is a compute problem, and why the real test is the 2027 pair with laser links, not this one."
+  },
+  "footnote": "Compiled from public reporting, agency and company announcements. Figures are as reported and not independently verified."
+}
