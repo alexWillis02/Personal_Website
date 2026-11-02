@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-02",
+  "title": "Daily Briefing — Monday, November 2",
+  "coverage": "Covering roughly Oct 30 - Nov 2, 2026. Monday edition, so the window is stretched to 72 hours to pick up Friday's market action and the weekend race. Sourcing caveat: this session's network policy again blocked direct article fetching for every news domain tested (nytimes.com, nasaspaceflight.com, breakingdefense.com, formula1.com and others), so items are assembled from search-surfaced reporting and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached. Financial and specification figures are company- or outlet-reported and not independently verified. The Rocket Lab Electron launch below was scheduled for 16:41 UTC today and had not lifted off when this was compiled.",
+  "top": [
+    {
+      "headline": "Intel has its worst trading day since 1974",
+      "summary": "Intel closed Friday down about 28.6 percent at $65.76 after guiding fourth-quarter revenue to $15-16 billion against roughly $17 billion expected, wiping about $110 billion of market value and dragging the Nasdaq 100 down 3.2 percent. Management blamed persistent weakness in PC demand as memory prices climb, and four banks cut the stock to neutral the same day."
+    },
+    {
+      "headline": "Kimi Antonelli is F1's youngest world champion",
+      "summary": "The 20-year-old Mercedes driver clinched the 2026 drivers' title with third place in a red-flagged Mexico City Grand Prix won by Max Verstappen. At 20 years and 68 days he is the youngest champion in the sport's history and the first Italian since Alberto Ascari in 1953."
+    },
+    {
+      "headline": "Oshkosh Defense moves into aircraft with Grid Aero's Lifter drone",
+      "summary": "Oshkosh Defense announced a partnership today to industrialize Grid Aero's low-cost, piston-powered Lifter UAS using its Wisconsin plants and workforce. It is the truck maker's first move into building aircraft, and a direct answer to the Pentagon's push for Group 4 and 5 autonomous aircraft cheap enough to buy in bulk."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Apple Intelligence finally clears China, with Alibaba's Qwen inside Siri",
+          "summary": "Apple confirmed that developer testing begins November 4 China time and that the public rollout lands in December with iOS 27.3, two years after the feature set launched elsewhere. Alibaba's Qwen handles the on-shore model work behind Siri, Writing Tools and Visual Intelligence, and the first wave covers Writing Tools, Genmoji, Clean Up, notification summaries and Live Translation on iPhone 15 Pro and newer. Notably absent: the next-generation Siri, Image Playground, and Apple's Private Cloud Compute, which does not extend to China.",
+          "sources": [
+            { "label": "9to5Mac", "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/" },
+            { "label": "AppleInsider", "url": "https://appleinsider.com/articles/26/10/31/two-years-later-apple-intelligence-makes-its-way-to-china" }
+          ]
+        },
+        {
+          "headline": "A trojanized Claude Code extension planted SSH backdoors on developer machines",
+          "summary": "Tampered builds of the anthropic.claude-code extension, versions 2.1.312 and 2.1.313, sat in Cursor's marketplace for about 11 hours on October 29 and installed an attacker SSH key, enabled the host's SSH service and opened a reverse tunnel to a remote server. Microsoft's analysis warns that uninstalling is not enough because the payload drops standalone persistence scripts, and recommends rotating credentials from a known-clean machine. Anthropic and Microsoft both say Anthropic's own systems were not breached; the clean build is 2.1.314.",
+          "sources": [
+            { "label": "Microsoft Security Blog", "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/" },
+            { "label": "SecurityWeek", "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/" }
+          ]
+        },
+        {
+          "headline": "OpenAI merges ChatGPT and Codex into one token allowance in December",
+          "summary": "An OpenAI help-center page updated October 31 says Plus, Pro and Business subscribers will draw ChatGPT Work and Codex usage from a single token-denominated pool starting in December, with remaining usage and reset times shown under Settings then Usage. Instant chat stays outside the pool. No per-plan token figures have been published yet, and OpenAI's separate Codex page still describes Pro as having no five-hour limit, so the documentation has not caught up.",
+          "sources": [
+            { "label": "DEV Community", "url": "https://dev.to/stackversus/chatgpt-and-codex-will-share-one-usage-allowance-from-december-5cki" },
+            { "label": "Startup Fortune", "url": "https://startupfortune.com/openai-will-make-chatgpt-work-and-codex-share-one-usage-pool-in-december/" }
+          ]
+        },
+        {
+          "headline": "The big four labs agree on one robots.txt token for training opt-out",
+          "summary": "Google, OpenAI, Microsoft and Anthropic said they will all honor a single robots.txt directive, __usage_ai-training, letting a site opt out of model training across every one of their crawlers with one line instead of a per-bot allowlist. Anthropic has begun implementing it, OpenAI says it will honor the signal in the coming months, and Google is pointing at 2027. It is voluntary and covers only these four, so it is a convention rather than a rule.",
+          "sources": [
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/ai-training-opt-out-robots-txt-google-openai-microsoft-anthropic" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Electron flight 99 carries a Japanese radar satellite, with number 100 next",
+          "summary": "Rocket Lab was set to launch QPS-SAR-10 for iQPS at 16:41 UTC today from Launch Complex 1 in New Zealand on the mission named The Sea God Sees, targeting a 575 km circular orbit at 42 degrees inclination. It is the company's 99th Electron and roughly its tenth for iQPS, whose synthetic-aperture radar birds use deployable mesh antennas to get useful resolution out of a small bus. Rocket Lab's own schedule lists the flight as no earlier than November 3, so the window may still slip.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-launch-sea-god-surveys-iqps-radar-satellite" },
+            { "label": "iQPS", "url": "https://i-qps.net/en/news/2719/" }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 closes on a first-ever double tower catch",
+          "summary": "Booster 22 completed a full-duration 33-engine static fire at Starbase Pad 2 on October 25, Ship 42 has run its single- and six-engine firings, and SpaceX plans to bring both stages back to the tower on the same flight. Current targets cluster around November 8 to 12 pending FAA paperwork, which Gwynne Shotwell said is expected to cover return-to-launch-site and catch operations for both stages. Catching the ship as well as the booster is the step that turns Starship from a reusable first stage into a fully reusable vehicle.",
+          "sources": [
+            { "label": "Starlust", "url": "https://starlust.org/video/sl-lv-spacex-starship-flight-15-possible-launch-mvuznxhy/" },
+            { "label": "Drive Tesla", "url": "https://driveteslacanada.ca/news/spacex-starship-flight-15-super-heavy-static-fire/" }
+          ]
+        },
+        {
+          "headline": "Bezos says New Glenn flies again in December, and an IPO is years out",
+          "summary": "Jeff Bezos said over the weekend that New Glenn should return to flight in December and that a Blue Origin public listing is still several years away. LC-36 is the company's only New Glenn pad and has been out of action since the May 28 static-fire explosion traced to an oxygen valve, with repairs targeted for the first half of December. Until the pad is back, Blue Moon Mark 1 and the VIPER delivery stay parked, and NASA has floated flying Blue Origin's Artemis III lander test article on someone else's rocket.",
+          "sources": [
+            { "label": "Infobae", "url": "https://www.infobae.com/tecno/2026/11/01/blue-origin-saldra-a-bolsa-pero-jeff-bezos-asegura-que-todavia-faltan-varios-anos/" },
+            { "label": "SpaceNews", "url": "https://spacenews.com/blue-origin-still-pushing-for-return-to-flight-of-new-glenn-this-year" }
+          ]
+        },
+        {
+          "headline": "Starlink crosses 9,900 active satellites as Falcon 9 cadence cools",
+          "summary": "Tracking data put the operational Starlink fleet at 9,929 spacecraft on November 1 after the Group 15-18 launch, with the full on-orbit count above 11,000 including spares and decommissioned units. Falcon 9 is now pacing toward just under 150 flights for the year, a slower rate than earlier in 2026 as SpaceX shifts engineering attention to Starship. Reports of a new Falcon 9 upper-stage stand-down circulating this weekend trace back to the February 2026 deorbit-burn anomaly, not a fresh event.",
+          "sources": [
+            { "label": "Orbital Radar", "url": "https://orbitalradar.com/blog/orbital-briefing-2026-11-01" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Oshkosh Defense and Grid Aero team up to mass-produce the Lifter UAS",
+          "summary": "The partnership announced this morning puts Oshkosh on design for manufacturability, production planning and supply-chain work for Grid Aero's Lifter, a cheap piston-engine unmanned aircraft, with volume build planned in Wisconsin. Grid Aero CEO Arthur Dubois says the prototype fleet still has six to twelve months of testing ahead, so this is production engineering rather than a delivery contract. The interesting part is industrial: a company that builds JLTVs by the thousand is being pointed at aircraft because the Pentagon now cares more about unit cost and rate than exquisite capability.",
+          "sources": [
+            { "label": "Breaking Defense", "url": "https://breakingdefense.com/2026/11/oshkosh-steps-into-larger-uas-space-with-new-grid-aero-partnership/" },
+            { "label": "StockTitan", "url": "https://www.stocktitan.net/news/OSK/oshkosh-defense-and-grid-aero-announce-strategic-irb7n17akfp6.html" }
+          ]
+        },
+        {
+          "headline": "Intel's guidance miss triggers a 28.6 percent one-day collapse",
+          "summary": "Intel beat its own third-quarter numbers but told investors to expect $15-16 billion in fourth-quarter revenue against roughly $17 billion of consensus, and said soft PC demand would run into next year as rising memory prices squeeze OEM bills of materials. The stock fell about 28.6 percent to $65.76 on Friday, its steepest single-day drop since 1974, erasing roughly $110 billion in market capitalization and taking the US government's stake down by an estimated $11-12 billion on paper. Bank of America, D.A. Davidson, Seaport and Roth all downgraded to neutral the same session.",
+          "sources": [
+            { "label": "TechSpot", "url": "https://www.techspot.com/news/114402-intel-stock-plunges-nearly-30-worst-day-52.html" },
+            { "label": "Traders Union", "url": "https://tradersunion.com/news/stocks/show/4047209-intel-shares-plunge-29/" }
+          ]
+        },
+        {
+          "headline": "Humanoid puts Nvidia Jetson Thor and Isaac OS in its next-generation robots",
+          "summary": "UK robotics firm Humanoid expanded its Nvidia partnership to standardize on Jetson Thor compute with Isaac OS for its next platform, the same stack most of the humanoid field is converging on. Consolidating on one edge-inference module and one middleware layer is what lets these companies stop building their own autonomy plumbing and spend the engineering on manipulation and whole-body control. The flip side is that the entire sector's roadmap is now gated on one vendor's silicon cadence.",
+          "sources": [
+            { "label": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/2026/10/30/humanoid-expands-collaboration-with-nvidia-to-power-its-next-generation-of-humanoid-robots/106493" }
+          ]
+        },
+        {
+          "headline": "Korea's FIX 2026 show puts humanoids and paying robotaxi riders on the floor",
+          "summary": "Korean suppliers used the Daegu show to push humanoid subsystems, dual-arm industrial machines and autonomous driving stacks, with one robotaxi service already carrying fare-paying passengers. The emphasis was on components rather than finished robots, which is where Korea's actuator, reducer and sensor makers can plausibly compete against Chinese full-system builders. Treat the humanoid demos with the usual skepticism: several widely circulated clips this autumn turned out to be teleoperated rather than autonomous.",
+          "sources": [
+            { "label": "DigiTimes", "url": "https://digitimes.com/news/a20261030VL230/humanoid-robot-robotaxi-autonomous-driving-aircraft-equipment-2026.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Antonelli seals the title in a chaotic Mexico City Grand Prix",
+          "summary": "Verstappen won by 0.7 seconds over Lewis Hamilton, with Antonelli third and four seconds back, enough to clinch the drivers' championship on 380 points. The race turned on lap one, when Hamilton and Leclerc ran each other off track fighting for the lead and Leclerc took a five-second penalty, and again on lap 45 when Valtteri Bottas put it in the barriers and brought out a 30-minute red flag for barrier repairs. Hamilton finished second, blamed his team mate for costing Ferrari the win and called for serious talks.",
+          "sources": [
+            { "label": "PlanetF1", "url": "https://www.planetf1.com/news/mexican-grand-prix-2026-race-report" },
+            { "label": "RaceFans", "url": "https://www.racefans.net/2026/11/01/hamilton-says-leclerc-cost-ferrari-victory-in-mexico-and-calls-for-serious-talks/" }
+          ]
+        },
+        {
+          "headline": "Mercedes can wrap the constructors' title in São Paulo",
+          "summary": "Mercedes left Mexico on 630 points with a 126-point cushion over Ferrari and four rounds to run, short of mathematical certainty but close enough to clinch at São Paulo on November 8. It would be the team's ninth constructors' championship. Ferrari's problem is no longer pace, it is that its two drivers keep taking points off each other.",
+          "sources": [
+            { "label": "Grande Premio", "url": "https://grandepremio.com/en/f1/antonelli-seals-f1-title-in-mexico-but-verstappen-and-hamilton-ignite-battle-for-second/" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/2026-f1-championship-standings-after-the-mexico-city-grand-prix" }
+          ]
+        },
+        {
+          "headline": "Ferrari's first EV, the Luce, is cleared for sale at about a million Australian dollars",
+          "summary": "Australian approval lists the Luce, the production version of the car shown as Elettrica, from A$991,446 before on-roads, making it the most expensive EV on that market with deliveries expected by late 2027. The powertrain is one motor per wheel: 105 kW and 140 Nm per front motor, 310 kW and 355 Nm per rear motor, 772 kW and 990 Nm combined, fed by a 122 kWh pack for a preliminary 530 km WLTP range. Ferrari claims 0-100 km/h in 2.5 seconds and over 310 km/h.",
+          "sources": [
+            { "label": "The Driven", "url": "https://thedriven.io/2026/10/31/ferraris-first-ev-gets-approved-for-sale-in-australia-with-an-almost-1-million-price-tag/" },
+            { "label": "Drive", "url": "https://www.drive.com.au/news/2027-ferrari-luce-becomes-australias-most-expensive-electric-car/" }
+          ]
+        },
+        {
+          "headline": "Sunwoda samples polymer solid-state cells as CATL holds to 2027",
+          "summary": "Sunwoda's automotive battery arm told the Shenzhen exchange it is sampling polymer-electrolyte solid-state cells with automakers off a pilot line rated at just 0.2 GWh a year, while CATL continues to point at 2027 for its own solid-state production. Polymer electrolytes are the pragmatic route: they tolerate real manufacturing tolerances better than sulfides and can run on something close to existing coating equipment, at the cost of needing heat to get useful ionic conductivity. A 0.2 GWh line is a laboratory by industry standards, so treat 2027 dates as intent rather than schedule.",
+          "sources": [
+            { "label": "CarNewsChina", "url": "https://carnewschina.com/2026/11/02/solid-state-battery-race-sunwoda-tests-polymer-cells-with-automakers-as-catl-targets-2027" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Four motors, no differential",
+    "body": "Ferrari's Luce splits 772 kW as 105 kW per front motor and 310 kW per rear motor, with 990 Nm total at the motor shafts. With one motor per wheel there is no mechanical differential anywhere in the car: lateral torque distribution becomes a software problem solved at inverter switching frequency instead of a hardware problem solved with clutch packs. That also means the yaw-control authority is only as good as the slip estimation feeding it, which is why these cars live or die on their state estimators rather than their peak power figure."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 72 hours. Direct article fetching was blocked in this session, so items rest on search-surfaced reporting and snippets; figures are as reported."
+}
