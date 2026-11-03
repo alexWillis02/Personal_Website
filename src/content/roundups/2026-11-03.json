@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-03",
+  "title": "Daily Briefing — Tuesday, November 3",
+  "coverage": "Covering roughly Nov 1 - Nov 3, 2026 (US morning). Sourcing caveat: as on recent days, this session's network policy blocked direct article fetching for every news domain tested (nytimes.com, arstechnica.com, theverge.com, spacenews.com, marketscreener.com and rocketlabcorp.com), so items are assembled from search-surfaced reporting, headlines and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached directly; NYT items below are cross-referenced from other outlets. Financial and specification figures are company- or outlet-reported and not independently verified. Two items that surfaced in search but could not be corroborated (a reported OpenAI national-security hire, and an AMD Q3 print) were dropped.",
+  "top": [
+    {
+      "headline": "Nvidia tells data-center partners to cap their China exposure",
+      "summary": "The Financial Times reports Nvidia is requiring cloud and data-center customers to sell at least 51 percent of their services to non-Chinese companies, applying to new contracts rather than existing ones. Nvidia neither confirmed nor denied the report, saying only that American-chip data centers are foundational for US model makers; AI chip names rebounded in Tuesday premarket after a two-session slide."
+    },
+    {
+      "headline": "Anthropic's amended IPO filing says future models may hit its own AI-acceleration threshold",
+      "summary": "In Amendment No. 1 to its S-1, filed November 2, Anthropic added risk-factor language warning that future models may imminently meet the Responsible Scaling Policy definition of \"dramatically accelerated progress attributable to AI,\" while stating no current model has been designated as exceeding it. The same filing reports $17.0 billion in Q3 revenue; pricing and listing date are expected in a later amendment."
+    },
+    {
+      "headline": "AI data centers go on the ballot in 41 localities across 10 states",
+      "summary": "Voters today decide 41 local measures on data-center construction, of which 28 would restrict development through bans or moratoriums and 13 would facilitate it through zoning. Ohio alone accounts for 21 measures, several written around power and water draw, including one banning facilities above 25 MW — the first broad electoral test of the AI buildout's local footprint."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Nvidia pushes a 51 percent non-China rule onto cloud partners",
+          "summary": "Per an FT report picked up by Bloomberg and AFP, Nvidia now wants data-center clients to commit that a majority of their served capacity goes to non-Chinese customers before signing new supply contracts. It is a supply-chain-level export control enforced by the vendor rather than by Washington, and it lands while investors are already nervous about how cloud providers finance multi-gigawatt buildouts. Nvidia closed Monday at $202.06 after losing 4.2 percent Friday and another 1.3 percent Monday.",
+          "sources": [
+            {
+              "label": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-03/nvidia-tells-data-center-clients-to-trim-china-business-ft-says"
+            },
+            {
+              "label": "France 24 / AFP",
+              "url": "https://france24.com/en/live-news/20261103-nvidia-orders-data-center-clients-to-reduce-china-exposure-ft"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic files S-1/A with a new AI-accelerates-AI risk factor",
+          "summary": "The November 2 amendment tells prospective investors that upcoming models may reach the Responsible Scaling Policy's threshold for AI-driven acceleration of AI research. Crossing it does not force a stop; it triggers a required analysis of misalignment risk and of the mitigations in place before proceeding. The filing also discloses $17.0 billion of Q3 revenue, with share count, price range and listing date still to come.",
+          "sources": [
+            {
+              "label": "SEC EDGAR (Form S-1/A)",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+            },
+            {
+              "label": "Crypto Briefing",
+              "url": "https://cryptobriefing.com/anthropic-s1a-ai-progress-threshold-ipo/"
+            }
+          ]
+        },
+        {
+          "headline": "The New York Times and three other papers sue Brave over AI scraping",
+          "summary": "The Times filed a 72-page complaint in the Southern District of New York (civil action 26-cv-9549) alleging Brave Software scraped its journalism for AI use and that Brave's browser lets users bypass paywalls. The suit targets Brave's Search API — which it says resells scraped content to AI firms including Anthropic, Perplexity, Mistral, xAI and Cohere — and the Ask Brave answer feature, which it alleges reproduces passages verbatim. The Chicago Tribune, Orlando Sentinel and New York Daily News filed separate suits the same day.",
+          "sources": [
+            {
+              "label": "TNW",
+              "url": "https://thenextweb.com/news/nyt-newspapers-sue-brave-ai-scraping"
+            },
+            {
+              "label": "heise online",
+              "url": "https://www.heise.de/en/news/Copyright-infringement-New-York-Times-sues-Brave-Software-11508658.html"
+            }
+          ]
+        },
+        {
+          "headline": "41 local data-center measures on today's ballots",
+          "summary": "Ballotpedia counts 41 AI data-center measures across 10 states going to voters today: Ohio 21, Illinois 7, Maine 4, Kansas 3, and New Jersey and Wisconsin one each. Twenty-eight would limit construction via bans or moratoriums; thirteen would ease it. Several Ohio and Kansas proposals are written in engineering terms rather than political ones, keying limits to megawatt draw and water consumption.",
+          "sources": [
+            {
+              "label": "The Detroit News",
+              "url": "https://www.detroitnews.com/story/news/politics/2026/11/02/data-center-restrictions-make-ballot-dozens-us-cities/92561478007/"
+            },
+            {
+              "label": "MultiState",
+              "url": "https://www.multistate.us/insider/2026/9/24/voters-in-six-states-will-decide-future-of-data-center-construction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Rocket Lab flies its 99th mission, with number 100 two weeks out",
+          "summary": "Electron lifted off from Launch Complex 1 on Mahia at 5:41 a.m. NZDT November 3 local time (November 2 US time) on \"The Sea God Surveys,\" placing the QPS-SAR-20 radar imaging satellite into a 575 km low Earth orbit. It was the company's tenth dedicated Electron mission for Japan's iQPS and the 99th Rocket Lab launch overall. The 100th, \"The Mountain God Rises\" with QPS-SAR-19, is scheduled no earlier than November 14.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-launch-sea-god-surveys-iqps-radar-satellite"
+            },
+            {
+              "label": "Rocket Lab",
+              "url": "https://rocketlabcorp.com/missions/launches/iqps-the-sea-god-surveys/"
+            }
+          ]
+        },
+        {
+          "headline": "Neutron slips to 2027 over voids in a carbon-fiber tank dome",
+          "summary": "Rocket Lab has pushed Neutron's debut out of Q4 2026 and into 2027, blaming tiny air pockets found in a carbon composite dome on the first-stage tank. The company says it will not set a new date until a replacement tank passes inspection, which also pushes its first positive-adjusted-EBITDA quarter to Q2 2027 at the earliest. Q3 results land after the close on November 9, guided to $250-265 million in revenue.",
+          "sources": [
+            {
+              "label": "TheStreet",
+              "url": "https://www.thestreet.com/investing/rocket-lab-neutron-delay-2027"
+            },
+            {
+              "label": "TIKR",
+              "url": "https://www.tikr.com/blog/rocket-lab-sinks-21-in-a-week-on-neutron-delay-possible-success-isnt-our-standard"
+            }
+          ]
+        },
+        {
+          "headline": "CAS Space's Kinetica-2 puts 18 Qianfan satellites up on its second flight",
+          "summary": "The solid-fueled Kinetica-2 lifted off from Jiuquan on Tuesday morning local time and deployed 18 Spacesail (Qianfan) broadband satellites into their target polar orbits. Reaching a useful constellation-deployment payload on only the vehicle's second flight is a notably fast ramp for a Chinese commercial launcher. Two more Chinese launches follow this week: a Chang Zheng 2C from Xichang on Thursday and a Ceres 2 from Jiuquan on Friday.",
+          "sources": [
+            {
+              "label": "China Daily",
+              "url": "https://global.chinadaily.com.cn/a/202611/03/WS6ae94ad2e4b06d4aa0566b36.html"
+            },
+            {
+              "label": "NASASpaceflight",
+              "url": "https://nasaspaceflight.com/2026/11/launch-preview-110226"
+            }
+          ]
+        },
+        {
+          "headline": "Falcon 9 flies USSF-432 out of Vandenberg on a reused booster",
+          "summary": "SpaceX launched the classified USSF-432 mission for the Space Force from Vandenberg at 5:42 p.m. Pacific November 2 (01:42 UTC November 3), on a booster making its eighth flight and SpaceX's 119th Falcon 9 mission of 2026. A Starlink Group 15-21 flight from Vandenberg is next up around November 6. The cadence is now routine enough that a national-security payload on a flight-proven first stage barely rates coverage.",
+          "sources": [
+            {
+              "label": "NASASpaceflight",
+              "url": "https://nasaspaceflight.com/2026/11/launch-preview-110226"
+            },
+            {
+              "label": "Starlust",
+              "url": "https://starlust.org/spacex-gears-up-to-launch-classified-ussf-432-mission-on-november-2-streaming-details-here/"
+            }
+          ]
+        },
+        {
+          "headline": "Artemis III stays pointed at 2027, with a wet dress rehearsal this month",
+          "summary": "NASA administrator Jared Isaacman says he is \"extremely confident\" Artemis III flies in 2027, with the agency currently working to no earlier than June 2027 and officials talking about a summer 2027 crewed Orion flight. A wet dress rehearsal is planned for November. Both lander paths — SpaceX Starship and Blue Origin's Blue Moon Mk 2 — are expected to fly uncrewed lunar landing rehearsals after Artemis III, which NASA's program manager frames as a low-Earth-orbit test the crew will not board Starship for.",
+          "sources": [
+            {
+              "label": "SpacePolicyOnline",
+              "url": "https://spacepolicyonline.com/news/isaacman-extremely-confident-artemis-iii-will-launch-in-2027/"
+            },
+            {
+              "label": "CNN",
+              "url": "https://www.cnn.com/2026/10/23/science/nasa-artemis-update-spacex-starship-blue-origin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Palantir's US commercial business passes its US government business for the first time",
+          "summary": "Q3 revenue came in at $2.313 billion, up 96 percent year over year and 20 percent sequentially, with EPS of $0.44 against a $0.41 consensus. US government revenue grew 96 percent to $953 million while US commercial grew 148 percent and overtook it — a structural shift for a company built on defense and intelligence work. Full-year guidance went up to roughly $8.53 billion, and the stock still fell.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/palantir-pltr-earnings-q3-2026.html"
+            },
+            {
+              "label": "Business Wire",
+              "url": "https://www.businesswire.com/news/home/20261101396214/en/Palantir-Reports-Q3-2026-U.S.-Comm-Revenue-Growth-of-148-YY-and-Revenue-Growth-of-96-YY-Raises-FY-2026-Revenue-Guidance-to-91-YY-Growth-and-U.S.-Comm-Revenue-Guidance-to-143-YY-Crushing-Consensus-Expectations"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia and AMD put a combined $4 billion into Meta's AI buildout",
+          "summary": "Nvidia committed $3 billion and AMD followed with $1 billion as Meta raises $97.5 billion for AI infrastructure. Chip vendors investing in the customers who buy their chips is the circular-financing pattern that has been making investors uneasy all autumn, and it sits awkwardly next to Nvidia's new China-exposure conditions on cloud partners. Separately, Reuters reports Samsung will use its Taylor, Texas fab to make HBM base dies for both companies.",
+          "sources": [
+            {
+              "label": "Data Center Knowledge",
+              "url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-amd-commit-4b-to-meta-ai-buildout"
+            }
+          ]
+        },
+        {
+          "headline": "The Air Force's cheap fighter drone is getting less cheap",
+          "summary": "Analysis of the Collaborative Combat Aircraft program says lessons from the Iran conflict are pushing the Air Force away from attritable, low-cost airframes toward higher-end multirole aircraft, and both vendors are pitching growth paths. General Atomics' FQ-42 and Anduril's FQ-44 take opposite bets — more weapons carriage versus more survivability in contested airspace — with 150-plus aircraft under contract through 2029. For anyone working UAV requirements, it is a live case study in how cost-per-airframe targets erode once a program meets a real threat.",
+          "sources": [
+            {
+              "label": "The Air Current",
+              "url": "https://theaircurrent.com/defense/anduril-and-general-atomics-face-boom-or-bust-with-u-s-air-forces-uncrewed-fighters/"
+            },
+            {
+              "label": "DefenseScoop",
+              "url": "https://defensescoop.com/2026/06/17/air-force-picks-anduril-general-atomics-to-build-first-operational-cca-drones/"
+            }
+          ]
+        },
+        {
+          "headline": "GPS-denied navigation keeps drawing integration deals",
+          "summary": "SPARC AI signed an MOU with a European drone manufacturer to integrate and evaluate its Overwatch GPS-independent positioning system on two new fixed-wing UAVs, positioning it as dual-use after defense-environment testing. Alternative position fixes — visual-inertial odometry, terrain matching, RF signals of opportunity — have gone from research topic to procurement line item because jamming is now the default assumption in contested airspace. Rheinmetall separately agreed with Silvus Technologies to fold passive RF sensors into its ground-based air defense systems.",
+          "sources": [
+            {
+              "label": "UASweekly",
+              "url": "https://uasweekly.com/2026/11/03/sparc-ai-expands-uav-technology-reach-with-european-integration-agreement-and-middle-east-strategy/"
+            }
+          ]
+        },
+        {
+          "headline": "Six humanoids ran a convenience store for 24 hours straight",
+          "summary": "Chinese firm AGIBOT livestreamed six G2 humanoids stocking shelves, preparing food and coffee and greeting customers in a store from November 2 to 3 — a public endurance demo rather than a proof of uninterrupted autonomy, but a useful read on where manipulation reliability actually sits. On the hardware side, CNBC reports Nvidia's latest humanoid reference platform relies on dexterous hands from the Chinese startup Wuji, which is a notable supply-chain dependency given current export politics.",
+          "sources": [
+            {
+              "label": "Interesting Engineering",
+              "url": "https://interestingengineering.com/ai-robotics/agibot-humanoid-robots-in-convenience-store"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/02/cnbcs-the-china-connection-newsletter-nvidias-humanoid-push-relies-on-china-made-robot-hands.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Mercedes can wrap up the constructors' title at Interlagos",
+          "summary": "With Kimi Antonelli already confirmed as the sport's youngest drivers' champion at 20, Mercedes heads to the Sao Paulo Grand Prix on November 6-8 leading Ferrari by 126 points and able to seal the constructors' championship there. It is a conventional weekend — three practice sessions, one qualifying, a 71-lap race starting 14:00 local Sunday. A Mercedes double in year one of the new power unit formula would be a serious statement about how the regulation reset was read.",
+          "sources": [
+            {
+              "label": "RacingNews365",
+              "url": "https://racingnews365.com/2026-f1-sao-paulo-grand-prix---brazil-time-schedule"
+            },
+            {
+              "label": "Grande Premio",
+              "url": "https://grandepremio.com/en/f1/what-does-mercedes-need-to-win-the-2026-f1-constructors-championship-in-brazil/"
+            }
+          ]
+        },
+        {
+          "headline": "Mexico City GP results shuffle after the stewards finish",
+          "summary": "Oscar Piastri was dropped out of the points by a post-race penalty for his clash with Arvid Lindblad, both Alpine drivers were penalised, and Ryo Hirakawa scored on his F1 debut. Mercedes was also fined for George Russell skipping mandatory media duties. Verstappen won the red-flagged race; Antonelli's third place was enough for the title.",
+          "sources": [
+            {
+              "label": "Autosport",
+              "url": "https://www.autosport.com/f1/news/"
+            },
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/"
+            }
+          ]
+        },
+        {
+          "headline": "Polestar 2 is out of production; VW shelves the electric Golf",
+          "summary": "Polestar UK confirmed on October 30 that Polestar 2 production has ended, with a successor due in the first half of 2027 and assembly staying in China; UK sales continue into 2027 from existing stock. Separately, Volkswagen's board approved suspending development of the ID Golf — paused rather than cancelled, with the car now expected early in the 2030s — as part of a cost program that contemplates up to 100,000 job cuts by 2030. VW is also weighing a China-developed architecture to cut development cost.",
+          "sources": [
+            {
+              "label": "InsideEVs",
+              "url": "https://insideevs.com/news/814005/polestar-2-production-china-over-official/"
+            },
+            {
+              "label": "EV Powered",
+              "url": "https://evpowered.co.uk/news/electric-vw-id-golf-halted-as-volkswagen-cannot-afford-its-development/"
+            }
+          ]
+        },
+        {
+          "headline": "The urban assisted-driving race moves to Germany",
+          "summary": "Mercedes is targeting a year-end rollout of urban assisted driving in selected German cities, going nationwide early in 2027, while BMW plans its own navigation-guided urban system for 2027 — gated partly on the UN regulation's 02 series for city roads, expected in force in late January 2027. Both are Level 2 systems with the driver still responsible, and BMW has reportedly stepped back from Level 3 to concentrate on advanced Level 2. From October, BMW Maps merges route guidance, the perceived environment and assistance state into one 3D view on Operating System X.",
+          "sources": [
+            {
+              "label": "TNW",
+              "url": "https://thenextweb.com/news/bmw-maps-3d-dcas-urban-2027"
+            },
+            {
+              "label": "Devdiscourse / Reuters",
+              "url": "https://www.devdiscourse.com/article/technology/3918619-update-3-mercedes-targets-year-end-germany-rollout-for-urban-assisted-driving-in-race-with-rivals"
+            }
+          ]
+        },
+        {
+          "headline": "GM bets $108 million on sodium-ion and widens eyes-off driving",
+          "summary": "GM led a $108 million round in sodium-ion battery startup Peak Energy and said its eyes-off driving system will extend to full-size pickups and SUVs, without committing to a timeframe. Sodium-ion gives up energy density to lithium-ion but trades it for cheap, abundant feedstock and better cold-temperature behaviour, which is why it keeps surfacing in stationary storage first. GM also raised its free cash flow outlook and announced a $20 billion buyback.",
+          "sources": [
+            {
+              "label": "CBT News",
+              "url": "https://www.cbtnews.com/gm-backs-battery-startup/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Porosity is what grounded a rocket",
+    "body": "Rocket Lab is holding Neutron on the pad into 2027 because of \"tiny air pockets\" in a carbon fiber dome on the first-stage tank. A dome is the worst place on a composite tank to find voids: it is a doubly curved, thick layup where fibers must be steered over compound curvature, resin has the longest path to travel, and the membrane stress is biaxial rather than hoop-dominated. Add cryogenic soak and the resin contracts harder than the fibers, so each void becomes a stress riser that can seed a microcrack, and microcracks are how composite tanks start leaking helium and LOX. It is also why you cannot simply inspect your way out — the fix is a new tank, which is exactly what Rocket Lab is waiting on before it will name a date."
+  },
+  "footnote": "Compiled from public reporting on November 3, 2026. Direct article fetching was blocked in this session, so items are built from search-surfaced reporting and snippets; figures are as reported by the cited outlets."
+}
