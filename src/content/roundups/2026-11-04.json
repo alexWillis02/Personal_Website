@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-04",
+  "title": "Daily Briefing — Wednesday, November 4",
+  "coverage": "Covering roughly Nov 2 - Nov 4, 2026 (US morning). Sourcing caveat: this session's network policy again blocked direct article fetching for nearly every news domain tested (nytimes.com, arstechnica.com, theverge.com, reuters.com, apnews.com, spacenews.com, nasaspaceflight.com, flightglobal.com and newsroom.amd.com), and reuters.com, apnews.com and arstechnica.com are additionally blocked to the search agent. Only anthropic.com fetched successfully. Items are therefore assembled from search-surfaced reporting, headlines and snippets rather than page-by-page reads. The New York Times technology, science and business sections were checked and could not be reached; no NYT-specific item survived cross-referencing today. Financial and specification figures are company- or outlet-reported and not independently verified. Three items that surfaced in search were dropped as unverifiable or stale: a claimed OpenAI 'GPT-6.1 Sol' release (no primary source), an 'Anthropic Claude Frontier Academy' item that aggregators dated to Nov 3 but Anthropic's own newsroom shows as Oct 2, and a Red Bull engine quote that traces back to mid-October.",
+  "top": [
+    {
+      "headline": "Data-center backlash wins at the ballot box",
+      "summary": "Roughly 41 local measures across 10 states went to voters on Nov 3, and 33 restricting data centers had passed or were leading by late Tuesday. An NBC exit poll found 56 percent of voters called AI and data centers a crucial or major factor in their congressional vote, turning compute siting into a first-order political constraint on the AI buildout."
+    },
+    {
+      "headline": "AMD posts a record quarter as data-center revenue nearly doubles",
+      "summary": "AMD reported Q3 revenue of $13.4 billion on Nov 3, with Data Center up 97 percent year over year to $8.55 billion and now 64 percent of the company. Management guided Q4 to about $17 billion and said 2027 revenue should rise more than 80 percent as Helios racks and the Venice CPU ramp."
+    },
+    {
+      "headline": "Swift falls, and NASA's chief says Hubble must not follow",
+      "summary": "NASA's Swift observatory is reentering this week after a commercial reboost attempt failed when the servicing spacecraft could not hold its own attitude. Administrator Jared Isaacman said an uncontrolled Hubble reentry is not acceptable, with NASA's request for industry ideas due Nov 30 and any mission needing to fly by 2032."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Voters across 10 states move to restrict data centers",
+          "summary": "About 41 local data-center measures were on Nov 3 ballots, and 33 restricting them had passed or were leading late Tuesday, with roughly a dozen still uncounted. Ohio was the epicenter: 21 measures across 18 municipalities, with at least 14 passing bans or restrictions, and all five central-Ohio communities voting against. The measures range from outright prohibitions to energy-use caps and mandatory voter approval, which means siting risk now has to be priced into every hyperscale buildout plan.",
+          "sources": [
+            { "label": "Stateline", "url": "https://stateline.org/2026/11/04/voters-across-the-country-reject-data-centers/" },
+            { "label": "Fortune", "url": "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/" },
+            { "label": "Detroit News", "url": "https://www.detroitnews.com/story/news/politics/2026/11/02/data-center-restrictions-make-ballot-dozens-us-cities/92561478007/" }
+          ]
+        },
+        {
+          "headline": "AMD's Q3 shows the AI accelerator market has a real second supplier",
+          "summary": "Revenue hit $13.4 billion with 54 percent gross margin, non-GAAP EPS of $2.09 up 74 percent year over year, and Data Center at $8.55 billion, up 97 percent year over year and 27 percent sequentially. Gaming fell 40 percent to $773 million and Embedded rose 29 percent to $1.1 billion, so the mix shift toward accelerators is now stark. Lisa Su said server revenue should roughly double in 2027, which is the clearest signal yet that Instinct is winning sockets rather than just benchmarks.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html" },
+            { "label": "SEC Form 8-K", "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm" },
+            { "label": "AMD Newsroom", "url": "https://newsroom.amd.com/news/amd-reports-third-quarter-2026-earnings/" }
+          ]
+        },
+        {
+          "headline": "China's open-weight coding race tightens with LongCat-2.5",
+          "summary": "Meituan released LongCat-2.5 on Nov 1, a natively multimodal mixture-of-experts model with about 1.6 trillion total parameters but only roughly 48 billion active per token and a 1 million token context. It scored 88.4 on Terminal-Bench v2.1 against 70.8 for LongCat-2.0, a large jump on a benchmark that measures long-horizon agentic terminal work rather than single-shot answers. Weights are promised on GitHub and Hugging Face but had not been published as of this writing, and Moonshot's Kimi K3.1 Pro weights were also slated for today, so treat the leaderboard claims as vendor-reported.",
+          "sources": [
+            { "label": "Startup Fortune", "url": "https://startupfortune.com/meituans-longcat-25-jumps-into-chinas-open-ai-coding-race/" },
+            { "label": "LongCat AI", "url": "https://www.longcatai.org/" }
+          ]
+        },
+        {
+          "headline": "States keep outrunning Congress on chatbot rules",
+          "summary": "No federal AI or kids' online-safety statute has passed, and bills not enacted before the 119th Congress ends in early January 2027 expire. The bipartisan GUARD Act, which would bar under-18s from AI companions and require age verification, cleared Senate Judiciary unanimously back in April and still awaits floor time. Meanwhile chatbot laws in New York, California, Oregon and Washington are taking effect, and California's SB 243 gives families a private right to sue non-compliant developers, so compliance is becoming a 50-state patchwork problem.",
+          "sources": [
+            { "label": "Center for Democracy and Technology", "url": "https://cdt.org/insights/2026-state-and-federal-ai-legislation-updates/" },
+            { "label": "The Record", "url": "https://therecord.media/senate-judiciary-advances-bill-barring-children-ai-chatbots" },
+            { "label": "Congress.gov (S.3062)", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3062" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Swift reenters after the first attempted robotic rescue of a NASA telescope failed",
+          "summary": "Swift's operators at Penn State put the spacecraft in safe mode and permanently ended science in late October once atmospheric drag exceeded what the reaction wheels could counter. Katalyst's LINK servicing vehicle never reached the capture phase because it could not control its own attitude well enough to approach, and NASA formally ended its involvement on Sept 3. Most of the 3,200-pound observatory should break up, though dense parts such as internal tungsten shielding may survive; reentry estimates cluster between Nov 4 and Nov 6 and the footprint is not predictable.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/11/03/nasas-neil-gehrels-swift-observatory-to-burn-up-this-week-after-two-decades-in-space" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/missions/nasas-swift-space-telescope-is-about-to-crash-to-earth-where-will-it-fall" },
+            { "label": "SpacePolicyOnline", "url": "https://spacepolicyonline.com/news/swift-rescue-mission-may-not-have-succeeded-but-no-regrets/" }
+          ]
+        },
+        {
+          "headline": "Isaacman: boost Hubble and keep the science, don't just deorbit it",
+          "summary": "Speaking to NASASpaceflight, the NASA administrator said an uncontrolled Hubble reentry is not acceptable and that if money is being spent to go up there anyway, the mission should boost the telescope and extract as much science as possible. NASA's analysis puts a 10 percent chance of reentry by September 2032 and 50 percent by December 2033, and Hubble has no propulsion of its own. An Oct 29 request for information covers reboost, servicing and controlled disposal, with responses due Nov 30 and any mission needing to fly by 2032; nothing is funded yet.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/uncontrolled-reentry-boost-hubble-science-isaacman/" },
+            { "label": "Space.com", "url": "https://www.space.com/astronomy/hubble-space-telescope/nasa-asks-industry-for-ideas-about-saving-hubble-space-telescope" },
+            { "label": "The Register", "url": "https://www.theregister.com/science/2026/10/30/nasa-ponders-a-hubble-servicing-mission-or-a-controlled-deorbit/5306622" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab's 99th Electron flies, with the 100th set for Nov 14",
+          "summary": "Electron lifted a QPS-SAR radar satellite for Tokyo-based iQPS from Launch Complex 1 in New Zealand, the vehicle's 99th launch, Rocket Lab's 20th mission of 2026 and its tenth dedicated iQPS flight with a clean record across all ten. The 100th launch, named The Mountain God Rises, is scheduled no earlier than Nov 14 and carries another QPS-SAR. iQPS is building toward a 36-satellite synthetic-aperture constellation with eight more dedicated Electron flights booked through 2030.",
+          "sources": [
+            { "label": "Starlust", "url": "https://starlust.org/watch-rocket-lab-launches-10th-iqps-radar-satellite-on-its-99th-mission/" },
+            { "label": "Space & Defense", "url": "https://spaceanddefense.io/rocket-lab-completes-99th-electron-launch-for-iqps-sar-satellite/" }
+          ]
+        },
+        {
+          "headline": "Starship clears all Flight 15 engine testing in eight days",
+          "summary": "SpaceX ran three static fires in three days and finished the entire Flight 15 engine campaign in about a week. Booster 22, a V3 Super Heavy, completed a full-duration 33-engine firing, and Ship 42 ran a full-duration six-engine static fire plus a single-Raptor burn to rehearse the deorbit maneuver. Flight 15 is the one where SpaceX intends to catch both the booster and the ship with the tower, so the deorbit-burn rehearsal matters: a controlled ship return is the prerequisite for a tower catch. No launch date has been announced.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/10/spacex-static-fires-flight-15/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-upper-stage-ahead-of-landmark-flight-15-test-launch-video" }
+          ]
+        },
+        {
+          "headline": "Artemis III is being sequenced around Blue Origin's lander readiness",
+          "summary": "Isaacman laid out an order of operations in which a New Glenn launch puts Blue Origin's Blue Moon lander up first, the lander loiters roughly 30 days for orbital checkouts, and only then does NASA commit SLS and Orion to fly. His framing was blunt: the agency will not launch without Blue Origin's vehicle already in orbit. He also named the lander as the primary remaining bottleneck, noting there is not yet a fully assembled Blue test article, which is the detail to watch against the 2027 target.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/10/isaacman-artemis-launch-sequence-blue-priority/" },
+            { "label": "Scientific American", "url": "https://www.scientificamerican.com/article/nasa-lays-out-a-packed-14-day-schedule-for-2027s-artemis-iii-moon-mission/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Beta's CEO says the Alia 250 will be first to eVTOL type certification",
+          "summary": "Kyle Clark predicted on Nov 3 that the A250 will beat Joby and Archer to FAA type certification, without naming a target date. Beta already holds a first-of-its-kind FAA special airworthiness certificate for market surveys, which is not type certification and does not let it sell seats to the public. The company is flying in six of its seven projects under the FAA's eVTOL Integration Pilot Program, has passed $4 billion in backlog, and is pointing near-term sales at cargo and medical operations rather than urban air taxi service.",
+          "sources": [
+            { "label": "FlightGlobal", "url": "https://www.flightglobal.com/evtol/2026/11/beta-boss-clark-believes-a250-will-beat-evtol-rivals-to-certification/" },
+            { "label": "AIN", "url": "https://ainonline.com/aviation-news/futureflight/2026-11-03/beta-focusing-electric-airplane-sales-cargo-medical" }
+          ]
+        },
+        {
+          "headline": "Part 108 is still stuck at OIRA, and BVLOS still runs on waivers",
+          "summary": "The FAA's beyond-visual-line-of-sight rule reached the Office of Information and Regulatory Affairs on July 10 and was still listed as pending review as of early October. The agency's Emerging Technologies Division has said it hopes for publication by the end of the calendar year, and one outlet reports a Dec 7 target that could not be confirmed against an official source. Until it lands, drone delivery keeps operating under Part 135 air carrier certificates and case-by-case Part 107 waivers, which is the real ceiling on scaling any US delivery network.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/bvlos/" },
+            { "label": "DroneRanker", "url": "https://www.droneranker.com/faa-part-108-bvlos-rule-status/" }
+          ]
+        },
+        {
+          "headline": "Xiaomi puts two humanoids on an eight-hour factory shift",
+          "summary": "Xiaomi released video on Nov 3 of two full-size humanoids working a center-console side-cover sorting station in an eight-hour trial at its own plant, though the disclosure did not confirm the robots completed the full run. The same release covered a home trial finishing more than 50 tasks across three rooms in a sequence over 30 minutes. The interesting shift is the metric: duty cycle and unattended run time, not peak dexterity demos, which is what actually decides whether a humanoid displaces a fixture.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/xiaomi-humanoids-sort-car-parts" },
+            { "label": "TokenPost", "url": "https://tokenpost.com/news/technology/47766" }
+          ]
+        },
+        {
+          "headline": "South Korea opens a humanoid data factory to farm training data",
+          "summary": "The Korea Institute of Machinery and Materials opened a dedicated facility on Nov 3 that runs 12 robots purely to collect manipulation data from household and industrial tasks, alongside its KAIROS humanoid. It is an explicit bet that the binding constraint on physical AI is real-world demonstration data rather than model capacity. RobotWorld 2026 opened Nov 4 in Korea with 402 exhibitors from 17 countries, and Agility Robotics said on Nov 2 it now has a pipeline of more than 30 prospective enterprise customers for Digit.",
+          "sources": [
+            { "label": "The AI Insider", "url": "https://theaiinsider.tech/2026/11/04/south-korea-opens-humanoid-robot-data-factory-to-train-ai-models-on-real-world-tasks/" },
+            { "label": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/2026/11/02/agility-robotics-says-more-than-30-companies-considering-digit-humanoid-robot/106595" }
+          ]
+        },
+        {
+          "headline": "Qualcomm reports today with its data-center pivot on the line",
+          "summary": "Qualcomm reports fiscal Q4 after the close on Nov 4, having guided to $9.7 to $10.5 billion in revenue and $2.05 to $2.25 non-GAAP EPS. The number that matters is not the quarter but the pivot: management has guided non-handset revenue growth to accelerate from 24 percent in FY2026 to more than 60 percent in FY2027, with data-center revenue alone reaching $5 billion that year and first revenue from two custom chip deals landing in the December quarter. Handsets remain the drag, and the early data-center mix is expected to cost 1.5 to 2 points of QCT gross margin.",
+          "sources": [
+            { "label": "The Motley Fool", "url": "https://www.fool.com/investing/2026/11/03/should-you-buy-qualcomm-stock-before-its-nov-4-report/" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/02/nvidia-isnt-the-only-ai-winner-qualcomm-may-be-the-next-stock-to-watch/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Mercedes wants a power converter on every battery cell",
+          "summary": "Mercedes detailed a development-stage Power Converter that puts programmable micro-converters at cell level, wiring several in parallel to regulate each cell individually while jointly producing a stable DC output. The point is decoupling: the traction inverter would always see a constant 800 volts regardless of state of charge, cell chemistry or pack age, instead of the sagging voltage curve inverters are normally designed around. The current generation reportedly reaches up to 3 kW and could absorb AC, DC and bidirectional charging into the converter hardware itself, which would also make mixed NMC and LFP packs far easier to manage. No production car is confirmed.",
+          "sources": [
+            { "label": "electrive", "url": "https://www.electrive.com/2026/11/04/mercedes-power-converter-decouples-high-voltage-supply-from-battery-state/" },
+            { "label": "The EV Report", "url": "https://theevreport.com/mercedes-benz-power-converter-800-volt" },
+            { "label": "Mercedes-Benz Group", "url": "https://group.mercedes-benz.com/technology/innovation/development/display-and-high-voltage-technology.html" }
+          ]
+        },
+        {
+          "headline": "Audi's A2 e-tron drivetrain is a clinic in chasing partial-load losses",
+          "summary": "Audi detailed the APP350 drive unit and its silicon-carbide inverter, which runs above 97 percent efficiency and varies switching frequency with motor speed and load to cut switching events during the light-load cruising where most real driving happens. The rotor laminations are more than 30 percent thinner than the previous APP310 to cut iron losses, rotor segments were rearranged to suppress high-frequency noise, and the unit uses a long 10.2:1 reduction with low-viscosity oil and smoother gear surfaces. Audi claims roughly 10 percent better drivetrain efficiency, and the 140 kW efficiency-package car is rated at 12.8 kWh per 100 km WLTP.",
+          "sources": [
+            { "label": "Audi Media", "url": "https://www.audi.com/en/media-releases/low-energy-consumption-and-high-comfort-the-electric-drive-in-the-new-audi-a2-e-tron-18432" },
+            { "label": "The EV Report", "url": "https://theevreport.com/audi-a2-e-tron-app350-electric-drive-sic-inverter" }
+          ]
+        },
+        {
+          "headline": "Mercedes can seal the constructors' title at Interlagos on Sunday",
+          "summary": "Mercedes goes to the Sao Paulo Grand Prix on Nov 8 with 630 points to Ferrari's 504 and Red Bull's 382, and needs only to outscore Ferrari by three points to clinch. It would be the team's ninth constructors' championship, drawing level with Williams for third on the all-time list, and would complete the double after Kimi Antonelli took the drivers' title in Mexico City. Las Vegas, Qatar and Abu Dhabi are all that remain after Brazil.",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13607118/how-mercedes-can-win-2026-f1-constructors-championship-at-sao-paulo-grand-prix-this-sunday-with-kimi-antonelli-and-george-russell" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/how-mercedes-can-win-2026-f1-constructors-title-in-sao-paulo-grand-prix" }
+          ]
+        },
+        {
+          "headline": "BorgWarner locks in solid-state battery material allocation",
+          "summary": "A multiyear commitment announced at the start of the month gives BorgWarner dedicated component allocation from Solid Power as automakers accelerate high-voltage electric powertrain programs. Solid Power said primary powder processing site acceptance testing is complete, which is the unglamorous step that decides whether sulfide electrolyte can actually be made at volume rather than in a lab. Supply agreements signed this far upstream are the better leading indicator of solid-state timing than any cell announcement.",
+          "sources": [
+            { "label": "Auto Connected Car", "url": "https://www.autoconnectedcar.com/2026/11/ev-battery-charging-news-solid-power-wolfspeed-borgwarner-kenda-slate-auto-volkswagen-ford/" }
+          ]
+        },
+        {
+          "headline": "Kia's electrified sales jump 112 percent in a record October",
+          "summary": "Kia America posted a record October with electrified sales up 112 percent year over year, a notable data point given how much of the US market commentary this autumn has assumed EV demand fell off a cliff after federal incentives changed. Separately, Ford's Fathom EV is slated to enter production in Q4 2027 at Louisville Assembly. The split picture, strong hybrid and EV sales at some brands while others cancel programs, is becoming the defining feature of this cycle.",
+          "sources": [
+            { "label": "The EV Report", "url": "https://theevreport.com/" },
+            { "label": "MarkLines", "url": "https://www.marklines.com/en/e-newsletter/latest-contents-20261104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "A one-minute error moves a reentry 460 kilometers",
+    "body": "Predicting where Swift comes down is hard for a reason that is pure kinematics: one minute of timing uncertainty shifts the impact point about 460 km along the ground track. Work it backwards and that is just orbital velocity in low Earth orbit, roughly 7.7 km/s times 60 seconds. Since the drag that sets the final timing depends on upper-atmosphere density that varies with solar activity by a factor of several, nobody can tighten the clock enough to call the footprint. That is the whole argument for propulsion or a controlled disposal plan on anything massive enough to reach the ground."
+  },
+  "footnote": "Compiled from public reporting, company and agency announcements. Figures are as reported by the cited sources and were not independently verified."
+}
