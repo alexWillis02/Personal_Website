@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-05",
+  "title": "Daily Briefing — Thursday, November 5",
+  "coverage": "Covering roughly Nov 3 - Nov 5, 2026 (US morning). Sourcing caveat: this session's network policy again blocked direct article fetching for essentially every news domain tested (nytimes.com, theverge.com, spaceflightnow.com, dronelife.com), and nytimes.com is additionally blocked to the search agent at the domain level. The New York Times technology, science and business sections were checked and could not be reached in any form, so no NYT-specific item appears today. Items are assembled from search-surfaced reporting, headlines and snippets rather than page-by-page reads, and several come via syndication of Reuters or Pentagon releases rather than the originals. Financial and specification figures are company-, agency- or outlet-reported and not independently verified. Two items that surfaced in search were dropped: a claimed 29 percent single-day Intel collapse (single low-quality source, contradicted by same-day closing data) and a claimed OpenAI 'GPT-6.2 Astra' release (no primary source, self-contradicting aggregator coverage).",
+  "top": [
+    {
+      "headline": "Nvidia's China revenue is sitting in a Hong Kong warehouse",
+      "summary": "Reuters reported on Nov 5 that roughly 600,000 Nvidia H200 accelerators are stockpiled in Hong Kong while Beijing withholds large-scale import clearance for the mainland. Only trickles have gotten through via intermediaries, and an eight-GPU H200 server was being offered on China's unofficial market in late October for over 6 million yuan, about $900,000, roughly three times its price a year earlier."
+    },
+    {
+      "headline": "OpenAI pledges to pay the full power bill after voters revolt",
+      "summary": "Two days after US voters rejected 40 of 41 local data-center ballot measures, OpenAI published a \"National Community Compact\" promising to cover all electricity and grid-infrastructure costs at data centers it owns and operates, stop signing NDAs with public officials, and publish construction plans. It is an explicit attempt to decouple hyperscale compute buildout from residential utility bills, which is now the binding political constraint on siting."
+    },
+    {
+      "headline": "Pentagon says 25,000-plus drones and counter-drone systems reached CENTCOM",
+      "summary": "A Nov 4 Department of War release says more than 25,000 unmanned and counter-UAS systems were delivered to Central Command this year on about $782 million, including over 1,300 one-way attack UAVs and more than 100 unmanned surface and underwater vessels. The procurement \"gauntlet\" model behind it is driving unit cost from $5,000 to a target $2,300 per drone while scaling orders from 30,000 to 150,000."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "600,000 H200s stranded in Hong Kong as Beijing withholds clearance",
+          "summary": "Reuters, citing two people familiar with the matter, reported that about 600,000 of Nvidia's H200 accelerators are warehoused in Hong Kong awaiting shipment into mainland China, with Chinese authorities reportedly having halted customs clearance for the part. Several major Chinese internet firms have each taken delivery of roughly 10,000 units through indirect channels in recent months, but there is no signal on whether or when bulk imports will be authorized. The practical read is that Nvidia's China line item is now a policy variable rather than a demand variable, which is why the H200 commands triple its year-ago price on the gray market.",
+          "sources": [
+            { "label": "Reuters via Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-chips-stockpile-hong-kong-120548918.html" },
+            { "label": "Global Banking and Finance (Reuters syndication)", "url": "https://www.globalbankingandfinance.com/exclusive-nvidia-chips-pile-up-hong-kong-china-withholds/" }
+          ]
+        },
+        {
+          "headline": "OpenAI's National Community Compact answers the data-center backlash",
+          "summary": "OpenAI committed to paying the full cost of electricity and required infrastructure at data centers it owns and operates, to soliciting community input, to publishing construction plans, and to ending NDAs with public officials. The company framed it as a reaffirmation of an existing promise and pointed to Project Camellia in Effingham County, Georgia as the template, while urging policymakers to write similar terms into law. The timing matters: it landed two days after a near-sweep of anti-data-center ballot measures, so this is the industry conceding that ratepayer cost allocation is the fight it has to win.",
+          "sources": [
+            { "label": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/11/62913504/openai-vows-cover-ai-data-center-electricity-costs-residents-bills" },
+            { "label": "Tech Startups", "url": "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/" }
+          ]
+        },
+        {
+          "headline": "DeepSeek reportedly moves V5 pretraining onto Huawei Ascend",
+          "summary": "STAR Market Daily reported on Nov 3, with TechNode following on Nov 4, that DeepSeek plans to pretrain its next frontier model on Huawei Ascend silicon rather than Nvidia GPUs, citing supply-chain sources. Until now Ascend parts have mainly served DeepSeek inference, so moving the pretraining run is a far harder test of the interconnect, memory bandwidth and software stack. Reports disagree on the specific part and timing, with a TrendForce relay pointing to Ascend 950 and a full training run in 2027, and neither DeepSeek nor Huawei has confirmed any of it.",
+          "sources": [
+            { "label": "TechNode", "url": "https://technode.com/2026/11/04/deepseek-reportedly-plans-to-train-v5-model-on-huawei-ascend-chips/" }
+          ]
+        },
+        {
+          "headline": "Markets start pricing AI regulation risk after the midterms",
+          "summary": "Chip stocks slid on Nov 5 with Nvidia, AMD and Intel all lower, as investors weighed stronger-than-expected Democratic midterm gains against the odds of tighter oversight of AI data-center buildout. The stranded H200 report and Qualcomm's soft handset guidance compounded the move, and the Nasdaq slipped toward correction territory. After two years in which AI capex was treated as a one-way bet, siting politics and export policy are now showing up directly in the semiconductor multiple.",
+          "sources": [
+            { "label": "TipRanks", "url": "https://www.tipranks.com/news/why-chip-stocks-intel-nvidia-and-amd-are-sinking-today-nov-5" },
+            { "label": "Yahoo Finance UK", "url": "https://uk.finance.yahoo.com/news/nasdaq-futures-fall-chip-stocks-011408553.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Swift burns up over Sumatra after a failed commercial reboost",
+          "summary": "NASA confirmed the Neil Gehrels Swift Observatory reentered at 7:39 a.m. EST on Nov 4 over North Sumatra, near 3.4 degrees north and 98.6 degrees east, ending nearly 22 years of gamma-ray burst work. The orbit decayed under solar-maximum atmospheric drag after Katalyst Space Technologies' LINK servicing spacecraft failed following its July launch and could not capture and raise the telescope. NASA had ended science operations once altitude fell below about 275 km because the platform could no longer hold pointing stability, and put the odds of surviving debris reaching a populated area at roughly 1 in 2,100.",
+          "sources": [
+            { "label": "CNN", "url": "https://www.cnn.com/2026/11/04/science/nasa-swift-observatory-reentry-deorbit" },
+            { "label": "Live Science", "url": "https://www.livescience.com/space/astronomy/swift-has-fallen-nasas-22-year-old-space-telescope-burns-up-over-sumatra" }
+          ]
+        },
+        {
+          "headline": "Last roll-out solar array goes on the ISS today",
+          "summary": "NASA's Anil Menon and CSA's Joshua Kutryk were set to begin a roughly seven-hour EVA at 8:30 a.m. EST on Nov 5 to install the eighth and final iROSA, this one on the station's 3B power channel. The Oct 29 spacewalk that placed array seven on the 2A channel ran 7 hours 11 minutes and was logged as the 100th US-segment EVA at the station. With all eight in place, ISS generation capacity rises from about 160 kW to roughly 215 kW, a gain of up to 30 percent on a 25-year-old truss.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/10/28/nasa-nears-end-of-space-station-solar-array-upgrade-with-oct-29-and-nov-5-spacewalks/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/international-space-station/2-astronauts-will-finish-upgrading-iss-solar-arrays-during-spacewalk-today-watch-it-live" },
+            { "label": "NASA Space Station Blog", "url": "https://www.nasa.gov/blogs/spacestation/2026/10/29/spacewalkers-install-roll-out-solar-arrays-for-power-generation/" }
+          ]
+        },
+        {
+          "headline": "Starship Flight 15 to attempt the first double catch",
+          "summary": "SpaceX is targeting no earlier than November for Flight 15, a Starship V3 vehicle from Pad 2 at Starbase, with Elon Musk saying the company will try to recover both stages and catch the upper stage for the first time. A full-duration static fire of Super Heavy Booster 22 was completed Oct 25, following Flight 14 on Sept 28 which put Ship into orbit for the first time. Catching the ship is the harder half of the problem, since it arrives from orbital velocity with a thermal-protection system that has to survive entry and still leave the vehicle precise enough for a tower grab.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says" },
+            { "label": "NextSpaceflight", "url": "https://nextspaceflight.com/launches/details/8403/" }
+          ]
+        },
+        {
+          "headline": "Space Force tops up GPS IIIF and plans a sole-source SATCOM deal",
+          "summary": "The Space Force added a $95 million modification to Lockheed Martin's GPS IIIF production contract on Nov 2, lifting cumulative face value to $4.73 billion and funding an equitable adjustment to cover production-line disruption from earlier federal budget deferrals. Separately, Space Systems Command signaled a sole-source sustainment award worth up to $945.9 million to Boeing for military SATCOM constellations, with an Oct 27 Sam.gov notice stating that Boeing has repeatedly declined to sell the government the necessary data rights. Together they are a clean illustration of how program-level data-rights leverage, not technology, often sets the cost of sustaining a constellation.",
+          "sources": [
+            { "label": "SatNews", "url": "https://satnews.com/2026/11/02/space-force-awards-lockheed-martin-95m-gps-iiif-modification-bringing-contract-face-value-to-4-73b/" },
+            { "label": "Washington Technology", "url": "https://www.washingtontechnology.com/contracts/2026/10/boeing-wont-sell-data-rights-so-space-force-plans-946m-sole-source-deal/416951/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Project Agincourt pushes 25,000-plus unmanned systems into CENTCOM",
+          "summary": "The Department of War said on Nov 4 that frontline CENTCOM troops received more than 25,000 unmanned and counter-UAS systems this year against roughly $782 million, including over 1,300 one-way attack UAVs, more than 100 unmanned surface and underwater vessels, and more than 24,000 counter-UAS capabilities fielded through Joint Interagency Task Force 401. The work runs through the Direct Reporting Portfolio Manager for Unmanned Systems under Owen West, who also leads Project Agincourt and is standing up a proposed four-star Autonomous Warfare Command targeted at October 2027. The buying mechanism is the interesting part: four sequential \"gauntlets\" that scale orders from 30,000 to 150,000 drones while driving unit price from $5,000 down to $2,300.",
+          "sources": [
+            { "label": "U.S. Department of War", "url": "https://www.war.gov/News/News-Stories/Article/Article/4641652/centcom-benefits-from-project-agincourt-drone-dominance-efforts/" },
+            { "label": "The Epoch Times", "url": "https://www.theepochtimes.com/us/over-25000-drones-counter-drone-systems-delivered-to-centcom-pentagon-says-6118126" }
+          ]
+        },
+        {
+          "headline": "Baykar turns the TB2 into an FPV mothership and data relay",
+          "summary": "Baykar announced on Nov 4 that a Bayraktar TB2 flying from its Kesan test center in Edirne carried 16 Skydagger FPV kamikaze drones, released two, and hit designated ground targets, while the TB2 itself relayed the control link operators used to fly the released munitions. Army Recognition notes the demonstration confirmed only two releases, not simultaneous employment of all 16, and Baykar has not said what happened to the other fourteen. The relay is the real capability: FPV engagement range is normally limited to roughly 15 km by line-of-sight RF, and Haluk Bayraktar has suggested an airborne relay could extend that dramatically, which turns a cheap munition into a standoff weapon without touching the munition itself.",
+          "sources": [
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/bayraktar-tb2-tests-launch-of-16-fpv-drones/" },
+            { "label": "Army Recognition", "url": "https://www.armyrecognition.com/news/aerospace-news/2026/tuerkiye-tests-bayraktar-tb2-as-flying-drone-carrier-for-16-skydagger-fpv-kamikaze-drones" },
+            { "label": "Defence Blog", "url": "https://defence-blog.com/baykar-turns-its-bayraktar-tb2-into-a-carrier-for-fpv-drones/" }
+          ]
+        },
+        {
+          "headline": "Qualcomm's handset business shrinks 26 percent as it pivots to data center",
+          "summary": "Qualcomm reported fiscal Q4 on Nov 4 with non-GAAP revenue of $10.44 billion, down 7 percent year over year, and non-GAAP EPS of $2.17, down 28 percent, while QCT handset revenue fell 26 percent to $5.14 billion and missed consensus. Shares dropped roughly 7 to 8 percent in extended trading as management guided handset revenue down mid-single digits sequentially and said handset will be under half of total revenue in fiscal 2027. The offsets are real but smaller: automotive exited the year at an $8 billion annualized run rate and management reiterated a $5 billion fiscal 2027 data-center target.",
+          "sources": [
+            { "label": "Benzinga (earnings call transcript)", "url": "https://www.benzinga.com/news/26/11/62899398/qualcomm-q4-2026-earnings-call-transcript" },
+            { "label": "WebProNews", "url": "https://www.webpronews.com/qualcomm-q4-2026-handset-sales-drop-data-center-target/" }
+          ]
+        },
+        {
+          "headline": "Marines line up a battlefield cargo drone demonstration",
+          "summary": "Defense News reported on Nov 3 that the Marine Corps and Navy will run a technology demonstration early next year for a battlefield cargo drone, with multiple defense contractors expected to fly candidate aircraft. Autonomous resupply is the least glamorous and most tractable UAV mission in a contested-logistics fight, since it trades a manned rotorcraft sortie for an attritable airframe on a predictable route. Watch the payload-to-empty-weight fraction and the launch-and-recovery footprint, because those are what decide whether a cargo UAS is usable from an expeditionary site rather than a prepared strip.",
+          "sources": [
+            { "label": "Defense News", "url": "https://www.defensenews.com/industry/techwatch/2026/11/03/defense-contractors-to-demo-cargo-drones-for-us-marine-corps/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Alan Jones, Williams' first world champion, dies at 80",
+          "summary": "Jones died on Nov 5 after a short illness, his wife Amanda Butler-Davis confirmed, three days after his 80th birthday. He won five races in 1980 to beat Nelson Piquet to the title, becoming Williams' first champion and the second Australian to win the drivers' crown after Jack Brabham, and finished with 12 wins and 24 podiums across a 1975 to 1986 career. Williams said the team was deeply saddened, and the tribute is likely to carry into this weekend's race at Interlagos.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871639/" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50384560/1980-f1-world-champion-alan-jones-dies-aged-80" },
+            { "label": "PlanetF1", "url": "https://www.planetf1.com/news/williams-alan-jones-1980-f1-world-champion-death" }
+          ]
+        },
+        {
+          "headline": "Interlagos gets its first run under the 2026 rules, and Mercedes holds its engine card",
+          "summary": "The FIA confirmed two Straight Mode zones for Sao Paulo, the pit straight from the final corner to Turn 1 and the back straight from Turn 3 to Turn 4, with active aero on both front and rear wings replacing DRS. GPblog reports Mercedes will not introduce its new ADUO power-unit upgrade this weekend, pushing it to Las Vegas, after the FIA's first assessment put the unit 2 to 4 percent behind Red Bull Ford Powertrains' internal combustion engine. The altitude angle is the engineering nuance: with the MGU-K now around 350 kW and supplying roughly half the lap's power, thin air penalizes only the combustion half of the package, which compresses the field relative to the old V6 hybrid formula.",
+          "sources": [
+            { "label": "PlanetF1", "url": "https://www.planetf1.com/news/fia-brazilian-grand-prix-2026-interlagos" },
+            { "label": "GPblog", "url": "https://www.gpblog.com/en/exclusive-news/mercedes-has-made-a-decision-on-the-long-awaited-engine-upgrade" },
+            { "label": "Formula Data Analytics", "url": "https://formuladataanalytics.substack.com/p/brazilian-gp-2026-interlagos-sector" }
+          ]
+        },
+        {
+          "headline": "Haas ends Ocon's season early and hands Camara an F1 debut",
+          "summary": "Haas confirmed on Nov 3 that Esteban Ocon will not return to a race seat this season, with team principal Ayao Komatsu saying so directly, after reserve Ryo Hirakawa stood in at Mexico City and scored a point in tenth. Rafael Camara, 21, the Formula 2 championship leader and a Ferrari Driver Academy member since 2021, takes the VF-26 at Interlagos, bringing forward a 2027 seat he had already signed. Hirakawa's WEC commitments this weekend opened the door, and Haas has not said who drives at Las Vegas and Qatar.",
+          "sources": [
+            { "label": "The Race", "url": "https://www.the-race.com/formula-1/haas-drops-ocon-for-rest-of-2026-f1-season/" },
+            { "label": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-f1-debut-at-sao-paulo-grand-prix-as-haas-confirm-ocon-will-not-return.12Qa0tpaMZ9kgnEuGJBKFp" },
+            { "label": "GrandPrix.com", "url": "https://www.grandprix.com/news/haas-drops-ocon-for-rest-of-2026-as-cmara-gets-brazil-debut.html" }
+          ]
+        },
+        {
+          "headline": "Ford's October EV deliveries collapse 71 percent while trucks hold the line",
+          "summary": "Ford's US October sales fell 0.8 percent overall, but electric vehicle deliveries dropped 71.2 percent year over year to just 1,355 units, with truck volume absorbing most of the damage. The proximate cause is the expiry of the federal EV tax credit, which Edmunds and Cox Automotive data show pushed EVs down to roughly 6 percent of US new-car sales. Ford's answer is a sub-$30,000 electric pickup called Fathom, with pre-orders planned for early 2027, which effectively bets that the US EV market restarts on price rather than subsidy.",
+          "sources": [
+            { "label": "GuruFocus", "url": "https://www.gurufocus.com/news/9170381/fords-ev-sales-plunge-71-as-trucks-tell-another-story" },
+            { "label": "Motley Fool", "url": "https://www.fool.com/investing/2026/11/04/fords-q3-sales-slipped-heres-the-silver-lining" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "The ISS solar arrays deploy on stored strain energy, not motors",
+    "body": "Each iROSA unrolls itself. The blanket is wound around carbon-fiber composite booms that were coiled under elastic strain on the ground, and releasing the restraint lets the booms straighten and drag the flexible blanket out with them, with no deployment motor, gearbox or actuator in the primary path. Eight of them take ISS generation from about 160 kW to roughly 215 kW, a 30 percent gain, and the mass and failure-mode savings of deleting a motor from a mechanism you cannot service is exactly the trade worth stealing for any deployable structure."
+  },
+  "footnote": "Compiled from public reporting, company and agency announcements. Figures are as reported and not independently verified."
+}
