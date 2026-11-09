@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-09",
+  "title": "Daily Briefing — Monday, November 9",
+  "coverage": "Covering roughly Nov 6 - Nov 9, 2026 (Monday edition, so the window is stretched to ~72 hours), with two Nov 5 items that developed over the weekend. Sourcing caveat: nytimes.com blocks this session's user agent, so NYT could not be checked directly; several wire and trade sites (Reuters, SpaceNews, Breaking Defense, Space.com) are outside the session's allowed network domains and were reached only through search summaries. Where a story rests on anonymous sources or secondary coverage, that is flagged in the bullet.",
+  "top": [
+    {
+      "headline": "TSMC reportedly drafted 3D DRAM plans at Nvidia's request, then walked it back",
+      "summary": "The Information reported that TSMC began drafting plans to build 3D DRAM for its largest customer, Nvidia, sending TSMC's US-listed shares up about 6.3% on Nov 6 and Micron up roughly 5%. By Nov 9 TSMC was publicly downplaying the story and saying it will stay focused on logic foundry work, but the episode shows how hard the AI memory bottleneck is squeezing the supply chain."
+    },
+    {
+      "headline": "Starship Flight 15 set for Nov 13 with the first attempt to catch both stages",
+      "summary": "SpaceX is targeting Friday Nov 13 for a flight that would return the booster to the tower at about T+6 minutes 35 seconds and then bring the ship back for a tower catch roughly 22.5 hours later, after about 14 orbits at ~275 km. Both stages have completed static fires; the ship catch only proceeds if reentry, landing-burn and tower-approach systems check out in flight."
+    },
+    {
+      "headline": "Shield AI buys radar maker Echodyne for up to $5.3B and raises $2.5B to pay for it",
+      "summary": "Shield AI signed a definitive agreement for Echodyne's metamaterials-based electronically scanned radars, with the financing package detailed on Nov 9: $1B Series H at a $28.8B post-money valuation, $1B structured equity from Blackstone-managed funds, and $500M of debt led by JPMorgan. It turns a leading autonomy company into a vertically integrated counter-UAS vendor — the sensing half of the kill chain it previously had to buy from partners."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "TSMC weighs, then disavows, a move into 3D DRAM for Nvidia",
+          "summary": "The Information reported that TSMC had started drafting plans to manufacture 3D DRAM at Nvidia's request, with options including new fabs or buying and converting an existing plant; no production timeline was given. TSMC said on Nov 9 it remains focused on its existing foundry business, and Winbond's chairman argued a direct DRAM entry would be hard on both process-technology and patent grounds. Worth reading as a signal rather than a plan: stacking DRAM vertically is the main path past the bandwidth wall now that HBM stacks are the limiting component in accelerator design, and neither Nvidia nor TSMC has confirmed the request.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-06/tsmc-mulls-making-advanced-ai-memory-chips-information-says" },
+            { "label": "Dataconomy", "url": "https://dataconomy.com/2026/11/09/tsmc-weighs-making-3d-dram-chips-for-nvidia/" },
+            { "label": "Seoul Economic Daily", "url": "https://en.sedaily.com/international/2026/11/09/tsmc-rules-out-memory-chip-push-denies-nvidia-driven" }
+          ]
+        },
+        {
+          "headline": "Google agrees to backstop Anthropic's ~$19B data-center lease in Kentucky",
+          "summary": "TeraWulf disclosed that Google will credit-backstop Anthropic's obligations on a 20-year lease covering roughly 401 MW of critical IT load at the Hawesville, Kentucky campus, supporting about $19B in contracted lease commitments and the debt financing behind the buildout. If Anthropic defaults, Google can step in as tenant or, under conditions, pay a termination fee for a proportional stake in the project subsidiary; the backstop lapses if Anthropic holds investment-grade ratings for three months. TeraWulf's Nov 6 Q3 results showed the shift in its business: about $63M of HPC lease revenue against bitcoin mining revenue down 69%.",
+          "sources": [
+            { "label": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/google-to-serve-as-credit-backstop-for-terawulf-data-center-in-kentucky/" },
+            { "label": "CoinDesk", "url": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults" },
+            { "label": "The Block", "url": "https://theblock.co/news/business/2026-11-06-terawulfs-bitcoin-mining-revenue-falls-69-as-hpc-leasing-surges-amid-anthropic-buildout-435885" }
+          ]
+        },
+        {
+          "headline": "DeepMind's AI agents sharpen attacks on legacy 1024-bit RSA",
+          "summary": "Two Google DeepMind working papers describe AI-assisted improvements against RSA-1024: a signature-forgery result the team estimates at roughly 1,600x better than the prior best when the attacker controls only part of the signed data, and a batch-factoring approach claimed to be about 30x cheaper per additional 1024-bit modulus than the multiple number field sieve. One analysis reads the practical gain more modestly — two cooperating agents reproduced a computation in 391 CPU core-years versus 1,380 previously, an implementation win inside the same algorithm. DeepMind says 2048-bit and larger keys are unaffected and frames the work as AI-assisted research, not autonomous discovery; neither paper is peer reviewed.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/google-deepmind-agents-expose-older-encryption-flaws" },
+            { "label": "Data Studios", "url": "https://www.datastudios.org/post/google-deepmind-ai-agents-two-weaknesses-legacy-1024-bit-rsa" }
+          ]
+        },
+        {
+          "headline": "The memory squeeze is now the defining constraint on AI hardware",
+          "summary": "Reporting around the TSMC story describes an AI-driven memory shortage severe enough that chip designers are scrambling for supply, with Micron expecting it to persist into 2028. Short-supply items also include the ultrathin silicon substrate layers some packages require, which is a packaging-capacity problem rather than a wafer problem. Two near-term datapoints to watch: TSMC's October sales on Nov 10 and Nvidia's earnings around Nov 17.",
+          "sources": [
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/tsmc-3d-dram-memory-chips-nvidia" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/07/tsmc-jumped-6-on-a-report-it-could-make-memory-chips-for-nvidia/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starship Flight 15 targets a first-ever double catch on Nov 13",
+          "summary": "The 75-minute window opens at 5:45 p.m. ET, pending regulatory approval. The booster catch is planned about 6 minutes 35 seconds after liftoff, while the ship would deploy 26 Starlink V3 satellites, fly roughly 14 orbits at about 275 km, and come back to the tower around 22.5 hours in. Both stages have completed static fires, including a six-engine ship test in late October; SpaceX stresses the ship return is conditional on in-flight health checks of the reentry and landing systems.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-upper-stage-ahead-of-landmark-flight-15-test-launch-video" },
+            { "label": "Aero-News Network", "url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=425F005F-3EC1-4669-9672-7B88D7EBD966" },
+            { "label": "Teslarati", "url": "https://www.teslarati.com/spacex-starship-catch-nov-13/" }
+          ]
+        },
+        {
+          "headline": "NASA fleshes out its Moon Base plan with a nuclear-powered polar rover",
+          "summary": "Announced Nov 7, PROMISE (Polar Rover for Observation, Mapping, and In-Situ Exploration) will be delivered to the lunar south pole by Blue Origin's Mark 1 lander, targeting a late-2028 launch and an 18-month mission. A flight-spare multi-mission RTG supplies both power and survival heat, which is what lets the rover work inside permanently shadowed craters where solar is a non-starter. Blue Origin's award is $94M base plus a $140M performance option; NASA also raised the CLPS ceiling from $2.6B to $4.2B and issued six transportation task orders worth about $1.3B, inside a framework ceiling reported at $10B.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/nasas-moon-base-promise/" },
+            { "label": "NASA", "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/artemis/nasa-unveils-usd10-billion-in-moon-base-contracts-new-lunar-missions-and-the-promise-of-a-nuclear-powered-rover" }
+          ]
+        },
+        {
+          "headline": "New Glenn's return to flight slips to January as Blue Origin adds a third stage",
+          "summary": "An internal memo from CEO Dave Limp, reported Nov 5, pushes New Glenn's next launch into January 2027, blamed partly on summer weather during the rebuild and restacking of the Vehicle Access Tower; the vehicle has been grounded since a May 28 static-fire explosion traced to a BE-4 main oxygen valve. Separately, Blue Origin announced the GS3 third stage, which would let New Glenn inject constellation satellites directly to GEO rather than leaving them to raise their own orbits. The slip matters beyond Blue Origin: the same lander line is now carrying NASA's PROMISE rover.",
+          "sources": [
+            { "label": "U.S. News / Reuters", "url": "https://www.usnews.com/news/top-news/articles/2026-11-05/blue-origin-delays-new-glenn-rocket-launch-into-january-ft-reports" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-announces-3rd-stage-for-its-powerful-new-glenn-rocket-and-a-new-engine" }
+          ]
+        },
+        {
+          "headline": "Falcon 9 keeps grinding through a classified Vandenberg run",
+          "summary": "NASASpaceflight's preview had a classified Space Force mission lifting from Vandenberg in a four-hour window opening 03:17 UTC on Nov 8, logged as Falcon 9's 703rd mission in that preview, with USSF-627 listed for Nov 10. Falcon 9 stood at 715 launches as of Nov 7 by Wikipedia's running tally, and the next Cygnus resupply, NG-25, is currently listed for Nov 29 at 10:49 a.m. EST on a Falcon 9. Launch manifests moved around over the weekend, so treat specific dates as provisional.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/launch-preview-110226/" },
+            { "label": "Wikipedia (Falcon 9 launch list)", "url": "https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Shield AI closes on Echodyne and $2.5B of fresh capital",
+          "summary": "The $5.3B deal breaks down as $4.8B at closing plus $500M tied to Echodyne performance targets, with closing expected in early 2027 subject to regulatory approval. Echodyne's Kirkland, Washington operation brings metamaterials electronically scanned array radar — compact, low-power beam steering without mechanical gimbals — already fielded in counter-drone and security systems in more than 40 countries, folding into Shield AI's Mission Systems business. Financing announced Nov 9: $1B Series H at $28.8B post-money, $1B structured equity from Blackstone-managed funds, $500M debt led by JPMorgan.",
+          "sources": [
+            { "label": "DroneDJ", "url": "https://dronedj.com/2026/11/09/shield-echodyne-acquire-counter-drone/" },
+            { "label": "Military Times", "url": "https://www.militarytimes.com/news/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/" },
+            { "label": "Washington Technology", "url": "https://www.washingtontechnology.com/companies/2026/11/shield-ai-acquires-radar-maker-echodyne-53-billion-deal/417086/" }
+          ]
+        },
+        {
+          "headline": "Counter-UAS money keeps moving: a $500M IDIQ and a NATO buying marketplace",
+          "summary": "Perennial Autonomy was awarded a three-year, $500M IDIQ to deliver AI-driven counter-UAS to the U.S. Department of War, coordinated through Joint Interagency Task Force 401 for deployment across multiple theaters. NATO separately stood up a Counter-Unmanned Aircraft Systems marketplace on Nov 5, letting allies buy pre-vetted counter-drone solutions directly rather than running independent procurements. The pattern across both: the hard problem has shifted from killing a drone to detecting, classifying and deconflicting it fast enough, which is why radar and sensor fusion are where the capital is going.",
+          "sources": [
+            { "label": "UAS Magazine", "url": "https://uasmagazine.com/articles/perennial-autonomy-awarded-500-million-idiq-contract-to-deliver-counter-drone-systems-to-us-department-of-war" },
+            { "label": "Inside Unmanned Systems", "url": "https://insideunmannedsystems.com/" }
+          ]
+        },
+        {
+          "headline": "Shield AI's X-BAT heads to Kansas for vertical flight testing",
+          "summary": "The first full-scale X-BAT prototype has been assembled and is moving to Kansas for vertical flight tests. X-BAT is a tailsitter design, so the hard part is the transition: the same control surfaces and thrust vector have to hold attitude in hover and then fly a conventional wing-borne cruise, with no runway at either end. If it works, it is a jet-class strike platform launched from a footprint closer to a shipping container than an airfield.",
+          "sources": [
+            { "label": "Wikipedia (Shield AI)", "url": "https://en.wikipedia.org/wiki/Shield_AI" },
+            { "label": "Defense Tech Brief", "url": "https://edsnews.substack.com/p/defense-tech-intelligence-brief-november-e78" }
+          ]
+        },
+        {
+          "headline": "eVTOL certification endgame: Joby ahead on paper, Archer reporting Nov 9",
+          "summary": "Joby's Q3 call on Nov 5 covered S4 certification testing and production ramp for early U.S. and Dubai passenger service, and it beat on revenue while raising guidance; Archer reported after the close on Nov 9, having completed FAA Phase 3 and working Phase 4 concurrently. Neither has a type certificate, and sources disagree on exactly which of the five FAA stages Joby occupies. Meanwhile the FAA's eVTOL Integration Pilot Program is putting pre-certification aircraft into real airspace, including a Joby landing at Orlando International.",
+          "sources": [
+            { "label": "Aviation Week", "url": "https://aviationweek.com/aerospace/advanced-air-mobility/joby-advances-certification-testing-builds-fleet-early-operations" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/05/joby-gains-4-on-revenue-beat-and-raised-outlook-archer-aviation-falls-5-ehang-sinks-7/" }
+          ]
+        },
+        {
+          "headline": "Musk says Tesla will rent Optimus rather than sell it",
+          "summary": "Speaking at the Baron Investment Conference on Nov 6, Musk said Tesla will probably lease Optimus instead of selling it, with build cost starting near $30,000 and targeted toward $20,000; no rental pricing or contract terms have been announced and this is not final policy. Leasing is the rational model when the hardware is a depreciating platform whose value depends on software updates you control. Elsewhere in humanoids, Figure showed dozens of Figure 03 units walking its campus and XPeng said its IRON robot came off an automated line with mass production targeted for end-2026.",
+          "sources": [
+            { "label": "Not a Tesla App", "url": "https://www.notateslaapp.com/news/4959/musk-tesla-will-rent-optimus-robots-instead-of-selling-them" },
+            { "label": "Wikipedia (Optimus)", "url": "https://en.wikipedia.org/wiki/Optimus_(robot)" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Mercedes seals the 2026 constructors' title as Norris wins a wet São Paulo GP",
+          "summary": "At Interlagos on Nov 8, Lando Norris won by close to 15 seconds in a mixed-conditions race, his third victory of the season, while George Russell's fourth and Kimi Antonelli's fifth clinched Mercedes' ninth constructors' championship and completed a 2026 title double in the first year of the new power-unit rules. Isack Hadjar took third. The official classification includes a five-second penalty for Leclerc for causing a collision and unsafe-release penalties for Antonelli and Bearman, and outlets differ slightly on final gaps.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13609694/sao-paulo-gp-lando-norris-wins-wet-race-for-mclaren-as-mercedes-seal-2026-f1-constructors-championship-in-brazil" },
+            { "label": "Motorsport Week", "url": "https://www.motorsportweek.com/2026/11/08/f1-2026-sao-paulo-grand-prix-race-results/" }
+          ]
+        },
+        {
+          "headline": "Verstappen's P2 from 21st beat Red Bull's own simulation tools",
+          "summary": "Red Bull had hoped to defer a power-unit change, possibly to Las Vegas, but Friday practice forced its hand and sent Verstappen to the back of the grid. He finished second anyway, a recovery the team's own race simulations had not predicted — a reminder that correlation models calibrated on dry running degrade badly once you add a drying track and a 2026 tyre operating window. Expect the post-race work to be as much about the simulation delta as about the result.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/how-max-verstappen-beat-red-bulls-own-simulation-tools-with-p2-in-brazil/10873308/" }
+          ]
+        },
+        {
+          "headline": "McLaren split its upgrade package between Brazil and Las Vegas",
+          "summary": "Andrea Stella confirmed McLaren deliberately staged its latest parts, running new wing and floor components at São Paulo with more arriving for Las Vegas. Norris was pointedly unsatisfied despite the win, saying the team is still not good enough to fight for the 2027 title and crediting part of his margin to rivals' errors. Drivers also flagged a cold-weather problem for Vegas: Verstappen described the 2026 compounds going \"like a rock\" when they fall out of their narrow operating window, which on a cold street circuit is a real risk.",
+          "sources": [
+            { "label": "GrandePremio", "url": "https://grandepremio.com/en/f1/mclaren-credits-upgrades-for-norris-sao-paulo-win-and-confirms-more-parts-for-las-vegas/" },
+            { "label": "GrandePremio", "url": "https://grandepremio.com/en/f1/norris-warns-las-vegas-f1-could-be-horrible-as-drivers-raise-tyre-concerns/" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13610144/lando-norris-says-mclaren-are-still-not-at-the-level-to-fight-for-world-championship-in-2027-despite-sao-paulo-grand-prix-win" }
+          ]
+        },
+        {
+          "headline": "BMW confirms LFP cells for some Neue Klasse EVs",
+          "summary": "On its Q3 earnings call, reported Nov 7, BMW's CEO said lithium iron phosphate batteries are coming to parts of the Neue Klasse range, with the choice depending on vehicle type. BMW is launching the platform on cylindrical NMC cells, which it still considers the better technology where range and energy density matter, and treating LFP as a cost-driven complement for lower trims rather than a replacement. The China-only iX3 30L already runs LFP while pricier variants keep NMC — the same two-chemistry split the rest of the industry is converging on.",
+          "sources": [
+            { "label": "BMW Blog", "url": "https://bmwblog.com/2026/11/07/bmw-add-lfp-batteries-neue-klasse-evs" }
+          ]
+        },
+        {
+          "headline": "Audi weighs a $3B expansion of its Georgia plant as tariff relief is discussed",
+          "summary": "Audi is reportedly considering a $3B expansion on top of the $4B already committed to its planned U.S. plant in Georgia, potentially taking eventual headcount to around 7,500, backed by close to a billion dollars in state aid. Reporting also says Commerce is weighing cutting Audi's EU import tariff from 15% to roughly 10%. The backdrop is a sourcing realignment that pushed U.S.-built vehicles down to 28.4% of Canadian sales in the first half from 35.4% a year earlier, with Ford's year-to-date EV sales reported down 68% through October as capital shifts toward hybrids.",
+          "sources": [
+            { "label": "Autoevolution", "url": "https://www.autoevolution.com/news/audi-will-invest-7-billion-in-us-plant-while-vw-group-shuts-down-plants-in-germany-278110.html" },
+            { "label": "CBT News", "url": "https://cbtnews.com/weekly-roundup-canada-stands-firm-on-trade-ford-f-series-and-suv-sales-rise-toyota-raises-earnings-forecast" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Two catches, 22 hours apart",
+    "body": "Flight 15's two recovery events sit at wildly different points on the difficulty curve. The booster comes back at about T+6 minutes 35 seconds, subsonic and warm, on a trajectory it never really left. The ship comes back roughly 22.5 hours and 14 orbits later, which means a full orbital reentry — tiles soaked at hypersonic velocity, a flip, a landing burn on relit engines, and then a tower approach precise to within arm-span — all after a day of thermal cycling and propellant boil-off in space. Same catch hardware, two completely different engineering problems, and only the second one unlocks rapid reuse."
+  },
+  "footnote": "Compiled from public reporting over roughly Nov 6-9, 2026. Figures from anonymous-source reports and unreviewed preprints are flagged in the relevant bullet and may change."
+}
