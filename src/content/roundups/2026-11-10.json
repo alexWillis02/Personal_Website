@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-10",
+  "title": "Daily Briefing — Tuesday, November 10",
+  "coverage": "Covering roughly Nov 9 - Nov 10, 2026. Sourcing caveat: this session's network blocks direct fetches of nytimes.com, cnbc.com, sec.gov, militarytimes.com, the-race.com and most wire services, so NYT could not be checked directly and most items below were verified by cross-referencing multiple search summaries rather than by reading the primary article. Where a story rests on company claims or anonymous sources, that is flagged in the bullet.",
+  "top": [
+    {
+      "headline": "Anthropic launches its IPO roadshow at up to a $1.4 trillion valuation",
+      "summary": "An amended filing on Nov 10 set a range of $70 to $78 per share for 825 million shares, which would raise as much as $64.35 billion and make this one of the largest listings ever attempted. Shares are expected to trade on Nasdaq under the ticker ANT as soon as next week, though Bloomberg reports prospective buyers have floated valuations closer to $1.1 to $1.3 trillion."
+    },
+    {
+      "headline": "Nvidia's board opens an independent probe into Jensen Huang, erasing ~$200B in market value",
+      "summary": "A committee of independent directors with outside counsel will investigate whether Huang was targeted by a foreign intelligence effort, after he acknowledged an affair with a businesswoman whose company was buying Nvidia's advanced chips. The stock closed down 4.27% on Nov 9, wiping out close to $200 billion in market capitalization; Huang remains CEO and says he will cooperate."
+    },
+    {
+      "headline": "Rocket Lab posts record revenue but Neutron's debut slips to 2027 over a tank dome defect",
+      "summary": "Q3 revenue hit a record $267.8 million, up 73% year over year, with backlog up 52% sequentially to about $3.57 billion. The first Neutron flight moved into 2027 after inspectors found voids in the forward dome of the stage-one propellant tank; a replacement dome has been built and is in test."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic prices its IPO range and starts the roadshow",
+          "summary": "The updated filing covers 825 million shares at $70 to $78, of which about 23.65 million are being sold by existing holders, for proceeds up to $64.35 billion. A separate roughly $26 billion private placement with cornerstone investors reportedly includes Nvidia, which agreed last year to invest up to $10 billion in the company. Estimates of the resulting valuation vary by method, from about $1.19 trillion on the raw filing math to the $1.3 to $1.4 trillion figure cited by the WSJ and NYT.",
+          "sources": [
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/anthropic-seeks-14-trillion-valuation-in-ipo-130300928.html"
+            },
+            {
+              "label": "MarketScreener",
+              "url": "https://www.marketscreener.com/news/anthropic-eyes-1-4-trillion-ipo-valuation-in-test-of-wall-street-s-ai-fervor-ce785edadd8bf32d"
+            },
+            {
+              "label": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/10/anthropic-just-took-a-big-step-toward-its-public-debut-here-s-what-you-need-to-know/"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia board launches an independent investigation into its CEO",
+          "summary": "Nvidia said a committee of independent directors, advised by outside counsel, will examine reporting that Huang was the target of a foreign intelligence operation; the company statement does not confirm the espionage claims. US intelligence agencies reportedly concluded that Alice Huang, an executive at cloud firm Megaspeed and a buyer of Nvidia accelerators, was passing information to Beijing. China's foreign ministry called the account unsubstantiated, and Huang apologized to staff in an internal memo.",
+          "sources": [
+            {
+              "label": "NBC News",
+              "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-investigation-rcna608148"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+            },
+            {
+              "label": "CBS News",
+              "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/"
+            }
+          ]
+        },
+        {
+          "headline": "DeepMind's AI agents produce a machine-checked proof of Signal's protocol code",
+          "summary": "DeepMind published AlphaProof Code, a framework in which AI agents generated formal, machine-verified proofs of security properties for the compiled code behind libsignal. The reported scale is the striking part: roughly 6.5 million lines of machine-checked proof in four weeks of work by a five-person team, against a target that normally takes expert-years. If it generalizes, formal verification stops being a boutique exercise reserved for avionics and crypto cores and becomes something you can point at shipped code.",
+          "sources": [
+            {
+              "label": "Google DeepMind",
+              "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+            },
+            {
+              "label": "FourWeekMBA",
+              "url": "https://fourweekmba.com/ai-deepmind-ai-cuts-formal-verification-cost-signal-in-4-weeks/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic ships Claude Fable 5.2 and Mythos 5.2 days before listing",
+          "summary": "Fable 5.2 went generally available on Nov 9 across AWS, Google Cloud and Azure at $8 per million input tokens and $40 per million output, down from $10 and $50 for 5.1. Anthropic claims roughly 30% faster output plus gains in coding, reasoning and vision; Mythos 5.2 is the same capability released only to organizations vetted through its Life Sciences and Cyber Verification programs. The performance numbers are the company's own and have not been independently benchmarked.",
+          "sources": [
+            {
+              "label": "Anthropic",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            },
+            {
+              "label": "MacRumors",
+              "url": "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Rocket Lab: record quarter, $515M of Neutron bookings, and a 2027 slip",
+          "summary": "Q3 revenue of $267.8 million beat the $257 million consensus while EPS missed at a $0.12 loss, and operating cash flow turned positive at $7.2 million after an $84.1 million use in Q2. The company signed eight Neutron launches worth about $515 million at a new $70 million base price, filling the first 16 Neutron missions, and total launch backlog reached 117 vehicles including 18 HASTE missions for the Space Force and 20 Electron flights for Synspective. The schedule cost is real though: voids in the stage-one forward dome pushed first flight out of 2026, a reminder that large composite or metallic pressure-vessel domes are usually the pacing item on a new booster.",
+          "sources": [
+            {
+              "label": "Rocket Lab Investors",
+              "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-third-quarter-2026-financial-results-posts"
+            },
+            {
+              "label": "GlobeNewswire",
+              "url": "https://www.globenewswire.com/news-release/2026/11/09/3398984/0/en/rocket-lab-lands-over-515m-in-neutron-launch-deals-from-constellation-operators-in-q3.html"
+            },
+            {
+              "label": "Benzinga",
+              "url": "https://www.benzinga.com/markets/earnings/26/11/63071405/rocket-lab-q3-revenue-beat-eps-miss-company-signs-515-million-in-neutron-launch-deals"
+            }
+          ]
+        },
+        {
+          "headline": "Planet books multiple launches on Stoke Space's fully reusable Nova",
+          "summary": "Planet signed a multi-launch agreement on Nov 9 covering Stoke's Nova Pathfinder and the larger Nova Block 2, flying from Space Launch Complex 14 at Cape Canaveral, with primary payload rights letting Planet pick dates and target orbital planes. Terms were not disclosed; Planet shares rose roughly 13%. Nova is notable engineering-wise for its actively cooled, regeneratively-cooled upper-stage heat shield built around a ring of thrusters, which is Stoke's bet on full second-stage reuse; Block 2 is designed for more than 15 tonnes to LEO starting with orbital demos in 2027.",
+          "sources": [
+            {
+              "label": "Via Satellite",
+              "url": "https://www.satellitetoday.com/launch/2026/11/09/planet-taps-stoke-space-for-new-launch-deal/"
+            },
+            {
+              "label": "SatNews",
+              "url": "https://satnews.com/2026/11/09/planet-contracts-stoke-space-for-multi-launch-agreement-across-nova-rocket-fleet/"
+            }
+          ]
+        },
+        {
+          "headline": "CesiumAstro raises $730M Series D above a $4.5B valuation",
+          "summary": "The Austin-based maker of active phased-array communications payloads closed a Janus Henderson-led round and unveiled Synchronicity, its own satellite constellation, following what it called a fully successful Element-1 demonstration mission. It also announced a roughly $500 million expansion of its Austin headquarters. The move from selling phased-array payloads to flying its own constellation is a notable vertical-integration bet for a company whose core competence is the antenna, not the bus.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/"
+            }
+          ]
+        },
+        {
+          "headline": "Firefly lines up for Pentagon cislunar work as Elytra comes together",
+          "summary": "Firefly says it sees a business opening as the Space Force begins looking at military operations beyond geostationary orbit, into cislunar space. Its Elytra orbital transfer vehicle is in assembly to support the first US commercial attempt at a far-side lunar landing, where the lack of direct line-of-sight to Earth makes a relay spacecraft a mission requirement rather than a convenience. Separately, SpaceNews reports a proposed $150 million government loan to help fund Rocket Lab's Neutron production and recovery infrastructure.",
+          "sources": [
+            {
+              "label": "SpaceNews",
+              "url": "https://spacenews.com/firefly-sees-business-opportunities-as-pentagon-turns-to-cislunar-space"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Archer clears an FAA market survey certificate, unlocking LA operations",
+          "summary": "Alongside Q3 results on Nov 9, Archer said it received an FAA market survey certificate that opens the door to Los Angeles operations, reported liquidity of $1.4 billion, and said closing of its Boeing deal is imminent. It had already become the first eVTOL developer to finish Phase 3 of the FAA's four-phase type certification process, which is a long way from a type certificate but is the gate before conforming-aircraft flight testing. Archer also announced a multi-year alliance with Formula 1 to explore Midnight air-taxi service at Grand Prix events, with management describing 10-to-20-minute hops to the circuit and dedicated landing sites tied into F1 ticketing.",
+          "sources": [
+            {
+              "label": "Archer Investors",
+              "url": "https://investors.archer.com/news/news-details/2026/Archer-Announces-Q3-2026-Results-Receives-FAA-Market-Survey-Certificate-Unlocking-LA-Operations-and-Boeing-Deal-Close-Imminent/default.aspx"
+            },
+            {
+              "label": "Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/archer-aviation-achr-q3-2026-earnings-call-transcript/"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia open-sources GR00T 2, a single checkpoint for grippers, hands and humanoids",
+          "summary": "Announced at CoRL in Austin on Nov 9, GR00T 2 is a 2-billion-parameter transformer built on Cosmos-Predict2.5-2B, pretrained on 402,730 hours of first-person human video, 10,184 hours of handheld-gripper demonstrations across 2,897 tasks, and 23,500 hours of robot teleoperation. Nvidia reports it completed 40 of 50 evaluation tasks at least once with no task-specific demos, averaging 71% success with one demonstration and 95% with five, the latter totaling under three minutes of data. Isaac Lab 3.0 shipped alongside it, plus DexBench and VABAR benchmarks; note that coverage conflicts on how open the release is, with code reportedly due in December and no weights link or license published yet.",
+          "sources": [
+            {
+              "label": "The Robot Report",
+              "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/"
+            },
+            {
+              "label": "Unite.AI",
+              "url": "https://www.unite.ai/nvidia-introduces-gr00t-2-for-robots-learning-from-human-video/"
+            }
+          ]
+        },
+        {
+          "headline": "CCTV airs the clearest look yet at China's GJ-11, and the carrier variant flies off Sichuan",
+          "summary": "State broadcaster CCTV aired multi-angle GJ-11 footage on Nov 9 as part of a PLA Air Force anniversary countdown, including a first close-up of the internal weapons bays plus a shielded exhaust nozzle and low-observable coating. The PLA also says the navalized GJ-21 variant has conducted takeoffs and landings from Sichuan, the lead Type 076 amphibious assault ship, which carries arresting gear and an electromagnetic catapult. Reporting adds that the GJ-11's first live-fire strike nearly lost its target in thick cloud before scoring a hit, which is a useful reminder of how much a flying-wing UCAV's sensor chain depends on weather.",
+          "sources": [
+            {
+              "label": "SCMP",
+              "url": "https://www.scmp.com/news/china/military/article/3373839/fresh-gj-11-footage-gives-glimpse-weapon-bay-chinas-next-gen-drone"
+            },
+            {
+              "label": "The Aviationist",
+              "url": "https://theaviationist.com/2026/11/09/our-best-look-yet-at-chinas-gj-11-ucav/"
+            },
+            {
+              "label": "Global Times",
+              "url": "https://www.globaltimes.cn/page/202611/1373967.shtml"
+            }
+          ]
+        },
+        {
+          "headline": "Xer launches the X12 hybrid naval drone at Euronaval",
+          "summary": "Swiss firm Xer Technologies rolled out an updated X12 hybrid-electric VTOL at Euronaval 2026, pitched at naval surveillance and tactical resupply from small decks. The hybrid architecture is the point: a small combustion generator carries the cruise energy while electric rotors handle vertical lift, which is how you get multi-hour endurance out of an airframe that still needs to land on a moving ship without a runway. Xer says military resupply has been demonstrated while smaller-UAV launch and manned-unmanned teaming are still in validation.",
+          "sources": [
+            {
+              "label": "Army Recognition",
+              "url": "https://www.armyrecognition.com/news/army-news/2026/swiss-company-xer-technologies-launches-x12-hybrid-naval-drone-for-naval-surveillance-and-tactical-resupply"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "FIA grants no new engine upgrade tokens in its final 2026 ADUO review",
+          "summary": "The third and last Additional Design and Upgrade Opportunity review of the season left allocations unchanged: Mercedes stays in the 2-to-4% deficit band and keeps one extra upgrade for this year and next, while Ferrari, Honda and Audi remain in the over-4% bracket with two each. Red Bull, the benchmark in the second review, remains the only manufacturer barred from upgrading. ADUO measures only the internal combustion element, though qualifying unlocks changes to the battery and MGU-K too, and Nikolas Tombazis hinted the FIA may shift to ranking total power-unit performance from 2027.",
+          "sources": [
+            {
+              "label": "RaceFans",
+              "url": "https://www.racefans.net/2026/11/10/no-f1-engine-manufacturers-to-get-extra-upgrades-after-fias-third-aduo-evaluation/"
+            },
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/fia-reveals-latest-aduo-results-in-final-review-of-2026-f1-season/10873562/"
+            },
+            {
+              "label": "The Race",
+              "url": "https://www.the-race.com/formula-1/fia-makes-latest-aduo-ruling-and-hints-at-2027-revamp/"
+            }
+          ]
+        },
+        {
+          "headline": "Jaguar reveals the 600 kW I-Type 08 for Formula E's Gen4 era",
+          "summary": "Unveiled in London on Nov 10, the I-Type 08 runs permanent active all-wheel drive with 350 kW at the rear and 250 kW at the front for up to 600 kW combined, and a claimed 0-100 km/h of 1.8 seconds. Gen4 brings 43% more battery capacity and up to 71% more power than Gen3, and Jaguar will also supply powertrains to Paysafe Envision and Fortescue Zero Racing. Stoffel Vandoorne joins Antonio Felix da Costa for Season 13, with the car's public debut at the Madrid pre-season test on Nov 16-20.",
+          "sources": [
+            {
+              "label": "JLR Media",
+              "url": "https://media.jlr.com/jaguar-tcs-racing/news/2026/11/jaguar-tcs-racing-confirms-gen4-race-car-name-jaguar-i-type-08"
+            },
+            {
+              "label": "WhichEV",
+              "url": "https://www.whichev.net/2026/11/10/jaguar-reveals-600kw-i-type-08-as-vandoorne-joins-da-costa-for-gen4/"
+            },
+            {
+              "label": "The EV Report",
+              "url": "https://theevreport.com/jaguar-i-type-08-formula-e-gen4"
+            }
+          ]
+        },
+        {
+          "headline": "Honda commits $3B to an Ohio hybrid plant as it steps back from EVs",
+          "summary": "Honda will build a central Ohio factory capable of 240,000 hybrid and gasoline vehicles a year, starting production in 2029 and adding about 2,000 jobs, with the line designed so it can build EVs if demand returns. It follows a 3 trillion yen (about $21 billion) cut to planned electrification spending, the indefinite suspension of an $11 billion Canadian EV and battery project, and another $3 billion of EV restructuring charges booked last quarter. Honda also raised its full-year profit outlook, citing strong US hybrid demand.",
+          "sources": [
+            {
+              "label": "Detroit News",
+              "url": "https://www.detroitnews.com/story/business/autos/foreign/2026/11/09/honda-to-build-3-billion-auto-plant-in-ohio-adding-2000-jobs/92690877007/"
+            },
+            {
+              "label": "Forbes",
+              "url": "https://www.forbes.com/sites/gregmigliore/2026/11/09/inside-hondas-3-billion-bet-on-hybrid-vehicles/"
+            },
+            {
+              "label": "WardsAuto",
+              "url": "https://www.wardsauto.com/news/honda-to-invest-3b-in-new-ohio-hybrid-vehicle-plant/874189/"
+            }
+          ]
+        },
+        {
+          "headline": "FIA confirms talks with BYD and Geely about a Formula 1 entry",
+          "summary": "President Mohammed Ben Sulayem said the governing body has held discussions with both Chinese manufacturers about a possible 12th team, while stressing that the regulations will not be rewritten to accommodate them and that no formal entry process has opened. Any entrant would have to work within the existing 2026 power-unit rules, which already split roughly 50/50 between internal combustion and electrical output. Treat it as exploratory: an expression of interest from the FIA side, not a commitment from either automaker.",
+          "sources": [
+            {
+              "label": "China EV Home",
+              "url": "https://chinaevhome.com/2026/11/10/fia-holds-talks-with-byd-and-geely-over-potential-f1-entry"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Jaguar's Gen4 car brakes harder than it accelerates",
+    "body": "The I-Type 08 makes up to 600 kW of propulsion but carries 700 kW of regenerative braking capacity. That inversion is the whole design philosophy of a Gen4 Formula E car: with no refueling and a fixed energy allocation, the recovery path is worth more than the drive path, so you size the power electronics and the front motor-generator around what you can harvest under braking rather than what you can deploy on exit. It is also why permanent all-wheel drive matters here more than it does for traction, since the front axle is where most of the braking energy lives."
+  },
+  "footnote": "Compiled from public reporting on November 10, 2026. Items marked as company claims have not been independently verified."
+}
