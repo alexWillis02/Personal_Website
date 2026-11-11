@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-11",
+  "title": "Daily Briefing — Wednesday, November 11",
+  "coverage": "Covering roughly Nov 10 - Nov 11, 2026. Sourcing caveat: this session's network blocked direct page fetches of nytimes.com, arstechnica.com, spacenews.com, space.com, blog.google, ainonline.com, phoronix.com and most wire services, so the NYT technology, science and business sections could not be checked directly. Items below were assembled by cross-referencing multiple search summaries rather than by reading primary articles, and company-sourced or single-source claims are flagged in the bullet.",
+  "top": [
+    {
+      "headline": "TSMC approves up to $1B to buy into Anthropic's IPO and OpenAI's private round",
+      "summary": "TSMC's board authorized up to $500M for Anthropic common shares at the IPO price and up to $500M in OpenAI Group PBC preferred stock, both still subject to the terms of the respective offerings. A foundry taking equity in its two largest AI customers is an unusual vertical tie, and it lands the same week Anthropic set a $70-$78 range targeting a valuation up to $1.4 trillion."
+    },
+    {
+      "headline": "DeepMind ships Gemini Robotics 2.5 and an open benchmark for jailbreaking robots",
+      "summary": "The new vision-language-action model reported 30% to 100% higher task success and 20% to 30% faster execution than its predecessor, plus 96% success on a Mercedes-Benz parts-sorting proof of concept. DeepMind also released ASIMOV-Jailbreak, 1,500 open-source prompts designed to trick embodied AI into unsafe actions."
+    },
+    {
+      "headline": "Pentagon lends Rocket Lab $150M for Neutron as SpaceX closes its commercial Falcon 9 book",
+      "summary": "The Office of Strategic Capital's conditional loan follows an identical $150M commitment to Stoke Space on Oct 26, bringing the launch total to $300M. The money targets Neutron production, recovery vessels and composite and engine output, and it comes after SpaceX stopped taking commercial Falcon 9 orders for launches after 2028."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "TSMC splits up to $1B between Anthropic's IPO and OpenAI",
+          "summary": "TSMC's board approved up to $500M to acquire Anthropic common shares at the IPO price, plus up to $500M in OpenAI Group PBC preferred stock, with both contingent on the final offering terms. The foundry that fabricates the accelerators these labs train on is now taking an equity position in the labs themselves. Reported valuations differ across outlets, with Anthropic's target given as up to $1.4 trillion in some reports and about $1.3 trillion in others.",
+          "sources": [
+            { "label": "MarketScreener", "url": "https://www.marketscreener.com/news/tsmc-approves-up-to-1-billion-investment-plan-in-anthropic-openai-ce785edbd88cf726" },
+            { "label": "Investment Monitor", "url": "https://www.investmentmonitor.ai/news/tsmc-plans-1bn-investment-anthropic-openai/" }
+          ]
+        },
+        {
+          "headline": "Gemini 4 Carbon goes generally available",
+          "summary": "Google opened its strongest frontier model to paying developers through the API in AI Studio and to Google AI Ultra subscribers in the Gemini app, AI Mode in Search and Antigravity, after a restricted rollout that began Oct 28 with cyber defenders under the Fairwind Program. Carbon is pitched at cybersecurity and long-horizon engineering work, while Google still routes most software engineering to Gemini 4 Argon. Introductory pricing of about $2 per million input tokens reportedly steps up to $4 input and $20 output after Nov 30, so the cheap window is short.",
+          "sources": [
+            { "label": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/" },
+            { "label": "Digital Trends", "url": "https://www.digitaltrends.com/computing/google-gemini-4-carbon-is-now-available-for-complex-ai-tasks/" }
+          ]
+        },
+        {
+          "headline": "Anthropic signs a $3.4B deal for 1.7 GW of gas generation",
+          "summary": "Per FT reporting, Anthropic contracted roughly 1.7 gigawatts of heavy-duty natural gas generators from OnePWR Solutions to power its own data centers ahead of the IPO. Buying generation outright rather than queuing for grid interconnects is becoming the standard workaround for multi-gigawatt training campuses. For scale, 1.7 GW is roughly the output of a large two-unit nuclear station, dedicated to one company's compute.",
+          "sources": [
+            { "label": "Fortune", "url": "https://fortune.com/2026/11/10/anthropic-3-4-billion-deal-gas-data-centers-ai-ipo/" }
+          ]
+        },
+        {
+          "headline": "Google adds two specialized TPUs: 8tx and 8i Max",
+          "summary": "The TPU 8tx is built on the TPU 8t chip and aimed at confidential training and serving, while the TPU 8i Max packages two of April's inference-focused 8i dies to double memory capacity, compute and bandwidth in a single module. Doubling memory per package is the direct answer to the HBM supply squeeze that has been throttling inference deployments. One report describes the 8tx as co-designed with AMD, which is worth confirming against Google's own materials.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Office of Strategic Capital commits $150M to Rocket Lab's Neutron",
+          "summary": "The conditional loan, announced at the start of this week, can fund rocket production and processing, an expanded fleet of sea recovery and transport vessels, and higher output of composite structures and engines. It pairs with an identical $150M commitment to Stoke Space on Oct 26 for a second pad at Cape Canaveral SLC, making these the first launch companies to draw significant OSC backing. Neither loan has closed; both still have to clear financial, legal, technical and due-diligence conditions.",
+          "sources": [
+            { "label": "SatNews", "url": "https://satnews.com/2026/11/10/pentagon-backs-rocket-lab-with-150m-osc-loan-to-scale-neutron-production/" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/10/the-pentagon-offers-rocket-lab-a-150-million-loan-to-speed-up-its-neutron-rocket/" }
+          ]
+        },
+        {
+          "headline": "Booster 22 rolls to the pad for a squeeze test ahead of Friday's double catch",
+          "summary": "SpaceX moved the first catch-capable Super Heavy V3 to Orbital Launch Pad 2 at Starbase for a structural squeeze test, with Flight 15 targeting a 75-minute window opening Friday, Nov 13. Booster 22 and Ship 42 would both return to the tower, with the booster's return burn about 6 minutes 35 seconds after liftoff and the ship performing a decelerating burn and flip into a vertical catch attitude. The trajectory puts the vehicle over populated parts of Texas, and SpaceX has issued sonic boom advisories; Musk has called success only somewhat more likely than not.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos" },
+            { "label": "Autoevolution", "url": "https://www.autoevolution.com/news/first-ever-starship-double-catch-means-rocket-flying-over-populated-texas-expect-sonic-booms-278157.html" }
+          ]
+        },
+        {
+          "headline": "Electron's 100th flight slips to Nov 14 with an iQPS radar satellite",
+          "summary": "The Mountain God Rises, carrying QPS-SAR-19 YAMATSUMI-II, moved from NET Nov 10 to no earlier than Nov 14 at 05:30 UTC from Mahia Peninsula, New Zealand. It is Rocket Lab's 11th Electron launch for iQPS and targets a mid-inclined orbit at 575 km altitude. Reaching 100 missions on a small launcher is the milestone that separates Electron from every other vehicle in its class, and it arrives while Neutron's debut has slipped to 2027.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/" },
+            { "label": "iQPS", "url": "https://i-qps.net/en/news/4117/" }
+          ]
+        },
+        {
+          "headline": "Vulcan's first operational Amazon Leo launch lines up for Nov 13",
+          "summary": "A Vulcan Centaur in the VC6L configuration is scheduled for LV-01 from Cape Canaveral SLC-41 at 17:54 UTC on Nov 13, the same day as Starship Flight 15. VC6L is the six-solid, long-fairing variant, the highest-performance Vulcan configuration and the one Amazon needs to deploy its constellation at a useful rate. Launch schedules move frequently, so treat both the date and the ordering against Starship as provisional.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Gemini Robotics 2.5 posts large dexterity gains and an open safety benchmark",
+          "summary": "DeepMind's most capable vision-language-action model reports 30% to 100% higher success rates and 20% to 30% faster execution than the prior version in lab testing, plus 96% success in a Mercedes-Benz parts-sorting proof of concept, a figure that covers one task and should not be read as general factory reliability. DeepMind says Gemini 4 Argon acted as a simulation engine during development, using a frontier model to generate training environments rather than hand-built sims. It is rolling out to partners including Apptronik, Boston Dynamics and Agile Robots, alongside ASIMOV-Jailbreak, 1,500 open prompts that probe for unsafe robot actions.",
+          "sources": [
+            { "label": "Google DeepMind", "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/" },
+            { "label": "XenoSpectrum", "url": "https://xenospectrum.com/en/gemini-robotics-factory-safety-layers/" }
+          ]
+        },
+        {
+          "headline": "AMD launches 6th-gen EPYC 9006 Venice on TSMC 2nm",
+          "summary": "The Zen 6 SP7 parts scale to 256 cores and 512 threads per socket with PCIe Gen 6 and MRDIMM-12800 memory support, with the flagship listed around $14,904. AMD is positioning them under the Helion agentic AI rack reference design, which packs 32,768 cores into a 44OU rack across 32 single-OU compute trays, in dense 256-core 400 W, balanced 256-core 600 W and 96-core 5.0 GHz performance node flavors. Note that Helion, the CPU-centric agentic rack, is a different product from Helios, the 72-GPU MI455X rack, and several outlets conflate the two.",
+          "sources": [
+            { "label": "Phoronix", "url": "https://www.phoronix.com/review/amd-epyc-9006-venice" },
+            { "label": "AMD", "url": "https://www.amd.com/en/products/rackscale-solutions/helion.html" },
+            { "label": "StorageReview", "url": "https://www.storagereview.com/news/amd-helion-agentic-ai-rack-32768-epyc-cores" }
+          ]
+        },
+        {
+          "headline": "AEVEX books a nearly $400M IDIQ ceiling for unmanned aircraft",
+          "summary": "The indefinite-delivery, indefinite-quantity award from an unnamed US customer covers UAS and support services, and is the largest the company has disclosed since going public. The figure is a ceiling rather than booked revenue, with orders placed as mission needs arise. AEVEX rarely identifies its customers or airframes and is best known for the Phoenix Ghost one-way attack drone family.",
+          "sources": [
+            { "label": "GovConWire", "url": "https://www.govconwire.com/articles/aevex-400m-idiq-unmanned-aircraft-systems" },
+            { "label": "Defence Blog", "url": "https://defence-blog.com/secretive-u-s-drone-maker-aevex-lands-400m-drone-contract/" }
+          ]
+        },
+        {
+          "headline": "Joby and Archer push first passenger flights into 2027",
+          "summary": "Both companies' Q3 updates now point to 2027 for early US commercial passenger operations, slipping from 2026, although Joby's SEC filing language still references 2026 and the sources do not fully agree. Archer used its call to detail a hybrid autonomous platform developed with Anduril, with turboshaft engine testing starting this quarter and full-scale flight testing planned for 2027. The pattern across both is the same: certification of the piloted aircraft is the long pole, while autonomy and defense work absorb engineering capacity in the meantime.",
+          "sources": [
+            { "label": "AIN FutureFlight", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027" }
+          ]
+        },
+        {
+          "headline": "FAA touts 2.2 million deconflicted UTM flights while Part 108 still waits",
+          "summary": "At the close of AUVSI, the FAA cited 2.2 million deconflicted flights through UTM and signaled a rethink of type certification, but gave no publication date for the Part 108 BVLOS rule, which has been under White House review since July 10. The agency has meanwhile kept approving one-off offshore operations, including a Louisiana-to-Shell-platform flight cleared under Section 927 of the 2024 FAA Reauthorization rather than under any BVLOS rule. Detect-and-avoid remains the unsolved core problem; the December 7 deadline cited in trade coverage rests on a single outlet.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/10/faa-auvsi-utm-2-2-million-flights-part-108-type-certification/" },
+            { "label": "DRONELIFE", "url": "https://dronelife.com/2026/11/10/drone-collision-avoidance-bvlos/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Toyota asks Commerce for the tariff relief Audi is reportedly getting",
+          "summary": "Toyota, which paid more than $8 billion in tariffs last fiscal year, approached the US Commerce Department seeking treatment comparable to the relief being discussed with Audi around its Georgia plant plan. Toyota's argument is that it already operates 11 US manufacturing plants and committed to a Texas expansion reported at $3.6 billion in July. Reuters reporting suggests other announced US investments would also qualify, which turns the program into a general inducement for domestic capacity rather than a one-off.",
+          "sources": [
+            { "label": "Autoblog", "url": "https://www.autoblog.com/news/toyota-spent-billions-in-america-and-now-it-wants-tariff-relief-like-audi" },
+            { "label": "The Drive", "url": "https://www.thedrive.com/news/audis-reportedly-getting-a-sweetheart-deal-on-tariffs-toyota-wants-in-tds" }
+          ]
+        },
+        {
+          "headline": "Stellantis sells Brampton Assembly to armored vehicle maker Roshel",
+          "summary": "Roshel will acquire the idled Ontario plant and its associated equipment for an undisclosed sum, with closing expected by the end of 2026, and the two companies plan to explore collaboration on vehicle technologies. Roshel is one of two finalists for a Canadian military light utility vehicle contract worth up to C$4.9 billion, which would be built at the site. The plant has been dark since late 2023 and once employed about 3,000 unionized workers; Unifor and federal ministers have pushed back hard, and a reported Stellantis leaseback of roughly 25% of the facility comes from a single source.",
+          "sources": [
+            { "label": "CBC", "url": "https://www.cbc.ca/news/canada/toronto/stellantis-brampton-plant-9.7415345" },
+            { "label": "Transport Topics", "url": "https://www.ttnews.com/articles/stellantis-sells-plant-roshel" }
+          ]
+        },
+        {
+          "headline": "BYD's Yangwang U9X holds a 503.17 km/h one-way production car record",
+          "summary": "The 3,019 hp electric hypercar recorded 312.65 mph on the E11 in Abu Dhabi's Al Dhafra region with Marc Basseng driving, beating the Bugatti Chiron Super Sport 300+ mark of 490.484 km/h from 2019, and the result has now been logged with the FIA and Guinness. The important asterisk is the format: this is a single-direction run, where conventional top speed records average two passes in opposite directions, so SSC's 455.3 km/h two-way average still stands under those rules. Only 30 units are planned, and separate footage has circulated of a U9X losing control during a high-speed test in China.",
+          "sources": [
+            { "label": "WhichCar", "url": "https://www.whichcar.com.au/news/byds-yangwang-u9x-smashes-500km-h-barrier-in-record-breaking-run" },
+            { "label": "Notebookcheck", "url": "https://www.notebookcheck.net/Fastest-production-car-hits-313-MPH-speed-record-on-the-highway.1444080.0.html" }
+          ]
+        },
+        {
+          "headline": "FIA's final ADUO review sets the 2027 engine development pecking order",
+          "summary": "The third and final 2026 assessment leaves Red Bull Ford entering 2027 with no additional power unit development allowances, confirming it as the benchmark unit. Mercedes, still inside the 2-4% deficit band, carries one unused 2026 homologation plus another for 2027, while Audi, Ferrari and Honda each get two extra upgrades for being more than 4% off. The FIA also conceded the ADUO mechanism itself may need refining, and the first 2027 review will cover six races from Bahrain to Miami.",
+          "sources": [
+            { "label": "Crash.net", "url": "https://www.crash.net/f1/news/1110058/1/fia-announces-results-final-2026-f1-aduo-engine-review" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/fia-make-key-decision-affecting-red-bull-for-start-of-2027-f1-season" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "32,768 cores in one rack means four sockets per 1OU tray",
+    "body": "AMD's Helion reference rack claims 32,768 Zen 6 cores in a 44OU envelope across 32 single-OU compute trays. Divide it out and that is 1,024 cores per tray, or four 256-core EPYC Venice sockets in a one-unit-tall slot. At the 400 W dense-node rating that is about 1.6 kW of CPU per tray before memory, NICs or anything else, which is why the design ships with liquid cooling as a first-class option rather than an upgrade."
+  },
+  "footnote": "Compiled from public reporting, cross-referenced across multiple outlets. Direct page fetches were blocked for several sources this run, including the NYT, so figures that rest on a single outlet or on company claims are flagged in the relevant bullet."
+}
