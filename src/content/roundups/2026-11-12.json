@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-12",
+  "title": "Daily Briefing — Thursday, November 12",
+  "coverage": "Covering roughly Nov 11 - Nov 12, 2026. Sourcing caveat: this session's network again blocked direct page fetches of nytimes.com, cnbc.com, space.com, arstechnica.com, thedriven.io and most wire services, so the NYT technology, science and business sections could not be checked directly. Items below were assembled by cross-referencing multiple search summaries rather than by reading primary articles. The Nvidia leadership story is same-day breaking coverage and the reasons reported for the departure are press allegations, not confirmed findings.",
+  "top": [
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress takes over on an interim basis",
+      "summary": "Nvidia said it accepted Huang's resignation as president, CEO and director effective immediately, named Kress interim CEO while she stays on as CFO, and appointed Harvey Jones as the board's first-ever chair. The company gave no reason; press reporting ties the exit to an emergency board meeting over reported personal conduct, and shares fell sharply in premarket trading."
+    },
+    {
+      "headline": "SpaceX targets Friday the 13th for the first double catch of Starship and its booster",
+      "summary": "Flight 15 is set for a 75-minute window opening 4:45 p.m. CT on Nov. 13, with Booster 22 returning to the tower about 6 minutes 35 seconds after liftoff and Ship 42 catching roughly 22.5 hours later. Success would be the first full recovery of both stages of an orbital-class launch system."
+    },
+    {
+      "headline": "Ukraine's UFORCE raises $700M at a $6B valuation on battle-tested drones",
+      "summary": "The round is a record for Ukrainian defense tech and funds scaling of bomber drones plus laser interception work. It is a direct market signal that combat-proven, cheap-to-build unmanned systems now command valuations once reserved for software companies."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Huang out at Nvidia, Kress interim, permanent search underway",
+          "summary": "An 8-K filed after the board acted says Huang resigned effective immediately and that operations, customer commitments and the product roadmap continue without interruption. Kress holds the CFO job while serving as interim chief, and analysts quoted by CNBC expect the permanent successor to come from outside the company. Q3 FY2027 earnings remain scheduled for Nov. 17, which will be the first public chance to press her on the timeline.",
+          "sources": [
+            { "label": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html" },
+            { "label": "Axios", "url": "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out" },
+            { "label": "The Register", "url": "https://www.theregister.com/systems/2026/11/12/jensen-huang-resigns-as-nvidia-chief-executive/5309411" }
+          ]
+        },
+        {
+          "headline": "Anthropic sets a $70-$78 IPO range ahead of a Nov. 19 Nasdaq debut",
+          "summary": "The updated filing offers 825 million shares under the ticker ANT, raising up to roughly $64.4 billion at the top of the range and implying about $1.3-$1.4 trillion fully diluted. Pricing is expected Nov. 18 with trading the next day, and reporting says the book is already covered with about 20% earmarked for retail. A reported $26 billion of non-voting Class N shares is being taken by Google, Nvidia, AMD, Broadcom, Micron, Microsoft and TSMC.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" },
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/10/anthropic-ipo-targets-13-trillion-valuation-904-billion-raise/" }
+          ]
+        },
+        {
+          "headline": "DeepMind ships AlphaGenome 2 for variant-effect prediction",
+          "summary": "The next-generation model predicts how DNA sequences and their variations affect different human cell types, released alongside the new Gemini Robotics generation. DeepMind explicitly states it is not approved for clinical or diagnostic use, which keeps it a research instrument rather than a medical device. It extends the pattern of frontier labs shipping domain-specific scientific models alongside general ones.",
+          "sources": [
+            { "label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/11/google-deepmind-releases-new-advanced-robotics-ai-model-and-next-generation-gene-prediction-model" }
+          ]
+        },
+        {
+          "headline": "Chip stocks rebound on CoreWeave results after a brutal month",
+          "summary": "The PHLX Semiconductor index is down roughly 30% since Oct. 6, and Nvidia is off about 14% in November even after Wednesday's bounce on CoreWeave's earnings. The whipsaw shows how tightly the AI trade is now coupled to a handful of capex datapoints from neoclouds and hyperscalers. Nvidia's Nov. 17 report lands into that volatility with an interim CEO presenting.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/nvidia-stock-rebounds-chip-stocks-surge-as-coreweave-earnings-boost-ai-trade-151001136.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starship Flight 15 lines up the first tower catch of both stages",
+          "summary": "Launching no earlier than Nov. 13 from Starbase Pad 2, Flight 15 pairs Booster 22 and Ship 42, both Block 3 vehicles, and would be the first catch attempt for a Super Heavy V3 booster. The booster returns about 6 minutes 35 seconds after liftoff; the ship flies a near-orbital profile and comes back roughly 22 hours 32 minutes later. Catching the ship is the harder half, since it returns from orbital velocity with a hot-structure heat shield rather than a short suborbital hop.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time" },
+            { "label": "Quartz", "url": "https://qz.com/spacex-starship-flight-15-catch-both-stages-110926" }
+          ]
+        },
+        {
+          "headline": "Falcon 9 flies classified USSF-627, the 120th Falcon of 2026",
+          "summary": "The rocket lifted off from Vandenberg SLC-4E at 8:36 p.m. PT Nov. 11 (0136 GMT Nov. 12) on an undisclosed Space Force payload, the second classified Vandenberg mission in six days after USSF-432. Booster 1103 landed on Of Course I Still Love You about 8.5 minutes in, completing its seventh flight. Hitting 120 Falcon 9 flights before mid-November is roughly a launch every 2.6 days across both coasts.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos" },
+            { "label": "Tesla North", "url": "https://teslanorth.com/2026/11/11/spacex-ussf-627-launch-seventh-booster-landing/" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab raises Neutron's base price 27% before the rocket has flown",
+          "summary": "The base price went from $55 million to $70 million, disclosed with Q3 results: revenue of $268 million, up 73% year over year, against a widened net loss of $79.6 million. The company booked eight Neutron launches worth about $515 million in the quarter, has its first 16 flights sold out, and is pushing new customers into the 2030s. CFO Adam Spice said Rocket Lab deliberately chose higher average selling price over volume, which is an unusual position for a vehicle whose first flight has slipped to 2027.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million" },
+            { "label": "The Motley Fool (transcript)", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/rocket-lab-rklb-q3-2026-earnings-call-transcript/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "UFORCE banks $700M at a $6B valuation to scale bomber drones and laser interception",
+          "summary": "The Ukrainian defense-tech firm's round is the largest on record for the country's drone sector, with investors explicitly betting on hardware validated in combat rather than in test ranges. Militarnyi reports the money goes to production expansion plus new bomber platforms and laser-based interception, though technical specifications have not been disclosed. For anyone working UAV programs, it is a marker of how fast the attritable-airframe segment is being capitalized.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/12/uforce-defense-tech-drones-warfare-ukraine.html" },
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/uforce-secures-record-investment-to-expand-production-and-develop-new-products/" }
+          ]
+        },
+        {
+          "headline": "EHang flies South Asia's first human-carrying pilotless eVTOL in Sri Lanka",
+          "summary": "The EH216-S carried passengers in Colombo on Nov. 11, a first for the region and part of EHang's Fast Track international program. The EH216-S remains the only pilotless passenger eVTOL holding a type certificate from China's CAAC, which is why EHang can fly people abroad while Joby and Archer have slipped US passenger service to 2027. Multirotor-only configurations like this trade range and cruise efficiency for mechanical simplicity and certification tractability.",
+          "sources": [
+            { "label": "Manila Times / GlobeNewswire", "url": "https://manilatimes.net/2026/11/12/tmt-newswire/globenewswire/ehang-marks-sri-lankas-first-human-carrying-evtol-flights-advancing-its-global-fast-track-program/2468634" }
+          ]
+        },
+        {
+          "headline": "FAA authorizes first long-range BVLOS flights from the US coastline over the Gulf",
+          "summary": "The agency granted a first-of-its-kind approval for drone operations beyond visual line of sight launched from shore and flown out over the Gulf of America, aimed at offshore energy infrastructure. It is a workaround with real reach while the Part 108 BVLOS rule sits unpublished at OIRA with no announced date. Over-water corridors are the easiest BVLOS case to approve because the ground risk population is effectively zero.",
+          "sources": [
+            { "label": "FAA", "url": "https://www.faa.gov/newsroom/faa-advances-american-drone-dominance-first-its-kind-authorization-long-range-drone" },
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/10/faa-auvsi-utm-2-2-million-flights-part-108-type-certification/" }
+          ]
+        },
+        {
+          "headline": "TSMC posts October revenue of NT$586.9B, up about 60% year over year",
+          "summary": "The foundry's monthly sales keep climbing on AI accelerator demand, with analysts modeling roughly 63% growth for the final quarter. Shares also jumped on an unconfirmed report that TSMC is weighing advanced memory production for Nvidia, which neither company has commented on. Strong foundry throughput sits oddly against a 30% drawdown in the semiconductor index, suggesting the selloff is about valuation and financing structures rather than silicon demand.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-10/tsmc-taiwan-semiconductor-manufacturing-revenue-earnings-ai-chip-demand" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "QuantumScape unveils Osprey, an all-solid-state platform running 1,000 cycles at one atmosphere",
+          "summary": "Osprey pairs the company's ceramic separator and anode-free lithium-metal design with a solid sulfide cathode, reporting about 80% capacity retention after 1,000 full cycles and 10-80% charge in five minutes. The headline engineering win is the pressure figure: most solid-state cells need tens of atmospheres of external stack pressure, which forces heavy compression hardware into the pack. Caveat worth keeping: these are small lab cells, not EV-format modules, and QuantumScape has given no date for automotive-size Osprey cells.",
+          "sources": [
+            { "label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/11/11/3400747/0/en/quantumscape-expands-commercial-roadmap-with-osprey-the-open-all-solid-state-platform-for-battery-development.html" },
+            { "label": "Electrek", "url": "https://electrek.co/2026/11/11/quantumscape-osprey-all-solid-state-sulfide-battery/" }
+          ]
+        },
+        {
+          "headline": "Jaguar reveals the I-Type 08, its 600 kW GEN4 Formula E car",
+          "summary": "Built to Formula E's new GEN4 rules for 2026/27, the car runs permanent active all-wheel drive, a larger battery and 700 kW of regenerative braking, with claimed acceleration beating a current F1 car. Permanent AWD is the structural change: a front motor-generator lets the car recover energy through the front axle, which is where most braking load lives. That is how regen capacity can exceed drive power without the rears locking.",
+          "sources": [
+            { "label": "The Driven", "url": "https://thedriven.io/2026/11/12/jaguar-unveils-600-kw-formula-e-racer-with-f1-beating-acceleration/" }
+          ]
+        },
+        {
+          "headline": "FIA confirms informal BYD and Geely approaches about a 12th F1 team",
+          "summary": "President Mohammed Ben Sulayem said he held unofficial talks with both Chinese carmakers but ruled out rewriting regulations to attract them, and stressed there is no open process for an eleventh-hour entry. No deal exists with either company. It lands while the 2027 engine rules remain contested, with the FIA's ADUO review having handed Audi, Ferrari and Honda extra homologations to catch up.",
+          "sources": [
+            { "label": "Electrek", "url": "https://electrek.co/2026/11/10/byd-geely-fia-talks-12th-f1-team/" },
+            { "label": "WhichCar", "url": "https://www.whichcar.com.au/news/byd-geely-f1-teams-formula-mohammed-ben-sulayem-fia" }
+          ]
+        },
+        {
+          "headline": "GWM lines up a Ferrari-rivaling hybrid supercar for 2027",
+          "summary": "The Chinese automaker plans a formal debut by the end of 2026, reportedly using an in-house 4.0-liter twin-turbo V8 paired with a plug-in hybrid system. A domestically developed V8 is a meaningful capability claim, since Chinese manufacturers have largely skipped large-displacement performance engines in favor of pure EV powertrains. Whether the hardware matches the ambition is unproven until it is shown.",
+          "sources": [
+            { "label": "CnEVPost", "url": "https://cnevpost.com/2026/11/12/gwm-launch-hybrid-supercar-2027" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Jaguar's GEN4 Formula E car regenerates more power than it makes",
+    "body": "The I-Type 08 drives at 600 kW but recovers up to 700 kW under braking. That inversion is only possible because GEN4 adds a permanent front motor-generator: under deceleration, weight transfer puts most of the normal force on the front tires, so the front axle can absorb far more braking torque than the rears without locking. The practical consequence is that a large share of a Formula E race's energy budget comes back through the brakes rather than out of the battery's starting charge, which is why these cars carry friction brakes that barely get used."
+  },
+  "footnote": "Compiled from public reporting on Nov 11-12, 2026. Breaking items, especially the Nvidia leadership change, may develop further."
+}
