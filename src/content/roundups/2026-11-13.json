@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-13",
+  "title": "Daily Briefing — Friday, November 13",
+  "coverage": "Covering roughly Nov 12 - Nov 13, 2026. Sourcing caveat: this session's network blocked direct page fetches of nytimes.com, reuters.com, arstechnica.com, theverge.com, techcrunch.com, spacenews.com, nasaspaceflight.com, dronelife.com, insideevs.com and the-race.com, so the NYT technology, science and business sections could not be read directly. Items below were assembled by cross-referencing multiple search summaries rather than by reading primary articles. Two of today's launches (Starship Flight 15 and Vulcan's Amazon Leo mission) were still pre-launch at the time of writing, so outcomes are not yet known. One space item, the Pentagon launch loans, was disclosed earlier this week rather than in the last 24 hours.",
+  "top": [
+    {
+      "headline": "Four nonprofits sue five frontier AI labs to freeze development of more capable models",
+      "summary": "A coalition including Public Citizen, the Alliance for Secure AI, the Heat Initiative and the Irreplaceable Education Fund filed in San Francisco Superior Court on Nov. 12 against Anthropic, Google, Meta, OpenAI and SpaceX's AI unit, seeking an injunction against training anything more capable than current frontier systems. The legal theory is unusual: California unfair-competition law plus public nuisance, citing agentic loss-of-control incidents and bioweapon and cyberattack risk rather than copyright or privacy."
+    },
+    {
+      "headline": "SpaceX commits more than $74 billion to two AI supercomputing campuses, and plans to generate its own power",
+      "summary": "Roughly $50 billion goes to a 747-acre site in Cochise County, Arizona and up to $24 billion to a campus next to Starbase and the Port of Brownsville. The Starbase filing proposes SpaceX build, own and operate its own natural gas power station, which sidesteps a multiyear wait in the ERCOT interconnection queue."
+    },
+    {
+      "headline": "Jensen Huang is headed to Capitol Hill as Colette Kress runs Nvidia on an interim basis",
+      "summary": "House Foreign Affairs Chair Brian Mast said Huang will testify before Congress ahead of Thanksgiving, and Sen. Tim Scott asked him to appear voluntarily before Senate Banking on Dec. 3; Commerce Secretary Howard Lutnick has also been called on Nvidia chip exports. Huang had agreed to testify hours before the resignation was announced, after lawmakers threatened a subpoena."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Nonprofits ask a California court to halt frontier AI training outright",
+          "summary": "The Nov. 12 complaint names Anthropic, Google, Meta, OpenAI and SpaceX's AI unit and asks for an injunction blocking development and deployment of models more capable than today's frontier systems. Plaintiffs argue the companies violated California's unfair competition law by endangering public health and interfering with the use of property such as computer systems, and that the resulting systems are a public nuisance. It lands weeks after a midterm election in which Democrats regained Congress partly on AI regulation, and none of the defendants had responded publicly at the time of reporting.",
+          "sources": [
+            { "label": "Washington Post", "url": "https://washingtonpost.com/business/2026/11/12/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai/215dc9d6-deaa-11f1-912c-4fbb80d73f7f_story.html" },
+            { "label": "LAist", "url": "https://laist.com/news/politics/advocacy-groups-sue-ai-giants-to-freeze-new-models-warning-of-catastrophic-risks" },
+            { "label": "Common Dreams", "url": "https://www.commondreams.org/news/freeze-ai-development-lawsuit" }
+          ]
+        },
+        {
+          "headline": "Google ships Gemini 4 Hydrogen, a cheap fast model aimed squarely at agent loops",
+          "summary": "Hydrogen slots below the frontier Carbon and Argon models, carries a full 1M-token context window, and prices at $1.50 per million input tokens and $7.50 per million output. Google claims 57% on Terminal-Bench 4.1 against Gemini 3.8 Flash's 18.2% and 2.5x faster completion at default settings, though independent runs put it nearer 54% on Terminal-Bench 4.0 and 50% on Terminal-Bench-Science. The more interesting piece is the new Orchestrator in Antigravity, which switches between Carbon and Hydrogen mid-session, with Carbon coordinating while Hydrogen runs worker and verifier agents, reportedly finishing about 19% faster than a single-model run.",
+          "sources": [
+            { "label": "The New Stack", "url": "https://thenewstack.io/gemini-4-hydrogen-orchestrator/" },
+            { "label": "The Decoder", "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/" },
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/google-gemini-4-hydrogen-coding-benchmark" }
+          ]
+        },
+        {
+          "headline": "Nvidia's succession problem moves from the boardroom to congressional hearing rooms",
+          "summary": "Kress stays CFO while serving as interim CEO, with Harvey Jones installed as Nvidia's first-ever board chair and an external-plus-internal search underway for a permanent chief. Huang now faces a House Foreign Affairs appearance before Thanksgiving, possibly behind closed doors but filmed and transcribed, and a Senate Banking request for Dec. 3. For anyone watching AI hardware supply, the live question is export policy rather than personnel: Lutnick being called alongside Huang points the hearings at chip export controls.",
+          "sources": [
+            { "label": "Engadget", "url": "https://www.engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month/" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html" },
+            { "label": "TechCrunch timeline", "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" }
+          ]
+        },
+        {
+          "headline": "Markets shrugged: chip stocks rallied through the Nvidia shock on soft inflation data",
+          "summary": "Taiwan's benchmark chip index was on track for an 11.3% weekly gain after Huang's exit, and US indexes opened higher Friday on a cooler-than-expected wholesale inflation print, with producer prices still up 6.5% year over year. Cerebras jumped on strong Q3 results and the disclosure of Microsoft as a cloud customer. Anthropic's IPO is priced at $70 to $78 a share ahead of a Nasdaq debut expected Nov. 19.",
+          "sources": [
+            { "label": "TheStreet", "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026" },
+            { "label": "Finimize", "url": "https://finimize.com/content/taiwans-chip-stocks-kept-climbing-after-nvidias-ceo-exit" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starship Flight 15 goes for the first double catch today, booster and ship",
+          "summary": "The 75-minute window opens 4:45 p.m. CT from Starbase. Booster 22 returns to Pad 2 about 6 minutes 35 seconds after liftoff, the first catch attempt for a Super Heavy V3, while Ship 42 deploys Starlink V3 satellites, circles roughly 14 times near 275 km, and comes back to the same tower about 22 hours 32 minutes after launch. A ship catch has never been attempted; Musk has put the odds at only \"more likely than not,\" because the ship returns from orbital velocity on a far longer, hotter trajectory than the booster.",
+          "sources": [
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/starship-flight-15-spacex-history/" },
+            { "label": "Space.com live updates", "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-13-2026-starship-first-double-landing-attempt" },
+            { "label": "Quartz", "url": "https://qz.com/spacex-starship-flight-15-catch-both-stages-111326" }
+          ]
+        },
+        {
+          "headline": "Vulcan returns to flight after nine months with 40 Amazon Leo satellites",
+          "summary": "ULA was go for a 17:54 UTC liftoff from SLC-41 at Cape Canaveral, the first Vulcan launch since Feb. 12 and the end of a nine-month stand-down following a solid rocket booster anomaly on a military mission. Space Force NSSL missions remain paused on Vulcan until the SRB issue is closed out, so this commercial Amazon flight is effectively the return-to-flight demonstration. Amazon still wants initial Leo service live before the end of 2026 in the US, UK, France, Germany and Canada, with the next batch going up on Ariane 6 from Kourou no earlier than Nov. 23.",
+          "sources": [
+            { "label": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/ulas-vulcan-rocket-flight-40-amazon-satellites/" },
+            { "label": "Space Coast Daily", "url": "https://spacecoastdaily.com/2026/11/united-launch-alliance-vulcan-rocket-set-to-launch-40-broadband-satellites-friday-destined-for-amazons-leo-satellite-network/" },
+            { "label": "Advanced Television", "url": "https://www.advanced-television.com/2026/11/11/amazon-leo-will-launch-40-satellites-on-ula/" }
+          ]
+        },
+        {
+          "headline": "SpaceX wants a natural gas power plant at Starbase to feed an AI campus",
+          "summary": "A City of Starbase public hearing notice shows SpaceX proposing to build, own and operate its own gas-fired generation for a campus whose initial phases are estimated at $24 billion, alongside a roughly $50 billion Arizona site near Willcox Playa. Behind-the-meter generation is the whole point: it avoids a multiyear grid interconnection wait in a state where the queue is the binding constraint on new load. Both projects have approval steps in December, and residents in both states have raised electricity and water concerns.",
+          "sources": [
+            { "label": "UPI", "url": "https://www.upi.com/Top_News/US/2026/11/12/spacex-musk-AI-supercomputing-texas-arizona/8361794521839" },
+            { "label": "Quartz", "url": "https://qz.com/spacex-74-billion-ai-supercomputing-texas-arizona-111226" },
+            { "label": "GovConWire", "url": "https://www.govconwire.com/articles/spacex-ai-supercompute-campuses-starbase-cochise-county" }
+          ]
+        },
+        {
+          "headline": "The Pentagon is lending money to Neutron and Nova, not just buying launches",
+          "summary": "The Office of Strategic Capital committed $150 million each to Rocket Lab and Stoke Space, with Rocket Lab's disclosed Tuesday and Stoke's announced Oct. 26. It is an industrial-base play on medium-lift redundancy: Neutron's first flight has slipped to 2027 even as Rocket Lab raised its dedicated price from $55 million to $70 million and booked eight Neutron missions worth over $515 million in Q3. Stoke also signed a multi-launch deal with Planet Labs, and Firefly posted a record $1.7 billion backlog.",
+          "sources": [
+            { "label": "KeepTrack", "url": "https://keeptrack.space/space-brief/space-brief-2026-11-11" },
+            { "label": "MLQ", "url": "https://mlq.ai/news/pentagon-offers-rocket-lab-a-150-million-loan-to-speed-up-neutron-as-spacex-winds-down-falcon-9/" },
+            { "label": "Benzinga", "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63097812/space-stock-tracker-moon-contracts-earnings-and-midterms-rock-the-sector" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Microsoft 365 outage runs into a second day with no confirmed root cause",
+          "summary": "Outlook, Exchange Online, Teams and Copilot were disrupted worldwide starting Nov. 12, with Microsoft first blaming elevated load across multiple regions and then servers unexpectedly becoming unavailable. One report says the fault lies in a process that sets up secure connections on the affected servers being overwhelmed, and that Microsoft began reverting a recent network configuration change correlating with the start of impact. Microsoft says there is no indication of malicious activity, and extended its email timeout window to 48 hours to preserve delayed messages while a post-incident report is pending.",
+          "sources": [
+            { "label": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/" },
+            { "label": "SecurityWeek", "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/" },
+            { "label": "TechRadar live", "url": "https://www.techradar.com/news/live/outlook-outage-nov-2026" }
+          ]
+        },
+        {
+          "headline": "Joby and Archer both slip first US passenger eVTOL flights to 2027",
+          "summary": "Joby had aimed to carry passengers before the end of 2026 under the FAA's eVTOL Integration Pilot Program; both companies pushed that to 2027 in their Q3 updates. Archer's new FAA certificate covers only conventional runway takeoffs and landings, and it still has to demonstrate a piloted hover-to-wingborne transition, a milestone Joby cleared back in April 2025. Both are also buying revenue-generating defense businesses, Archer three Boeing subsidiaries and Joby a defense company, which says a lot about how long certification cash burn is expected to last.",
+          "sources": [
+            { "label": "AIN FutureFlight", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027" },
+            { "label": "AVweb", "url": "https://avweb.com/aviation-news/joby-archer-initial-passenger-ops-2027/" }
+          ]
+        },
+        {
+          "headline": "TSMC stands up a $500 million venture arm to seed its own supply chain",
+          "summary": "A senior executive told Nikkei Asia the fund will back chip startups to broaden the company's ecosystem through the AI buildout. It is a notable shift for a foundry that has historically grown capacity rather than portfolios, and it puts TSMC in competition with the same corporate VC arms it serves as a customer. Separately, Texas Instruments argues humanoid robots need at least $2,000 of semiconductors each, framing robotics as the next supercycle after AI data centers.",
+          "sources": [
+            { "label": "Nikkei Asia", "url": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm" },
+            { "label": "Digitimes", "url": "https://www.digitimes.com/news/a20261105PD230/texas-instruments-robotics-semiconductors-demand-capacity.html" }
+          ]
+        },
+        {
+          "headline": "Russia claims a Sokol-3 interceptor downed high-speed jet-powered drones",
+          "summary": "Russia's Defense Ministry said on Nov. 12 that a Sokol-3 team brought down fast Ukrainian strike drones, and framed the system as a counter to jet-propelled types. Outside reporting has not independently confirmed an engagement against a jet-powered target, and available footage does not establish it. The claim still matters directionally: interceptor drones are the cheap answer to the jet-drone escalation, and both sides are now racing on closing velocity and seeker performance rather than endurance.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/military/russia-claims-interceptor-hunt-jet-drones" }
+          ]
+        },
+        {
+          "headline": "The US Army moves a solar-electric, 1,000-mile ISR drone into a program of record",
+          "summary": "Kraus Hamdani's K1000ULE was selected for a Program of Record covering reconnaissance and target acquisition, which converts a niche long-endurance airframe into a funded line item. The design trades payload for persistence: a solar-assisted electric powertrain and very high aspect ratio wing buy multi-day loiter and an acoustically quiet signature that piston-engine Group 2 and 3 aircraft cannot match. Publication dating on the announcement is thin, so treat the timing as approximate.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/military/us-army-fields-1000-mile-electric-drones" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "BMW adds Samsung SDI and LG Energy Solution to its Gen6 cylindrical cell supply",
+          "summary": "Samsung SDI covers Europe and LG Energy Solution covers North America, joining CATL and EVE Energy on the Neue Klasse platform's 46 mm-diameter cells, built in two heights, 95 mm and 120 mm, as 4695 and 46120 formats. BMW claims roughly 20% higher volumetric energy density, up to 30% more range and about 30% faster charging versus its current prismatic cells, on an 800-volt architecture. Deliveries start toward the end of the decade, with Samsung SDI standing up a new 46-series line for 2028 mass production and LGES preparing Arizona capacity; BMW has not disclosed chemistry, volumes or contract values.",
+          "sources": [
+            { "label": "Battery-News", "url": "https://battery-news.de/en/2026/11/10/bmw-adds-samsung-sdi-and-lg-energy-solution-as-gen6-battery-cell-suppliers/" },
+            { "label": "electrive", "url": "https://www.electrive.com/2026/11/09/bmw-to-source-battery-cells-from-lges-and-samsung-sdi/" },
+            { "label": "autoevolution", "url": "https://www.autoevolution.com/news/bmw-adds-south-korea-s-samsung-sdi-and-lg-energy-solution-to-gen6-high-voltage-battery-supply-chain-278276.html" }
+          ]
+        },
+        {
+          "headline": "Global EV sales hit 2.09 million in October, and North America finally grew",
+          "summary": "Benchmark Mineral Intelligence data puts October up 8% year over year, with 17.5 million EVs sold in the first ten months of 2026, up 5%. Europe rose 36% to 510,000 with battery-electric specifically up 49%, and North America rose 24% to 130,000, its first annual increase of 2026, though the region is still down 21% year to date. Markets outside China, Europe and North America grew 85%.",
+          "sources": [
+            { "label": "Electrek", "url": "https://electrek.co/2026/11/11/europes-electric-car-sales-jump-49-as-global-ev-sales-grow/" }
+          ]
+        },
+        {
+          "headline": "FIA's third ADUO review leaves Red Bull alone without an engine catch-up upgrade",
+          "summary": "The Nov. 10 Additional Development and Upgrade Opportunity assessment kept the 2026 power unit pecking order unchanged, meaning Red Bull Ford remains the only manufacturer not cleared to upgrade under the catch-up mechanism. Audi, Ferrari and Honda were granted two additional upgrades for 2027, and Audi is understood to be banking its next one for next season. The FIA also hinted at revamping the system for 2027, which matters because ADUO is the first real test of whether a convergence mechanism can work without becoming a performance subsidy.",
+          "sources": [
+            { "label": "The Race", "url": "https://the-race.com/formula-1/fia-makes-latest-aduo-ruling-and-hints-at-2027-revamp" }
+          ]
+        },
+        {
+          "headline": "Cadillac dates its own F1 engine factory opening, into a V8 deadline",
+          "summary": "Cadillac says its Formula 1 power unit factory opens Dec. 18, with GM's own engine not arriving until later in the decade while the team runs Ferrari units in the meantime. The awkward part is the calendar: the FIA's plan to move to V8s by 2031, or possibly 2030, could leave the GM V6 hybrid with only one or two seasons of competition. F1 CEO Stefano Domenicali has credited the 2026 engine rules, with their roughly 50/50 electric-to-combustion power split, for drawing Cadillac and Audi in at all.",
+          "sources": [
+            { "label": "Yahoo Sports", "url": "https://sports.yahoo.com/articles/cadillac-reveals-date-f1-engine-160131049.html" },
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/f1-ceo-stefano-domenicali-hails-2026-f1-engine-rules-as-key-to-bringing-in-cadillac-and-audi/10793883/" }
+          ]
+        },
+        {
+          "headline": "Porsche's CEO takes a shot at Tesla's flying Roadster reveal",
+          "summary": "Speaking in Berlin on Nov. 11, Michael Leiters said Porsche has no interest in \"effects and shows\" and wants tangible innovation instead, pointing to the Mission S concept. The two halo cars were revealed the same day, Oct. 15: Tesla's Roadster is fully electric while the Mission S is a mid-engined supercar packaged to take either a combustion engine or a hybrid powertrain. That packaging choice is the actual news, since designing a mid-engine bay for both architectures is a hedge on regulation, not on physics.",
+          "sources": [
+            { "label": "Electrek", "url": "https://electrek.co/2026/11/11/porsche-ceo-tesla-flying-roadster-stunt/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Why Starship's ship catch is 22 hours and 32 minutes after liftoff, not 90 minutes",
+    "body": "At the 275 km altitude Ship 42 is flying, the orbital period is about 90 minutes: semi-major axis 6646 km, so T = 2*pi*sqrt(a^3/mu) with mu = 398,600 km^3/s^2 gives 5,390 seconds. Fourteen of those is about 21 hours, and the remaining ninety minutes or so is ascent, deorbit burn, entry and the final approach. The reason SpaceX cannot simply come back on orbit one is that the catch tower has to pass under the orbital plane at the right moment, and Earth rotates about 22.5 degrees of longitude beneath the ground track during each 90-minute pass. It takes roughly fourteen orbits for that drift, plus nodal regression from Earth's oblateness, to line Starbase back up with the plane. The practical consequence is that the ship must keep cryogenic landing propellant and its catch hardware alive through nearly a full day in orbit, which is a thermal and boil-off problem rather than a guidance one, and it is the part of the double catch that has never been flight-proven."
+  },
+  "footnote": "Compiled from public reporting on Nov 12-13, 2026. Starship Flight 15 and the Vulcan Amazon Leo mission were still pre-launch at the time of writing; check a post-launch source for outcomes."
+}
