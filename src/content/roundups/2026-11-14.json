@@ -1,0 +1,199 @@
+{
+  "date": "2026-11-14",
+  "title": "Daily Briefing — Saturday, November 14",
+  "coverage": "Covering roughly Nov 13 - Nov 14 (morning MST), 2026. Sourcing caveat: this session's network blocked direct page fetches of nytimes.com, space.com, wikipedia.org and most major outlets, so the NYT technology, science and business sections could not be read directly; items below were assembled by cross-referencing multiple search summaries rather than reading primary articles. Starship's ship-catch attempt is scheduled for later today, around 21:17 UTC, and its outcome is not yet known. A few items (DeepMind's AlphaProof Code, the JIATF-401 threat-assessment story, China's Pathfinder launch, Toyota's Scion revival) are from Nov 10-12 and are flagged as such.",
+  "top": [
+    {
+      "headline": "Starship Flight 15 made orbit and deployed 26 Starlink V3s, but Booster 22 aborted the first Block 3 tower catch and exploded over the Gulf",
+      "summary": "SpaceX's webcast attributed the abort to a guidance-and-navigation fault the booster detected itself late in the return. The ship is still on orbit for a roughly 22-hour mission with a tower catch attempt scheduled for later today, which would be a first."
+    },
+    {
+      "headline": "Microsoft's worst outage in years ran roughly 24 hours across Outlook, Teams, Copilot and much of Microsoft 365 in 74 countries",
+      "summary": "Microsoft apologized and traced it to a problem during a network capacity upgrade, explicitly ruling out a cyberattack and any AI involvement. A full post-incident review with the root cause is still pending."
+    },
+    {
+      "headline": "OpenAI gave its agents a payment instrument and dissolved its standalone robotics team on the same day",
+      "summary": "ChatGPT Wallet lets \"dots\" agents check out with tokenized US-issued cards for Pro users. The robotics org was folded into core research and Applied because frontier general models now drive robots directly."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "OpenAI launches ChatGPT Wallet, letting agents complete purchases",
+          "summary": "Rolling out to US ChatGPT Pro subscribers over 18, the Wallet holds US-issued Visa, Mastercard or Amex cards and lets agents in ChatGPT Work, Codex and \"dots\" transact with per-purchase approval; OpenAI says agents never see the card number and existing card rewards and chargeback protections carry over. Users can set spending limits, category restrictions and time windows. The practical constraint is merchant cooperation - Amazon, the largest US retailer, blocks third-party AI agents in favor of Alexa, so OpenAI also published a Commerce Partner Playbook to recruit merchants.",
+          "sources": [
+            { "label": "OpenAI", "url": "https://openai.com/index/introducing-chatgpt-wallet/" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html" },
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/" }
+          ]
+        },
+        {
+          "headline": "OpenAI disbands its standalone robotics team as general models take over control",
+          "summary": "Fortune reported that robotics research now sits under Chief Research Officer Mark Chen in the main research org, with applied robotics and hardware moving to Greg Brockman's Applied organization. OpenAI's framing is that GPT-6-class models can be pointed at manipulation and locomotion directly, so a separate embodied-brain team is redundant - the same argument that ended its first robotics team in 2020. Carnegie Mellon's Guanya Shi read it as OpenAI no longer treating robotics as a special problem; Altman has reportedly targeted a first in-house humanoid demo in 2027.",
+          "sources": [
+            { "label": "Fortune", "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/" },
+            { "label": "AI Weekly", "url": "https://aiweekly.co/alerts/openai-folds-robotics-team-into-main-research-and-applied-orgs" }
+          ]
+        },
+        {
+          "headline": "DeepMind's AlphaProof Code formally verifies Signal's encryption protocol (Nov 10-12)",
+          "summary": "DeepMind says AI agents built on Gemini 4 Carbon produced machine-checked proofs of the code behind Signal's encryption, the first time AI has been used to formally verify a widely deployed cryptographic protocol at this depth. Formal verification is normally the most labor-expensive assurance technique in software, which is why it is reserved for avionics, rail signaling and cryptography; automating proof search changes that cost curve. Expect this to be cited quickly in safety-critical embedded work, including flight control software.",
+          "sources": [
+            { "label": "Google DeepMind", "url": "https://deepmind.google/blog/introducing-alphaproof-code/" },
+            { "label": "Axios", "url": "https://www.axios.com/2026/11/10/google-code-verification-signal" }
+          ]
+        },
+        {
+          "headline": "Nvidia's leadership vacuum keeps repricing the AI chip complex",
+          "summary": "Friday's session reversed early gains into a broad AI-chip selloff: AMD closed at $534.06, down 8.75%, Nvidia at $162.85, down 2.01%, and Intel at $59.66, down 2.52%. Over the week the rotation is stark - Nvidia down roughly 11% while AMD and Broadcom gained about 30% and 24%, and TSMC up around 11% because it bills whoever wins the design socket. TrendForce argues TSMC is best cushioned against any Nvidia order cuts, and Apple's silicon chief Johny Srouji has been floated in reports as an external CEO candidate.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html" },
+            { "label": "TrendForce", "url": "https://www.trendforce.com/news/2026/11/13/news-nvidia-without-huang-new-tests-ahead-as-amd-eyes-gains-tsmc-finds-a-cushion-and-memory-giants-weigh-risks" },
+            { "label": "Taipei Times", "url": "https://taipeitimes.com/News/biz/archives/2026/11/13/2003867638" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Starship Flight 15: orbit and 26 satellites yes, first Block 3 booster catch no",
+          "summary": "Ship 42 reached orbit from Starbase on Nov 13 and deployed all 26 Starlink V3 satellites on a roughly 22-hour profile. Booster 22, the first Block 3 Super Heavy slated for a chopstick catch, called off the catch itself and diverted to an offshore abort point in the Gulf, where it exploded moments before splashdown; SpaceX's Dan Huot cited a guidance-and-navigation problem, while at least one outlet blamed a tower-side fault, and no failure analysis has been published. The ship's own tower catch, which would make this the first double-catch mission, is set for roughly 21:17 UTC today.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship" },
+            { "label": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/spacex-aborts-super-heavy-catch-starship-flight-15/" },
+            { "label": "TNW", "url": "https://thenextweb.com/news/spacex-starship-flight-15-booster-catch-aborted" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies Electron's 100th mission, the fastest commercial rocket to the milestone",
+          "summary": "The Mountain God Rises lifted off from Launch Complex 1 in Mahia at 6:30 p.m. New Zealand time, 12:30 a.m. ET on Nov 14, placing iQPS's YAMATSUMI-II synthetic-aperture-radar satellite into a 575 km orbit. It was Electron's 11th flight for iQPS with a 100% success record for that customer since 2023, and iQPS has seven more dedicated Electrons booked through 2030. Rocket Lab notes no commercially developed launch vehicle, Falcon 9 included, reached 100 flights faster.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/missions/launches/iqps-the-mountain-god-rises/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite" }
+          ]
+        },
+        {
+          "headline": "Vulcan returns to flight today carrying Amazon Leo's first 40 satellites",
+          "summary": "ULA's LV-01 mission from SLC-41 slipped from Nov 13 to Nov 14, with a window of 17:32 to 18:01 UTC, over a gaseous nitrogen supply issue. It is the opening flight of a 38-mission Amazon Leo contract and the largest Leo payload to date at 40 spacecraft. It also doubles as the Space Force certification flight for the new LEO-optimized Centaur V upper stage, a shorter-loiter, higher-mass-to-LEO variant distinct from the long-duration GEO configuration.",
+          "sources": [
+            { "label": "Amazon", "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch" },
+            { "label": "Nextspaceflight", "url": "https://nextspaceflight.com/launches/details/7425/" },
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/" }
+          ]
+        },
+        {
+          "headline": "China flies a four-satellite formation-flying pathfinder (Nov 11)",
+          "summary": "A Long March 2D out of Jiuquan placed four Pathfinder satellites in orbit to test science instruments and close-proximity formation flying, the 677th Long March mission. Formation flying is the enabling technology for distributed-aperture interferometry and gravitational-wave detection concepts, so this is infrastructure for later science missions rather than a science mission itself. Shenzhou 24 is scheduled for Nov 25 to Tiangong.",
+          "sources": [
+            { "label": "NewSpace Economy", "url": "https://newspaceeconomy.ca/2026/11/12/china-pathfinder-four-satellite-science-technology-mission/" },
+            { "label": "China.org.cn", "url": "https://www.china.org.cn/2026-11/12/content_118771440.shtml" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Microsoft's multi-day cloud failure becomes a dependency-risk case study",
+          "summary": "What started as an Outlook and Teams problem on Nov 12 cascaded into most of Microsoft 365 across 74 countries for more than a day, with Copilot also down. Microsoft's Nov 13 statement blamed a large number of servers being unexpectedly unavailable following a network capacity upgrade, ruled out a cyberattack and AI involvement, and apologized; reporting points unofficially at Azure Virtual Network configuration changes. The root cause is still unpublished pending a post-incident review.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/" },
+            { "label": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/" },
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/kateoflahertyuk/2026/11/13/microsoft-outage-what-happened-and-what-to-do-next/" }
+          ]
+        },
+        {
+          "headline": "Microsoft signals it will prioritize its own data centers, squeezing the neoclouds",
+          "summary": "Commentary on Nov 13 read Microsoft's capacity guidance as a shift toward self-build over leased GPU capacity, which lands hardest on CoreWeave, Oracle and Nebius, whose models assume hyperscaler offtake. In parallel, Google bought a Wyoming data center site from AI infrastructure firm Crusoe and Microsoft filed to build a hyperscale campus on former Holy Cross farmland. The pattern across this week: compute buyers are internalizing both the buildings and, increasingly, the power.",
+          "sources": [
+            { "label": "Motley Fool", "url": "https://www.fool.com/investing/2026/11/13/microsoft-just-piled-onto-the-bad-news-for-neoclouds/" },
+            { "label": "Data Centre News", "url": "https://datacentrenews.substack.com/p/weekly-data-centre-news-13112026" }
+          ]
+        },
+        {
+          "headline": "Pentagon counter-drone task force asks the intelligence community to define the threat (Nov 12)",
+          "summary": "JIATF-401 director Brig. Gen. Matt Ross said the task force has gone to the intelligence community for authoritative assessments of drone threats at home and abroad, so requirements can be written against real adversary systems instead of generic classes - vendors cannot tune detection and defeat chains without knowing the RF signatures, autonomy levels and swarm behaviors they must beat. The Department of War also recently contracted DroneSec for adversary unmanned-systems threat analysis. Separately, Hegseth reissued a corrected copy of counter-drone guidance on Nov 10 telling officials to log delays or denials of counter-UAS employment requests as a risk of inaction.",
+          "sources": [
+            { "label": "ExecutiveGov", "url": "https://www.executivegov.com/articles/jiatf-401-matt-ross-intelligence-community-drone-threats" },
+            { "label": "DefenseScoop", "url": "https://defensescoop.com/2026/11/10/hegseth-issues-corrected-copy-of-recently-unveiled-counter-drone-guidance/" }
+          ]
+        },
+        {
+          "headline": "FAA touts 2.2 million deconflicted UTM flights while Part 108 sits at the White House",
+          "summary": "At AUVSI the FAA cited 2.2 million deconflicted UTM flights but offered no publication date for the Part 108 BVLOS final rule, which has been under OIRA review since July 10, past the agency's own target and well past the missed February 2026 deadline. Until it publishes, Part 107 waivers remain the only legal route to routine beyond-visual-line-of-sight operations, which is the single biggest constraint on commercial UAS economics. The FAA still says it hopes to publish by year-end.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/10/faa-auvsi-utm-2-2-million-flights-part-108-type-certification" },
+            { "label": "Drone Authority", "url": "https://droneauthority.org/news/part-108-final-rule-oira-review" }
+          ]
+        },
+        {
+          "headline": "Apple ships a new Apple TV 4K and HomeView",
+          "summary": "Apple released the fourth-generation Apple TV 4K at $299 with 128GB of storage, alongside a new product called Apple HomeView, on Nov 13. Modest hardware news on its own, but it is the first consumer refresh since the silicon leadership story: reports this week floated hardware chief Johny Srouji as a candidate for Nvidia's open CEO seat, which would be a significant redraw of the custom-silicon map.",
+          "sources": [
+            { "label": "MacRumors", "url": "https://macrumors.com/2026/11/13/apple-launches-two-products-today" },
+            { "label": "MacTech", "url": "https://mactech.com/2026/11/13/hardware-announcements-for-november-9-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Mercedes-Benz halts all new investment in its German plants and names closures as an option",
+          "summary": "Production chief Michael Schiebe told employees the board jointly decided to halt all further investments in German sites, and said the company is forced to carefully examine which German sites it would have to close absent a cost deal - reportedly one assembly plant and one powertrain plant at risk, none named. Mercedes says an hour of German labor can cost up to five times an hour in Eastern Europe, and talks with the works council and IG Metall over longer hours without extra pay are stalled. It follows Mercedes cutting guidance last month, VW's largest-ever restructuring and Schaeffler cutting 3,460 jobs across five European sites.",
+          "sources": [
+            { "label": "RTE", "url": "https://www.rte.ie/news/business/2026/1113/1599071-mercedes-benz-halts-german-investments/" },
+            { "label": "Manila Times (AFP)", "url": "https://www.manilatimes.net/2026/11/14/business/foreign-business/mercedes-to-halt-investments-in-germany/2469469" },
+            { "label": "The Car Guide", "url": "https://www.guideautoweb.com/en/articles/83795/mercedes-benz-to-halt-german-investments-mulling-plant-closures/" }
+          ]
+        },
+        {
+          "headline": "US average new-vehicle transaction price sets a record at $51,109",
+          "summary": "Kelley Blue Book's October figure is up $649, or 1.3%, from a revised September and 2.1% year over year, beating the previous record of $50,614 from December 2025. Average MSRP hit $52,933 and incentives were 6.8% of transaction price, up from 6.5% a year ago, so discounting is rising while prices rise faster. The segment spread is the real story: full-size pickups averaged $67,912 against $50,570 for midsize SUVs, and average Q3 monthly payments hit $787.",
+          "sources": [
+            { "label": "Cox Automotive", "url": "https://www.coxautoinc.com/insights/oct-2026-atp-report/" },
+            { "label": "Motor1", "url": "https://www.motor1.com/news/815071/average-new-cars-prices-october-2026-record/" }
+          ]
+        },
+        {
+          "headline": "Toyota revives Scion for a 660cc, 25-mph kei truck built in Indiana (Nov 10-12)",
+          "summary": "Scion by Toyota returns as an experimental-mobility brand, and the first production vehicle is the KEI-01: a 660cc three-cylinder with a CVT and four-wheel drive, just over 11 feet long, under five feet wide, with up to 600 lb of bed payload. The clever part is regulatory arbitrage - capping top speed at 25 mph makes it a low-speed vehicle, so it only has to meet LSV federal safety standards rather than full crash and emissions requirements. It arrives in knockdown kits from Japan for assembly at Toyota Indiana in Princeton under a roughly $34 million project, fleet-focused, in the second half of 2027.",
+          "sources": [
+            { "label": "Autoblog", "url": "https://www.autoblog.com/news/reveal-scion-by-toyota-kei-01-pickup-built-in-indiana" },
+            { "label": "Detroit News", "url": "https://www.detroitnews.com/story/business/autos/2026/11/10/toyota-reboots-scion-in-us-market-heres-how/92704676007/" },
+            { "label": "GM Authority", "url": "https://gmauthority.com/blog/2026/11/toyota-brings-back-scion-brand-launches-kei-01-utility-truck/" }
+          ]
+        },
+        {
+          "headline": "F1's 2027 rules walk the hybrid split back toward the combustion engine",
+          "summary": "Under the ratified changes the internal combustion engine gains 20 kW to 420 kW while electrical deployment drops 50 kW, moving the split to roughly 58/42; a second step in 2028 takes the ICE to 450 kW for 60/40. The driver complaint the FIA is answering is energy management - a 50/50 car runs out of deployment on long straights, forcing lift-and-coast that looks and feels wrong. Also landing: standard race distance trimmed from 305 km to 290 km, gearbox homologation dropped for 2027, and pre-season testing extended from three days to four.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/fias-wmsc-ratifies-f1-regulatory-changes-for-2027-and-2028.ACyRcPvBKo8LRiOleCSJU" },
+            { "label": "Motorsport Week", "url": "https://www.motorsportweek.com/2026/09/21/f1-fia-2027-regulation-changes/" },
+            { "label": "Sportsview", "url": "https://sportsview.co.uk/2026/11/formula-1-2027-calendar-line-up-new-sponsors-rule-changes/amp" }
+          ]
+        },
+        {
+          "headline": "Into Las Vegas with the title effectively settled and Mercedes already crowned",
+          "summary": "Kimi Antonelli leads the drivers' championship on about 390 points to Verstappen's 279, a 111-point gap with 75 points left after round 20 of 23, which is mathematically done. Mercedes clinched the constructors' title at Brazil, making the last three rounds - Las Vegas on Nov 19-21, then Qatar and Abu Dhabi - a fight for second and for 2027 development data. Williams has named Victor Martins reserve driver for Vegas.",
+          "sources": [
+            { "label": "ESPN", "url": "https://www.espn.com/f1/standings" },
+            { "label": "Grande Premio", "url": "https://grandepremio.com/en/f1/williams-names-victor-martins-as-f1-reserve-driver-for-las-vegas-grand-prix/" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/grandprix/las-vegas" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "999 Rutherfords for 100 Electrons",
+    "body": "Rocket Lab's 100 Electron flights consumed 999 Rutherford engines, not 1,000 - nine first-stage plus one vacuum engine per vehicle, minus one, because a recovered engine was re-flown on launch 40. It is a neat one-number summary of Electron's recovery program: electric-pump-fed, 3D-printed engines in that quantity make Rutherford one of the highest-production liquid rocket engines ever built, and exactly one of them has ever flown twice."
+  },
+  "footnote": "Compiled from public reporting. Direct article fetches were blocked in this session, so items were cross-referenced across multiple search summaries rather than read in full."
+}
