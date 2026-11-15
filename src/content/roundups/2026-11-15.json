@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-15",
+  "title": "Daily Briefing — Sunday, November 15",
+  "coverage": "Covering roughly Nov 14 - Nov 15 (morning MST), 2026. Sourcing caveat: this session's network blocked direct page fetches (space.com, nasaspaceflight.com and nytimes.com all failed to resolve, and nytimes.com is not accessible to the search crawler), so the NYT technology, science and business sections could not be read directly; items below were assembled by cross-referencing multiple search summaries rather than reading primary articles. Items from Nov 11-13 are flagged as such. ULA's Vulcan Leo 1 launch is scheduled for later today and its outcome is not yet known.",
+  "top": [
+    {
+      "headline": "SpaceX caught a Starship upper stage with the launch tower for the first time",
+      "summary": "Ship 42 returned from 14 orbits and about 22.5 hours on orbit and was caught by Mechazilla's arms at Starbase, the first time a Starship returning from space has been recovered by the tower. The booster half of the planned double catch failed the day before, so SpaceX has now demonstrated each catch separately but never both on one flight."
+    },
+    {
+      "headline": "Anthropic's IPO prices Wednesday and starts trading Thursday, in the largest tech listing ever attempted",
+      "summary": "The amended S-1 offers 825 million shares at $70 to $78, implying roughly $1.3 trillion to $1.45 trillion, with the ticker ANT. It is the week's real test of whether public markets will fund AI at private-round prices."
+    },
+    {
+      "headline": "Nvidia's OpenAI backstop was reportedly cut from $250 billion to the $105 billion it actually signed",
+      "summary": "Press reporting credits now-interim CEO Colette Kress with forcing the reduction before signing, over Jensen Huang's objections. The $105 billion figure is the one in Nvidia's August 8-K, which guarantees lease and power obligations for OpenAI's Pike County, Ohio campus rather than committing cash."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic sets IPO terms: 825 million shares at $70-$78, trading Thursday under ANT",
+          "summary": "The amended S-1 implies a valuation of about $1.3 trillion to $1.45 trillion, below the $2 trillion Bloomberg reported the company was targeting in October. Pricing is expected Nov 18 with first trade Nov 19, and reports put the book at roughly 6x oversubscribed alongside a separate private placement that Nvidia is said to be joining for $10 billion. Note the filing itself states no valuation; every headline number is share count times price.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/anthropic-ipo-claude-maker-to-begin-trading-on-thursday-nov-19-173550865.html" },
+            { "label": "Decode the Future (S-1/A terms)", "url": "https://decodethefuture.org/en/anthropic-s1-ipo-filing-explained/" }
+          ]
+        },
+        {
+          "headline": "Reports: Nvidia's proposed OpenAI data center guarantee was halved and more before signing",
+          "summary": "The WSJ and Fortune reporting behind this says a proposed backstop of roughly $250 billion for OpenAI's Ohio campus was pushed down to about $105 billion, with CFO Colette Kress challenging the size and risk. What is documented is Nvidia's Aug 17 8-K: up to $105 billion in guarantees on lease and power payments, structured to help SoftBank-backed developer SB Energy raise third-party financing. It is contingent credit support, not an equity check, and Nvidia's 10-Q lists another $3.5 billion for other AI cloud partners' leases.",
+          "sources": [
+            { "label": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/data-center-construction/nvidia-backs-openai-s-ohio-data-center-buildout-with-105b-guarantee" },
+            { "label": "Nvidia 8-K (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm" }
+          ]
+        },
+        {
+          "headline": "Nvidia's board sounded out Arm CEO Rene Haas about replacing Huang (Nov 13-14)",
+          "summary": "The FT reported the approach; Nvidia's board responded that it has not yet even selected a search firm and that speculation about individual candidates is premature. Arm's US-listed shares fell about 5% on the report, and Wired found an internal Nvidia suggestion-board post calling for Huang's return with more than 1,600 comments. Ian Buck and AMD's Lisa Su are also in the analyst chatter.",
+          "sources": [
+            { "label": "Tom's Hardware", "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void" },
+            { "label": "The Japan Times", "url": "https://www.japantimes.co.jp/business/2026/11/14/companies/nvidia-arm-ceo-haas-huang/" }
+          ]
+        },
+        {
+          "headline": "White House AI task force urges agencies to ease cyber liability so labs will report incidents",
+          "summary": "At a Thursday meeting, officials recommended relaxing agency cyber liability policies and setting time-limited liability constraints of at least a year to encourage timely disclosure of critical AI incidents, plus a voluntary industry reporting process. That is close to a reversal of last month's posture, when the same group warned developers they must report and remediate security incidents or face unspecified consequences.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure" },
+            { "label": "Briefs.co", "url": "https://www.briefs.co/news/white-house-ai-task-force-urges-liability-limits-to-boost-in/" }
+          ]
+        },
+        {
+          "headline": "LangChain raises $300 million at a $3 billion valuation on agent plumbing (Nov 13)",
+          "summary": "Alphabet's CapitalG led, with GIC, DFJ Growth, IVP and Sapphire Ventures participating, taking cumulative funding to $460 million. That is 2.4x the roughly $1.25 billion valuation of a year ago, and the pitch is LangSmith's observability and evaluation layer, now claimed at over 7,000 organizations. The company has not said how many of those pay.",
+          "sources": [
+            { "label": "Pulse 2", "url": "https://pulse2.com/langchain-300-million-series-c-funding-led-by-capitalg-at-3-billion-valuation-to-expand-ai-agent-platform/" },
+            { "label": "Trending Topics", "url": "https://www.trendingtopics.eu/langchain-series-c-300-million-dollars/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Ship 42 flew 14 orbits and came home into the chopsticks, a first for the upper stage",
+          "summary": "After about 22.5 hours on orbit, the longest Starship mission yet, the ship executed its entry and flip and was caught by the launch tower arms at Starbase rather than splashing down in the Indian Ocean. NASA administrator Jared Isaacman called it almost magic; Musk posted that Ship 42 looked great. Catching the ship is the harder half of the problem because it comes back from orbital velocity through a full reentry heating profile, so the tiles and flaps have to survive before the catch geometry matters at all.",
+          "sources": [
+            { "label": "Benzinga", "url": "https://benzinga.com/news/space/26/11/63276573/spacex-starship-ship-42-catch-reactions-musk-nasa-hegseth" },
+            { "label": "CNN", "url": "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch" }
+          ]
+        },
+        {
+          "headline": "The double catch still eluded SpaceX: Booster 22 diverted itself to the Gulf",
+          "summary": "On the way uphill side of the same flight, the first Block 3 Super Heavy aborted its tower catch after its guidance system determined it was not correctly positioned, steered offshore and was lost. Flight 15 therefore proved ship catch and Starlink V3 deployment, 26 satellites, while leaving booster catch on Block 3 unproven. Full and rapid reuse needs both halves on the same vehicle, so the next flight's booster return is the one to watch.",
+          "sources": [
+            { "label": "Yahoo News", "url": "https://ca.news.yahoo.com/spacex-catches-part-starship-rocket-083233176.html" },
+            { "label": "AOL", "url": "https://www.aol.com/news/elon-musk-starship-soars-successful-003324232.html" }
+          ]
+        },
+        {
+          "headline": "Vulcan's return to flight is set for today at 12:11 p.m. EST after two scrubs",
+          "summary": "The Leo 1 mission flies a VC6L, six side-mounted GEM 63XL solids with a redesigned nozzle plus the LEO-optimized Centaur V and a stretched fairing, carrying 40 Amazon Leo broadband satellites from SLC-41. Vulcan has been grounded since a Feb 12 nozzle anomaly, and Friday's attempt scrubbed during fueling on a ground-to-vehicle network communication fault. Flying six redesigned nozzles at once is a blunt but efficient qualification test of the fix.",
+          "sources": [
+            { "label": "Aviation Week", "url": "https://aviationweek.com/space/operations-safety/vulcan-return-flight-launch-reset-nov-15" },
+            { "label": "NASASpaceflight", "url": "https://www.nasaspaceflight.com/2026/11/amazon-leo-lv-01/" }
+          ]
+        },
+        {
+          "headline": "Electron reached 100 launches faster than any commercially developed rocket",
+          "summary": "The Mountain God Rises lifted off from Launch Complex 1 in New Zealand at 12:30 a.m. EST Saturday and put iQPS's YAMATSUMI-II, also called QPS-SAR-19, into a 575 km orbit, separating about 50 minutes after liftoff. It was the 11th Electron flight for iQPS, which is building a roughly three-dozen-satellite SAR constellation. The 100 count is orbital Electrons only; the suborbital HASTE variant has flown nine more.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite" },
+            { "label": "New Space Economy", "url": "https://newspaceeconomy.ca/2026/11/14/electron-100th-launch-iqps-yamatsumi-ii/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Fractile raises $720 million at about $7 billion to attack the memory wall, with no chip shipped (Nov 11-12)",
+          "summary": "Thrive Capital, Founders Fund, Lightspeed and Redpoint led, with the UK Sovereign AI Fund and British Business Bank participating, up from roughly $1 billion in May. The architecture stacks DRAM directly on each processor and pairs it with an ML compiler, on founder Walter Goodwin's argument that inference is bandwidth-bound rather than compute-bound; he claims up to 10x faster inference. First commercial silicon is promised in 2027, so the valuation is entirely on the thesis.",
+          "sources": [
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/fractile-7bn-valuation-720m-ai-inference-chips" },
+            { "label": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/uk-chip-startup-fractile-valued-at-7bn-following-720m-series-c-funding-round/" }
+          ]
+        },
+        {
+          "headline": "Part 108 is still unpublished, and operators are routing around it",
+          "summary": "The FAA's BVLOS rule has sat at the White House since July 10 with no final text; one tracker now points to Dec 7. In the meantime the FAA granted Skyways the first authorization under Section 927 of the 2024 Reauthorization Act on Nov 9 for BVLOS flight over the Gulf of Mexico, as a waiver rather than under Part 108, and package delivery stays under Part 135. The FAA's own estimate is that Part 108 delivery operations start one to two years after a final rule.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/10/faa-auvsi-utm-2-2-million-flights-part-108-type-certification/" },
+            { "label": "DroneXL BVLOS tracker", "url": "https://dronexl.co/bvlos/" }
+          ]
+        },
+        {
+          "headline": "Tesla says Optimus production has started on a former car line at Fremont",
+          "summary": "Fortune reports Tesla has begun producing the humanoid on a repurposed vehicle line, which would be the first time Optimus moves from pilot builds to a production system. It conflicts with mid-year reporting that Fremont production had not begun and with the third-generation robot never having been publicly unveiled, and there is no primary Tesla confirmation. Treat the claim as unverified until Tesla documents a rate.",
+          "sources": [
+            { "label": "Fortune", "url": "https://fortune.com/2026/11/14/capek-rur-humanoid-robots-tesla-optimus-amazon-agility/" }
+          ]
+        },
+        {
+          "headline": "The interceptor-drone arms race keeps compressing: RBS-70 downs a jet-powered Geran-5",
+          "summary": "Ukraine recorded a first kill on a jet-powered Geran-5 using Sweden's RBS-70 laser-guided SAM over the Kyiv region, while seven classes of interceptor drone are now in use against the Geran-4 and -5. Reported interception rates are the sobering number: the best-performing Bars interceptor sits around 30%, and F-Drones' LITAVR+ tops 400 km/h chasing targets that are themselves jet-fast. Russia's answer is the catapult-launched Sokol-3 fixed-wing interceptor, with no verifiable specifications published.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/military/ukraine-downs-russian-geran-5-drone-swedish-rbs-70" },
+            { "label": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/ukraine-jet-powered-drone-defences/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Formula E's Gen4 era starts for real tomorrow at Jarama",
+          "summary": "All 12 teams gather at Circuito del Jarama near Madrid from Nov 16-20 for the first collective Gen4 test, with two three-hour sessions on each of three track days and two race simulations. The car is a step change: up to 600 kW, permanent all-wheel drive with active differentials, dual aero configurations, over 335 km/h, 0-200 km/h in 4.4 seconds, up to 150% more downforce and a claimed 10 seconds per qualifying lap over Gen3. Competitive debut is Mexico City on Jan 16.",
+          "sources": [
+            { "label": "FIA Formula E", "url": "https://www.fiaformulae.com/en/news/races/jarama-to-host-formula-e-202627-pre-season-testing" },
+            { "label": "e-Formula.news", "url": "https://e-formula.news/news/formula-e-news/formula-e-news-detail/formula-e-gen4-pre-season-test-schedule-confirmed-2-race-simulations-planned-21859" }
+          ]
+        },
+        {
+          "headline": "Opel joins Formula E with Mitch Evans as Stellantis reshuffles its EV racing brands",
+          "summary": "Opel comes in as a new Stellantis entry for season 13 and has signed Evans as lead driver, while 2016-17 champion Lucas di Grassi retires and Sebastien Buemi leaves to focus on WEC. For a series whose commercial case is manufacturer relevance, swapping in a volume European brand right as Gen4 lands is the more interesting signal than the driver market itself.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/formula-e/news/2027-formula-e-drivers-and-teams-the-line-up-so-far/10874464/" },
+            { "label": "Speedway Digest", "url": "https://speedwaydigest.com/index.php/news/racing-news/895409-formula-es-gen4-era-begins-as-championship-launches-most-ambitious-season-yet/" }
+          ]
+        },
+        {
+          "headline": "BMW closes out WEC second to Toyota, and says it will take it",
+          "summary": "Toyota took the 2026 WEC title and BMW finished runner-up in the manufacturers' standings, with the Monza 6 Hours finale hampered by a recurring technical problem on the M Hybrid V8. Second in Hypercar against Toyota, Ferrari and Porsche is a real result for a program that was mid-field two seasons ago, and it is the same engineering group feeding BMW's M Hybrid development road-side.",
+          "sources": [
+            { "label": "Yahoo Sports / Motorsport.com", "url": "https://sports.yahoo.com/articles/bmw-proud-achieved-securing-runner-150002372.html" }
+          ]
+        },
+        {
+          "headline": "Into the Vegas week with the title gone and second place worth fighting for",
+          "summary": "Kimi Antonelli has already clinched the drivers' championship, so the Nov 21 race, 50 laps of the 6.201 km Strip circuit at 8 p.m. local, is about the runner-up fight. Verstappen leads Russell by 17 points with 75 still available across three rounds and no sprints, and he has won two of the three Vegas editions and holds the lap record. The low-grip, low-temperature street surface is the outlier on the calendar for tire warm-up and brake temperature management.",
+          "sources": [
+            { "label": "RNT Motorsports", "url": "https://rnt-motorsports.com/las-vegas-grand-prix-2026-start-times/" },
+            { "label": "Las Vegas Review-Journal", "url": "https://www.reviewjournal.com/sports/motor-sports/formula-1/whats-left-to-race-for-at-f1-las-vegas-grand-prix-after-champion-decided-3914384/" }
+          ]
+        },
+        {
+          "headline": "BMW still wants six US-built electric SUVs by 2030 while GM keeps retreating",
+          "summary": "BMW is holding to a plan for six electric SUVs built in the US by 2030, and fresh i2 trademark filings point to a small Neue Klasse entry model, though the lineup is unconfirmed. GM is going the other way: reporting from the past week has it delaying next-generation all-electric trucks and leaving its Samsung SDI battery plant without an opening date, on top of the $6 billion EV writedown it took in January. The divergence is the story, two makers reading the same US demand curve in opposite directions.",
+          "sources": [
+            { "label": "BMW Blog", "url": "https://www.bmwblog.com/2026/11/14/bmw-still-wants-build-six-electric-suvs-usa/" },
+            { "label": "GM Authority", "url": "https://gmauthority.com/blog/2026/11/gm-stock-value-analysis-performance-november-9-november-13-2026" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "A millionfold versus 40x",
+    "body": "Fractile's pitch rests on one ratio: over the past 25 years raw chip performance has grown roughly a millionfold while memory bandwidth has grown only about 40x. That gap is why an inference accelerator can sit mostly idle waiting on weights, and why stacking DRAM on top of the logic rather than beside it is worth $720 million to investors before a single chip ships. For comparison, the other number of the day is Starship's: 22.5 hours and 14 orbits, then a tower catch with meter-class accuracy on a vehicle that had just come through full orbital reentry."
+  },
+  "footnote": "Compiled from public reporting, cross-referenced across multiple outlets. Direct page fetches were blocked in this session, so figures reported by a single outlet are flagged as such."
+}
