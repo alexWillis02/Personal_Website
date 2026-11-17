@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-17",
+  "title": "Daily Briefing — Tuesday, November 17",
+  "coverage": "Covering roughly Nov 15 through Nov 17 morning MST. It was a quiet overnight, so a few items from Nov 13 are included where they are still the live story and their dates are stated. Sourcing caveat: nytimes.com is not reachable from this session's search crawler or page fetcher, so the NYT technology, science and business sections could not be checked directly; direct page fetches to arstechnica.com, theverge.com, spacenews.com and dronelife.com were also blocked or failed to resolve, so items were assembled by cross-referencing multiple search summaries rather than reading primary articles. Nvidia's results land after the close today and are not in this edition.",
+  "top": [
+    {
+      "headline": "Nvidia's first earnings without Jensen Huang land after today's close",
+      "summary": "Interim CEO and CFO Colette Kress reports Q3 FY27 at about 4:20 p.m. ET against guidance of roughly $108 billion in revenue, plus or minus 2 percent, and a 74 percent gross margin. Consensus sits just above that at about $109 billion and $2.47 adjusted EPS, so the read that matters is customer commitments and Rubin timing rather than the headline beat."
+    },
+    {
+      "headline": "Amazon's Leo constellation now has both of its heavy-lift rockets on the ground",
+      "summary": "ULA's Vulcan failed Nov 15 during the Centaur phase and destroyed 40 Leo satellites, and the Space Force paused national security Vulcan flights pending analysis. Blue Origin's New Glenn, the other Leo workhorse, has meanwhile slipped toward January 2027 after a May pad explosion, leaving Amazon's July 2029 FCC deployment deadline exposed."
+    },
+    {
+      "headline": "The Pentagon's counter-drone money is authorized but barely spent",
+      "summary": "Reporting this week puts about $50 million obligated against a roughly $7 billion contract ceiling built in September, with the remainder dependent on new-year appropriations. A September demonstration at Yuma Proving Ground saw interceptors miss targets and a directed-energy system grounded, which is the uncomfortable gap between contract vehicles and working kit."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Nvidia reports Q3 FY27 today with its CFO holding both top jobs",
+          "summary": "Guidance was about $108 billion plus or minus 2 percent on a 74 percent gross margin, against a prior quarter of $96.2 billion and $2.22 adjusted EPS, with the release due around 4:20 p.m. ET and the call at 5:00 p.m. ET. Colette Kress is running the company as interim CEO while remaining CFO after Huang's resignation last week. The number to watch is not revenue but the composition of backlog and how much of it is tied to circular vendor-financing structures behind large data center buildouts.",
+          "sources": [
+            {
+              "label": "MarketBeat earnings page",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-17-nvidia-co-stock/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic prices its IPO Wednesday and trades Thursday under ANT",
+          "summary": "The amended filing sets 825 million Class A shares at $70 to $78, a raise of up to about $64.4 billion and an implied valuation near $1.4 trillion at the top of the range, with the order book reported covered. Anthropic will list as a controlled company under Nasdaq rules, so Class A holders get limited governance influence. Worth calibrating: the filing itself states no valuation, so every trillion-dollar headline is share count multiplied by an offer price that is not yet set.",
+          "sources": [
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-sets-ipo-price-range-140602411.html"
+            },
+            {
+              "label": "TradingView IPO page",
+              "url": "https://www.tradingview.com/symbols/NASDAQ-ANT/"
+            }
+          ]
+        },
+        {
+          "headline": "ChatGPT Wallet puts tokenized cards behind OpenAI's agents",
+          "summary": "Announced Nov 13 and still rolling out, the wallet lets OpenAI's \"dots\" agents pay with network-tokenized credentials so the model never sees a real card number, with a biometric approval required on every individual purchase. It is US-only, Pro-only, credit cards only, and works only inside dots rather than in normal chat or standalone Codex threads. The design choice is the interesting part: OpenAI shipped per-transaction human authorization first and left spending limits, purchase categories and full delegation for later.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+            },
+            {
+              "label": "PYMNTS",
+              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/"
+            },
+            {
+              "label": "FinTech Futures",
+              "url": "https://www.fintechfutures.com/digital-payments/openai-chatgpt-wallet-launch"
+            }
+          ]
+        },
+        {
+          "headline": "Frontier model cadence stays weekly: Qwen4-Max goes GA, Gemini 4 Hydrogen reaches Search globally",
+          "summary": "Alibaba moved Qwen4-Max from preview to a production release for international use on Nov 16, with weights and a system card said to follow in days. Google separately pushed Gemini 4 Hydrogen to all Search users worldwide after its Nov 12 launch. Both items come from release trackers and secondary digests rather than primary posts, so treat the exact dates as approximate until the vendor pages catch up.",
+          "sources": [
+            {
+              "label": "LLM-Stats release tracker",
+              "url": "https://llm-stats.com/llm-updates"
+            },
+            {
+              "label": "The Neuron (Nov 16 digest)",
+              "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Vulcan's failure is being worked as a Centaur-phase anomaly, with Blue Origin in the room",
+          "summary": "The Nov 15 flight lost the vehicle roughly 10 minutes in, after second stage separation and during the Centaur upper stage firing, taking all 40 Amazon Leo satellites with it in ULA's first outright mission loss since the joint venture formed in 2006. ULA has not named a cause, Blue Origin is participating because it supplies the BE-4 first stage engines, and the Space Force has paused national security Vulcan launches pending analysis. A full technical investigation is expected to keep the vehicle down for months, which matters because this was the first of 38 Vulcan flights Amazon has bought.",
+          "sources": [
+            {
+              "label": "Spaceflight Now",
+              "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/"
+            },
+            {
+              "label": "CBS News",
+              "url": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html"
+            }
+          ]
+        },
+        {
+          "headline": "New Glenn's return to flight slides toward January 2027",
+          "summary": "A Nov 4 internal memo set a January 2027 target while CEO Dave Limp has continued to say publicly that the rocket returns in 2026, with weather possibly pushing it into early January. The delay traces to rebuilding Launch Complex 36 after a major test explosion in May that Blue Origin attributed to the main oxygen valve on one BE-4 engine. Its listed next mission is an Amazon Leo flight, so the same customer is now waiting on two separate return-to-flight campaigns.",
+          "sources": [
+            {
+              "label": "Silicon UK",
+              "url": "https://www.silicon.co.uk/e-innovation/science/blue-origin-delay-632222"
+            },
+            {
+              "label": "SatNews",
+              "url": "https://satnews.com/2026/10/29/blue-origin-reconstructs-launch-complex-36-tower-targets-november-return-to-flight-for-new-glenn/"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceX says low propellant, not a guidance fault, triggered the Flight 15 catch abort",
+          "summary": "Booster 22's boostback burn ended early because of low fuel mass, so the GNC system saw the vehicle off its required approach state and automatically waved off the tower catch, diverting it to a Gulf splashdown and taking 33 Raptor 3 engines with it. The same Nov 13 flight produced the first-ever tower catch of a Starship upper stage, deployed 26 Starlink V3 satellites, and Musk says the recovered ship could refly within weeks of refurbishment. An automated abort that correctly refuses a catch it cannot make is the system working, but the propellant margin that forced it is the real finding.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video"
+            },
+            {
+              "label": "SpaceQ",
+              "url": "https://spaceq.ca/starship-flight-15-ship-catch-booster-lost/"
+            }
+          ]
+        },
+        {
+          "headline": "The week ahead is classified payloads and two Chinese launches",
+          "summary": "A Falcon 9 is set to fly USSF-317 from Vandenberg around Nov 19, with a second national security mission for the Space Force and NRO queued behind it, both likely carrying Starshield-derived buses. China is expected to launch a Long March 2D from Taiyuan on Nov 18 and a Long March 8A from Wenchang on Nov 20. Dates in this window have been moving, so treat them as targets rather than schedule.",
+          "sources": [
+            {
+              "label": "Astronomy.com",
+              "url": "https://www.astronomy.com/whats-launching-this-week/falcon-9-flies-national-security-doubleheader/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "A $7 billion counter-drone ceiling with about $50 million actually obligated",
+          "summary": "The September awards created 10 indefinite-delivery, indefinite-quantity vehicles with a combined $4.15 billion ceiling inside a roughly $7 billion total, but only about $50 million was obligated at award and the task force's own acquisition director says the rest depends on congressional funding in the new fiscal year. A September demonstration at Yuma Proving Ground reportedly saw interceptors miss their targets and a heat-based directed-energy system grounded. For anyone working UAV programs, the lesson is that a contract vehicle is not a capability and the obligation rate is the honest metric.",
+          "sources": [
+            {
+              "label": "Spokesman-Review",
+              "url": "https://www.spokesman.com/stories/2026/nov/15/us-tries-to-move-counter-drone-efforts-from-joke-t/"
+            },
+            {
+              "label": "DefenseScoop",
+              "url": "https://defensescoop.com/2026/09/29/pentagon-task-force-army-announce-billions-in-counter-drone-tech-awards/"
+            },
+            {
+              "label": "Defense One",
+              "url": "https://www.defenseone.com/business/2026/09/army-awards-more-4-billion-counterdrone-contracts-putting-pentagons-new-drone-marketplace-test/416327/"
+            }
+          ]
+        },
+        {
+          "headline": "Samsung, SK hynix and Micron are standardizing how fab robots charge",
+          "summary": "The three memory makers, who together hold more than 70 percent of the memory market, have formed an early-stage consultative body with SEMI to define common battery specifications, charging station hardware and communication protocols, connectors and battery management systems for mobile fab robots. The point is supplier-agnostic charging infrastructure, which is what makes it economic to automate older fabs that were never designed for autonomous material handling. No specification or timetable has been published yet, and the reporting is from Korean trade press rather than official announcements.",
+          "sources": [
+            {
+              "label": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-sk-hynix-and-micron-form-unlikely-alliance-to-standardize-robot-charging-as-chipmakers-push-toward-unmanned-chip-fabs-standard-specs-would-allow-manufacturer-agnostic-charging-equipment"
+            },
+            {
+              "label": "DigiTimes",
+              "url": "https://www.digitimes.com/news/a20261109PD252/sk-hynix-samsung-micron-ic-manufacturing-robot.html"
+            }
+          ]
+        },
+        {
+          "headline": "Unidentified drones over Canadian bases, and a counter-drone system that did not work",
+          "summary": "Documents reported this week describe repeated unidentified drone sightings over Canadian military installations, including one base where the deployed counter-drone system failed to perform, with officials quoted saying there is no easy solution. Ottawa's Nov 7 budget proposes C$2.3 billion over five years for military drone and counter-drone capability. It is the same pattern as the US story: detection and defeat at low altitude over fixed infrastructure remains unsolved even where money has been committed.",
+          "sources": [
+            {
+              "label": "CTV News",
+              "url": "https://ctvnews.ca/canada/article/there-is-no-easy-solution-a-counter-drone-system-failed-at-this-canadian-military-base-reports-show"
+            }
+          ]
+        },
+        {
+          "headline": "Joby and Archer both push first US passenger flights to 2027",
+          "summary": "Both companies moved initial commercial passenger operations into 2027 on their Q3 calls, abandoning Joby's earlier plan to carry passengers before the end of this year under the FAA's eVTOL Integration Pilot Program. Joby is working the fifth and final stage of type certification and expects FAA pilot training and additional company flight testing in the first half of 2027, while Archer says it has closed Phase 3 and is in Phase 4 formal testing and analysis. Neither holds a type certificate, which is the only milestone that actually gates revenue flights.",
+          "sources": [
+            {
+              "label": "AVweb",
+              "url": "https://avweb.com/aviation-news/joby-archer-initial-passenger-ops-2027/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Formula E's Gen4 car ran in public for the first time, and it is a different animal",
+          "summary": "Pre-season testing opened at Jarama on Nov 16 with permanent all-wheel drive, 450 kW in race trim rising to 600 kW in qualifying and Attack Mode, up to 700 kW of regeneration, a 55 kWh usable battery, roughly double the previous downforce, 0 to 200 km/h in 4.4 seconds and a top speed above 335 km/h. Mahindra's Edoardo Mortara led the afternoon on a 1:24.344 with Nissan's Zane Maloney 0.337 seconds back. Seven red flags across the two sessions, four in the morning and three in the afternoon, is the clearest signal of how much new hardware and control software is being shaken down at once.",
+          "sources": [
+            {
+              "label": "Motorsport.com (day 1)",
+              "url": "https://www.motorsport.com/formula-e/news/formula-e-jarama-test-mahindra-leads-nissan-on-day-1-as-gen4-era-begins/10874915/"
+            },
+            {
+              "label": "Motorsport.com (Gen4 technical)",
+              "url": "https://www.motorsport.com/formula-e/news/gen4-technical-analaysis-downforce-electronics/10874796/"
+            },
+            {
+              "label": "FIA",
+              "url": "https://www.fia.com/news/fia-and-formula-e-unleash-gen4-official-pre-season-testing"
+            }
+          ]
+        },
+        {
+          "headline": "Las Vegas is a cold-tyre problem, and Hamilton loses a session to the rookie rule",
+          "summary": "Pirelli expects 10 to 15 degree C air temperatures on the Strip with C3, C4 and C5 compounds and one mandatory C5 set in qualifying, making warm-up rather than degradation the limiting factor. Ferrari has confirmed Dino Beganovic takes Hamilton's FP1 seat to satisfy the rookie running requirement, leaving Hamilton only FP2 and FP3 before qualifying on a track where the SF-26 has struggled to get tyres into their window. Norris has separately pressed for better wet compounds, arguing a wet session in these temperatures would be genuinely dangerous.",
+          "sources": [
+            {
+              "label": "Pirelli press",
+              "url": "https://press.pirelli.com/the-night-time-challenge-of-las-vegas/"
+            },
+            {
+              "label": "Grande Premio",
+              "url": "https://grandepremio.com/en/f1/hamilton-to-miss-las-vegas-f1-practice-as-ferrari-confirms-beganovic-replacement/"
+            },
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874689/"
+            }
+          ]
+        },
+        {
+          "headline": "BMW tells 720,796 US owners to park outside because the first recall did not fix it",
+          "summary": "NHTSA campaign 26V733, announced Nov 13, covers a water pump electrical connector that can short and ignite even with the vehicle parked and switched off, superseding 2024's 24V608 campaign that targeted the same connector and failed to stop the failures. BMW cites roughly 10 US incidents and no crashes or injuries, a repair is still being developed, and owner letters go out in December. Model-year coverage is reported inconsistently across outlets, so the VIN lookup is the only reliable check.",
+          "sources": [
+            {
+              "label": "Detroit News",
+              "url": "https://www.detroitnews.com/story/business/autos/foreign/2026/11/13/bmw-recalls-over-720000-vehicles-for-fire-risk/92756789007/"
+            },
+            {
+              "label": "Motor1",
+              "url": "https://www.motor1.com/news/815578/bmw-recall-26v733000-warning/"
+            }
+          ]
+        },
+        {
+          "headline": "BYD pairs a 312 mph production record with reported F1 entry talks",
+          "summary": "The 2,978 hp Yangwang U9 Xtreme hit 503.17 km/h, or 312.65 mph, on a closed Abu Dhabi road on Nov 1 with Marc Basseng driving, and Guinness and the FIA have both recognized it, though it was a single-direction peak on special tyres rather than a two-way average. Automotive News reported on Nov 13 that BYD has opened discussions about entering Formula 1. The caveat engineers should hold onto: only about 30 cars are planned and it is not established that customer examples will reach the same speed.",
+          "sources": [
+            {
+              "label": "Top Gear",
+              "url": "https://www.topgear.com/car-news/supercars/hold-your-hats-2978bhp-yangwang-u9-xtreme-just-hit-31265mph"
+            },
+            {
+              "label": "Automotive News",
+              "url": "https://www.autonews.com/byd/an-byd-world-fastest-car-u9-extreme-f1-1113/"
+            }
+          ]
+        },
+        {
+          "headline": "Rivian is now the second-biggest EV seller in the US, in a market that shrank 40 percent",
+          "summary": "Cox and Kelley Blue Book data for Q3 put Tesla at about 144,094 units and 54 percent share, down 19.7 percent year over year, with Rivian second at 19,239 units and roughly 7.2 percent share after a 45.7 percent gain, up from tenth a year earlier. The overall US EV market fell about 39.5 percent year over year, and excluding Tesla it dropped roughly 52 percent, from about 254,800 to 122,500 units. The federal credit expiring did not just shrink demand, it reordered the field in favor of the two companies with the least legacy EV portfolio to defend.",
+          "sources": [
+            {
+              "label": "Drive Tesla",
+              "url": "https://driveteslacanada.ca/news/us-ev-sales-q3-2026-tesla-market-share/"
+            },
+            {
+              "label": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-just-surged-10th-2nd-151700567.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Formula E's Gen4 car can recover more power than it can deploy",
+    "body": "Regeneration is rated at up to 700 kW against a 600 kW peak drive limit and 450 kW in race trim, and the series says the car recovers close to half the energy used over a race from a 55 kWh usable pack. That inversion, where the braking path is the highest-power electrical path in the vehicle, is why the Gen4 has permanent all-wheel drive: you need the front axle mostly to have somewhere to put the recovered current. It also reframes thermal design, since the inverters and pack see their worst-case load under braking rather than acceleration."
+  },
+  "footnote": "Compiled from public reporting on Nov 15-17, 2026. Items from Nov 13 are dated inline. NYT sections and several primary outlets were not directly reachable from this session."
+}
