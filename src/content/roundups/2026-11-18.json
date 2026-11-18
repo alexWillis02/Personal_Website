@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-18",
+  "title": "Daily Briefing — Wednesday, November 18",
+  "coverage": "Covering roughly Nov 17 through Nov 18 morning MST. Sourcing caveat: nytimes.com is blocked to this session's search crawler (the search API refuses the domain outright), so the NYT technology, science and business sections could not be checked. Direct page fetches to reuters.com, arstechnica.com, theverge.com and spacenews.com were also blocked, so items were assembled by cross-referencing multiple search summaries rather than reading primary articles. Where a detail is still provisional it is labelled as such.",
+  "top": [
+    {
+      "headline": "OpenAI ships GPT-6.2 Astra, its first model rated High for AI self-improvement",
+      "summary": "Astra is the first externally deployed OpenAI model to cross the High threshold for AI self-improvement under the company's Preparedness Framework, which OpenAI describes as roughly equivalent to handing every one of its researchers an extra capable research engineer. Both Astra and the cheaper Sol are also rated Critical for cybersecurity, and OpenAI says it shipped with cyber safeguards tight enough to block some legitimate security research."
+    },
+    {
+      "headline": "Nvidia posts $115.8B quarter and guides to $130B in its first report without Jensen Huang",
+      "summary": "Revenue of $115.84 billion and adjusted EPS of $2.68 both beat consensus, with data center up 110 percent year over year to $107.6 billion, and the company guided Q4 to $130 billion plus or minus 3 percent. CFO Colette Kress presented as interim CEO following Huang's abrupt resignation last week, and the guidance assumes zero data center compute revenue from China."
+    },
+    {
+      "headline": "ULA moves the Vulcan failure from the upper stage to the booster",
+      "summary": "ULA's Tuesday update blames low booster performance for Sunday's loss of 40 Amazon Leo satellites, reversing the early read that the Centaur upper stage was at fault. Solid rocket booster performance was nominal, which puts attention on the BE-4-powered liquid core stage, though ULA has not established an engine fault and fuel delivery or another first-stage system could be responsible."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "GPT-6.2 Astra and Sol land with new risk ratings and lower prices",
+          "summary": "OpenAI released both models on Nov 17 into ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and via the API as gpt-6.2-astra and gpt-6.2-sol. Astra runs $8 per million input tokens and $40 per million output, while Sol holds GPT-6.1 Sol's $2 and $10 — a 4x price spread inside one model family, which tells you how differently OpenAI expects the two to be used. Reporting also describes a new internal system called Control Room meant to monitor research workloads and halt the model when needed, though that detail has not been confirmed against the primary system card.",
+          "sources": [
+            {
+              "label": "The Decoder",
+              "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+            },
+            {
+              "label": "Unite.AI",
+              "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia's data center mix is now two-thirds hyperscaler",
+          "summary": "Of the $107.6 billion in data center revenue, $60.1 billion came from hyperscale customers and $47.5 billion from AI clouds, industrial and enterprise. Management pointed to what it called explosive demand for the Vera Rubin generation, and shares rose after hours, snapping a six-day losing streak. The China exclusion in guidance is the number to watch: it means the $130 billion forecast has no upside priced in from a market that used to matter.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+            },
+            {
+              "label": "Forbes",
+              "url": "https://www.forbes.com/sites/fionariley/2026/11/17/nvidia-reports-strong-1158-billion-quarterly-revenue-in-first-earnings-post-jensen-huang/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic prices its IPO tonight, trades Thursday under ANT",
+          "summary": "The company is offering 825 million shares in a $70 to $78 range, about 801 million from the company and 24 million from existing holders, with pricing set for this evening and a Nasdaq debut Nov 19. CNBC reports sources expecting it to price above the range, and the Wall Street Journal has reported a possible price above $80, which would put valuation scenarios around $1.5 to $1.6 trillion. Treat the above-range reporting as unconfirmed until the final price prints.",
+          "sources": [
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI keeps widening its silicon bench away from Nvidia",
+          "summary": "Fortune reported Nov 17 that OpenAI named its first AMD neocloud provider, with the first gigawatt of capacity from the AMD deal due online in the second half of the year. Alongside that, OpenAI is reportedly planning to buy Google TPUs, and its in-house Broadcom-built Jalapeño chip is set to scale production in 2027. Analyst Ming-Chi Kuo's estimate of roughly 12 million TPUs across 2028 and 2029 is an estimate, not an order.",
+          "sources": [
+            {
+              "label": "Fortune",
+              "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Vulcan's booster left Centaur in an energy hole it could not climb out of",
+          "summary": "ULA CEO Mark Peller said the booster handed off the upper stage in such a low energy state that Centaur could not make up the deficit, which is the cleanest engineering summary of the Nov 15 failure so far. This is ULA's first lost mission since Boeing and Lockheed Martin formed the company in 2006. The FAA will oversee the ULA-led investigation and has to approve the final report and any corrective actions.",
+          "sources": [
+            {
+              "label": "The Register",
+              "url": "https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712"
+            },
+            {
+              "label": "GeekWire",
+              "url": "https://www.geekwire.com/2026/early-data-points-to-vulcans-first-stage-in-launch-failure-that-cost-amazon-40-leo-satellites/"
+            }
+          ]
+        },
+        {
+          "headline": "Amazon reroutes to Ariane 6 while Space Force grounds Vulcan for national security work",
+          "summary": "Amazon will put 36 Leo satellites on an Arianespace Ariane 6 for the next mission rather than wait for Vulcan's return to flight. Space Force has suspended Vulcan launches for National Security Space Launch missions pending the investigation and corrective action. The loss also tightens Amazon's July 2029 FCC deployment deadline, which was already the binding constraint on the constellation's schedule.",
+          "sources": [
+            {
+              "label": "CBS News",
+              "url": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/"
+            },
+            {
+              "label": "Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/nov/17/united-launch-alliance-says-conducting-rigorous-investigation-launch/"
+            }
+          ]
+        },
+        {
+          "headline": "Rocket Lab flies Electron's 100th mission",
+          "summary": "Electron reached 100 launches on Nov 17 with an Earth-observing satellite from New Zealand, a milestone no other small launcher has come close to. It lands in the same week Rocket Lab was left out of a $985 million launch contract modification that went to SpaceX, Blue Origin and ULA, and after the company raised Neutron's list price from $55 million to $70 million. Details of the 100th mission's customer and orbit came from a short video summary and are not fully confirmed.",
+          "sources": [
+            {
+              "label": "Yahoo News",
+              "url": "https://www.yahoo.com/news/videos/rocket-lab-launches-100th-mission-151000607.html"
+            }
+          ]
+        },
+        {
+          "headline": "Starship Flight 16 drifts toward early 2027 and its first Florida pad",
+          "summary": "SpaceX still has no announced date for Flight 16, which is planned as the first Starship launch from LC-39A at Kennedy with Booster 23 and Ship 43. An FAA airspace planning slide had listed Dec 10, but NASASpaceflight now reports early 2027 looks more likely because the Ship 43 static fire is not due until mid-December. Flight 15 on Nov 13 deployed 26 Starlink V3 satellites and was caught by the tower, so the program is pacing on ground infrastructure rather than vehicle performance.",
+          "sources": [
+            {
+              "label": "The Space Road",
+              "url": "https://thespaceroad.com/articles/when-is-starship-flight-16/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Pentagon names seven laser teams for a live-fire counter-drone shoot-off",
+          "summary": "Joint Interagency Task Force 401 picked Allen Control Systems (Bullfrog HEL), Aurelius Systems (Archimedes), AeroVironment via BlueHalo (Locust X1), Kord Technologies (Firefly), Lockheed Martin with IPG Photonics (Crossbow), Thor Dynamics (Laser Armor) and Yrikka (Talos, a drone-carried laser) from 13 white paper submissions. Engagements start by mid-December at Dugway Proving Ground, after each team spends about a week on safety reviews and range readiness. An officer said effective systems can result in a purchase order immediately, though the Pentagon stressed Phase II selection is not an operational declaration.",
+          "sources": [
+            {
+              "label": "DefenseScoop",
+              "url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off/"
+            },
+            {
+              "label": "Inside Unmanned Systems",
+              "url": "https://insideunmannedsystems.com/pentagon-invites-seven-high-energy-laser-teams-to-counter-drone-shoot-off/"
+            }
+          ]
+        },
+        {
+          "headline": "Part 108 hits 131 days at the White House review desk",
+          "summary": "The FAA's BVLOS rule has been sitting at OIRA since July 10 and still was not in the Federal Register as of this morning. The FAA's Robert Reckert said in September the agency hopes to see it published by year end, which is a hope rather than a commitment, and TSA says it is still finalizing the security requirements in coordination with the FAA. As proposed, Part 108 would let aircraft up to 1,320 pounds fly beyond visual line of sight below 400 feet agl without a waiver — the difference between one-off exemptions and an actual industry.",
+          "sources": [
+            {
+              "label": "Drone Authority",
+              "url": "https://droneauthority.org/news/part-108-final-rule-oira-review"
+            },
+            {
+              "label": "DRONELIFE",
+              "url": "https://dronelife.com/2026/09/08/part-108-bvlos-requirements-tsa-security/"
+            }
+          ]
+        },
+        {
+          "headline": "Uber Eats and Zipline start delivering in Spring, Texas",
+          "summary": "Service began Nov 17 in a Houston-area suburb where Wing already operates, making it a rare head-to-head test of two different delivery architectures in the same airspace. Zipline's droid-on-a-tether approach and Wing's land-and-release design have very different noise, precision and obstacle-tolerance tradeoffs, and this is the first market where customers can effectively choose. The FAA's Houston airspace review is still in draft.",
+          "sources": [
+            {
+              "label": "DroneXL",
+              "url": "https://dronexl.co/2026/11/18/uber-eats-zipline-drone-delivery-spring-texas-launch/"
+            }
+          ]
+        },
+        {
+          "headline": "AIR 120D autonomous cargo eVTOL arrives in Florida for military logistics testing",
+          "summary": "Israeli manufacturer AIR VEV shipped its first AIR 120D to its SunTrax headquarters in Auburndale on Nov 16, where the aircraft will be developed, tested and manufactured. The defense variant is quoted at up to 250 kg of payload in a 1.98 cubic metre compartment with up to 60 minutes of endurance and no runway requirement. That endurance figure is the honest constraint on battery-electric tactical resupply — useful for last-mile distribution, not for range.",
+          "sources": [
+            {
+              "label": "Flying Magazine",
+              "url": "https://www.flyingmag.com/air-120d-autonomous-cargo-military-evtol-florida/"
+            },
+            {
+              "label": "Army Recognition",
+              "url": "https://www.armyrecognition.com/news/aerospace-news/2026/israeli-company-sends-air-120d-autonomous-cargo-drone-to-us-for-military-logistics-flight-tests"
+            }
+          ]
+        },
+        {
+          "headline": "FAA grants the first high-seas BVLOS waiver",
+          "summary": "Skyways received authorization to fly its hybrid-electric V2 beyond visual line of sight from the Louisiana coast out to a Shell Pipeline platform, the first waiver of its kind over the high seas. Offshore is the obvious proving ground for long-range BVLOS: almost no overflight risk, a genuine economic case against crew boats and helicopters, and a fixed destination. Hybrid-electric rather than pure battery is what makes the over-water leg close.",
+          "sources": [
+            {
+              "label": "AIN",
+              "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-12/faa-grants-first-high-seas-bvlos-waiver-skyways"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "F1 agrees in principle to a 2.1-litre turbo V8 from 2030",
+          "summary": "The FIA announced Nov 17, after Monday's F1 Commission meeting in London, that an agreement in principle has been reached on a 2.1-litre turbocharged V8 with limited hybridisation, replacing the 1.6-litre V6 hybrid. The commission supports ending the current cycle in 2029, a year earlier than planned, but that still needs the power unit manufacturers' agreement. The FIA has not published the electrical output, which is the whole argument: a bigger, simpler engine only saves money if the MGU-K and energy store shrink with it. Full regulations go to the World Motor Sport Council in Shanghai in December.",
+          "sources": [
+            {
+              "label": "GPFans",
+              "url": "https://www.gpfans.com/en/f1-news/1092084/fia-f1-v8-engine-return-new-regulations-2030/"
+            },
+            {
+              "label": "Yahoo Sports",
+              "url": "https://sports.yahoo.com/articles/f1s-v8-engine-return-now-160100908.html"
+            }
+          ]
+        },
+        {
+          "headline": "BMW starts building its first US-made EV in Spartanburg",
+          "summary": "The 2027 iX5 entered production in South Carolina at about 70 units a day, closing out a $1.7 billion US investment, with battery packs coming from BMW's $700 million Woodruff plant that started pack production Nov 13. The iX5 60 xDrive is reported at $79,800 before destination. The subplot is less bullish: supplier forecasts point to a slower first full year than planned even as BMW has reportedly told local suppliers to be ready for roughly 175,000 EVs in Spartanburg across 2028 and 2029, and the company is seeking tariff relief.",
+          "sources": [
+            {
+              "label": "Headlight.news",
+              "url": "https://headlight.news/2026/11/17/bmw-launches-production-of-1st-u-s-made-ev-seeks-tariff-relief-from-white-house/"
+            },
+            {
+              "label": "EVXL",
+              "url": "https://evxl.co/2026/11/17/bmw-ix5-production-spartanburg-supplier-forecast/"
+            }
+          ]
+        },
+        {
+          "headline": "Las Vegas opens the title run-in, with a rookie in Hamilton's Ferrari",
+          "summary": "Dino Beganovic takes FP1 in the SF-26 in Lewis Hamilton's car on Thursday under the mandatory rookie rule, with Ferrari joining Haas in confirming its practice driver and only two teams still to announce. Running order is FP1 and FP2 Thursday, FP3 and qualifying Friday, race Saturday at 8pm local. Apple TV is carrying the whole weekend free in the US with no subscription, a notable change in how the sport reaches American viewers.",
+          "sources": [
+            {
+              "label": "RaceFans",
+              "url": "https://www.racefans.net/2026/11/17/an-early-season-finale-five-talking-points-for-the-2026-las-vegas-grand-prix/"
+            },
+            {
+              "label": "Formula 1",
+              "url": "https://www.formula1.com/en/latest/article/formula-1-heineken-las-vegas-grand-prix-2026.1qmWzcBwKK5hkTbYbhVC22"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Voyager 1 crosses one light-day from Earth today",
+    "body": "At roughly 10:16 UTC this morning Voyager 1 became the first human-made object a full light-day out, about 25.9 billion km or 16.1 billion miles. The practical consequence is the number worth carrying: a command now takes 24 hours to arrive and the acknowledgement another 24, so every interaction with the spacecraft has a two-day round trip. It is still flying on 1970s flight computers and an X-band transmitter in the tens of watts, and the Deep Space Network pulls that signal out of the noise after it has spread across 25.9 billion km. Voyager 2 does not reach the same mark until 2035."
+  },
+  "footnote": "Compiled from public reporting, Nov 17 to Nov 18, 2026. Provisional details are labelled where sources disagreed."
+}
