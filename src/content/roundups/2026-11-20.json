@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-20",
+  "title": "Daily Briefing — Friday, November 20",
+  "coverage": "Covering roughly Nov 19 through Nov 20 morning MST. Sourcing caveat: direct page fetches to nytimes.com, spacenews.com and dronelife.com were refused by this session's network policy, so the NYT technology, science and business sections could not be read directly and items were assembled by cross-referencing multiple search summaries rather than primary articles. Market figures move intraday and outlets disagree on the size of Anthropic's Friday decline; ranges are given where sources conflict. Items drawn from company claims rather than independent verification are labelled as such.",
+  "top": [
+    {
+      "headline": "The AI selloff goes global, and Anthropic's record debut does not stop it",
+      "summary": "All three major US indexes fell more than 2 percent Thursday, with the Nasdaq Composite down 2.25 percent to 23,879 and the S&P 500 posting a sixth straight losing session. Anthropic opened 34 percent above its IPO price but closed at $97.17, then fell again Friday morning, while Asia followed hard overnight with the KOSPI off 4.7 percent and the Nikkei 4.8 percent."
+    },
+    {
+      "headline": "TSMC stops taking advanced-node orders from Chinese designers as the new US rule bites",
+      "summary": "A Commerce Department rule that took effect Nov 19 has reportedly led TSMC to halt orders at 16nm and below from Chinese customers without US export licences, with Samsung said to be pausing some deliveries too. TSMC has issued no statement, so the halt remains unconfirmed reporting; its ADRs fell about 6 percent to $373.45, a third straight decline and roughly 23 percent off the October high."
+    },
+    {
+      "headline": "JAXA gives up on landing Hayabusa2 after its last ion engine degrades",
+      "summary": "The probe's four ion engines have all been run past their design life, and JAXA has abandoned the planned 2031 rendezvous with asteroid 1998 KY26 in favour of an April 2028 flyby of 2015 BM510. The decisive number is propulsive: the KY26 trajectory needed roughly 200 m/s of delta-v, and the surviving chemical thrusters can supply about 30."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Anthropic pops 34 percent, closes up 17, then slides on day two",
+          "summary": "ANT's first trade cleared Nasdaq's opening auction around 11:48 a.m. ET Thursday at $111.50 against the $83 IPO price, touched $115.10, dipped to $92.72 and closed at $97.17 on more than 600 million shares. The $81.3 billion raise stands as the largest IPO ever by proceeds, with fully diluted valuations quoted from roughly $1.5 trillion to about $2 trillion depending on the opening or closing mark. Friday morning gave back 6 to 9 percent of it as the float turned over.",
+          "sources": [
+            { "label": "Forbes", "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-shares-pop-34-to-open-at-11150/" },
+            { "label": "StockTitan", "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026" },
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-begins-trading-in-record-81b-raise-with-15t-valuation-192410598.html" }
+          ]
+        },
+        {
+          "headline": "A sixth down session, and the AI trade spreads its losses to Asia and Europe",
+          "summary": "The Dow closed Thursday at 49,097 (down 2.19 percent), the S&P 500 at 7,175.83 (down 2.02 percent) and the Nasdaq Composite at 23,879.20 (down 2.25 percent), leaving the Nasdaq about 13.6 percent below its Oct 6 record. Friday opened with Nasdaq 100 futures down 1.1 percent after the KOSPI fell 4.7 percent, the Nikkei 4.8 percent and the Hang Seng approached bear-market territory. The stated driver is whether AI infrastructure capex earns its return, compounded by a hawkish Fed outlook.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-20/us-stock-futures-fall-as-ai-selloff-spreads-to-asia-and-europe" },
+            { "label": "StockTitan", "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-20-2026" },
+            { "label": "Invezz", "url": "https://invezz.com/news/2026/11/20/nasdaq-falls-as-anthropic-slides-dragging-ai-stocks-into-weekly-selloff/" }
+          ]
+        },
+        {
+          "headline": "Microsoft answers with seven in-house MAI models and a price argument",
+          "summary": "At Ignite, Mustafa Suleyman and Satya Nadella launched MAI Code 2 and MAI Code 2 Flash into GitHub Copilot, plus MAI Cyber 2 Flash, MAI Image 2.7, the speech-to-speech MAI Realtime 1 at about a cent per audio minute, and Microsoft-Decision-1.1, a router that escalates to larger models only when a request needs it. Microsoft claims MAI Code 2 reaches roughly 98 percent of GPT-6.1 Sol's performance at about 40 percent of the price, though that comparison leans on a 50 percent promotional rate, and it concedes the model is not yet tuned for long-horizon agentic work. Enterprises can license the weights but must run them inside their own Azure environment.",
+          "sources": [
+            { "label": "Microsoft News", "url": "https://news.microsoft.com/events/ignite/2026/live-news/" },
+            { "label": "Thurrott", "url": "https://www.thurrott.com/a-i/microsoft-ai/343999/ignite-2026-microsoft-ai-announces-7-new-models" },
+            { "label": "Technology.org", "url": "https://www.technology.org/2026/11/19/microsoft-mai-code-2-cyber-2-flash-ignite-2026-models/" }
+          ]
+        },
+        {
+          "headline": "Washington weighs disclosure rules for US firms running Chinese models",
+          "summary": "The White House is reported to be considering rules requiring US companies to publicly disclose their use of Chinese AI models, a lighter-touch option than banning them outright, even as Trump argued at the APEC summit in Shenzhen on Nov 19 that excessive regulation would slow the technology down. On the other side of the Atlantic the EDPB secretariat said the same day that joint EDPB and Commission guidance on how the AI Act interacts with GDPR has slipped to early 2027. Both items are process rather than law, but they set the compliance calendar anyone shipping models into both markets has to plan around.",
+          "sources": [
+            { "label": "DigiTimes", "url": "https://www.digitimes.com/news/a20261119VL219/government-beijing.html" },
+            { "label": "MLex", "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2552175" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Hayabusa2 trades a landing for a flyby after its ion engines run out of life",
+          "summary": "JAXA announced at a Nov 17 press conference, with wider coverage landing Nov 19 and 20, that no ion engine is operating normally after all four were run beyond design life, and that a cross-operation fix pairing engine D's ion source with engine B's neutralizer could not buy back enough thrust. The new target is 2015 BM510, a dark asteroid between roughly 17 and 74 metres across that rotates once every 49 minutes, on an April 2028 flyby; the abandoned 1998 KY26 is only about 11 metres. A flyby yields far less than a touchdown, but it keeps a healthy spacecraft doing science.",
+          "sources": [
+            { "label": "Phys.org", "url": "https://phys.org/news/2026-11-japan-space-probe.html" },
+            { "label": "KeepTrack", "url": "https://keeptrack.space/space-brief/space-brief-2026-11-20" },
+            { "label": "Aeronaut", "url": "https://aeronaut.media/news-en/space-news-en/en-hayabusa2-probe-to-change-plans/" }
+          ]
+        },
+        {
+          "headline": "CRS-35 Dragon leaves the ISS today after a weather delay",
+          "summary": "Undocking is set for no earlier than 12:05 p.m. ET Friday, with splashdown off the California coast on Saturday around 4:55 p.m. EST, following the scrub earlier in the week when Pacific recovery-zone conditions went out of limits. The capsule launched Oct 13 on the 35th SpaceX resupply flight for NASA. SpaceX is not livestreaming the reentry and splashdown, which is now routine for cargo returns.",
+          "sources": [
+            { "label": "SpaceX", "url": "https://www.spacex.com/launches/crs35" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-dragon-iss-cargo-mission-return-to-earth" }
+          ]
+        },
+        {
+          "headline": "USSF-317 scrubs again and slides to Friday evening at Vandenberg",
+          "summary": "SpaceX scrubbed Thursday's attempt at the classified Space Force mission from SLC-4E without stating a reason, after the launch had already moved off Nov 18; the window now opens Friday evening Pacific time with a Saturday backup at 8:12 p.m. PT. The first stage is flying its 11th mission, having previously carried NROL-105, USSF-385 and eight Starlink batches, and will land on Of Course I Still Love You in the Pacific. Independent analysts read the payload as classified LEO satellites in the Space Based Sensing and Targeting portfolio on the Starshield bus, which is inference rather than confirmation.",
+          "sources": [
+            { "label": "SpaceX", "url": "https://www.spacex.com/launches/ussf317" },
+            { "label": "KeepTrack", "url": "https://keeptrack.space/space-brief/space-brief-2026-11-20" },
+            { "label": "KSBY", "url": "https://www.ksby.com/news/launch-tracker/spacex-targets-thursday-night-for-falcon-9-rocket-launch" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab is left out of a $985 million launch award and the stock takes it badly",
+          "summary": "SpaceX shared in a $985 million launch award that Rocket Lab did not, and the shares fell about 4 percent on the news. The underlying business is still growing fast, with revenue up 73 percent and a record $4 billion backlog, including $515 million of Neutron bookings across eight missions. Everything now rests on Neutron's 2027 debut, because medium-lift awards are where the money that Rocket Lab is currently missing actually sits.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-slides-4-spacex-160307327.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Russia shows the Zastupnik, its own cheap interceptor drone",
+          "summary": "Russian media released footage on Nov 19 of an interceptor carrying a 0.8 kg high-explosive fragmentation warhead and claimed to reach 300 km/h, aimed squarely at slower propeller-driven Ukrainian reconnaissance and strike aircraft. The specifications are Russian claims with no independent confirmation, but the design point is the interesting part: it mirrors the cost-exchange logic Ukraine has been using against Shaheds, applied in the opposite direction. The speed figure also shows its limits, since 300 km/h leaves nothing in hand against jet-powered targets.",
+          "sources": [
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/russians-new-zastupnik-interceptor-drone/" },
+            { "label": "Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/news/2026/11/03/8060987/" }
+          ]
+        },
+        {
+          "headline": "XPENG sets an AI Day for its IRON humanoid and claims production within weeks",
+          "summary": "XPENG announced on Nov 19 that its 2026 AI Day lands Nov 25 in Guangzhou, with the roughly 170 cm IRON general-purpose humanoid interacting live with the audience. The company says mass production begins at the end of this year or in January, which would be unusually fast for a humanoid platform and is worth treating as a target rather than a schedule. It is also a clean example of the hardware-first path to embodied AI, where an automaker's existing manufacturing base is the actual competitive asset.",
+          "sources": [
+            { "label": "GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/11/19/3406923/0/en/xpeng-to-showcase-its-physical-ai-push-at-annual-ai-day-featuring-its-latest-humanoid-robot-in-action.html" },
+            { "label": "CnEVPost", "url": "https://cnevpost.com/2026/11/19/xpeng-to-hold-2026-ai-day-nov-25" }
+          ]
+        },
+        {
+          "headline": "Part 108 is still sitting at the White House, with December now the hope",
+          "summary": "The FAA's rule to normalise beyond-visual-line-of-sight operations remains under White House review, with trade coverage pointing at a Dec 7 due date and the agency hoping to publish before year end. The sticking point is reportedly a provision giving Part 108 aircraft presumptive right of way over crewed aircraft that are not broadcasting position, which is exactly the kind of clause that decides whether detect-and-avoid hardware has to carry the whole safety case. Until it lands, US drone delivery keeps running on Part 135 certificates and per-operation exemptions.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/bvlos/" },
+            { "label": "Federal Register", "url": "https://www.federalregister.gov/documents/2025/08/07/2025-14992/normalizing-unmanned-aircraft-systems-beyond-visual-line-of-sight-operations" }
+          ]
+        },
+        {
+          "headline": "The air-taxi selloff stretches into a fourth day with passenger service pushed to 2027",
+          "summary": "Joby, Archer and EHang all sit near 52-week lows with no single catalyst, after both US leaders used third-quarter calls to move early commercial passenger operations into 2027. Archer's Midnight still needs a piloted transition and 50 hours of flight testing before it can even seek market-survey approval, while Beta Technologies already holds the first FAA market-survey authorisation, for the Alia 250. The certification queue, not the airframes, is the binding constraint.",
+          "sources": [
+            { "label": "AIN", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027" },
+            { "label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/11/18/archer-aviation-declines-4-as-air-taxi-selloff-stretches-into-a-third-day-ehang-falls-5-joby-eases" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Ford ships its first US-built LFP prismatic cells out of Marshall, Michigan",
+          "summary": "BlueOval Battery Park Michigan has started shipping cells to Louisville Assembly for Fathom electric pickup prototypes, with production having begun in October and Ford claiming assembly lines that turn out 40 cells per minute against a planned 20 GWh of annual capacity. The technology is licensed from CATL, with CATL staff assisting the ramp, which is why the plant has drawn a letter from the Transportation Secretary urging Ford to cut ties; Ford still expects to qualify for the federal battery manufacturing credit. A pack plant follows in Marshall in 2027, ahead of a pickup targeted around $28,350.",
+          "sources": [
+            { "label": "Ford", "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-fathom-lfp-prismatic-battery-cells-ship" },
+            { "label": "Electrive", "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/" },
+            { "label": "CnEVPost", "url": "https://cnevpost.com/2026/11/19/ford-ships-lfp-battery-cells-using-catl-tech/" }
+          ]
+        },
+        {
+          "headline": "Cadillac keeps Bottas for 2027 and leaves Herta without a seat",
+          "summary": "Confirmed on the eve of the Las Vegas weekend, Valtteri Bottas stays alongside Sergio Perez, whose own deal runs to at least the end of 2029, with team CEO Dan Towriss citing Bottas's experience and commitment. Colton Herta, the American test driver the paddock expected to be fast-tracked, has reportedly turned down a 2027 reserve role, and Cadillac says it will name reserve and test drivers in due course. For a second-year team still learning a new power unit era, continuity in the cockpit is the cheaper variable to hold fixed.",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix" },
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/valtteri-bottas-retains-cadillac-f1-seat-for-2027-ahead-of-colton-herta/10875159/" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50389014/valtteri-bottas-cadillac-las-vegas-grand-prix-formula-1" }
+          ]
+        },
+        {
+          "headline": "Rain wipes out Las Vegas practice and leaves Verstappen with an unexplained power problem",
+          "summary": "FP1 produced no flying laps at all with only 17 drivers venturing out, and in FP2 George Russell led on intermediates with a 1:47.272, just 0.071s clear of Pierre Gasly and with Charles Leclerc third. Max Verstappen managed around nine or ten laps and ended 13th, 2.869s down, interrupted by a power issue nobody has publicly diagnosed. That leaves one hour of FP3 on Friday to both fix the car and find a dry setup window before qualifying, on a cold low-grip street circuit where tyre temperature is already the dominant variable.",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13614175/las-vegas-gp-george-russell-tops-practice-for-mercedes-as-rain-limits-running-on-first-day-of-track-action" },
+            { "label": "The Race", "url": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-practice-results/" },
+            { "label": "Crash.net", "url": "https://www.crash.net/f1/live/1044271/f1-las-vegas-grand-prix-live-updates-friday-practice-us" }
+          ]
+        },
+        {
+          "headline": "Canada threatens to sue Stellantis as Brampton becomes the trade war's front line",
+          "summary": "Ottawa says Stellantis breached a federal funding agreement by agreeing to sell the idled Brampton, Ontario assembly plant to a Canadian defence manufacturer, with Prime Minister Mark Carney calling the sale unacceptable and a betrayal of the workforce. Stellantis had already dropped plans to build the Jeep Compass there and moved future production to Illinois under US tariff pressure. Industry figures put the tariff bill on Canadian automakers near $7 billion and argue the sector cannot hold its current scale without US market access.",
+          "sources": [
+            { "label": "France 24", "url": "https://www.france24.com/en/live-news/20261120-canada-auto-plant-the-front-line-in-trump-s-trade-war" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/13/canada-stellantis-auto-trump-tariffs-jeep.html" },
+            { "label": "Western Standard", "url": "https://www.westernstandard.news/canadian/industry-expert-canadian-automakers-hit-with-7-billion-tariff-bill/78877" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Hayabusa2's 170 m/s shortfall",
+    "body": "Retargeting to 1998 KY26 needed roughly 200 m/s of delta-v. With all four ion engines run past design life and none operating normally, the remaining chemical thrusters can deliver about 30 m/s. That 170 m/s gap is the entire reason a landing became a flyby, and it is a clean reminder that on a long cruise the mission's real budget is not fuel mass but thruster hours. Ion engines buy enormous specific impulse by trading away thrust, so their lifetime is the trajectory."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 24 hours. Figures that outlets dispute are flagged in the text; company performance claims are identified as such."
+}
