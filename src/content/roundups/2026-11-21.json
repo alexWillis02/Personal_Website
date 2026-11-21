@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-21",
+  "title": "Daily Briefing — Saturday, November 21",
+  "coverage": "Covering roughly Nov 20 through Nov 21 morning MST, with two Nov 19 items carried over after a quiet space day. Sourcing caveat: direct page fetches to nytimes.com, reuters.com, arstechnica.com, theverge.com, spacenews.com, spaceflightnow.com, defensenews.com, the-race.com, formula1.com and axios.com were all refused by this session's network policy, so no NYT section could be read directly and every item was assembled by cross-referencing search summaries rather than primary articles. Where outlets disagree — Nvidia's exact close, the scope of the SEC inquiry, the K200 warhead mass, which Mercedes power-unit part triggered Antonelli's penalty — both figures are given.",
+  "top": [
+    {
+      "headline": "Nvidia's worst day since early 2025 drags the Nasdaq's whole year to zero",
+      "summary": "Nvidia closed down roughly 14 percent at about $125.53 on a Reuters report that SEC enforcement staff are reviewing its accounting, its seventh straight losing session and roughly 45 percent off the October 6 closing high of $239.24. The Nasdaq fell 5.28 percent and erased its entire 2026 gain, with the S&P 500 and Dow pushed into correction territory."
+    },
+    {
+      "headline": "The FCC hands drones a real command-and-control band",
+      "summary": "The commission adopted its drone spectrum order 3-0, opening 450 MHz to beyond-line-of-sight command-and-control links under nationwide rather than site-by-site licensing, and authorizing ground-based counter-drone radar at 24.45–24.65 GHz. It is the first time US drone C2 gets protected licensed spectrum instead of sharing unlicensed ISM bands."
+    },
+    {
+      "headline": "LandSpace clears all nine recovered Zhuque-3 engines for reflight",
+      "summary": "The Chinese launch firm hot-fired every one of the nine TQ-12 engines pulled from the Zhuque-3 Y-2 booster it landed in Gansu, including a roughly 185-second burn, and says performance matched pre-flight data. That is component-level reuse qualification, not a booster reflight, which the company still targets for around February 2027."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "SEC accounting inquiry sends Nvidia down ~14 percent and takes the index with it",
+          "summary": "Reuters reported SEC enforcement staff are examining potential accounting issues at Nvidia, and the stock closed near $125.53, its steepest one-day fall since January 2025 and a seventh consecutive down session. The Nasdaq lost 5.28 percent on the day, wiping out its year-to-date gain, while the S&P 500 fell 3.70 percent and the Dow 1.93 percent. Reporting conflicts on the inquiry's scope: some outlets point to last year's switch to reporting geographic sales by customer headquarters rather than billing address, while others say the SEC has not indicated that is part of it.",
+          "sources": [
+            { "label": "The Motley Fool", "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-nvidia-s-usd2-5-trillion-rout-deepens-as-sec-accounting-probe-adds-to-wall-street-s-ai-sell-off/" },
+            { "label": "Axios", "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff" }
+          ]
+        },
+        {
+          "headline": "California subpoenas Nvidia over where its chips ended up",
+          "summary": "State Attorney General Rob Bonta issued an investigative subpoena to Nvidia late Thursday over whether its accelerators reached China, a second front alongside the federal inquiry. It lands days after Nvidia told investors it had stopped shipping licensed Hopper parts including the H200 to China and zeroed out future China data center revenue, a line that was worth $2.4 billion in the quarter to October 25. A state AG has no export-control authority, so the likely hook is consumer-protection or disclosure law rather than ITAR-style enforcement.",
+          "sources": [
+            { "label": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/" },
+            { "label": "Techi", "url": "https://www.techi.com/us-chip-export-rule-takes-effect-nvidia-halts-h200-china-sales/" }
+          ]
+        },
+        {
+          "headline": "Anthropic closes its IPO, then gives most of the debut pop back",
+          "summary": "Anthropic confirmed the closing of its offering of 1,127,000,000 Class A shares at $83.00 apiece including the underwriters' full option exercise, after shares changed hands around $111.50 in the first minutes of trading Thursday. By Friday's close the AI rout had taken back most of that premium. Headline proceeds figures vary widely across outlets, from roughly $81 billion to $93.5 billion, so treat any single number with caution.",
+          "sources": [
+            { "label": "Anthropic Newsroom", "url": "https://www.anthropic.com/news" },
+            { "label": "Axios", "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff" }
+          ]
+        },
+        {
+          "headline": "Google ships Tool Retrieval so agents stop carrying every tool in context",
+          "summary": "The Gemini API added Tool Retrieval in preview, letting an agent pull only the tool definitions it needs for a given step instead of loading the full catalog into the prompt. For anyone wiring an agent to a few hundred functions this is the difference between a workable context budget and burning most of it on schemas before the model does any work. It is the practical counterpart to the week's other agent-infrastructure theme: AMD executives noted agentic workloads are shifting data center CPU-to-GPU ratios back toward the server CPU.",
+          "sources": [
+            { "label": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Nine flown Zhuque-3 engines pass hot fire and are declared reusable",
+          "summary": "LandSpace tested all nine TQ-12 methalox engines recovered from the Zhuque-3 Y-2 first stage at its Huzhou stand, with CCTV footage showing a roughly 185-second firing of one of them. A company propulsion official said results matched pre-flight data and the engines are fully qualified for reuse. The engines came off the booster that landed in Gansu after the first Zhuque-3 landing attempt failed; whole-vehicle reuse verification and an actual reflight are still ahead, targeted for around February 2027.",
+          "sources": [
+            { "label": "Pandaily", "url": "https://pandaily.com/landspace-recovered-zhuque-3-engines-inspection-hot-fire-reuse" },
+            { "label": "Bastille Post", "url": "https://www.bastillepost.com/global/article/6381077-chinas-landspace-test-fires-nine-recovered-zhuque-3-engines-for-reuse" }
+          ]
+        },
+        {
+          "headline": "USSF-317 finally flies after two scrubs, booster takes its 11th trip",
+          "summary": "A Falcon 9 lifted the classified Space Force payload from SLC-4E at Vandenberg at 8:20 p.m. PST Friday, after scrubs Wednesday and Thursday. Booster B1100 landed on Of Course I Still Love You a little over eight minutes later on its 11th flight, the 235th recovery on that vessel and the 679th Falcon booster landing overall. It was SpaceX's 121st Falcon 9 launch of 2026 and its third Space Force mission this month.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/11/19/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-2/" },
+            { "label": "Space Launch Schedule", "url": "https://www.spacelaunchschedule.com/launch/falcon-9-block-5-ussf-317/" }
+          ]
+        },
+        {
+          "headline": "CRS-35 Dragon comes home today with bioprinted tissue and frozen organoids",
+          "summary": "The cargo Dragon undocked Thursday at 12:05 p.m. EST after 34 days at the station and is targeting splashdown off California at about 1:55 p.m. PST today, weather permitting; the departure had already slipped once for rough seas. Downmass includes a 3D-bioprinted blood vessel construct, frozen tumor organoids, frozen microbial samples and a lighting system that spent more than three years aboard. Dragon remains the only cargo vehicle flying that can return significant payload mass intact, which is why the temperature-sensitive biology rides it.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-dragon-iss-cargo-mission-return-to-earth" }
+          ]
+        },
+        {
+          "headline": "Google books New Glenn for its orbital TPU data centers",
+          "summary": "Announced Wednesday and still the week's biggest commercial space deal, Google signed Blue Origin to fly the first dedicated heavy-lift Project Suncatcher mission in Q1 2029. Each solar-powered satellite is to carry Google TPUs with roughly a data center rack's worth of compute, flying in sun-synchronous orbit so the arrays stay in near-continuous sunlight. Neither company disclosed satellite count or launch price, and New Glenn's own return-to-flight schedule remains unsettled across reports.",
+          "sources": [
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/google-blue-origin-new-glenn-project-suncatcher-2029" },
+            { "label": "Yahoo Finance", "url": "https://ca.finance.yahoo.com/news/google-picks-bezos-blue-origin-140848292.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "FCC adopts the drone spectrum order 3-0",
+          "summary": "Order FCC 26-81 opens the 450 MHz band to drone command-and-control and safety data links, replacing site-by-site licensing with nationwide flexible licensing, and AURA Network Systems takes the single nationwide license. It also permits ground-based drone-detection radar at 24.45–24.65 GHz as a secondary radiolocation service, site-licensed with no density cap, for airports, borders, prisons, stadiums and critical infrastructure. The radar authority covers detection and tracking only, with no mitigation or takedown power, and the full text was not yet released as of Friday.",
+          "sources": [
+            { "label": "Commercial UAV News", "url": "https://www.commercialuavnews.com/fcc-450-mhz-drone-command-and-control-24-ghz-radar" },
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/20/fcc-drone-spectrum-order-adopted-trusty-800-mhz-air-ground-drones/" }
+          ]
+        },
+        {
+          "headline": "Germany's attack drones clear live-fire testing with deliveries due this year",
+          "summary": "Defense News reports German attack drones passed live-fire trials with first deliveries planned before year end, with Helsing's HX-2 loitering munition shown in the November testing. The HX-2 is a strike-range electric X-wing design built for onboard terminal guidance so it can finish an engagement through jamming rather than relying on a continuous datalink. Getting from trial to fielded inventory inside a calendar year is the notable part, given how slowly European munitions procurement normally moves.",
+          "sources": [
+            { "label": "Defense News", "url": "https://defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year" }
+          ]
+        },
+        {
+          "headline": "Sweden's K200 interceptor heads to Ukraine for field trials",
+          "summary": "Nordic Air Defence unveiled the K200 on Friday and is deploying it to Ukraine for test and evaluation, having opened a staffed office there. It succeeds the company's Kreuger 100XR and is aimed specifically at jet-powered one-way attack drones such as the Geran-3a, the hardest Shahed derivative to catch with a cheap interceptor. NAD says it wants 1,000 interceptors a month by March 2027; outlets disagree on warhead mass, with Militarnyi reporting 500 g against a 50 g figure in FlightGlobal's teaser that looks like a typo.",
+          "sources": [
+            { "label": "Breaking Defense", "url": "https://breakingdefense.com/2026/11/swedens-nordic-air-defence-launches-k200-drone-interceptor-pushes-toward-ukraine-tests/" },
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/nordic-air-defense-ukraine-high-speed-k200-interceptor-drones/" }
+          ]
+        },
+        {
+          "headline": "Archer pairs with Disney Imagineering while air-taxi stocks sit near lows",
+          "summary": "Archer and Walt Disney Imagineering R&D announced a research collaboration on emerging transportation technology, and Archer put a Marvel-liveried Midnight on display at the Las Vegas Grand Prix. The marketing lands in a bad week: Archer and Joby have both slipped initial US passenger service to 2027 and their shares are near 52-week lows. Certification timelines, not demand or branding, remain the binding constraint for the whole eVTOL sector.",
+          "sources": [
+            { "label": "AVweb", "url": "https://avweb.com/aviation-news/archer-disney-team-on-electric-aircraft" },
+            { "label": "AIN", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Antonelli is fastest in Vegas, but a power-unit penalty gives Verstappen pole",
+          "summary": "Kimi Antonelli put a 1:33.893 on the board in Q3, 0.258s clear of Verstappen, then dropped five places for a Mercedes power-unit change, promoting Verstappen to pole with George Russell alongside. Sky Sports says the component was his sixth internal combustion engine of the season while The Race points to the updated Mercedes ADUO turbocharger, but both agree on the five-place drop. Antonelli credited the slipstream on the long Strip straights — 'That was all the tow' — and Mercedes declined Russell's request for a tow of his own.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/antonelli-quickest-in-las-vegas-gp-qualifying-as-verstappen-inherits-pole-position.6R7udh8iYMHunSOGI6zStK" },
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13614575/las-vegas-gp-kimi-antonelli-fastest-but-max-verstappen-on-pole-from-george-russell-after-dramatic-qualifying" }
+          ]
+        },
+        {
+          "headline": "Ferrari dumped out in Q2 as the cold exposes tyre warm-up",
+          "summary": "Leclerc qualified 11th and Hamilton 12th, both eliminated in Q2, on a weekend that may be the coldest race in F1 history. Pirelli brought its three softest compounds, C3, C4 and C5, and warned that warm-up and graining would be decisive because Las Vegas's long full-throttle straights put very little energy into the tyre. Pirelli and the FIA raised wet-tyre blanket temperature from 40°C to 60°C between FP1 and FP2, and the one-stop that looks quickest on paper is complicated by fresh rubber cooling off along the run from pit exit.",
+          "sources": [
+            { "label": "Tyrepress", "url": "https://www.tyrepress.com/2026/11/pirelli-prepares-for-cold-weather-tyre-management-challenge-at-las-vegas-grand-prix/" },
+            { "label": "The Race", "url": "https://www.the-race.com/formula-1/penalised-antonelli-beats-verstappen-with-both-ferraris-out-in-q2/" }
+          ]
+        },
+        {
+          "headline": "Four automakers sue New Jersey over warranty reimbursement rates",
+          "summary": "Ford, Honda, Stellantis and Volkswagen filed in federal court in Trenton on Friday to block a state law governing what manufacturers must pay dealers for warranty and recall work. The automakers argue the law, effective April 1, lets dealers set those prices without meaningful checks. Warranty reimbursement sounds like plumbing, but it directly shapes recall economics, and a wave of similar state laws would raise the per-unit cost of every software and hardware recall.",
+          "sources": [
+            { "label": "Reuters via Investing.com", "url": "https://investing.com/news/stock-market-news/ford-honda-stellantis-vw-sue-new-jersey-to-blockvehicle-repair-law-5042513" }
+          ]
+        },
+        {
+          "headline": "Congress closes in on a permanent Chinese connected-vehicle ban",
+          "summary": "Bloomberg reports lame-duck negotiators are near a deal on the Connected Vehicle Security Act, which would bar import, manufacture and sale of internet-connected vehicles, software and hardware tied to China, with a possible carve-out for Mercedes-Benz. The sticking point is an ownership threshold around 15 percent, against roughly 20 percent Chinese shareholding in Mercedes. Current Commerce rules already bar Chinese software from the 2027 model year and Chinese connectivity hardware from January 1, 2030; the bill would make that statutory, and the current Congress ends January 3.",
+          "sources": [
+            { "label": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html" },
+            { "label": "Detroit News", "url": "https://www.detroitnews.com/story/business/autos/2026/11/02/major-automakers-urge-congress-to-pass-permanent-ban-on-chinese-vehicles/92564778007/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "185 seconds is what reusability actually has to prove",
+    "body": "LandSpace's headline number is not the nine engines, it is the roughly 185-second hot fire of a single recovered TQ-12 matching its pre-flight data. A methalox gas-generator engine that has already flown an ascent, survived a boostback and entry burn, and then reproduces its performance curve for a full three-minute duration run is demonstrating that the turbopump bearings, the injector face and the regenerative channels all came back inside tolerance — the things that quietly degrade and are invisible in a two-second ignition check. That is the same argument SpaceX had to win engine-by-engine before Falcon 9 reflight became routine, and it is why the step from here to an actual Zhuque-3 booster reflight is still more than a year of work."
+  },
+  "footnote": "Compiled from public reporting on Nov 20–21, 2026. Several direct-source domains were unreachable from this session; items were cross-referenced across multiple outlets and disagreements are flagged inline."
+}
