@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-22",
+  "title": "Daily Briefing — Sunday, November 22",
+  "coverage": "Covering roughly Friday evening through Sunday morning, November 22. Weekend news flow is thin, so a few items reach back to midweek where they are still the live story; those are flagged. Direct article fetching was blocked by the session's network policy, so items were cross-checked across multiple search result summaries rather than read in full. The New York Times chip-espionage story is summarized from wire pickups because the original is paywalled.",
+  "top": [
+    {
+      "headline": "NYT: China's spy agency ran a two-year covert campaign to get restricted AI chips",
+      "summary": "The New York Times reported Saturday that China's Ministry of State Security set up a working group reporting directly to minister Chen Yixin to help Chinese firms buy and smuggle export-controlled AI accelerators and to map the semiconductor supply chain. A confidential analysis by corporate intelligence firm Strider Technologies traced roughly 3.6 billion dollars of Chinese state money through companies tied to Jensen Huang's relatives and associates; Beijing calls the allegations \"pure fabrication.\""
+    },
+    {
+      "headline": "SpaceX turns one Vandenberg pad around in 32 hours for a classified NRO launch",
+      "summary": "A Falcon 9 lifted off from SLC-4E at about 4:23 a.m. Pacific Sunday with NROL-136, the 15th launch for the National Reconnaissance Office's proliferated satellite architecture, and booster B1097 flew for the 14th time before landing at Landing Zone 4. It was the second launch from that pad in roughly 32 hours, following Friday's USSF-317 mission."
+    },
+    {
+      "headline": "A motorsport weekend of two titles and one Ferrari meltdown",
+      "summary": "Max Verstappen won a 34-lead-change Las Vegas Grand Prix by 0.639s over Lando Norris, while Ferrari teammates Charles Leclerc and Lewis Hamilton collided on lap 38 of 50 and both took 10-second penalties. In Portugal, Marc Marquez crashed out of Saturday's sprint with the MotoGP title in hand and then clinched it Sunday with the eighth place he needed."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Beijing's intelligence service put AI chips at the top of its collection list",
+          "summary": "Per the Times, the MSS effort predates the Nvidia leadership scandal by years and combined procurement help for Chinese buyers with intelligence gathering on the chip supply chain, all in service of Xi Jinping's technological self-reliance push. Strider's chief executive told the paper the money trail repeatedly leads back to People's Liberation Army suppliers, though reporting did not establish that Chinese military programs actually consumed compute from the data centers in question. For anyone working on export-controlled hardware, the takeaway is that the enforcement problem has moved from boxes crossing borders to ownership structures and financing chains.",
+          "sources": [
+            { "label": "Business Standard", "url": "https://www.business-standard.com/amp/world-news/china-s-spies-set-sights-on-ai-semiconductors-years-before-nvidia-scandal-126112200539_1.html" },
+            { "label": "Seoul Economic Daily", "url": "https://en.sedaily.com/world/2026/11/22/chinas-spy-agency-runs-secret-push-to-obtain-ai-chips" }
+          ]
+        },
+        {
+          "headline": "The AI trade closed its worst week since March 2020",
+          "summary": "The Nasdaq 100 fell 5.6 percent Friday and 10.4 percent on the week, the S&P 500 and Dow both entered correction territory, and Nvidia dropped about 14 percent to 125.53 dollars, down roughly 23 percent in five days and about 48 percent from its October peak near 239 dollars. Arm fell 14 percent, AMD 13 percent and Broadcom 12 percent in the same session. Nvidia now trades near 13.5 times forward earnings against roughly 18 to 20 for the S&P 500, which is the market pricing a demand air pocket rather than a profit miss, since the quarter beat expectations.",
+          "sources": [
+            { "label": "Reuters via MarketScreener", "url": "https://www.marketscreener.com/news/nasdaq-has-its-worst-week-since-2020-dow-s-p-500-in-correction-ce785ed3dc80f620" },
+            { "label": "InvestingLive", "url": "https://investinglive.com/stocks/nasdaq-100-posts-worst-week-since-march-2020/" }
+          ]
+        },
+        {
+          "headline": "Oracle says the money for its OpenAI data center buildout is now in hand",
+          "summary": "Oracle said it has secured the financing needed to deliver on its OpenAI infrastructure contract, pointing to the capital raise it completed earlier this month. That matters because the single loudest bear argument of the past week has been that the AI buildout is being funded with debt against contracts that may not be fundable. OpenAI, for its part, closed an initial 11 billion dollars of a round valuing it at 1.25 trillion earlier in November.",
+          "sources": [
+            { "label": "Infraday", "url": "https://infraday.com/2026/11/21/oracle-openai-data-center-funding-texas-stargate/" }
+          ]
+        },
+        {
+          "headline": "Washington's cloud-loophole chip rule hit the Federal Register this week",
+          "summary": "The Bureau of Industry and Security's interim final rule, published November 19, now requires licenses for advanced chips and servers destined for data centers or networks above 12 million total processing performance that could sell compute to Chinese customers, and extends licensing to shipments bound for Malaysia, Singapore, Indonesia, Thailand and Brazil. US-headquartered operators are generally exempt. Pairing it with the espionage reporting above shows the policy direction clearly: controls are shifting from the chip to the compute service. Context item, announced November 16.",
+          "sources": [
+            { "label": "TechCrunch", "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "NROL-136 flies, and B1097 logs its 14th trip",
+          "summary": "The Falcon 9 cleared SLC-4E at roughly 4:23 a.m. Pacific Sunday carrying an undisclosed number of NRO reconnaissance satellites, the agency's fourth proliferated-architecture launch of the year and 15th overall. The first stage returned to Landing Zone 4 at Vandenberg about eight to ten minutes after liftoff, with sonic booms forecast across Santa Barbara, San Luis Obispo and Ventura counties. The interesting number is not the payload but the pad: SLC-4E supported two orbital launches inside about 32 hours.",
+          "sources": [
+            { "label": "SpaceX", "url": "https://www.spacex.com/launches/nrol136" },
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/" },
+            { "label": "Tesla North", "url": "https://teslanorth.com/2026/11/22/spacex-nrol-136-vandenberg-32-hours/" }
+          ]
+        },
+        {
+          "headline": "China lofts its 30th batch of low-orbit internet satellites",
+          "summary": "A Long March 8A lifted off from the Hainan Commercial Spacecraft Launch Site at 7:59 p.m. local time Friday and placed the 30th group of Guowang-class broadband satellites in their intended orbit. The 8A is the kerolox-plus-hydrolox variant built specifically for this kind of constellation work, with a widened 5.2-meter fairing to stack more flat-packed satellites per flight. China is now running these missions at a cadence that treats megaconstellation deployment as routine industrial throughput.",
+          "sources": [
+            { "label": "CGTN", "url": "https://news.cgtn.com/news/2026-11-21/China-launches-30th-group-of-low-orbit-internet-satellites-1SfA8xoh0pq/p.html" }
+          ]
+        },
+        {
+          "headline": "Ariane 6 picks up the Amazon Leo slack after Vulcan's failure",
+          "summary": "Arianespace confirmed that flight VA271, the tenth Ariane 6 mission, will carry 36 Amazon Leo satellites from Kourou no earlier than Monday, November 23, with the window set closer to launch. It will be the fourth Ariane 6 flight for the constellation this year, which now stands at nearly 400 satellites launched across 14 missions. The flight matters more than usual because Vulcan's November 15 failure destroyed a 40-satellite Leo batch, leaving Amazon leaning harder on Ariane while ULA is grounded.",
+          "sources": [
+            { "label": "Arianespace", "url": "https://www.ariane.group/en/news/arianespace-to-launch-36-amazon-leo-satellites-on-november-23-at-the-earliest-for-10th-ariane-6-flight/" },
+            { "label": "About Amazon", "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates" }
+          ]
+        },
+        {
+          "headline": "Vulcan investigators zero in on propellant starvation, not the engines",
+          "summary": "ULA has traced the November 15 total mission failure to an inadequate fuel supply reaching the first stage engines, which steers blame away from both the BE-4 powerplants and the Centaur 5 upper stage and toward the feed system. The FAA is overseeing the ULA-led investigation and Vulcan has no return-to-flight date. With New Glenn grounded since its May pad explosion and Neutron slipped to 2027, the Space Force is down to effectively one certified heavy lifter. Context item, reported November 18.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/11/18/vulcan-failure-investigation-focuses-on-inadequate-fuel-supply-to-booster-engines/" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-traces-vulcan-centaur-rocket-failure-to-inadequate-fuel-supply-to-1st-stage-engines" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Ukrainian drones hit a Russian logistics ship at sea and a National Guard headquarters",
+          "summary": "Two drones struck the cargo ship Sparta II in the Gulf of Finland on Saturday, leaving the vessel burning in Finnish waters; Russian regional governors confirmed the hit on a ship widely described as a military logistics carrier. Dozens more drones reached Russia's Leningrad region overnight with explosions near the Ust-Luga port, and Kyiv Post reported long-range strike drones hitting the Rosgvardiya regional headquarters in Krasnodar overnight into Sunday. Moscow claimed 275 interceptions across 12 regions, Crimea and the Black Sea, which is itself a statement about strike-package size.",
+          "sources": [
+            { "label": "bne IntelliNews", "url": "https://www.intellinews.com/missile-war-monitor-drone-struck-russian-supply-ship-sparta-ii-burns-on-in-finnish-waters-487317" },
+            { "label": "Kyiv Post", "url": "https://www.kyivpost.com/post/90837" }
+          ]
+        },
+        {
+          "headline": "Russia's overnight packages are now majority jet-powered",
+          "summary": "Ukraine's Air Force counted three ballistic missiles and 148 drones on the night of November 20 to 21, of which 87 were jet-powered, and ISW tallied 186 strike drones the following night including 72 jet Shaheds alongside Gerbera drones and Parodiya decoys. Mixing jet cruise drones with cheap radar decoys is a deliberate cost-exchange play: the decoys soak up expensive interceptors while the fast movers compress the defender's engagement window. A strike on a civilian area of Kryvyi Rih killed two people and injured 58.",
+          "sources": [
+            { "label": "ISW / Critical Threats", "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-21-2026" }
+          ]
+        },
+        {
+          "headline": "The US Army wants a kinetic drone interceptor a soldier can carry",
+          "summary": "A solicitation issued November 14 asks industry for a man-packable kinetic interceptor for close-range counter-UAS defense, with offers due November 23. The requirement is the ground-level answer to the same problem Ukraine is solving in the air: guns and electronic warfare are losing ground to drones that are faster, more numerous and increasingly navigation-hardened against jamming. Expect weight, cost per shot and time-to-first-round to dominate the evaluation rather than raw intercept range.",
+          "sources": [
+            { "label": "Unmanned Airspace", "url": "https://www.unmannedairspace.info/counter-uas-systems-tenders/us-army-issues-solicitation-for-c-uas-interceptor/" }
+          ]
+        },
+        {
+          "headline": "A single drone sighting closed Genoa's airport",
+          "summary": "Cristoforo Colombo Airport shut down Friday evening after an unauthorized drone was spotted nearby, reopening only once checks were complete and Italian air navigation provider ENAV cleared operations. It is a small incident with an outsized lesson: European airports still have no graduated response between ignoring a sighting and stopping all traffic. The FBI is separately hunting three men who flew a drone in restricted airspace near Reagan National in late October.",
+          "sources": [
+            { "label": "LaPresse", "url": "https://uk.lapresse.it/news-en/2026/11/20/genoa-drone-alert-colombo-airport-closed-and-then-reopened/" }
+          ]
+        },
+        {
+          "headline": "Waymo is off California freeways while Tesla opens Cybercab rides in Dallas",
+          "summary": "California's DMV barred Waymo from state freeways on November 11 after robotaxis drove into active construction zones, and Waymo extended the pause to other markets as a precaution while filing two NHTSA recalls, one fixed by a November 6 software update. A separate federal probe is looking at robotaxis passing stopped school buses. Tesla meanwhile launched public Cybercab rides in Dallas, its second city after Austin, and got Assisted Driving approved in Italy on Friday, its twelfth EU country.",
+          "sources": [
+            { "label": "Benzinga", "url": "https://benzinga.com/markets/tech/26/11/63514856/waymo-robotaxi-safety-recalls-freeway" },
+            { "label": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-expands-cybercab-to-dallas-as-waymo-pauses-freeway-operations-this-week/cNbm5YSR91g" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Verstappen wins a 34-lead-change Las Vegas Grand Prix",
+          "summary": "Verstappen converted pole into a 0.639s win over Norris, with Piastri third and Kimi Antonelli fourth, in a race the official timing recorded with 34 changes of lead across 50 laps. The Strip's long straights and the 2026 cars' heavy electrical deployment made the slipstream so strong that leading was close to a liability, and George Russell crashed out late. That lead-change count is the clearest single data point yet that this year's 50-50 hybrid split plus active aerodynamics has restored overtaking.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/results/2026/races/1300/las-vegas/race-result" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50472108/max-verstappen-las-vegas-grand-prix-formula-1" }
+          ]
+        },
+        {
+          "headline": "Ferrari opens an internal investigation after Hamilton and Leclerc collide again",
+          "summary": "The two Ferraris made contact on lap 38 of 50 after both drivers had radioed complaints about each other, and team principal Fred Vasseur said Leclerc had been told to hold position behind Hamilton before the hit. Leclerc took a 10-second penalty and fell to 10th; Hamilton, who had already served a 10-second penalty for gaining an advantage off track against Norris, finished seventh. Vasseur called the incident unacceptable and the team has launched an inquest, the second of the season between this pairing.",
+          "sources": [
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50472128/ferrari-charles-leclerc-lewis-hamilton-las-vegas-grand-prix-formula-1" },
+            { "label": "GPFans", "url": "https://gpfans.com/en/f1-news/1093223/ferrari-lewis-hamilton-charles-leclerc-las-vegas-grand-prix-2026-collision" }
+          ]
+        },
+        {
+          "headline": "Antonelli already has the title; the fight is now for second and for Ferrari's pride",
+          "summary": "Antonelli leads on 402 points to Verstappen's 304 with Qatar and Abu Dhabi left, the championship already settled. Hamilton moved to third on 267 by passing Russell, who is tied with Norris on 264. In the constructors' table Mercedes sits on 666 to Ferrari's 517 and Red Bull's 440, with McLaren nine points further back in fourth.",
+          "sources": [
+            { "label": "RacingNews365", "url": "https://racingnews365.com/2026-f1-championship-standings-after-las-vegas-grand-prix" },
+            { "label": "RaceFans", "url": "https://www.racefans.net/2026/11/22/2026-las-vegas-grand-prix-race-result-and-championship-points/" }
+          ]
+        },
+        {
+          "headline": "Marc Marquez takes a record-equalling eighth premier-class crown in Portugal",
+          "summary": "Marquez crashed out of Saturday's wet Portimao sprint at Turn 7 on the penultimate lap while running third, handing the title fight one more day; Marco Bezzecchi won that sprint by a record 8.378s after leading every one of the 12 laps. On Sunday Marquez needed only eighth place and took it, sealing his eighth MotoGP title and tenth across all classes, while Bezzecchi won the race and Aprilia took the teams' championship.",
+          "sources": [
+            { "label": "Autosport", "url": "https://www.autosport.com/motogp/news/motogp-portuguese-gp-marquez-crashes-with-title-in-sight-bezzecchi-wins-sprint/10876554/" },
+            { "label": "Crash.net", "url": "https://www.crash.net/motogp/results/1110627/1/2026-motogp-portugal-race-results" }
+          ]
+        },
+        {
+          "headline": "BMW will put LFP cells in cars outside China",
+          "summary": "A senior BMW executive said Friday that the cheaper lithium iron phosphate option will not be reserved for Chinese customers, opening the door to lower-cost versions of standard-wheelbase Neue Klasse cars like the i3 and iX3. Neue Klasse currently runs sixth-generation cylindrical nickel-manganese-cobalt cells; LFP trades roughly 20 to 25 percent gravimetric energy density for cheaper chemistry, better cycle life and no nickel or cobalt exposure. BMW has not said which markets or model years get it first.",
+          "sources": [
+            { "label": "BMWBlog", "url": "https://www.bmwblog.com/2026/11/20/bmw-offer-cheaper-lfp-batteries-outside-china/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "Jet propulsion is quietly rewriting the counter-drone math",
+    "body": "On the night of November 20 to 21, 87 of the 148 drones Russia launched at Ukraine were jet-powered, roughly 59 percent, and the following night ISW counted 72 jets out of 186. Swapping a piston-and-propeller Shahed cruising near 180 km/h for a small turbojet variant reported at 500 to 600 km/h cuts the defender's engagement window by about two thirds for the same detection range, and it pushes required intercept closing speeds past what propeller interceptor drones and most crew-served guns can deliver. That single ratio explains a lot of this week's procurement news, including the Army's request for a man-packable kinetic interceptor."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 24 to 48 hours. Figures from fast-moving stories, especially market levels and unverified battlefield counts, should be treated as approximate."
+}
