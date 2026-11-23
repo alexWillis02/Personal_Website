@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-23",
+  "title": "Daily Briefing — Monday, November 23",
+  "coverage": "Covering roughly Saturday evening through Monday morning, November 23 MST. It is a Monday, so a few items reach back to Friday and the weekend where that is still the live story; those are dated in the text. Sourcing caveat: this session's network policy refused direct page fetches to nytimes.com, cnbc.com, nvidianews.nvidia.com, spacenews.com and several other hosts, so the NYT technology, science and business sections could not be read directly and every item below was assembled by cross-referencing multiple search summaries rather than primary articles. Market numbers are intraday and outlets disagree sharply on the size of Nvidia's move; ranges are given where sources conflict, and company claims are labelled as such.",
+  "top": [
+    {
+      "headline": "Nvidia's board brings Jensen Huang back, and the AI trade rips higher",
+      "summary": "Nvidia said Monday that its board had unanimously reinstated Huang as president, CEO and director, effective immediately, two weeks after he resigned over a disclosed affair with a suspected Chinese intelligence operative. The stock jumped on the news and dragged the whole semiconductor complex up with it, reversing a selloff that had wiped out the Nasdaq's 2026 gains; the board's special-committee investigation continues."
+    },
+    {
+      "headline": "A 167-year-old problem falls twice in one weekend, once with an AI in the loop",
+      "summary": "Anthropic mathematician Levent Alpoge posted a four-page note on November 20 claiming a proof of the Riemann hypothesis found working with Claude, fully formalised in Lean, and the Lean and Mathlib communities certified the machine-checkable statement on November 21. A separate, entirely human-written proof from a Stanford postdoc landed the same day, and the mathematical community's judgement on the ideas, as opposed to the formal logic, is still pending."
+    },
+    {
+      "headline": "BepiColombo is in orbit around Mercury, but its capture burn stopped early",
+      "summary": "The ESA/JAXA probe became only the second mission ever to enter Mercury orbit on November 21 after roughly 37 minutes of thrusting, then ESA disclosed that a software issue cut the burn shorter than planned. The spacecraft is safe and talking to ESOC, but whether the shortfall changes the final orbit, and the December 10 plan to separate the two orbiters, is an open question."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Huang reinstated by a unanimous board, with the investigation still open",
+          "summary": "Nvidia's board said the vote was unanimous and took effect immediately, with Harvey Jones staying on as chair, after directors said they were satisfied with Huang's candour and his ability to lead. Trump posted that the board made the correct decision and the administration said it had no reason to believe the return is a national security risk. The special committee's inquiry into the relationship has not been closed, so the governance question is deferred rather than settled.",
+          "sources": [
+            {
+              "label": "CNN",
+              "url": "https://edition.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-ceo"
+            },
+            {
+              "label": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+            },
+            {
+              "label": "Hollywood Reporter",
+              "url": "https://www.hollywoodreporter.com/business/digital/nvidia-board-reinstates-jensen-huang-ceo-1236761072/"
+            }
+          ]
+        },
+        {
+          "headline": "The chip complex rebounds hard, though the size of the move depends who you ask",
+          "summary": "Reuters-sourced coverage put Nvidia up about 8 percent early Monday, ending its longest weekly losing streak since 2008, while other outlets reported intraday gains as large as 28 to 30 percent; treat the high end as unreconciled. Nasdaq 100 E-minis were up roughly 3.4 percent premarket, with Intel and AMD reported up about 13 and 7 percent, and eVTOL names like Joby and Archer rallying on the same risk-on turn. The context is that the Nasdaq Composite had fallen about 18 percent from its peak and had given back its gains for the year.",
+          "sources": [
+            {
+              "label": "Fox Business",
+              "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+            },
+            {
+              "label": "Kitco/Reuters",
+              "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/wall-street-futures-rebound-battered-ai-stocks-gain-ground"
+            },
+            {
+              "label": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/"
+            }
+          ]
+        },
+        {
+          "headline": "The Riemann claim is formally certified; the mathematics is still under review",
+          "summary": "The distinction that matters here is between a Lean proof that compiles and a proof mathematicians accept. MIT's Andrew Sutherland independently compiled Alpoge's Lean development and reported it proves the hypothesis as stated, and the argument is said to cover the generalized Riemann hypothesis too. Brian Conrey called it the biggest thing to happen in mathematics, while Andrew Granville argued the announcement should have come with a readable human write-up first.",
+          "sources": [
+            {
+              "label": "Nature",
+              "url": "https://www.nature.com/articles/d41586-026-03812-7"
+            },
+            {
+              "label": "Phys.org",
+              "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html"
+            },
+            {
+              "label": "TNW",
+              "url": "https://thenextweb.com/news/anthropic-alpoge-claude-riemann-hypothesis-proof-lean"
+            }
+          ]
+        },
+        {
+          "headline": "Amazon moves on Decart, buying inference software rather than models",
+          "summary": "Bloomberg reports Amazon has agreed to take much of Decart, specifically its optimization stack and founding team, while the FT frames it as a deal not yet closed; Calcalist puts the total above 7 billion dollars in cash, stock and deferred earnouts against a headline figure of 7.5 billion. The target is software that makes models run efficiently across different silicon, which is exactly the gap between Trainium and CUDA. Decart was valued near 4 billion dollars in May, when it raised 300 million and named Amazon a strategic customer.",
+          "sources": [
+            {
+              "label": "The Information",
+              "url": "https://www.theinformation.com/briefings/amazon-nearing-7-5-billion-purchase-decart"
+            },
+            {
+              "label": "PYMNTS",
+              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/amazon-nears-7-5-billion-purchase-of-ai-startup-decart/"
+            },
+            {
+              "label": "Investing.com",
+              "url": "https://ng.investing.com/news/stock-market-news/amazon-agrees-to-buy-decart-ai-technology-and-team-in-reported-75-billion-deal-2824781"
+            }
+          ]
+        },
+        {
+          "headline": "Washington says Trump and Xi agreed humans stay in the loop on military AI",
+          "summary": "Treasury Secretary Scott Bessent said on November 20 that the two leaders, meeting in Shenzhen on the APEC margins, agreed that AI should not be allowed to act autonomously for major military actions, and Trump spoke of joint guardrails. Chinese state media framed Xi's position more generally, as keeping AI under human control and improving communication on safety risks, without the military-action language. There is no published text, no definition of a major action and no verification mechanism, so this is a statement of intent rather than an agreement an engineer could design against.",
+          "sources": [
+            {
+              "label": "U.S. News/Reuters",
+              "url": "https://www.usnews.com/news/world/articles/2026-11-20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says"
+            },
+            {
+              "label": "Epoch Times",
+              "url": "https://www.theepochtimes.com/us/trump-and-xi-agree-military-ai-decisions-should-require-human-involvement-bessent-says-6127475"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "BepiColombo captured at Mercury on a burn that software cut short",
+          "summary": "Flight dynamics confirmed orbital capture on November 21 after about 37 minutes of thrusting, making this the second mission ever to orbit Mercury after MESSENGER. ESA then said the burn ran shorter than planned because of a software issue, that the spacecraft is safe, and that ESOC is still working out what happened. This probe has already lost margin once: a 2024 power anomaly capped the thrust available from its solar-electric propulsion and pushed Mercury arrival from 2025 to November 2026.",
+          "sources": [
+            {
+              "label": "The Register",
+              "url": "https://www.theregister.com/science/2026/11/23/software-issues-have-even-reached-mercury-as-bepicolombo-probe-arrives-in-uncertain-state/5311554"
+            },
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+            },
+            {
+              "label": "Heise",
+              "url": "https://www.heise.de/en/news/Thruster-burn-too-short-BepiColombo-enters-orbit-around-Mercury-11533989.html"
+            }
+          ]
+        },
+        {
+          "headline": "Ariane 6's Amazon Leo launch slips on a ground-systems problem",
+          "summary": "Arianespace scrubbed Monday's Kourou attempt to fly 36 Amazon Leo satellites after a technical issue reported in the ground support equipment, with a new target of no earlier than November 24. Sources disagree on the original window, quoting times from 09:30 to 11:09 GMT, so treat the timing as unconfirmed. Success would take Arianespace's Amazon Leo total to 136 satellites, which matters more than usual right now because Amazon's other ride is grounded.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+            },
+            {
+              "label": "SpaceTV",
+              "url": "https://www.spacetv.net/live/launch-of-arianespace-ariane-6-with-amazon-leo-le-04/"
+            }
+          ]
+        },
+        {
+          "headline": "ULA's Vulcan failure points at fuel supply, not the BE-4 engines",
+          "summary": "Preliminary findings from the November 15 loss of 40 Amazon Leo satellites say the two BE-4 engines did not receive enough fuel from the vehicle just after liftoff, and that the engines themselves performed as designed; the solids and Centaur upper stage looked nominal. Root cause is still open, the FAA is overseeing the investigation and must approve the final report, and there is no return-to-flight date. That leaves Amazon with roughly 400 operational Leo satellites and 38 bought Vulcan missions it cannot currently fly.",
+          "sources": [
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-traces-vulcan-centaur-rocket-failure-to-inadequate-fuel-supply-to-1st-stage-engines"
+            },
+            {
+              "label": "GeekWire",
+              "url": "https://www.geekwire.com/2026/latest-findings-point-to-fuel-supply-not-blue-origins-engines-in-loss-of-amazon-leo-satellites/"
+            }
+          ]
+        },
+        {
+          "headline": "Rocket Lab raised Neutron's price 27 percent before the rocket has flown",
+          "summary": "The base price went from 55 to 70 million dollars, announced alongside Q3 results, and the company booked eight Neutron missions from five constellation operators worth more than 515 million, several of them at the new number. The pitch is that launch capacity is the scarce commodity, not launch supply. First flight is now no earlier than 2027, which Rocket Lab has tied to a manufacturing defect in a composite fuel-tank dome, and the quarterly net loss widened to 79.7 million from 18.3 million a year earlier.",
+          "sources": [
+            {
+              "label": "Rocket Lab",
+              "url": "https://www.globenewswire.com/news-release/2026/11/09/3398984/0/en/rocket-lab-lands-over-515M-in-Neutron-Launch-Deals-from-Constellation-Operators-in-Q3.html"
+            },
+            {
+              "label": "Motley Fool",
+              "url": "https://www.fool.com/investing/2026/11/16/not-spacex-not-blue-origin-the-space-stock-that-just-raised-its-launch-price-to-70-million-and-still-sold-out-rklb/"
+            }
+          ]
+        },
+        {
+          "headline": "Cargo Dragon comes home and China lines up a crewed launch with a Pakistani astronaut",
+          "summary": "A SpaceX cargo Dragon undocked from the ISS and returned to Earth over the weekend, closing out its resupply increment. Pakistan says a Chinese crewed launch carrying its astronaut to Tiangong is set for November 25, though Beijing has not confirmed that date, so treat it as the partner's claim. ESA also has Hera imagery of Dimorphos queued for release this week.",
+          "sources": [
+            {
+              "label": "Space Policy Online",
+              "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
+            },
+            {
+              "label": "Space.com",
+              "url": "https://www.space.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "An AI agent took a RISC-V core from prompt to GDSII in 12 hours",
+          "summary": "IEEE Spectrum reports that Verkor.io's Design Conductor harness drove a general-purpose agent through the full chip-design flow to produce VerCore, described as the first RISC-V CPU core designed by an AI agent, from a 219-word prompt. The claimed result is RV32I plus ZMMUL at 1.48 GHz with a CoreMark score of 3,261, verified in simulation against Spike and laid out on the open ASAP7 7-nanometre academic PDK, with a uCLinux variant booting in simulation. The notable part is the method: no chip-specific model was trained, the harness just forces a general agent through the steps a human team would follow. These are developer claims, not independent silicon.",
+          "sources": [
+            {
+              "label": "IEEE Spectrum",
+              "url": "https://spectrum.ieee.org/ai-chip-design"
+            },
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/pdf/2603.08716"
+            }
+          ]
+        },
+        {
+          "headline": "Turkey fields the ALKAN FPV with fibre-optic control and autonomous terminal guidance",
+          "summary": "STM said Monday that ALKAN has passed acceptance testing and entered Turkish security forces' inventory, in variants including a fibre-optic tethered option. The point of the fibre is immunity to jamming: the link needs neither GPS nor RF, so the drone keeps flying its mission inside a contested electromagnetic environment. Autonomous terminal guidance covers the last seconds, which is the window where a jammed operator link usually costs you the shot.",
+          "sources": [
+            {
+              "label": "Defence Industry Europe",
+              "url": "https://defence-industry.eu/stm-says-alkan-fpv-enters-turkish-security-forces-inventory-with-autonomous-terminal-guidance-and-fibre-optic-control"
+            }
+          ]
+        },
+        {
+          "headline": "Vertical Aerospace opens a dedicated powertrain and battery plant in Bristol",
+          "summary": "The company said Monday it has completed a 30,000-square-foot Vertical Powertrain Centre for propulsion engineering and battery pack production, which it expects could eventually triple its battery output. For an eVTOL, pack-level energy density and thermal behaviour are the certification-critical items, so bringing that in-house is as much a regulatory play as a capacity one. It is a facility milestone, not a flight-test one.",
+          "sources": [
+            {
+              "label": "GuruFocus",
+              "url": "https://gurufocus.com/news/9214569/vertical-aerospace-evtl-opens-new-powertrain-centre-to-boost-battery-production-capacity"
+            }
+          ]
+        },
+        {
+          "headline": "Joby and Archer both slide first passenger flights into 2027",
+          "summary": "Across third-quarter reporting over the past week, both developers pointed to 2027 for initial US commercial passenger operations, a slip from targets that had said 2026; Joby's SEC filing still carries the 2026 language. Archer holds an FAA certificate for piloted runway demonstrations and must log 50 hours of flight testing before it can seek market-survey approval for vertical flight, with transition targeted by late 2026. Joby says it has 17 aircraft in work with Toyota's help. Both stocks are down roughly half over three months and both bounced Monday with the broader tech tape.",
+          "sources": [
+            {
+              "label": "AIN",
+              "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027"
+            },
+            {
+              "label": "AVweb",
+              "url": "https://avweb.com/aviation-news/joby-archer-initial-passenger-ops-2027/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Stellantis pulls out of two world championships at once",
+          "summary": "Stellantis confirmed Monday that Peugeot's WEC Hypercar programme ends and that Citroen and Opel will leave Formula E after the 2027 season, which would cut the Formula E grid from 24 cars to 20. The timing is awkward: Opel had only just become Formula E's eleventh team, signing Mitch Evans and Theo Pourchaire after running the Gen4 car at Jarama. Dodge's planned factory NASCAR Cup entry is reported to be unaffected, so this is a retreat from European championships specifically.",
+          "sources": [
+            {
+              "label": "Grande Premio",
+              "url": "https://grandepremio.com/en/endurance/wec/stellantis-shocks-motorsport-as-peugeot-exits-wec-and-citroen-opel-leave-formula-e/"
+            },
+            {
+              "label": "RacingNews365",
+              "url": "https://racingnews365.com/breaking-formula-e-faces-crisis-after-astonishing-manufacturer-group-decision"
+            }
+          ]
+        },
+        {
+          "headline": "German carmakers head into a winter of union fights",
+          "summary": "Reuters reports Volkswagen, Mercedes-Benz, Bosch and Schaeffler have all announced job cuts, reduced investment or possible plant closures, with VW opening crunch talks with IG Metall on Tuesday and aiming to settle a European factory plan by the end of June 2027. The supplier base is where the squeeze shows up: Roland Berger and Lazard put average operating margins for European automotive suppliers at 2.9 percent this year. German foreign vehicle sales fell nearly 8 percent between 2023 and 2025 on VDA and federal statistics data.",
+          "sources": [
+            {
+              "label": "Reuters",
+              "url": "https://www.businessday.co.za/motoring/2026-11-23-german-carmakers-face-hard-winter-of-union-battles/"
+            }
+          ]
+        },
+        {
+          "headline": "F1 keeps its Qatar and Abu Dhabi finale on the calendar",
+          "summary": "The FIA confirmed the season will finish as scheduled in Qatar on November 29 and Abu Dhabi on December 6, completing the triple header that began at Las Vegas on November 21, with Mohammed Ben Sulayem saying the governing body is ready for both; an Imola backup was ruled out. The decision comes against rising Middle East tension after Trump said Friday that Iran is not willing to make an acceptable deal. Competitively there is little left: Kimi Antonelli has clinched the drivers' title and Mercedes the constructors', leaving Verstappen racing for second.",
+          "sources": [
+            {
+              "label": "ESPN",
+              "url": "https://www.espn.com/f1/story/_/id/50442406/qatar-abu-dhabi-imola-f1-2026"
+            },
+            {
+              "label": "Yahoo Sports",
+              "url": "https://sports.yahoo.com/articles/fia-president-confirms-f1-season-130402185.html"
+            }
+          ]
+        },
+        {
+          "headline": "Formula E's Gen4 era starts testing, with Mahindra fastest out of the box",
+          "summary": "The Gen4 cars ran at Jarama with Mahindra leading Nissan on day one, the first competitive mileage for the new generation of car. Gen4 is the significant regulatory step for the series, and the early running is where teams learn how much of their Gen3 energy-management playbook still applies. Opel's arrival as an eleventh team at the same test now reads very differently given the Stellantis announcement.",
+          "sources": [
+            {
+              "label": "Motorsport.com",
+              "url": "https://www.motorsport.com/all/news/"
+            }
+          ]
+        },
+        {
+          "headline": "NASCAR sets 2027 rules and a 200-mph-plus Clash package",
+          "summary": "NASCAR confirmed its 2027 national series sporting and technical regulations and issued invitations for the Daytona Clash, with a qualifying package intended to exceed 200 mph. Chasing a 200-mph qualifying number on a superspeedway is a deliberate aerodynamic choice rather than an engine one, since the series controls power closely and speed there comes from drag and downforce trades. It is also a reminder that the Cup car's development path is now written in rulebooks more than in engine shops.",
+          "sources": [
+            {
+              "label": "Racer",
+              "url": "https://racer.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "The number worth keeping: 2.2 CoreMark per MHz, from an agent",
+    "body": "VerCore's claimed 3,261 CoreMark at 1.48 GHz works out to about 2.2 CoreMark/MHz, which puts it in the same neighbourhood as a small in-order embedded core rather than anything competitive with a modern application processor. That is the honest read: the achievement is not the performance, it is that a general-purpose agent went from a 219-word specification to a GDSII layout in roughly 12 hours, with no human writing RTL, planning floorplan or hand-fixing timing. Microarchitecture is a search problem with a brutally expensive evaluation function, and the interesting claim here is that the harness, not a specialised model, is what made the search tractable."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 72 hours. Direct article fetching was blocked by the session's network policy, so items were cross-referenced across multiple search summaries; figures that outlets disagree on are flagged in the text."
+}
