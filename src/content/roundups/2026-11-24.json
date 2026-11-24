@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-24",
+  "title": "Daily Briefing — Tuesday, November 24",
+  "coverage": "Covering roughly Monday morning through Tuesday morning, November 24 MST. Sourcing caveat: this session's network policy refused direct page fetches to nytimes.com, spaceflightnow.com, the-race.com, dronelife.com and every RSS feed tried, so the NYT technology, science and business sections could not be read directly and every item below was assembled by cross-referencing multiple search summaries rather than primary articles. Company-reported claims are labelled as such, and figures that outlets disagree on are flagged in the text.",
+  "top": [
+    {
+      "headline": "Ariane 6 puts 36 Amazon Leo satellites in orbit a day late, covering for Vulcan",
+      "summary": "Arianespace says flight VA271 lifted off from Kourou at 08:14 local time on November 24 and delivered 36 Amazon Leo satellites to a roughly 460 km low Earth orbit, 24 hours after a ground-support-system fault stopped the first attempt. It is Ariane 6's tenth flight and its fourth Amazon Leo mission of the year, and it lands nine days after a Vulcan Centaur failure destroyed 40 of the same satellites."
+    },
+    {
+      "headline": "Chip stocks post one of the biggest single-day moves on record after Huang's return",
+      "summary": "Nvidia closed up 31.48 percent at $165.05, adding roughly $952 billion of market value in a day, and the Philadelphia Semiconductor Index rose 14.03 percent — its fourth-best session since 2000. TSMC went limit-up in Taipei on Tuesday, gaining about NT$5.2 trillion ($158 billion)."
+    },
+    {
+      "headline": "Shenzhou-24 will carry the first foreign astronaut on a Chinese crewed flight",
+      "summary": "China named the crew on November 24: commander Tang Hongbo, flight engineer Wu Yi, and Pakistani payload specialist Muhammad Zeeshan Ali, who becomes Pakistan's first astronaut. Launch from Jiuquan is set for roughly 00:18 UTC on November 25, and it is the first joint flight of Chinese and foreign astronauts in the program's history."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "The chip complex's rebound is now on the tape, and it is a record",
+          "summary": "Yesterday the size of the move was disputed; the closing numbers settle it. Nvidia finished up 31.48 percent at $165.05 for roughly $952 billion of market capitalisation added in a single session, the SOX index gained 14.03 percent to 9,588.05 after Friday's 10.73 percent drop, and TSMC — where Nvidia is reportedly about 19 percent of revenue — hit its daily limit in Taipei for a $158 billion gain. Samsung and SK hynix rose with it, which matters for how high-bandwidth memory gets priced into next year's accelerators.",
+          "sources": [
+            { "label": "Fortune", "url": "https://fortune.com/2026/11/24/tsmc-gains-158-billion-in-value-in-one-day-as-jensen-huang-returns-as-nvidia-ceo/" },
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/24/chip-stocks-just-had-their-fourth-best-day-since-2000/" }
+          ]
+        },
+        {
+          "headline": "Z.ai ships GLM-5.4, the first flagship built on a looped transformer",
+          "summary": "GLM-5.4 went live on Z.ai's coding plan on November 23 with vision input and a 50 percent larger weekly quota, but no API pricing, no open weights and — unusually — no official benchmark table. The interesting part is architectural: the model reportedly runs a block of 28 layers twice per forward pass, trading extra compute per token for effective depth so that a roughly 750B-parameter model behaves like a far larger one. Treat the parameter count and the third-party scores as provisional; Z.ai has not published them, and independent testers disagree sharply.",
+          "sources": [
+            { "label": "TechRepublic", "url": "https://www.techrepublic.com/article/news-zai-glm-5-4-loop-transformer/" },
+            { "label": "DataCamp", "url": "https://www.datacamp.com/blog/glm-5-4" }
+          ]
+        },
+        {
+          "headline": "Sierra raises $1.75B at a $30B valuation, doubling its price in six months",
+          "summary": "Bret Taylor's customer-service agent company announced a Series F led by Greenoaks and Lightspeed on November 23, with Benchmark, Sequoia, GV and Tiger Global following on; Bloomberg described the round as still being finalised. Sierra says annualised recurring revenue passed $400 million in October, up more than $150 million in the third quarter, and it charges per resolved outcome rather than per seat or per token. That pricing model is the thing to watch — it is the clearest test yet of whether agent vendors can bill on results.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-23/bret-taylor-s-sierra-finalizing-more-than-1-75-billion-round" },
+            { "label": "CMSWire", "url": "https://www.cmswire.com/contact-center/sierra-hits-30b-valuation-on-175b-series-f/" }
+          ]
+        },
+        {
+          "headline": "Oregon and Virginia sue over Grok's sexual deepfakes",
+          "summary": "Attorneys general Dan Rayfield and Jay Jones filed separate suits on November 23 naming SpaceX, X and the former xAI, alleging the company loosened safeguards against non-consensual sexual imagery to gain a competitive edge and then overstated the protections it had. Oregon's claim runs through its Unlawful Trade Practices Act, which turns a marketing misrepresentation into the legal hook rather than relying on content liability. Several other states are reported to be investigating but have not filed.",
+          "sources": [
+            { "label": "CyberScoop", "url": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/" },
+            { "label": "Engadget", "url": "https://www.engadget.com/2325111/two-states-sue-spacex-over-sexually-explicit-grok-deepfakes/" }
+          ]
+        },
+        {
+          "headline": "Governors ask Congress for a federal AI floor, not a ceiling on states",
+          "summary": "The National Governors Association called on November 22 for a national AI framework that sets federal standards for the most capable general-purpose models while preserving state authority to protect consumers, workers and children. It is a direct push back on the preemption campaign running through Washington, where a DOJ task force created by executive order is challenging state statutes. Colorado is the live test case: it adopted 76 pages of AI rules on November 19 that take effect January 1, 2027, while enforcement of its earlier law has been frozen by a federal court since April pending a ruling on xAI's injunction motion.",
+          "sources": [
+            { "label": "PYMNTS", "url": "https://pymnts.com/news/artificial-intelligence/2026/governors-urge-congress-to-preserve-state-authority-in-national-ai-framework" },
+            { "label": "Norton Rose Fulbright", "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/de3ad9de/xai-sues-doj-intervenes-enforcement-of-colorado-ai-act-suspended" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Ariane 6 flies VA271 after a one-day ground-systems hold",
+          "summary": "Arianespace scrubbed the November 23 attempt after what it called a technical event affecting the launcher's ground support systems, ran checks overnight and launched at 08:14 local time in Kourou on November 24, at the very end of the window. The Ariane 64 configuration — four solid boosters — carried 36 Amazon Leo satellites to about 460 km, with deployment starting roughly 1 hour 39 minutes after liftoff and the last separations about two hours in. Arianespace says the flight brings its Amazon Leo total to 136 satellites; an independent post-separation confirmation of all 36 was not available at writing.",
+          "sources": [
+            { "label": "Arianespace", "url": "https://newsroom.arianespace.com/mission-va271le-04-ariane-6-launch-rescheduled-for-november-24-2026/" },
+            { "label": "ArianeGroup", "url": "https://www.ariane.group/en/news/va271-launch-kit-for-the-10th-ariane-6-launch/" },
+            { "label": "ESA", "url": "https://www.esa.int/media/about-us/directorates/space-transportation/ariane/ariane-6-flight-va271-taking-amazon-leo-satellites-to-low-earth-orbit" }
+          ]
+        },
+        {
+          "headline": "China names the Shenzhou-24 crew, with Pakistan's first astronaut aboard",
+          "summary": "Tang Hongbo commands, Wu Yi flies as engineer, and Muhammad Zeeshan Ali goes up as a short-duration payload specialist running four experiments in biotechnology and materials. CCTV frames it as the first joint flight of Chinese and foreign astronauts in the history of the crewed program, under an agreement signed with Pakistan in February 2025. Launch is listed for about 00:18 UTC on November 25 from Jiuquan, with Ali returning after roughly a week rather than staying for the full increment.",
+          "sources": [
+            { "label": "KSAT / AP", "url": "https://www.ksat.com/news/world/2026/11/24/china-unveils-new-space-mission-crew-with-a-pakistani-astronaut-set-to-board-its-space-station/" },
+            { "label": "Dawn", "url": "https://www.dawn.com/news/2046714" }
+          ]
+        },
+        {
+          "headline": "A classified Space Force payload goes up from Vandenberg this morning",
+          "summary": "USSF-266 was set to fly on a Falcon 9 from SLC-4E with a window opening at 7:55 a.m. Pacific, which is after this briefing was compiled; a backup window stands for 7:46 a.m. Pacific on November 25. The booster is B1081 on its 29th flight, recovering downrange on Of Course I Still Love You. The payload is classified, though several trackers speculate it is a batch of Starshield-bus satellites for low Earth orbit.",
+          "sources": [
+            { "label": "Next Spaceflight", "url": "https://nextspaceflight.com/launches/details/8337/" },
+            { "label": "KSBY", "url": "https://www.ksby.com/news/launch-tracker/spacex-launch-planned-for-tuesday-from-vandenberg-space-force-base" }
+          ]
+        },
+        {
+          "headline": "Roman opens its second observing cycle, and it is beating its own optical spec",
+          "summary": "NASA opened the Nancy Grace Roman Space Telescope's Cycle 2 call for proposals on November 23, with submissions due February 24, 2027, less than six months after the August 30 launch. Separately, engineers report that small alignment adjustments have left the observatory outperforming its expected image sharpness by nearly 30 percent. For a wide-field survey instrument that matters more than it sounds: sharper point-spread functions directly improve weak-lensing shape measurements and crowded-field photometry across the whole 0.28 square degree field.",
+          "sources": [
+            { "label": "NASA Science", "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/roman-space-telescope-cycle-2-call-for-proposals-open/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Ukraine and Germany sign a drone joint venture, and Germany pays for it",
+          "summary": "Defence ministers Yevhenii Khmara and Boris Pistorius signed an implementation agreement in Berlin on November 24 setting up a German-registered joint venture between a Ukrainian and a German firm to build several thousand Ukrainian-designed tactical reconnaissance and surveillance drones during 2027. Germany funds the production, the factory capacity and ongoing support, with room to raise volumes later; neither company nor the airframe has been named. The same day the two signed a letter of intent covering Ukraine's Delta battlefield software, which is the more consequential half — Delta is the common operating picture the drones feed. Kyiv counts this as its twelfth co-production project with a partner country and its sixth with Germany.",
+          "sources": [
+            { "label": "Ukraine MoD", "url": "https://mod.gov.ua/en/news/ukrainian-reconnaissance-drone-production-germany" },
+            { "label": "Ukrinform", "url": "https://www.ukrinform.net/rubric-economy/4187963-ukraine-germany-to-coproduce-reconnaissance-drones-for-ukraines-defense-forces.html" }
+          ]
+        },
+        {
+          "headline": "ASELSAN's GOKDENIZ kills a jet-powered target drone in a Black Sea live-fire",
+          "summary": "Announced November 23, the naval close-in weapon system — the shipboard version of the land-based KORKUT — detected, tracked and destroyed a high-speed jet-engine target UAV flying a low, manoeuvring profile meant to stand in for drones and cruise missiles. ASELSAN says the engagement ran semi-autonomously: automatic detection and track, then a single operator button press to authorise fire, with a fully autonomous multi-target mode available but not demonstrated. The gun system pairs radar and electro-optical sensors with twin 35 mm cannons firing a combined 1,100 rounds per minute, which is the cheap end of the counter-drone cost curve compared with interceptor missiles. All performance details are company-reported.",
+          "sources": [
+            { "label": "Defence Industry Europe", "url": "https://defence-industry.eu/aselsan-says-gokdeniz-naval-air-defence-system-destroyed-low-flying-jet-powered-drone-during-live-fire-demonstration/" },
+            { "label": "Defence Blog", "url": "https://defence-blog.com/turkish-naval-gun-system-shoots-down-jet-drone-in-live-fire-test/" }
+          ]
+        },
+        {
+          "headline": "DroneShield reaches initial operational capability on a fixed-site C-UAS for JIATF-401",
+          "summary": "The layered system, declared operational on November 23, pairs DroneShield's RF sensing and electronic countermeasures with Echodyne's EchoShield radar, giving operators both RF and radar tracks at designated US military installations. That sensor pairing is the point: RF detection alone misses autonomous or fibre-controlled drones that never transmit, which is exactly the threat profile coming out of Ukraine. It extends earlier work with the task force on vehicle-mounted DroneSentry-X Mk2 units fitted to Infantry Squad Vehicles. Deployment locations and quantities were not disclosed.",
+          "sources": [
+            { "label": "Unmanned Airspace", "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/droneshield-achieves-jiatf-401-ioc-for-layered-fixed-site-c-uas/" },
+            { "label": "European Security & Defence", "url": "https://euro-sd.com/2026/11/news/cyber-coms/54794/droneshield-jiatf-401-2/" }
+          ]
+        },
+        {
+          "headline": "Washington closes the cloud loophole on AI chips as Nvidia stops selling H200s to China",
+          "summary": "Commerce's interim final rule, Addressing Remote Access to Advanced Semiconductors, published November 19, treats giving a restricted party remote access to controlled compute in an offshore data center much like physically exporting the chip; affected operators have 90 days to get a BIS license, comments close January 18, 2027, and the never-enforced AI Diffusion Rule is formally rescinded. It lands alongside House Foreign Affairs records showing roughly 879,000 Nvidia and AMD accelerators licensed for Chinese buyers between December 2025 and May 2026 — about 580,000 of them Nvidia's — against 3.4 million requested. Nvidia says those H200 shipments were authorised by BIS, and told investors it will stop selling the part to China after about $2.4 billion of sales there last quarter.",
+          "sources": [
+            { "label": "Morgan Lewis", "url": "https://www.morganlewis.com/pubs/2026/11/commerce-targets-remote-access-to-advanced-semiconductors-in-new-interim-final-rule" },
+            { "label": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months" },
+            { "label": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/11/20/officials-approved-sale-580000-nvidia-chips-chinese-companies/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Volkswagen opens wage talks under a strike threat",
+          "summary": "Bargaining with VW's labour representatives started Tuesday against protests and the threat of strikes from January 1. The union argues management's cost push violates the late-2024 settlement that traded 35,000 job cuts for employment and investment guarantees, with reporting now pointing to as many as 100,000 positions and four German plants under review early next decade. It is the same squeeze visible across the sector: Mercedes-Benz has frozen all German plant investment while it weighs closures, and supplier Schaeffler is cutting 3,460 jobs and five European sites on weak combustion-engine demand.",
+          "sources": [
+            { "label": "Reuters via Investing.com", "url": "https://www.investing.com/news/stock-market-news/volkswagen-confronts-union-over-costs-in-face-of-strike-threat-5047119" }
+          ]
+        },
+        {
+          "headline": "Pirelli caps Qatar stints at 27 laps, forcing a two-stop race",
+          "summary": "Chief F1 engineer Simone Berra confirmed a 27-lap maximum per set for Lusail this weekend, up from 25 in 2025 and 18 when the measure was first used in 2023. Over the 57-lap distance that guarantees at least two stops; laps to the grid, formation laps and post-flag laps do not count. Pirelli credits lower measured loads from this generation of cars plus a reinforced construction for the two-lap relaxation, but Lusail's fast, kerb-heavy corners still drive very high localised front-tyre wear.",
+          "sources": [
+            { "label": "PlanetF1", "url": "https://www.planetf1.com/news/qatar-gp-2026-pirelli-tyre-maximum-stint" },
+            { "label": "ESPN", "url": "https://www.espn.com/f1/story/_/id/50472103/qatar-grand-prix-pirelli-formula-1" }
+          ]
+        },
+        {
+          "headline": "McLaren names three technical faults behind its Las Vegas deficit",
+          "summary": "Andrea Stella said the MCL40 carried too much aerodynamic drag, ran an eighth-gear ratio that did not suit the circuit, and mismanaged electrical energy — a revealing combination under the 2026 rules, where the 50/50 split between combustion and electrical power makes gearing and deployment strategy inseparable from straight-line speed. Norris and Piastri still recovered to second and third from tenth and seventeenth on the grid. Stella says the team has better tools than before but not yet where it believes it can be.",
+          "sources": [
+            { "label": "GrandePremio", "url": "https://grandepremio.com/en/f1/stella-reveals-mclaren-drag-and-gearbox-problems-despite-norris-piastri-las-vegas-podium/" }
+          ]
+        },
+        {
+          "headline": "Formula E's Gen4 test ends early when a car catches fire",
+          "summary": "Edoardo Mortara put the Mahindra on top of day two at Jarama with a 1m24.496s after race control deleted his earlier times for exceeding the permitted power limits, with Jean-Eric Vergne's Citroen quickest in the afternoon. Mortara also won the second race simulation before the session was abandoned following a fire in Taylor Barnard's Fusion car; Barnard was unhurt. For a formula moving to much higher peak power and four-wheel regeneration, a shakedown that trips the power limits and then ends in a thermal event is a fair measure of how much integration work is left before the season opens.",
+          "sources": [
+            { "label": "Autosport", "url": "https://www.autosport.com/formula-e/news/formula-e-jarama-test-mortara-fastest-in-day-two/10875354/" },
+            { "label": "PaddockNews24", "url": "https://www.paddocknews24.com/en/formula-e/formula-e-gen4-tests-mortara-wins-race-simulation-as-barnards-car-catches-fire" }
+          ]
+        },
+        {
+          "headline": "Toyota's next Corolla goes multipathway, including a first full EV",
+          "summary": "Reporting on November 23 describes a ground-up overhaul of the world's best-selling nameplate on a new multipathway platform engineered to take petrol, hybrid, plug-in hybrid and — for the first time — battery-electric powertrains in the same body. The hybrid is expected to use a new 1.5-litre four, and the EV may offer single- and dual-motor variants with at least 250 miles of range, though none of that is confirmed. Reveal looks like 2027 for a 2028 model year, with production reportedly starting in 2028 through the FAW Toyota joint venture in China; a US EV version has not been confirmed.",
+          "sources": [
+            { "label": "Electrek", "url": "https://electrek.co/2026/11/23/toyota-corolla-radical-makeover-first-ev/" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "The number worth keeping: 140 kg, the price of a hybrid system",
+    "body": "Ferrari's new 296 Challenge Stradale, shown at the Finali Mondiali in Barcelona, is the 296 with the plug-in hybrid hardware deleted — battery, e-motor and power electronics gone — and that removal alone accounts for about 140 kg, putting dry mass at 1,330 kg. The trade is stark when you line the figures up: roughly 150 hp of electric boost surrendered (670 hp here against 819 hp for the plug-in 296 GTB) to buy back 140 kg, or about 1 kg saved per horsepower given away. Power-to-weight actually falls slightly; what you gain is lower polar moment, less thermal management, simpler load paths and throttle response that does not depend on a state of charge. Ferrari quotes 740 Nm, 124 mph to a stop in about 331 feet, and 1,360 lb of downforce at 155 mph."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 24 hours. Direct article fetching was blocked by the session's network policy, so items were cross-referenced across multiple search summaries; company-reported and single-source figures are flagged in the text."
+}
