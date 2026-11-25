@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-25",
+  "title": "Daily Briefing — Wednesday, November 25",
+  "coverage": "Covering roughly Tuesday morning through Wednesday morning, November 25 MST. Sourcing caveat: this session's network policy blocked direct page fetches to nytimes.com, arstechnica.com, theverge.com and spacenews.com, so the NYT technology, science and business sections could not be read directly and every item below was assembled by cross-referencing multiple search summaries rather than primary articles. Company-reported claims are labelled as such, and figures outlets disagree on are flagged in the text.",
+  "top": [
+    {
+      "headline": "The AI selloff deepens and Anthropic breaks below its IPO price",
+      "summary": "Monday's rally on Jensen Huang's reinstatement as Nvidia CEO lasted exactly one day: Nvidia fell again Tuesday and was down roughly 5 percent premarket Wednesday, while Anthropic closed Tuesday at $81.91, under its $83 IPO price and well off the $115 it touched on its Nasdaq debut. Advantest, a chip-test supplier to Nvidia, dropped 12.94 percent in Tokyo and CoreWeave lost nearly 9 percent, with analysts pointing at data-centre capex sustainability rather than any single piece of news."
+    },
+    {
+      "headline": "Shenzhou-24 carries the first foreign astronaut to a Chinese space station",
+      "summary": "A Long March 2F lifted off from Jiuquan at 00:18 UTC on November 25 with commander Tang Hongbo, flight engineer Wu Yi and Pakistani payload specialist Muhammad Zeeshan Ali, the first non-Chinese astronaut to fly in the program. AP reported nominal separation and orbit insertion; it is the 41st crewed mission of the Chinese program, and Ali returns with two Shenzhou-23 crew while Zhu Yangzhu stays aboard for a year-long stay."
+    },
+    {
+      "headline": "The Pentagon is talking to GM and Ford about mass-producing drones",
+      "summary": "The Wall Street Journal reported Tuesday that the Department of War is in early talks with General Motors, Ford and other manufacturers to feed the drone industrial base, with automakers and their tier-ones supplying actuators, engines, sensors and lidar rather than building whole aircraft. Ford confirmed talks but said they covered military vehicles and satellites, not drones; GM declined to comment and its executives reportedly see a thin business case for drone motors."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "One-day rally, then a deeper drawdown across the AI complex",
+          "summary": "Nvidia's Huang-return pop reversed almost immediately, and by Wednesday premarket the stock was off about 4.7 to 6 percent depending on the print, with Dell and CoreWeave dragged along. Anthropic, public for less than a week, slid more than 6 percent in late Tuesday trading to close at $81.91 and spent Wednesday premarket another 4 to 5 percent lower, putting it below the $83 offer. Outlets disagree on Tuesday's exact Nvidia close, roughly 5.9 percent per AP versus nearly 9 percent in one CNBC item, so treat the single-day percentages as provisional.",
+          "sources": [
+            { "label": "CNN Business", "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return" },
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html" }
+          ]
+        },
+        {
+          "headline": "Anthropic publishes a Claude-authored proof that VP is not VNP, and nobody has checked it yet",
+          "summary": "Anthropic posted a 70-page paper credited to Claude claiming to settle Valiant's 1979 algebraic-complexity conjecture over every field, together with a Lean 4 formalization running to a few hundred files. The honest caveat is Anthropic's own: Lean checks the proofs, but no machine checks that the formal statement actually says what the paper claims, and no human mathematician has reviewed it. The company says it cross-checked statements with a tool called Comparator and re-verified with an independent kernel, nanoda; this does not touch P versus NP, which is the Boolean rather than the algebraic question.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture" },
+            { "label": "CASRAI", "url": "https://casrai.org/news/anthropic-claude-authored-vp-vnp-proof-unverified-lean-2026" }
+          ]
+        },
+        {
+          "headline": "Gemini agent teams cut the qubit bill for a laser-fusion simulation by 11.8x",
+          "summary": "DeepMind and Google Quantum AI report that teams of Gemini-based agents rewrote quantum circuits across several benchmarks, with the headline result an 11.8-fold drop in estimated resource cost for a laser-fusion simulation and logical memory falling from 5,650 to 4,338 qubits. Smaller wins include a 2.57x speedup on a Grover implementation and roughly 290x on an arcsine subroutine. Because no hardware exists that can run these circuits, every result was checked with a Lean proof rather than executed, which is a neat illustration of formal methods standing in for a test article.",
+          "sources": [
+            { "label": "AlphaSignal", "url": "https://alphasignal.ai/news/google-deepmind-s-gemini-agents-cut-quantum-circuit-costs-by-290x" },
+            { "label": "InsertFuture", "url": "https://insertfuture.com/en/article/deepmind-agents-quantum-algorithms-formal-verification" }
+          ]
+        },
+        {
+          "headline": "OpenAI puts GPT-6 to work designing proteins",
+          "summary": "OpenAI demonstrated general-purpose models reasoning and writing code to design protein sequences and predict their folded structures, with wet-lab follow-up reportedly finding binding evidence against five targets. The interesting claim is not a new specialised architecture but that a general reasoning model plus tool use got there, which is the same argument being made for autonomy stacks in other domains. Reporting on this came through aggregator digests rather than a primary OpenAI post, and at least one digest gives a conflicting October date, so treat the specifics as unconfirmed.",
+          "sources": [
+            { "label": "The Neuron", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/" }
+          ]
+        },
+        {
+          "headline": "Chip export policy stays put while Congress moves three bills",
+          "summary": "Treasury Secretary Scott Bessent said the existing H200 limits are the right ones and that remote access has been curtailed, signalling no new restrictions near-term, even as Nvidia has stopped shipping H200s to China despite having US approval and having sold $2.4 billion of them there last quarter. Nvidia's board stood up a standing committee on national security, export compliance and trade risk on November 17, chaired by Suzanne Nora Johnson. Reports also have Congress advancing three separate AI-chip export bills, which is the part worth watching since it would move policy from discretion to statute.",
+          "sources": [
+            { "label": "PBS NewsHour", "url": "https://www.pbs.org/newshour/politics/bessent-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china" },
+            { "label": "TechRepublic", "url": "https://www.techrepublic.com/article/news-nvidia-ai-chip-export-oversight/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Shenzhou-24 reaches orbit with Pakistan's first astronaut aboard",
+          "summary": "Liftoff was 00:18 UTC on November 25 from Jiuquan on a Long March 2F, with Tang Hongbo commanding, Wu Yi as flight engineer and Muhammad Zeeshan Ali as payload specialist. Ali is the first foreign astronaut to fly on a Chinese crewed mission and is on a short-duration visit, returning with two Shenzhou-23 crewmembers while Zhu Yangzhu remains for a year-long increment. The selection is as much a diplomatic instrument as a technical one: Tiangong is now running the kind of guest-astronaut program the ISS partnership has used for decades.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station" },
+            { "label": "CBS News", "url": "https://www.cbsnews.com/news/china-launches-shenzhou-24-spacecraft/" }
+          ]
+        },
+        {
+          "headline": "Progress 97 launched Tuesday and docks on Thanksgiving Day",
+          "summary": "Roscosmos launched the Progress 97 freighter from Baikonur on November 24, with automated docking to the ISS set for 12:11 UTC on November 26 and NASA coverage from 11:30 UTC. Dragon had already departed, undocking November 20 and splashing down in the Pacific on the 21st, so the station spent the holiday window on a single cargo arrival. Note the numbering confusion in coverage: NASA calls it Progress 97 as the 97th Progress flight to ISS, while trackers list the same vehicle as Progress MS-36.",
+          "sources": [
+            { "label": "NASA Space Station Blog", "url": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/" },
+            { "label": "SpacePolicyOnline", "url": "https://spacepolicyonline.com/events/progress-ms-36-docks-at-the-iss-nov-26-2026-earth-orbit-711-am-et/" }
+          ]
+        },
+        {
+          "headline": "Cygnus XL, the year's last ISS cargo run, is holding for November 29 on a Falcon 9",
+          "summary": "NASA, Northrop Grumman and SpaceX are targeting no earlier than 15:47 UTC Sunday, November 29 from SLC-40 at Cape Canaveral, carrying about 11,000 pounds of cargo supporting more than 50 investigations, with arrival December 1. The Falcon 9 ride is the structural story here: Antares is gone, so Northrop's freighter flies on a competitor's booster, and the stretched XL variant is how it keeps the per-flight economics working. SpaceX had not yet held the launch readiness review as of the latest reporting, so the date is a target rather than a commitment.",
+          "sources": [
+            { "label": "NASA Space Station Blog", "url": "https://www.nasa.gov/blogs/spacestation/2026/11/24/crew-awaits-thanksgiving-day-delivery-as-another-cargo-craft-nears-launch/" },
+            { "label": "SpacePolicyOnline", "url": "https://spacepolicyonline.com/events/launch-of-northrop-grummans-ng-25-to-iss-nov-29-2026-ccsfs-1049-am-et/" }
+          ]
+        },
+        {
+          "headline": "NASA's $1.3 billion VADR block buy bundles launch and orbital tugs for Moon Base",
+          "summary": "NASA issued six task orders worth roughly $1.3 billion combined under the 10-year Venture-Class Acquisition of Dedicated and Rideshare contract, to Arrow Science and Technology, Blue Origin and Impulse Space, to integrate and move Moon Base cargo, with missions riding New Glenn, Terran R and Falcon 9. NASA's Moon Base transportation manager framed it explicitly as a demand signal, buying capability early so vehicles can be matched to payloads later. Read the figure as a ceiling spread across a decade, not committed spend, and note that outlets disagree on the recipient list.",
+          "sources": [
+            { "label": "Via Satellite", "url": "https://www.satellitetoday.com/government-military/2026/11/09/nasa-makes-major-contract-awards-for-moon-base-development/" }
+          ]
+        },
+        {
+          "headline": "Blue Origin books more New Glenn work while LC-36 is still being rebuilt",
+          "summary": "EnduroSat announced on November 25 a multi-launch agreement for dedicated New Glenn 7x2 missions from Cape Canaveral, first flight in 2029, adding to Google's booking of a New Glenn for a 2029 orbital solar-powered AI compute test. The awkward part is that New Glenn has been grounded since the May 28 pad explosion that destroyed a vehicle and damaged LC-36, its only operational pad. Blue Origin is rebuilding the tower and has pointed at a November return to flight, but nothing in the reporting confirms it has happened.",
+          "sources": [
+            { "label": "EnduroSat (GlobeNewswire)", "url": "https://globenewswire.com/news-release/2026/11/25/3410071/0/en/endurosat-signs-multi-launch-agreement-with-blue-origin-for-dedicated-new-glenn-missions-for-its-customers.html" },
+            { "label": "SatNews", "url": "https://satnews.com/2026/11/24/build-buy-or-merge-satellite-companies-move-to-own-their-launch/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Detroit as drone subtier: the Pentagon courts GM and Ford",
+          "summary": "Per the Wall Street Journal on November 24, talks are early and no deals are signed, with the structure being automakers and suppliers feeding components, actuators, engines, sensors and lidar, into existing drone primes rather than building airframes. That is the sensible read on the industrial problem: the bottleneck in scaling small UAS is not airframe assembly but high-rate, low-cost precision components, which is exactly what automotive tier-ones are built for. Semafor's version is broader, describing GM potentially turning over assembly lines, and Reuters said it could not independently verify the report; Ford says its own discussions were about vehicles and satellites.",
+          "sources": [
+            { "label": "Reuters via Investing.com", "url": "https://www.investing.com/news/stock-market-news/pentagon-in-talks-with-general-motors-and-ford-on-military-drones-wsj-reports-5047560" },
+            { "label": "Defense News", "url": "https://defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles" },
+            { "label": "Semafor", "url": "https://semafor.com/article/11/24/2026/pentagon-eyes-gm-for-drone-production-wsj" }
+          ]
+        },
+        {
+          "headline": "XPeng's IRON humanoid walks on stage with 2,250 TOPS and a January production date",
+          "summary": "At AI Day in Guangzhou on November 25, XPeng showed a 170 cm, 76-degree-of-freedom humanoid running three of its in-house Turing chips at up to 750 TOPS each, and said mass production starts January 2027 with store-assistant deployment in Q1 and public sales in Q2. The strategically interesting piece is chip reuse: the same Turing silicon and a shared VLA 3.0 physical-AI stack are meant to cover cars, robotaxis, humanoids and eVTOLs, which spreads non-recurring engineering across four product lines. XPeng's own disclaimer is that production units may not match the demo's performance.",
+          "sources": [
+            { "label": "N Globe News", "url": "https://nglobenews.com/en/article/xpeng-iron-humanoid-robot-mass-production-january-2027-2026-11-25" },
+            { "label": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/2026/11/23/xpeng-to-showcase-humanoid-robot-and-physical-ai-advances-at-ai-day-2026/107497/" }
+          ]
+        },
+        {
+          "headline": "Gauntlet 2.5 is testing drones that bomb and come home",
+          "summary": "The Defense Innovation Unit's Drone Dominance Program ran its reusable bomber-dropper round at Camp Grayling, Michigan starting November 13, with eight companies advancing from qualifiers and roughly $32 million in initial prototype orders at stake under a $450 million program. The requirement is a meaningful step up from one-way attack drones: carry multiple munitions 15 to 30 km, release them, return, and fly again, which forces real work on payload racks, release mechanisms, energy margin and recovery. Six of the eight finalists are reportedly Ukrainian, and one entrant is said to have built its prototype in two and a half weeks.",
+          "sources": [
+            { "label": "DroneLife", "url": "https://dronelife.com/2026/10/14/drone-dominance-phase-iii-gauntlet-2-5/" },
+            { "label": "Shephard Media", "url": "https://www.shephardmedia.com/news/air-warfare/pentagons-bomber-uav-trials-test-how-fast-industry-can-respond/" }
+          ]
+        },
+        {
+          "headline": "eVTOL passenger service slips to 2027 as the sector's equity gets cut in half",
+          "summary": "Joby and Archer have both moved first US passenger operations to 2027, with Joby expecting FAA pilot training and more company flight test in the first half of the year. Archer's FAA certificate for Midnight currently covers conventional runway takeoffs and landings only; it still needs a piloted transition flight before it can pursue vertical approval, which is the actual certification long pole. Over three months to November 24, Archer is down about 49 percent, Joby about 46 percent and Vertical Aerospace about 64 percent; note Joby's latest SEC filing still lists a 2026 first-passenger target, contradicting the public guidance.",
+          "sources": [
+            { "label": "AIN FutureFlight", "url": "https://www.ainonline.com/aviation-news/futureflight/2026-11-10/joby-and-archer-push-evtol-passenger-flights-2027" },
+            { "label": "24/7 Wall St", "url": "https://247wallst.com/investing/2026/11/24/joby-aviation-drops-7-archer-aviation-slides-6-as-air-taxi-stocks-give-back-mondays-rebound-ehang-falls-5-ahead-of-earnings/" }
+          ]
+        },
+        {
+          "headline": "Royal Marines take the first NATO Drone Crucible, and cut logistics-drone setup to three minutes",
+          "summary": "US Special Operations Command Europe ran its inaugural International Drone Crucible at Grafenwohr, Germany, where 40 Commando beat US, German, Latvian and Ukrainian teams across more than 400 sorties in three days. The scenario chained the full kill chain: find a target beyond two kilometres, confirm identity with a surveillance drone, strike, then conduct battle damage assessment, finishing with three drones concentrated on one target in sequence. Separately, 48 Commando has rewritten procedures for its 63 kg-payload Malloy logistics quadcopter so a trained team can prepare and launch in three minutes by day and five at night.",
+          "sources": [
+            { "label": "Royal Navy", "url": "https://www.royalnavy.mod.uk/news/2026/november/17/20261117-royal-marines-take-top-honours-at-drone-contest" },
+            { "label": "Unmanned Systems Technology", "url": "https://www.unmannedsystemstechnology.com/2026/11/royal-marines-win-allied-drone-combat-trials/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Porsche's electric 718 Boxster puts the battery behind the cockpit",
+          "summary": "Porsche says the car is in final development with a world premiere in Q1 2027 after roughly 2.5 million miles of testing, with output reported above 500 hp on an 800-volt architecture. The packaging is the engineering story: instead of a conventional skateboard underfloor pack, the battery sits rear-mounted behind the cockpit, preserving a low hip point and seating position that a flat floor pack would have raised, and keeping mass distribution closer to a mid-engine car. Porsche has not released net usable capacity, EPA or WLTP range, or US pricing.",
+          "sources": [
+            { "label": "The EV Report", "url": "https://theevreport.com/electric-porsche-718-boxster-development-e-core" },
+            { "label": "Notebookcheck", "url": "https://notebookcheck.net/Porsche-718-Boxster-EV-roadster-launches-2027-with-500-hp.1459122.0.html" }
+          ]
+        },
+        {
+          "headline": "BMW's electric M3 gets four motors and 885 lb-ft",
+          "summary": "BMW released first figures on November 24 for an M eDrive system using one motor per wheel, with roughly 838 hp and at least 885 lb-ft on an 800-volt architecture. Four independent motors mean true torque vectoring with no mechanical differential anywhere in the driveline, which is the part that will define how it actually drives; it also means the control software, not the hardware, becomes the M division's product. Figures are early and not production-locked, and earlier reporting from November 18 quoted up to 900 hp, so the number is still moving.",
+          "sources": [
+            { "label": "The Supercar Blog", "url": "https://www.thesupercarblog.com/bmw-reveals-first-details-of-electric-m3-over-800-hp-885-lb-ft/" }
+          ]
+        },
+        {
+          "headline": "BYD moves on Ineos's Hambach plant",
+          "summary": "BYD has confirmed exclusive negotiations to acquire Ineos Automotive's plant at Hambach in France, which would give it a third European production site and a tariff-insulated route for Chinese-designed EVs into the EU. For Ineos it raises the obvious question of where the Grenadier gets built; the company separately plans US production from 2028, which would cut its own tariff exposure. No terms or closing timeline have been disclosed.",
+          "sources": [
+            { "label": "Vision Mobility", "url": "https://vision-mobility.de/en/news/byd-to-buy-ineos-plant-what-will-become-of-the-grenadier-396105.html" }
+          ]
+        },
+        {
+          "headline": "Qatar's tyre rule makes a mandatory two-stop, with second place and third in the constructors' still live",
+          "summary": "Pirelli has imposed a 27-lap limit per tyre set at Lusail, which over a 57-lap race arithmetically forces at least two stops and takes strategy variance largely off the table. The titles are gone, Kimi Antonelli is champion 98 points clear and Mercedes has the constructors', but Verstappen on 304 points needs a podium to lock second over Hamilton, 37 behind, and Red Bull on 440 leads McLaren on 431 by nine points for third. There is no sprint this weekend, so teams get three practice sessions to work the tyre-life problem properly.",
+          "sources": [
+            { "label": "Motorsport.com", "url": "https://www.motorsport.com/f1/news/f1-qatar-gp-2026-start-time-schedule-how-to-watch/10877085/" },
+            { "label": "The National", "url": "https://www.thenationalnews.com/sport/2026/11/25/qatar-grand-prix-permutations-what-max-verstappen-needs-to-seal-second-place-in-championship/" },
+            { "label": "McLaren Racing", "url": "https://www.mclaren.com/racing/formula-1/2026/qatar-grand-prix/preview/" }
+          ]
+        },
+        {
+          "headline": "US EV sales post their first year-over-year gain of 2026",
+          "summary": "Cox Automotive's EV Market Monitor puts October new EV sales at about 83,262, up 3 percent year over year but down 3.9 percent from September, the first annual increase of the year after the federal tax credit expired. The more striking number is used EVs, up 73.2 percent to an estimated 48,678, which suggests the depreciation curve has finally made secondhand EVs the value proposition new ones stopped being. Edmunds had EVs at roughly 6 percent of US new-car sales as of September.",
+          "sources": [
+            { "label": "Charged Up Pro", "url": "https://chargeduppro.com/p/electrification-roundup-news-you-239" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "4,338 logical qubits, proved rather than run",
+    "body": "DeepMind's agent teams cut the logical memory for a laser-fusion quantum simulation from 5,650 to 4,338 qubits for an 11.8x drop in estimated resource cost, and because no machine on Earth can execute the circuit, the only available verification was a Lean proof. When you cannot build the test article, formal verification stops being academic and becomes the acceptance test."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 24 hours. Direct fetches to several primary outlets were blocked by this session's network policy, so items were cross-referenced across multiple search summaries; disputed figures are flagged inline."
+}
