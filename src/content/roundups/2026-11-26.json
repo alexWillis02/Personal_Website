@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-26",
+  "title": "Daily Briefing — Thursday, November 26",
+  "coverage": "Covering roughly the last 24-48 hours (Nov 24-26, 2026), with a wider window on a quiet US holiday news day. The New York Times, Reuters, AP, Ars Technica and The Verge could not be fetched directly from this environment (crawler and network restrictions), so their stories were cross-referenced through search summaries and accessible outlets; a few items are dated Nov 24.",
+  "top": [
+    {
+      "headline": "FCC approves SpaceX's 1 million-satellite orbital AI data center constellation",
+      "summary": "The FCC granted SpaceX authority for up to one million \"Starmind\" satellites carrying compute in orbit, the first time any regulator has authorized an orbital data center constellation. Amazon, Viasat and the American Astronomical Society opposed it, and the FCC withheld approval of SpaceX's end-of-life disposal plan pending more information."
+    },
+    {
+      "headline": "EU proposes a €50 billion Sovereign Tech Equity Fund for AI and quantum",
+      "summary": "The European Commission unveiled a fund that would take direct equity stakes in European AI and quantum companies to cut dependence on non-European suppliers. The Commission put the total investment need at roughly €500 billion, and the proposal still has to survive negotiations between member states and Parliament."
+    },
+    {
+      "headline": "AI infrastructure trade keeps unwinding as chip rules reshuffle GPU supply",
+      "summary": "Nvidia fell again on Nov 25 and AI infrastructure names slid despite Jensen Huang's reinstatement two days earlier, with bond markets now the pressure point as the largest AI companies lean on debt to fund capex. At the same time, resellers are dumping Nvidia GPUs after new US rules blocked Chinese firms from reaching them remotely through overseas data centers."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Europe bets €50 billion on sovereign AI and quantum compute",
+          "summary": "The European Commission proposed a Sovereign Tech Equity Fund of up to €50 billion that would buy stakes in AI, quantum and other critical-technology firms rather than just hand out grants. It is an explicit industrial-policy move against reliance on US and Asian suppliers, and the Commission says the full gap is closer to €500 billion. Nothing is law yet: the package goes to member states and the European Parliament.",
+          "sources": [
+            { "label": "RTE", "url": "https://www.rte.ie/news/business/2026/1125/1600600-eus-50-billion-investment-in-ai/" },
+            { "label": "France 24", "url": "https://www.france24.com/en/live-news/20261125-after-ai-eu-bets-on-quantum-as-next-big-thing" }
+          ]
+        },
+        {
+          "headline": "AI debt, not AI demand, is now the market's worry",
+          "summary": "Nvidia dropped roughly 4% on Nov 25 and AI infrastructure stocks slid broadly, with reporting focused on how much of the 2026 buildout is debt-financed — one estimate puts potential bond issuance by the biggest AI companies near $250 billion this year. The cautionary datapoint is Nvidia's agreement to guarantee up to $105 billion of leases on OpenAI's Ohio campus, against which it has so far paid nothing. Anthropic, freshly public after a record offering, closed slightly higher.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html" },
+            { "label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/25/ai-infrastructure-stocks-continue-their-slide-but-anthropic-closes-higher/" },
+            { "label": "CNN", "url": "https://www.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return" }
+          ]
+        },
+        {
+          "headline": "OpenAI billing fix makes GPT-6.2 limits bite about 40% sooner",
+          "summary": "OpenAI said a launch-time metering error had been undercounting usage of its GPT-6.2 Astra and Sol models, so users will now hit rate limits roughly 40% faster on Astra and 25% faster on Sol for the same work. The company is not billing retroactively and is granting one banked usage reset to Go, Plus, Pro and Business accounts. From December, Plus, Pro and Business plans share a single token-measured allowance across ChatGPT and Codex — worth knowing if you lean on Codex for scripting.",
+          "sources": [
+            { "label": "Notebookcheck", "url": "https://www.notebookcheck.net/ChatGPT-users-hit-limits-up-to-40-sooner-after-OpenAI-billing-fix.1460643.0.html" }
+          ]
+        },
+        {
+          "headline": "Report: staff at OpenAI and Anthropic doubt top unreleased models can ship safely",
+          "summary": "Axios reported that a significant number of employees at both labs no longer believe their most capable unreleased models can be released safely, a notable shift given how much of the safety debate has been external until now. Neither company has published a formal position tied to the report. Treat it as sourced reporting on internal sentiment rather than a policy announcement.",
+          "sources": [
+            { "label": "DigiTimes", "url": "https://www.digitimes.com/news/a20261125VL225/openai-anthropic-llm-2026.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "FCC clears Starmind: up to 1 million compute satellites, with conditions",
+          "summary": "The grant covers an optically linked constellation between 500 km and 1,002 km altitude, runs 15 years from the first Starmind launch, requires one satellite up by Nov 25, 2033, and all of them in assigned orbits by Nov 25, 2040. The FCC declined to approve SpaceX's end-of-life disposal process, saying the company had not supplied enough information, and brushed aside feasibility objections as outside its mandate. Starmind is a separate constellation from Starlink, which currently has just over 11,000 satellites in orbit.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html" },
+            { "label": "Via Satellite", "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/" },
+            { "label": "Engadget", "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center/" }
+          ]
+        },
+        {
+          "headline": "Pakistan's first astronaut becomes Tiangong's first international visitor",
+          "summary": "Muhammad Zeeshan Ali, a 40-year-old Pakistani fighter pilot, launched on Shenzhou-24 with Tang Hongbo and Wu Yi and docked at Tiangong about six hours later on Nov 25. He flies as a payload specialist for roughly a week running joint Chinese-Pakistani experiments, then returns with two of the three taikonauts currently aboard; his crewmates stay about six months. It is China's first foreign crew seat, and a deliberate soft-power contrast as the ISS heads toward retirement.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-becomes-1st-international-visitor-to-chinas-tiangong-space-station-photos" },
+            { "label": "Nature", "url": "https://www.nature.com/articles/d41586-026-03829-y" }
+          ]
+        },
+        {
+          "headline": "Vulcan failure fallout widens: NSSL certification delayed indefinitely",
+          "summary": "Follow-up reporting says the Space Force has lost confidence in ULA's Vulcan after the Nov 15 launch failure destroyed all 40 Amazon Leo satellites aboard, with national security launch certification now postponed indefinitely. ULA's preliminary review points at first-stage underperformance caused by inadequate propellant supply — the kind of feed-system or pressurization fault that is cheap to describe and expensive to prove fixed. It was ULA's first total mission loss, and it came after a nine-month grounding.",
+          "sources": [
+            { "label": "Escudo Digital", "url": "https://www.escudodigital.com/en/space/us-space-force-loses-confidence-ulas-vulcan-rocket-after-failed-launch.html" },
+            { "label": "Air & Space Forces Magazine", "url": "https://www.airandspaceforces.com/united-launch-alliance-vulcan-rocket-launch-again-november/" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab raises Neutron's price to $70 million as the launch squeeze builds",
+          "summary": "Rocket Lab lifted Neutron's list price from $55 million to $70 million before the rocket has flown, citing demand, after booking more than $515 million in Neutron contracts in Q3. The debut has slipped to 2027, more than a year past the original Wallops target. Near-term, an Electron mission (\"Night Owls Never Sleep,\" StriX launch 14) is on the pad for Nov 27 at 00:05 UTC.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million" },
+            { "label": "Orbital Radar", "url": "https://orbitalradar.com/blog/orbital-briefing-2026-11-25" }
+          ]
+        },
+        {
+          "headline": "New Glenn still grounded into January 2027 while Artemis asks for more money",
+          "summary": "Blue Origin's return to flight remains set for January 2027 as it rebuilds the Florida pad damaged in May's hot-fire explosion, and the company has since announced a GS3 third stage plus a new first-stage engine called Northstar with no stated first flight. A White House request reported this week seeks roughly $2 billion more for Artemis. With Artemis III architected around an Orion rendezvous with Blue Origin and SpaceX landers in LEO, every month New Glenn stays down compresses that schedule.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/05/blue-origin-launch-new-glenn.html" },
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-announces-3rd-stage-for-its-powerful-new-glenn-rocket-and-a-new-engine" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Ukrainian laser downs a jet-powered Geran — reportedly a world first",
+          "summary": "Ukraine says its Blysk directed-energy system, built by Carmine Sky under the Brave1 cluster, shot down a jet-powered Geran one-way attack drone while defending a critical infrastructure site. Jet-powered Gerans fly faster and higher than the piston-engine versions, so this is a meaningfully harder engagement than earlier laser kills on Shahed-type airframes. Presidential defense-tech adviser Serhii \"Flash\" Beskrestnov said it is still too early to talk about serial production.",
+          "sources": [
+            { "label": "Kyiv Independent", "url": "https://kyivindependent.com/ukrainian-combat-lasers-intercept-russian-jet-powered-drone-for-first-time" },
+            { "label": "Euromaidan Press", "url": "https://euromaidanpress.com/2026/11/25/for-the-first-time-ukrainian-laser-shoots-down-russian-jet-drone-presidential-defense-tech-adviser-says-mass-production-too-early-he-adds" }
+          ]
+        },
+        {
+          "headline": "Germany will stand up its first drone regiment, largely on Ukrainian hardware",
+          "summary": "The Bundeswehr plans a dedicated drone regiment equipped with Quantum Systems' Vector reconnaissance UAV and Ukraine's Raybird long-endurance platform, among others. Buying combat-proven Ukrainian systems rather than waiting on domestic programs is the notable part — it treats attrition-tested design as the qualification standard. Both aircraft are already in Ukrainian service.",
+          "sources": [
+            { "label": "Militarnyi", "url": "https://militarnyi.com/en/news/germany-to-establish-its-first-drone-regiment-equipped-with-ukrainian-made-drones-and-missiles/" }
+          ]
+        },
+        {
+          "headline": "Nvidia GPUs are flooding the resale market after the US remote-access rule",
+          "summary": "Following the Nov 16 BIS interim final rule that requires licenses before overseas data centers serve advanced AI chips to China-linked customers, holders are offloading unusually large volumes of Nvidia GPUs. Rental prices for B300 parts fell about 7% between October and this week on Liquid Compute's index. The rule targets the loophole where Chinese firms rented compute abroad instead of importing silicon.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html" },
+            { "label": "Quartz", "url": "https://qz.com/nvidia-gpu-sellers-china-remote-access-rule-112526" }
+          ]
+        },
+        {
+          "headline": "Waymo recalls about 4,500 robotaxis over closed-lane freeway entries",
+          "summary": "Waymo issued a recall covering roughly 4,500 vehicles after 11 incidents since October in which robotaxis drove into closed freeway lanes, and says the remedy is still in development following a California restriction tied to construction-zone encounters. Meanwhile Texas registration data show Tesla's robotaxi fleet edging past Waymo's, and both are now testing in Detroit ahead of a Michigan winter — the first serious snow-and-slush validation for either stack.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/24/waymo-recall-prompted-by-robotaxis-entering-closed-freeway-lanes.html" },
+            { "label": "WRIF", "url": "https://wrif.com/2026/11/24/waymo-and-tesla-test-robotaxis-in-detroit-ahead-of-michigan-winter/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "USTR closes Section 301 probes into 14 economies, with autos in the crosshairs",
+          "summary": "The US Trade Representative announced on Nov 25 that it had completed Section 301 investigations into structural excess capacity and manufacturing practices across 14 economies, proposing duties of up to 20% on some goods and up to 10% on another group. Nothing takes effect yet; a hearing is set for Jan 25. Separately, Toyota, BMW and Audi are seeking tariff relief in exchange for US investment, with Audi reportedly promised roughly 10% versus the 15% EU framework rate for its planned $4 billion Georgia plant.",
+          "sources": [
+            { "label": "Daily Kanban", "url": "https://dailykanban.com/2026/11/25/wednesday-morning-auto-news-nov-25-2026-made-in-europe-deal-near-for-uk-oems-stellantis-sues-unifor-li-auto-stuck-in-red-amazon-to-launch-amazon-autos-in-uk-more/" },
+            { "label": "China EV Home", "url": "https://chinaevhome.com/2026/11/26/u-s-weighs-new-tariffs-on-chinese-goods-puts-auto-industry-in-focus" }
+          ]
+        },
+        {
+          "headline": "China's EV share hits a record 70.6% — while EV volume falls",
+          "summary": "The China Passenger Car Association expects about 1.15 million BEVs and PHEVs delivered in November, equal to 70.6% of all passenger car sales, a record share that comes with a 12.9% year-over-year decline in EV volume. In other words the overall market is shrinking faster than EVs are, and gasoline cars are taking the brunt. Exports stay strong: 582,000 NEVs shipped in October, up 77% year over year.",
+          "sources": [
+            { "label": "South China Morning Post", "url": "https://www.scmp.com/business/china-business/article/3375236/chinas-ev-adoption-rate-top-70-petrol-cars-take-brunt-drop-overall-sales" }
+          ]
+        },
+        {
+          "headline": "F1 weighs a mid-2028 engine freeze to stop Cadillac stealing a march on the 2030 V8s",
+          "summary": "With teams having agreed in principle to abandon the 2026 power unit formula early in favor of a 2030 V8 running sustainable fuel and only limited hybrid, rivals want development frozen from mid-2028 so GM cannot pour resources into the new engine while everyone else is still chasing the current one. Cadillac boss Dan Towriss says the team will stay a Ferrari customer through 2029 and bring its own V8 in 2030, dropping the earlier plan for a GM V6 in 2029. The 2030 technical regulations are not expected to be finalized until around mid-2027.",
+          "sources": [
+            { "label": "RaceFans", "url": "https://www.racefans.net/2026/11/20/f1-has-agreement-in-principle-to-ditch-2026-engines-after-just-four-seasons/" },
+            { "label": "GM Authority", "url": "https://gmauthority.com/blog/2026/11/cadillac-f1-power-unit-production-delayed-by-v8-regulations/" },
+            { "label": "Grande Premio", "url": "https://grandepremio.com/en/f1/f1-considers-2028-engine-freeze-as-cadillacs-2030-plans-create-development-dilemma/" }
+          ]
+        },
+        {
+          "headline": "Qatar GP: a 27-lap tyre limit forces a two-stop minimum at Lusail",
+          "summary": "Pirelli brings its three hardest compounds to the penultimate round (Nov 27-29) and caps any single set at 27 laps, which mathematically rules out a one-stop on the 57-lap race — Lusail's long, loaded corners have historically cooked sidewalls. Verstappen arrives as favorite with three wins from the last four Qatar grands prix and a 37-point cushion over Hamilton for second in the standings, while Ferrari sits 77 points clear of Red Bull in the constructors' table.",
+          "sources": [
+            { "label": "Sky Sports", "url": "https://www.skysports.com/f1/news/13615090/qatar-gp-explaining-2026-tyre-limit-rule-and-what-impact-it-will-have-on-f1-race-weekend-at-lusail-international-circuit" },
+            { "label": "Formula1.com", "url": "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2026-qatar-grand-prix.7Ayey9W9IVQ1yNkR8F6zEI" }
+          ]
+        },
+        {
+          "headline": "Porsche's electric 718 Boxster enters final development, premiere in early 2027",
+          "summary": "Porsche says its first all-electric two-door sports car is in the last stage of development, with the world premiere planned for Q1 2027. The packaging is the interesting bit: an 800-volt pack mounted directly behind the seats rather than in a skateboard floor, keeping the mass low and central and preserving a low cowl, with rear-wheel drive across the range. Porsche claims it will be the most powerful 718 ever built.",
+          "sources": [
+            { "label": "The EV Report", "url": "https://theevreport.com/electric-porsche-718-boxster-development-e-core" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "One million satellites by 2040 is a deployment-rate problem, not a launch-cost problem",
+    "body": "The FCC's Starmind grant requires all one million satellites in their assigned orbits by Nov 25, 2040 — roughly 14 years, so about 71,000 satellites per year, or ~195 per day, sustained. Starlink took about seven years to reach just over 11,000 on orbit. Even at 60 spacecraft per launch that is more than 1,100 launches a year, which means the binding constraint is satellite manufacturing throughput and conjunction management, not ride cost."
+  },
+  "footnote": "Compiled from public reporting over roughly the previous 24-48 hours. Figures and schedules from trackers and single-source reports may shift."
+}
