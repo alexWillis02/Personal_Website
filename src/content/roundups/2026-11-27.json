@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-27",
+  "title": "Daily Briefing — Friday, November 27",
+  "coverage": "Covering roughly the last 24-72 hours (Nov 25-27, 2026), with a widened window because the US Thanksgiving holiday thinned the news cycle, especially in space. Direct article fetches to nytimes.com, cnbc.com, globenewswire.com and several other outlets are blocked by this environment's network policy, so NYT, Reuters, WSJ, FT and Bloomberg stories here were cross-referenced through search summaries and accessible secondary outlets rather than read in full. Items resting on anonymous sources are flagged as such.",
+  "top": [
+    {
+      "headline": "Nvidia freezes AI server shipments to four Southeast Asian countries",
+      "summary": "Nvidia told Dell, Supermicro and other partners to stop shipping advanced AI servers to Singapore, Malaysia, Thailand and Indonesia after a Commerce Department interim final rule took effect Nov 19 requiring export licenses for those destinations plus Brazil. The pause has no announced end date and is meant to let Nvidia verify regional partners' compliance; the rule targets Chinese firms reaching US chips remotely through third-country data centers."
+    },
+    {
+      "headline": "Pentagon courts GM, Ford and Magna to mass-produce drone hardware",
+      "summary": "The Wall Street Journal reports early-stage talks under Project Agincourt, the initiative Defense Secretary Pete Hegseth set up in a Sept 30 memo ahead of a new four-star Autonomous Warfare Command. The automakers would supply components rather than whole aircraft, with GM weighing drone motor production for a market the Pentagon sizes at 20 to 30 billion dollars a year."
+    },
+    {
+      "headline": "Stellantis kills its WEC and Formula E programs",
+      "summary": "Peugeot exits the World Endurance Championship immediately, while Citroen and Opel wind down their Formula E efforts after the 2027 season, with Stellantis redirecting spend to customer racing and performance road cars. Formula E's 24-car, 12-team grid could shrink to 20 for 2028 unless replacement manufacturers or buyers appear."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "Export rule stops advanced AI servers at the Southeast Asia border",
+          "summary": "The Bureau of Industry and Security interim final rule effective Nov 19 added Indonesia, Malaysia, Singapore, Thailand and Brazil to the license-required list for advanced semiconductors, and Nvidia responded by telling partners it will not authorize customer orders in those four Asian markets. Held shipments can reportedly be released later once compliance is established, and cloud providers get a 90-day window to apply for licenses and attest their customers are not restricted entities. Malaysia's trade minister said it will not negotiate the rule and expects data center operators to comply; Singapore says it is studying the measure.",
+          "sources": [
+            { "label": "The Decoder", "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/" },
+            { "label": "The National", "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/" },
+            { "label": "Quartz", "url": "https://qz.com/nvidia-pauses-server-shipments-southeast-asia-export-controls-112726" }
+          ]
+        },
+        {
+          "headline": "Google will force Workspace AI agents onto MCP or CLI from February",
+          "summary": "Google's Workspace team says AI agents must reach Workspace through its MCP servers or the Workspace CLI rather than calling REST APIs directly, with technical enforcement starting Feb 1, 2027; ordinary applications keep REST access. The new AI Tools Addendum requires dedicated agent identities via OAuth client IDs, least-privilege scopes, human confirmation for sensitive actions like sending mail or changing Drive permissions, and prompt-injection screening through a Cloud Agent Gateway. Derived data such as embeddings and memory indexes gets a 30-day retention cap, and metered billing above free daily allowances begins Apr 1, 2027.",
+          "sources": [
+            { "label": "Google Workspace Updates", "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html" },
+            { "label": "Dataconomy", "url": "https://dataconomy.com/2026/11/25/google-mandates-mcp-for-workspace-ai-agents-from-february/" }
+          ]
+        },
+        {
+          "headline": "GPU resellers hunt new buyers as remote-access curbs bite",
+          "summary": "CNBC reports that sellers holding advanced Nvidia hardware are scrambling for alternative customers after Washington tightened rules on China-linked firms renting US compute through offshore data centers. It is the secondary-market mirror of the shipment freeze: inventory staged for one geography now has to be rerouted or discounted. Nvidia declined to comment.",
+          "sources": [
+            { "label": "CNBC", "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html" }
+          ]
+        },
+        {
+          "headline": "Amodei pushes back on claims Anthropic wants humans to cede control",
+          "summary": "Anthropic chief executive Dario Amodei publicly denied wanting humanity to surrender its free will to AI, responding to an Axios report and veiled criticism from rival executives. The spat matters less for the personalities than for what it signals about the frontier labs' fight over who gets to define AI safety framing as binding regulation takes shape.",
+          "sources": [
+            { "label": "Euronews", "url": "https://euronews.com/2026/11/26/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "Rocket Lab flies its 101st Electron, extending a perfect record for Synspective",
+          "summary": "Electron lifted off from Launch Complex 1 on Mahia Peninsula at 1:15 p.m. NZDT on Nov 27 (7:00 p.m. ET Nov 26) on the Night Owls Never Sleep mission, placing Synspective's 14th StriX synthetic-aperture radar satellite into a roughly 569 km low Earth orbit. It was Rocket Lab's 22nd launch of 2026 and 101st mission overall, and the company has now launched every StriX flown to date with a 100 percent success rate for the customer. Another 33 Synspective missions remain on the Electron backlog, which is the kind of single-customer cadence that justifies a dedicated small-lift vehicle over rideshare.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-101st-electron-mission/" },
+            { "label": "Starlust", "url": "https://starlust.org/rocket-lab-launches-101st-electron-mission-deploys-japanese-earth-observation-satellite/" }
+          ]
+        },
+        {
+          "headline": "Shenzhou-24 carries Tiangong's first international crew member",
+          "summary": "China launched Shenzhou-24 on Nov 24 with a Pakistani astronaut aboard alongside the Chinese crew, the first non-Chinese national to visit the Tiangong station. It is a soft-power milestone as much as a technical one, and it establishes a precedent for partner-nation seats on a station that operates entirely outside the ISS framework.",
+          "sources": [
+            { "label": "Space.com", "url": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station" },
+            { "label": "Astronomy.com", "url": "https://www.astronomy.com/whats-launching-this-week/pakistans-first-astronaut-heads-for-chinas-space-station/" }
+          ]
+        },
+        {
+          "headline": "Vulcan's fuel-feed failure keeps two BE-4 vehicles in limbo",
+          "summary": "ULA's preliminary review of the Nov 15 Vulcan failure that lost 40 Amazon Leo satellites points to inadequate fuel supply from the vehicle to its Blue Origin BE-4 engines rather than a fault inside the engines themselves, which puts the propellant feed system and not the powerhead under the microscope. Vulcan could be grounded for months while that is resolved, and Blue Origin is separately targeting January for New Glenn's return to flight. Amazon still says its 2026 service start is unchanged, which looks increasingly dependent on alternative rides.",
+          "sources": [
+            { "label": "Spaceflight Now", "url": "https://spaceflightnow.com/2026/11/18/vulcan-failure-investigation-focuses-on-inadequate-fuel-supply-to-booster-engines/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Project Agincourt turns to Detroit for drone mass production",
+          "summary": "Per the Wall Street Journal, the Pentagon has opened preliminary talks with General Motors, Ford and Magna International about supplying military drone components at automotive volumes, with GM specifically weighing electric motor production. The program sits under Project Agincourt, created in Hegseth's Sept 30 memo to stand up a four-star Autonomous Warfare Command that consolidates drone development and procurement across the services. Nothing is signed and some executives are reportedly skeptical, which is the right instinct: defense demand signals have historically been too lumpy to justify automotive tooling.",
+          "sources": [
+            { "label": "Quartz", "url": "https://qz.com/pentagon-gm-ford-drone-production-talks-112426" },
+            { "label": "Daily Wire", "url": "https://www.dailywire.com/news/pentagon-makes-new-bet-to-beef-up-its-drone-arsenal" }
+          ]
+        },
+        {
+          "headline": "Ukraine claims the first laser kill of a jet-powered drone",
+          "summary": "A 4-kilowatt Blysk laser system defending a critical infrastructure site downed a jet-powered Geran drone, the first such intercept Ukraine has claimed against a jet-propelled target. The system reportedly engages out to about one kilometer and was first deployed Nov 19, making this a very fast operational validation. At 4 kW the device is roughly welding-laser class, which says a lot about how little energy it takes to defeat a thin-skinned airframe if you can hold the spot steady long enough.",
+          "sources": [
+            { "label": "Bloomberg", "url": "https://bloomberg.com/news/articles/2026-11-26/ukraine-says-it-downed-jet-drone-with-laser-for-first-time" },
+            { "label": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/drones/ukraine-downs-russian-jet-drone-with-cheap-high-powered-laser-for-the-first-time-super-fast-shahed-knocked-out-by-a-4-kilowatt-test-system" }
+          ]
+        },
+        {
+          "headline": "XPeng's IRON humanoid packs 76 degrees of freedom and 1,500 tactile points",
+          "summary": "XPeng detailed its IRON humanoid alongside a Turing physical-AI architecture, claiming 76 degrees of freedom, more than 1,500 tactile sensing points and three in-house Turing AI chips, with placement in company retail stores targeted for 2027. The tactile count is the interesting number: most humanoid demos are vision-and-proprioception machines, and dense skin sensing is what unlocks contact-rich manipulation. Treat the retail timeline as a goal, not a schedule.",
+          "sources": [
+            { "label": "Interesting Engineering", "url": "https://interestingengineering.com/ai-robotics/xpeng-iron-humanoid-robot-1500-tactile-sensors" },
+            { "label": "AI Insider", "url": "https://theaiinsider.tech/2026/11/25/xpeng-unveils-turing-physical-ai-architecture-iron-humanoid-and-robotaxi-plans/" }
+          ]
+        },
+        {
+          "headline": "Robots start working inside chip plants, and Samsung wants more of it",
+          "summary": "AgiBot's first Genie G2 units entered trial operation on a chip-test line at JCET's automotive-electronics plant in Shanghai's Lingang district, loading, unloading and sorting parts without human help. Samsung's foundry arm has reportedly stood up a robotics team with a roadmap to put autonomous vehicles, mobile robots and robotic arms inside its fabs by 2028, covering both production work and equipment maintenance. Fabs are an unusually good first market for mobile manipulation: structured environments, repetitive handling, and labor that is expensive and cleanroom-constrained.",
+          "sources": [
+            { "label": "AI Insider", "url": "https://theaiinsider.tech/2026/11/24/china-physical-ai-roundup-simplexity-robotics-raises-100m-pre-a-plus-x-square-model-oymotion-and-agibot-deployment/" },
+            { "label": "Wccftech", "url": "https://wccftech.com/samsung-roadmap-reportedly-puts-unmanned-vehicles-self-driving-robots-and-robotic-arms-inside-its-chip-fabs-by-2028-covering-equipment-maintenance-and-production-line-work" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "Stellantis exits endurance racing and Formula E in one stroke",
+          "summary": "Peugeot's WEC program ends immediately and the Citroen and Opel Formula E entries wind down after 2027, with Stellantis keeping NASCAR and shifting resources to customer racing and high-performance road cars. Formula E loses a manufacturer just as its Gen4 cars arrive, and the grid could fall from 24 cars to 20 for 2028; Citroen's MSG Racing operation may survive by finding external sponsorship and a new powertrain supplier. Series boss Jeff Dodds called the timing disappointing, which is fair given Stellantis developed Gen4 hardware it will race for only one season.",
+          "sources": [
+            { "label": "The Race", "url": "https://www.the-race.com/business/stellantis-ends-peugeot-wec-citroen-open-formula-e-projects/" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/formula-e-responds-after-stellantis-pulls-plug-on-opel-and-citroen" }
+          ]
+        },
+        {
+          "headline": "Honda restructures its F1 energy store and plans a two-step 2027 engine",
+          "summary": "Chief engineer Shintaro Orihara says Honda is revising the internal structure of its energy store to improve robustness and reliability, and will bring a first power-unit package for round one of 2027 with a second substantial step around round eight, using two of its available ADUO homologations. Notably, Honda's performance effort is aimed at the internal combustion engine, with Orihara arguing that better energy management is worth little if the ICE is down on outright power. Honda concedes winter work alone will not move Aston Martin to the front of the power-unit field.",
+          "sources": [
+            { "label": "Autosport", "url": "https://www.autosport.com/f1/news/honda-reveals-key-f1-power-unit-change-for-2027/10875538/" },
+            { "label": "GrandPrix.com", "url": "https://www.grandprix.com/news/honda-maps-two-major-power-unit-upgrades-for-2027.html" }
+          ]
+        },
+        {
+          "headline": "F1's 2030 V8 framework firms up, with the hybrid share slashed",
+          "summary": "Stakeholders have agreed in principle on a 2.1-litre turbocharged V8 for 2030, with reporting indicating the electrical component capped around 200 kW against 350 kW under the current rules. Energy recovery, distribution and deployment rules plus battery capacity are still undefined, and the definitive framework is expected at the FIA World Motor Sport Council meeting in Shanghai next month. General Motors, which backs Cadillac, will delay its own engine to 2030 and in exchange gives up voting rights on current engine rules and is reclassified as a new manufacturer.",
+          "sources": [
+            { "label": "GPblog", "url": "https://www.gpblog.com/en/analysis/f1s-v8-discussions-gather-pace-but-2030-remains-a-target-not-a-settled-date" },
+            { "label": "Grande Premio", "url": "https://grandepremio.com/en/f1/f1-agrees-in-principle-to-bring-back-v8-engines-in-2030-as-fia-reveals-major-rule-overhaul/" }
+          ]
+        },
+        {
+          "headline": "Ford starts Michigan LFP cell output for its Fathom electric pickup",
+          "summary": "Ford's Michigan battery plant has begun building lithium-iron-phosphate prismatic cells for Fathom prototypes using technology licensed from CATL, with volume pack production slated for 2027. Ford is explicitly not using solid-state here, saying the chemistry does not meet the truck's scale and price targets, and GM's battery leadership continues to describe solid state as years away. The honest read across the industry is that LFP plus good thermal and pack engineering is winning the affordable-EV fight while solid-state timelines keep sliding toward 2027 and beyond.",
+          "sources": [
+            { "label": "Charged EVs", "url": "https://chargedevs.com/newswire/ford-ships-first-battery-cells-from-michigan-plant-for-fathom-electric-pickup" },
+            { "label": "CarsGuide", "url": "https://www.carsguide.com.au/car-news/huge-update-on-groundbreaking-ev-tech-timeline-for-solid-state-batteries-pushed-back-as" }
+          ]
+        },
+        {
+          "headline": "Porsche sets early 2027 for the electric 718 Boxster",
+          "summary": "Porsche will reveal its battery-electric 718 Boxster in the first quarter of 2027, with the flagship variant claimed to hit 100 km/h in under three seconds; power, battery capacity, range and pricing remain unannounced. It lands into a performance-EV field where BMW's quad-motor electric M3 is targeting roughly 838 hp and about 300 miles EPA, so the Boxster's pitch will have to be mass and balance rather than peak output.",
+          "sources": [
+            { "label": "EV Central", "url": "https://evcentral.com.au/the-best-ev-sports-car-yet-electric-porsche-718-boxster-to-debut-in-early-2027-with-sub-three-second-sprint" },
+            { "label": "BMW Blog", "url": "https://bmwblog.com/2026/11/25/electric-bmw-m3-vs-porsche-718-boxster" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "4 kilowatts is enough",
+    "body": "Ukraine's Blysk laser that killed a jet-powered Geran drone runs at about 4 kW, roughly the output of an industrial welding laser and one to two orders of magnitude below the 50 to 300 kW class usually quoted for counter-air directed energy. The trick is that laser lethality scales with irradiance times dwell time, not raw power: at a one-kilometer engagement range, a tight beam concentrated on a thin aluminum or composite skin can burn through in seconds, so the hard engineering is beam control, tracking jitter and atmospheric turbulence compensation rather than finding more watts. For anyone sizing a UAV against this threat, the implication is that cheap short-range lasers are now credible, and survivability arguments have to shift to speed, maneuver, standoff and saturation instead of assuming directed energy stays a megaproject."
+  },
+  "footnote": "Compiled from public reporting over roughly Nov 25-27, 2026. Several paywalled outlets (NYT, WSJ, FT, Bloomberg) could not be fetched directly from this environment and were cross-referenced through accessible secondary coverage; items based on anonymous sources are noted as reported rather than confirmed."
+}
