@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-28",
+  "title": "Daily Briefing — Saturday, November 28",
+  "coverage": "Covering roughly Nov 26-28, 2026, with the window widened to about 72 hours because the US Thanksgiving holiday weekend thinned the news cycle badly, especially in space and motorsport. Direct article fetches are blocked by this session's network policy for every outlet tried today (nasa.gov, space.com, the-race.com, tomshardware.com and others), so every item here was assembled from search summaries and cross-referenced across outlets rather than read in full. Figures attributed to a single aggregator are flagged as such. Qatar GP qualifying had not yet run at the time of writing.",
+  "top": [
+    {
+      "headline": "OpenAI countersues Apple over trade secrets and supplier pressure",
+      "summary": "OpenAI filed counterclaims in federal court in California on Nov 27, accusing Apple of taking its trade secrets and leaning on shared contract manufacturers to pull back from OpenAI hardware work. It answers Apple's July 2026 suit against OpenAI and two ex-Apple employees; Apple called the countersuit a distraction, and trial is set for July 2027."
+    },
+    {
+      "headline": "Huawei puts a 4,096-pin custom HBM stack on the ISSCC 2027 program",
+      "summary": "The paper describes a 64-channel, 4096-DQ HBM with memory controllers inside the stack and five wafer layers joined by wafer-on-wafer hybrid bonding — double the 2,048 data pins of JEDEC's HBM4. No data rate, capacity or power numbers were disclosed, and no working silicon has been shown."
+    },
+    {
+      "headline": "Cygnus XL rolls to the pad for an 11,000-pound ISS resupply run",
+      "summary": "SpaceX moved the Falcon 9 to SLC-40 on Nov 28 for a 10:47 a.m. EST Sunday launch of Northrop Grumman's NG-25 Cygnus XL, the stretched variant that can also reboost the station. Capture by Canadarm2 is planned for Dec 1, and Northrop has already booked a sixth Falcon 9 for Cygnus while Antares 330 waits in the wings."
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI",
+      "items": [
+        {
+          "headline": "OpenAI turns Apple's hardware lawsuit around on it",
+          "summary": "OpenAI's Nov 27 counterclaims, filed in the Northern District of California, allege Apple stole trade secrets and used its size to forestall competition — including, OpenAI says, demanding that suppliers identify their OpenAI projects and name any staff with prior Apple experience, then steering those people away from OpenAI contracts. Apple sued OpenAI and two former employees in July 2026 over allegedly misappropriated hardware information. The fight matters because both companies are racing toward a dedicated AI device and share a thin pool of Asian contract manufacturers, so supplier exclusivity is itself a competitive weapon.",
+          "sources": [
+            { "label": "24/7 Wall St.", "url": "https://247wallst.com/investing/2026/11/28/openai-countersues-apple-accusing-it-of-coercing-and-threatening-suppliers/" },
+            { "label": "Time News", "url": "https://time.news/openai-counter-sues-apple-alleging-theft-of-trade-secrets/" }
+          ]
+        },
+        {
+          "headline": "Apple pulls MiniMax's Talkie companion app worldwide over child-safety findings",
+          "summary": "Apple removed the Chinese AI companion app Talkie from the App Store globally after a joint Bureau of Investigative Journalism and ABC News investigation found its characters belittling and sexualizing children. Apple cited sexual content but would not say whether the decision turned specifically on material served to minors; the app carried an 18+ rating enforced largely by self-declared age. Talkie and sibling app Xingye generated more than 60 percent of MiniMax's 2024 revenue, so the delisting is a serious commercial hit as well as a regulatory warning shot.",
+          "sources": [
+            { "label": "The Next Web", "url": "https://thenextweb.com/news/apple-removes-minimax-talkie-app-store-child-safety" },
+            { "label": "9to5Mac", "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/" },
+            { "label": "Business Standard", "url": "https://business-standard.com/technology/tech-news/apple-removes-minimax-talkie-ai-chatbot-app-store-child-safety-concerns-126112700412_1.html" }
+          ]
+        },
+        {
+          "headline": "Trump floats a 200 percent chip tariff; Taipei insists its cap is 15 percent",
+          "summary": "Digitimes reported Trump calling for a 200 percent semiconductor tariff, while Taiwan's Executive Yuan said on Nov 26 that its chip exporters face a maximum of 15 percent under most-favored-nation terms in the January Taiwan-US investment memorandum. The two numbers sit in different legal buckets: chips fall under a Section 232 action with no announced rate, while the USTR's Nov 25 structural-overcapacity report under Section 301 recommended 20 to 40 percent tariffs across 14 economies. Taipei's position is that those are procedural recommendations and its final rate reverts to a 15 percent non-stacked cap. The 200 percent figure is so far a headline without a verified primary statement.",
+          "sources": [
+            { "label": "Taipei Times", "url": "https://taipeitimes.com/News/taiwan/archives/2026/11/27/2003868482" },
+            { "label": "Taipei Times (Section 301)", "url": "https://taipeitimes.com/News/front/archives/2026/11/26/2003868405" },
+            { "label": "Digitimes", "url": "https://www.digitimes.com/news/a20261126PD232/taiwan-exports-2026-taipei-investigation.html" }
+          ]
+        },
+        {
+          "headline": "EU AI Act's synthetic sexual-imagery ban starts December 2",
+          "summary": "The European Commission's AI Act page, updated Nov 27, confirms that the prohibition on AI systems generating non-consensual sexual imagery and child sexual abuse material takes effect Wednesday, Dec 2. It is the first AI Act clause that bites directly on image-model safeguards rather than on paperwork, which puts filter robustness and red-teaming evidence on the compliance critical path for any model served into the EU. Separately, the Commission's Cloud and AI Development Act proposal would create data-center acceleration zones with a 12-month permitting ceiling, with a consultation on binding minimum standards running to Dec 14.",
+          "sources": [
+            { "label": "Euronews", "url": "https://www.euronews.com/2026/11/25/eu-data-centres-tripling-capacity-but-climate-and-worker-laws-lag-behind" },
+            { "label": "Lexology", "url": "https://www.lexology.com/library/detail.aspx?g=c852ca32-e572-442e-bc48-73e05962034a" }
+          ]
+        },
+        {
+          "headline": "Anthropic's Rust rewrite of its Messages API cut CPU per request by about 70 percent",
+          "summary": "Anthropic published an engineering post on Nov 25 describing a full port of its Messages API from Python to Rust, reporting roughly 70 percent lower CPU per request and about 20 percent lower median time to first token on production traffic, shipped without downtime or a feature freeze. An earlier partial port of just the output-parsing path bought only 8 to 10 percent, because every token crossed the Python/Rust boundary three times — a textbook case of interface overhead eating the win. The team validated by shadowing live traffic against the Python service rather than trusting the test suite, which passed about 98 percent while only a quarter of real inputs matched.",
+          "sources": [
+            { "label": "Anthropic", "url": "https://www.anthropic.com/research/migrating-api-to-rust" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space",
+      "items": [
+        {
+          "headline": "NG-25 Cygnus XL set for Sunday launch with 11,000 pounds of cargo",
+          "summary": "NASA confirmed on Nov 27 that preparations are on track for a 10:47 a.m. EST Nov 29 liftoff from Space Launch Complex 40 at Cape Canaveral, with the Falcon 9 rolling out Saturday. The stretched Cygnus XL carries about 11,000 pounds of cargo, including the Ohalo III space crop-growth system and a brain-tissue fluid-handling experiment, and the variant retains the ability to reboost the station's orbit. Jessica Watkins and Luke Delaney are assigned to grapple it with Canadarm2 around Dec 1 for berthing on Unity's Earth-facing port.",
+          "sources": [
+            { "label": "NASA", "url": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/" },
+            { "label": "Northrop Grumman", "url": "https://www.northropgrumman.com/what-we-do/space/missions/nasa-commercial-resupply-mission-ng-25" }
+          ]
+        },
+        {
+          "headline": "Northrop books a sixth Falcon 9 for Cygnus, keeping its competitor as its ride",
+          "summary": "Northrop executive Dave Schiller confirmed one more Falcon 9 on the Cygnus manifest beyond NG-25, extending an arrangement that began when Antares lost its Russian-built first stage and engines. The replacement Antares 330, with Firefly-built structures and seven Miranda engines, is still not flying, so Northrop continues buying rides from the company it competes against for ISS cargo. It is a useful reminder that supply-chain geopolitics, not aerodynamics, is what grounded a working launch vehicle.",
+          "sources": [
+            { "label": "New Space Economy", "url": "https://newspaceeconomy.ca/2026/11/24/northrop-grumman-sixth-falcon-9-cygnus-launch/" }
+          ]
+        },
+        {
+          "headline": "Artemis III crew gets hands-on with their Orion spacecraft",
+          "summary": "Space.com's Nov 27 photo feature showed the four Artemis III astronauts with the Orion capsule that will carry them, and restated a mission profile detail worth noting: the crew will first fly to low Earth orbit to practice rendezvous and docking with lunar landing vehicles from both Blue Origin and SpaceX. Rehearsing the riskiest phase of the mission in LEO, where abort options exist, is a sensible hedge given both landers remain unflown in crewed configuration.",
+          "sources": [
+            { "label": "Space.com", "url": "https://space.com/space-exploration/artemis/artemis-iii-astronauts-meet-their-moonship-space-photo-of-the-day-for-nov-27-2026" }
+          ]
+        },
+        {
+          "headline": "Rocket Lab's 101st Electron flies on Thanksgiving, 13 days after its 100th",
+          "summary": "Rocket Lab's official Nov 27 release confirmed a successful Electron launch from Mahia carrying a Synspective SAR satellite — the company's 22nd mission of 2026 and Electron's 101st overall, just 13 days after the 100th on Nov 14. That cadence makes Electron the fastest commercially developed rocket to 100 flights and keeps it the most-launched small-lift vehicle in the world. For a dedicated smallsat ride, turnaround, not price, is increasingly the product.",
+          "sources": [
+            { "label": "Rocket Lab", "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-101st-electron-mission/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech, drones & defense",
+      "items": [
+        {
+          "headline": "Huawei lists a 4,096-pin custom HBM stack for ISSCC 2027",
+          "summary": "Paper 22.6 in the ISSCC SRAM/HBM/DRAM session, scheduled for Feb 16, 2027, is titled \"A 64-Channel 4096-DQ Custom HBM with Memory Controllers and 5-Layer Wafer-on-Wafer Hybrid Bonding.\" Doubling the data-pin count versus HBM4's 2,048 DQ is a way to buy bandwidth without raising per-pin data rates, and moving the memory controllers into the stack cuts the controller-to-DRAM hop entirely. Nothing about data rate, capacity, yield or power has been disclosed, and projections of 9.6 TB/s for a future Ascend part are extrapolation from bus width, not a published spec.",
+          "sources": [
+            { "label": "TrendForce", "url": "https://www.trendforce.com/news/2026/11/26/news-huawei-reportedly-set-to-unveil-custom-hbm-architecture-with-twice-hbm4s-interface-width-and-hybrid-bonding/" },
+            { "label": "Tech Times", "url": "https://www.techtimes.com/articles/331658/20261127/huawei-lists-4096-pin-hbm-memory-chip-conference-twice-hbm4-width-no-speed-disclosed.htm" }
+          ]
+        },
+        {
+          "headline": "FAA tells helicopter operators Part 108 changes little for them in the near term",
+          "summary": "In Nov 27 comments to Vertical, the FAA said low-altitude procedures for crewed rotorcraft will change little over the next 12 to 24 months even as the Part 108 BVLOS rule lands. The sharp edge is proposed section 108.195, which would give Part 108 drone operations right-of-way over crewed aircraft that are not broadcasting their position electronically — effectively making ADS-B or equivalent the price of priority in shared low airspace. The final rule has sat at OIRA since July 10; reported publication dates range from Dec 7 to sometime in early 2027.",
+          "sources": [
+            { "label": "Vertical Mag", "url": "https://verticalmag.com/news/faa-expects-few-near-term-changes-for-helicopters-sharing-low-altitude-airspace" },
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/27/faa-helicopters-few-changes-part-108-right-of-way-wing-ads-b/" }
+          ]
+        },
+        {
+          "headline": "Michigan grant puts drone mail on Great Lakes freighters",
+          "summary": "A $512,168 Michigan state grant funded Skyports deliveries of mail and supplies to moving Great Lakes freighters, reported Nov 26. Ship-to-shore resupply is a genuinely good fit for BVLOS cargo drones: the receiving platform is large, the airspace is uncongested, and the alternative is a crewed boat or helicopter run. It is also a useful data point on how much the Part 108 delay is being papered over with state money and waivers.",
+          "sources": [
+            { "label": "DroneXL", "url": "https://dronexl.co/2026/11/26/michigan-skyports-great-lakes-freighter-drone-deliveries-512168-grant" }
+          ]
+        },
+        {
+          "headline": "Nvidia is tracking toward roughly 70 percent of the AI robotics compute market",
+          "summary": "A Digitimes analysis dated Nov 25 projects Nvidia taking close to 70 percent of AI robotics computing chips in 2026, on the strength of its robotics software stack rather than silicon alone. Infineon's CEO separately flagged humanoid-robot chips as a growth line, and Korean robotics shares hit daily limits this week on a SEMI task-force forecast of more than 10,000 robots in Samsung chip fabs by 2030. The pattern across all three: the compute and actuation supply chain is being priced on fab and warehouse automation, not on consumer humanoids.",
+          "sources": [
+            { "label": "Digitimes", "url": "https://www.digitimes.com/news/a20261124PD227/nvidia-robotics-software-development-2026.html" },
+            { "label": "BigGo Finance", "url": "https://finance.biggo.com/news/07ca3202-8d0c-47fe-8c65-4a2f9ba81312" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Automotive & motorsport",
+      "items": [
+        {
+          "headline": "GM recalls about 67,400 EVs over a brake-module software defect",
+          "summary": "The campaign covers the Cadillac Lyriq, Vistiq and Celestiq plus the Chevrolet Blazer EV SS, where a brake control module fault can momentarily cut braking during a low-speed turn over a bump — a transient loss of pressure tied to how the module handles wheel-speed and suspension disturbance. GM's investigation linked 24 complaints to 20 minor collisions and two injuries since February 2024. The remedy is an over-the-air software update, which is the whole argument for software-defined braking and the whole worry about it in one recall.",
+          "sources": [
+            { "label": "CarBuzz", "url": "https://carbuzz.com/chevrolet-cadillac-recall-brakes-november-2026/" },
+            { "label": "NewsLantern", "url": "https://newslantern.com/news/25752/2026-11-27/gm-recalls-67-000-electric-vehicles-over-brake-software-defect-that" }
+          ]
+        },
+        {
+          "headline": "Toyota recalls 62,490 Tundras for camshafts that can crack and snap",
+          "summary": "The recall covers 2022-2023 and 2025-2026 Tundra trucks whose camshafts may have been manufactured incorrectly, allowing cracks to propagate and the shaft to fracture, stalling the engine. A camshaft failure in a twin-turbo V6 is about as unambiguous a manufacturing-defect signature as it gets, and it lands on a truck line that has had a difficult run with its V35A engine family. Rivian also issued a smaller action on Nov 27, recalling roughly 1,500 R1T, R1S and new R2 vehicles over tire placards that do not match the as-delivered wheel and tire fitment.",
+          "sources": [
+            { "label": "PickupTruckTalk", "url": "https://pickuptrucktalk.com/2026/11/2022-2023-2025-2026-toyota-tundra-recall-62k-cracks-in-camshaft-may-cause-engine-stall/" },
+            { "label": "CarBuzz", "url": "https://carbuzz.com/rivian-r1s-r1t-r2-recall-label-26v761-november-2026" }
+          ]
+        },
+        {
+          "headline": "Ford names its 2027 Le Mans challenger the GT41, with a naturally aspirated 5.4-liter V8",
+          "summary": "Revealed Nov 26 at Ford Field in camouflage livery, the LMDh car uses an in-house Coyote-derived 5.4-liter naturally aspirated V8 rather than the turbocharged units most rivals run, with combined hybrid output estimated around 670 hp and roughly 220 mph indicated top speed. Ford ran two cars for 30 hours and more than 7,300 km at MotorLand Aragon on Nov 18-20, introducing an updated V8 specification mid-test with no concerning failures. Three of six planned chassis are built, US testing follows in December and January, and Ford is targeting homologation by the end of January.",
+          "sources": [
+            { "label": "Autosport", "url": "https://www.autosport.com/wec/news/ford-pays-tribute-to-gt40-with-wec-2027-car/10877998/" },
+            { "label": "Pit Debrief", "url": "https://www.pitdebrief.com/post/ford-takes-another-step-towards-2027-wec-debut-with-30-hour-aragon-test/" }
+          ]
+        },
+        {
+          "headline": "Mercedes locks out Qatar practice as Pirelli caps tire life at 27 laps",
+          "summary": "Kimi Antonelli led both Friday sessions at Lusail, setting a 1:23.077 on mediums in FP2 to edge George Russell by 0.127s with Lando Norris third, in a session hit by two red flags — gravel on track, then Pierre Gasly beached at Turn 14 — and extended by 13 minutes. Pirelli's 27-lap maximum per tire set, driven by Lusail's high-energy, constant-loading corner sequence, forces a minimum two-stop strategy in the 57-lap race and is being reviewed for further precautions. With Antonelli's title already settled in Mexico, the live fight is Verstappen's 37-point cushion over Hamilton for second, with Russell and Norris three further back.",
+          "sources": [
+            { "label": "Formula 1", "url": "https://www.formula1.com/en/latest/article/fp2-antonelli-tops-extended-second-practice-from-russell-and-norris-in-qatar.6jAa2kcIAVqOPHW30oipfm" },
+            { "label": "FIA", "url": "https://www.fia.com/news/f1-antonelli-leads-mercedes-one-two-disrupted-qatar-fp2" },
+            { "label": "RacingNews365", "url": "https://racingnews365.com/kimi-antonelli-ends-14-race-wait-as-two-red-flags-hit-qatar-gp-practice" }
+          ]
+        },
+        {
+          "headline": "BMW starts Gen6 cell production in South Carolina as Porsche tests fully recycled cathodes",
+          "summary": "BMW began series production of its sixth-generation high-voltage batteries at Plant Woodruff, South Carolina, which will feed the US-built iX5, while locking in LG Energy Solution for North American cells and Samsung SDI for European-built EVs later this decade. Porsche says it has produced cathode active material entirely from recycled raw materials and has cells built from 100 percent recycled content under test in vehicles. Gen6 moves BMW to large-format cylindrical 46xx cells — Envision AESC has reportedly shipped 10 million 46120 cells for BMW SUVs — trading pack-level complexity for cell-level energy density and faster charge acceptance.",
+          "sources": [
+            { "label": "WardsAuto", "url": "https://www.wardsauto.com/news/bmw-announces-new-battery-supply-deals-for-us-europe/874176/" },
+            { "label": "Autocar", "url": "https://www.autocar.co.uk/car-news/electric-cars/sustainability-key-next-wave-electric-car-battery-innovation" }
+          ]
+        }
+      ]
+    }
+  ],
+  "engineersCorner": {
+    "headline": "4,096 data pins, and why width beats speed",
+    "body": "Huawei's ISSCC 2027 HBM paper doubles HBM4's 2,048-DQ interface to 4,096 pins. Bandwidth is just pins times per-pin data rate, so widening the bus is the one lever that buys throughput without pushing signal integrity, I/O power and channel equalization harder — per-pin energy stays put while aggregate bandwidth doubles. The catch is physical: 4,096 connections only route at sane pitch if you bond wafer-to-wafer, which is exactly why the title says five-layer wafer-on-wafer hybrid bonding. The same trade shows up on the Anthropic side of today's news in reverse: their first partial Rust port lost its 8-10 percent gain to boundary crossings, because an interface you cross three times per token is a narrow bus no matter how fast the silicon behind it is."
+  },
+  "footnote": "Compiled from public reporting on Nov 26-28, 2026. Direct article fetching was blocked for all outlets in this session's network policy, so items were cross-referenced across search summaries; single-source figures are flagged in the text."
+}
